@@ -32,16 +32,10 @@
       "type": "core"
     },
     {
-      "id": "practice-exam-1",
-      "title": "Practice Exam 1",
-      "path": "exams/practice-exam-1.html",
-      "type": "exam"
-    },
-    {
-      "id": "practice-exam-2",
-      "title": "Practice Exam 2",
-      "path": "exams/practice-exam-2.html",
-      "type": "exam"
+      "id": "practice-exams",
+      "title": "Practice Exams",
+      "path": "practice-exams.html",
+      "type": "core"
     }
   ]
 }
