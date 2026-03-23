@@ -373,6 +373,23 @@
   transform: none;
 }
 
+.btn-reset {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-left: 0.75rem;
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border-hi);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn-reset:hover {
+  background: var(--bg-deep);
+  border-color: var(--accent);
+}
+
 /* ── Score Summary Card ── */
 .score-summary {
   margin-top: 1.5rem;

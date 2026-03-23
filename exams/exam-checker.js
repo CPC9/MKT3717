@@ -21,6 +21,7 @@
   }
 
   var btnCheck = document.getElementById('btn-check-answers');
+  var btnReset = document.getElementById('btn-reset-exam');
   var scoreSummary = document.getElementById('score-summary');
   var examData = null;
   var answered = {};
@@ -249,6 +250,12 @@
     btnCheck.disabled = true;
     btnCheck.textContent = 'Answers Revealed';
 
+    // Show reset button
+    if (btnReset) {
+      btnReset.style.display = '';
+      btnReset.addEventListener('click', resetExam);
+    }
+
     // Score summary
     showScoreSummary(correctCount, autoGradable);
 
@@ -258,6 +265,57 @@
         firstIncorrectEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }, 400);
     }
+  }
+
+  // ── Reset exam ──
+
+  function resetExam() {
+    answered = {};
+    checked = false;
+
+    // Remove grading classes from all options
+    var allOptions = container.querySelectorAll('.option-card');
+    for (var i = 0; i < allOptions.length; i++) {
+      allOptions[i].classList.remove('correct', 'incorrect', 'missed', 'selected', 'disabled');
+    }
+
+    // Clear and re-enable textareas
+    var allTextareas = container.querySelectorAll('textarea');
+    for (var j = 0; j < allTextareas.length; j++) {
+      allTextareas[j].disabled = false;
+      allTextareas[j].value = '';
+    }
+
+    // Remove answer reveals and source lecture tags
+    var reveals = container.querySelectorAll('.answer-reveal, .source-lecture');
+    for (var k = 0; k < reveals.length; k++) {
+      reveals[k].remove();
+    }
+
+    // Hide score summary
+    if (scoreSummary) {
+      scoreSummary.hidden = true;
+      scoreSummary.innerHTML = '';
+    }
+
+    // Reset check button
+    if (btnCheck) {
+      btnCheck.disabled = false;
+      btnCheck.textContent = 'Show Correct Answers';
+    }
+
+    // Hide reset button
+    if (btnReset) {
+      btnReset.style.display = 'none';
+    }
+
+    // Reset progress
+    var progressEl = document.getElementById('exam-progress');
+    var questions = examData.questions || examData;
+    if (progressEl) progressEl.textContent = '0 of ' + questions.length + ' answered';
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // ── Grading functions ──

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Exams — MKT 3717 - New Product Development &amp; Brand Management</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <style>
+    .exams-page { max-width: var(--max-width); margin: 0 auto; padding: var(--padding-page); }
+    .exams-page h1 { color: var(--white); margin-bottom: var(--spacing); }
+    .exams-page > .subtitle { color: var(--text-mute); font-size: 1rem; margin-bottom: var(--spacing-lg); }
+    .exam-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-lg); }
+    .exam-card { display: flex; flex-direction: column; padding: var(--padding-card); background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; color: inherit; transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease; }
+    .exam-card:hover, .exam-card:focus-visible { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); transform: translateY(-2px); border-color: var(--border-hi); }
+    .exam-card .icon { font-size: 2rem; margin-bottom: var(--spacing); }
+    .exam-card h2 { font-size: 1.1rem; color: var(--white); margin: 0 0 var(--spacing); }
+    .exam-card p { font-size: 0.9rem; color: var(--text-mute); margin: 0; line-height: 1.5; }
+    .exam-card .exam-meta { margin-top: auto; padding-top: var(--spacing); font-size: 0.8rem; color: var(--text-dim); }
+  </style>
+</head>
+<body>
+  <div class="exams-page">
+    <header role="banner">
+      <h1>Practice Exams</h1>
+      <p class="subtitle">Test your knowledge with comprehensive practice exams covering all course material</p>
+    </header>
+    <main role="main">
+      <div class="exam-cards">
+        <a href="exams/practice-exam-1.html" class="exam-card">
+          <span class="icon" aria-hidden="true">&#x1F4DD;</span>
+          <h2>Practice Exam 1</h2>
+          <p>Comprehensive practice exam covering key concepts from all lectures including NPD frameworks, conjoint analysis, brand management, and project management.</p>
+          <div class="exam-meta">30 questions &middot; Multiple choice, short answer, and long answer</div>
+        </a>
+        <a href="exams/practice-exam-2.html" class="exam-card">
+          <span class="icon" aria-hidden="true">&#x1F4CB;</span>
+          <h2>Practice Exam 2</h2>
+          <p>Additional practice covering concept testing, brand sustainability, market experiments, and cross-cutting themes across the entire course.</p>
+          <div class="exam-meta">30 questions &middot; Multiple choice, short answer, and long answer</div>
+        </a>
+      </div>
+    </main>
+  </div>
+  <script src="js/nav.js" defer></script>
+</body>
+</html>

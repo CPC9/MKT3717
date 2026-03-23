@@ -54,6 +54,7 @@
       list-style: none;
       margin: 0;
       padding: 0;
+      overflow-x: auto;
     }
 
     .sb-nav-links a {
@@ -63,6 +64,7 @@
       text-decoration: none;
       border-radius: 6px;
       font-size: 0.92rem;
+      white-space: nowrap;
       transition: background 0.15s, color 0.15s;
     }
 
@@ -92,6 +94,7 @@
       background: none;
       font: inherit;
       font-size: 0.92rem;
+      white-space: nowrap;
       border-radius: 6px;
       transition: background 0.15s;
     }
@@ -285,7 +288,7 @@
     // Brand
     const brand = document.createElement('a');
     brand.className = 'sb-nav-brand';
-    brand.href = pages.find((p) => p.type === 'core' && p.id === 'index')?.path || 'index.html';
+    brand.href = basePath + (pages.find((p) => p.type === 'core' && p.id === 'index')?.path || 'index.html');
     brand.textContent = siteName || 'Study Guide';
     inner.appendChild(brand);
 
@@ -310,7 +313,7 @@
     corePages.forEach((page) => {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = page.path;
+      a.href = basePath + page.path;
       a.textContent = page.title;
       if (isActivePage(page.path)) a.classList.add('sb-active');
       li.appendChild(a);
@@ -339,7 +342,7 @@
         const menuLi = document.createElement('li');
         menuLi.setAttribute('role', 'none');
         const a = document.createElement('a');
-        a.href = page.path;
+        a.href = basePath + page.path;
         a.textContent = page.title;
         a.setAttribute('role', 'menuitem');
         if (isActivePage(page.path)) a.classList.add('sb-active');
@@ -361,7 +364,7 @@
       examPages.forEach((page) => {
         const li = document.createElement('li');
         const a = document.createElement('a');
-        a.href = page.path;
+        a.href = basePath + page.path;
         a.textContent = page.title;
         if (isActivePage(page.path)) a.classList.add('sb-active');
         li.appendChild(a);
