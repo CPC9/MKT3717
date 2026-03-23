@@ -1,0 +1,407 @@
+{
+  "examId": "practice-exam-1",
+  "title": "Practice Exam 1",
+  "description": "Comprehensive practice exam covering all course material: NPD process, opportunity identification, concept screening, conjoint analysis, project management, and brand management.",
+  "focusAreas": ["New Product Development", "Opportunity Identification", "Concept Screening", "Conjoint Analysis", "Market Experiments", "Project Management", "Brand Management", "Brand Sustainability"],
+  "questions": [
+    {
+      "id": "practice-exam-1-q-001",
+      "type": "multiple-choice",
+      "question": "According to the course, what is the relationship between a product and a brand?",
+      "sourceLecture": "Lecture 1",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "A product is the soul and a brand is the body"},
+        {"id": "b", "text": "A product is the body and a brand is the soul"},
+        {"id": "c", "text": "A product and a brand are the same thing"},
+        {"id": "d", "text": "A brand is created by companies while a product is created by consumers"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The course uses the analogy that 'product and brand is like body and soul.' Companies make products (the body) and consumers make brands (the soul) through their perceptions, expectations, and experiences. Option A reverses the analogy. Option D reverses who creates what -- companies make products, consumers make brands."
+    },
+    {
+      "id": "practice-exam-1-q-002",
+      "type": "multiple-choice",
+      "question": "Which of the following is NOT one of the three dimensions of the Innovation Challenges Triangle?",
+      "sourceLecture": "Lecture 1",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "People desirability"},
+        {"id": "b", "text": "Business viability"},
+        {"id": "c", "text": "Market scalability"},
+        {"id": "d", "text": "Technical feasibility"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "The Three Innovation Challenge framework states that successful innovation must satisfy three criteria simultaneously: People desirability, Business viability, and Technical feasibility. Market scalability is not one of the three dimensions. The sweet spot lies at the intersection of all three."
+    },
+    {
+      "id": "practice-exam-1-q-003",
+      "type": "multiple-choice",
+      "question": "According to research evidence cited in the course, approximately what percentage of new products fail?",
+      "sourceLecture": "Lecture 1",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "10%"},
+        {"id": "b", "text": "25%"},
+        {"id": "c", "text": "40%"},
+        {"id": "d", "text": "90%"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "Research evidence suggests that approximately 40% of new products fail, though press sometimes quotes figures as high as 90%. The 40% figure is the research-backed number emphasized in the course. McDonald's was used as an example showing even well-tested products can fail."
+    },
+    {
+      "id": "practice-exam-1-q-004",
+      "type": "multiple-choice",
+      "question": "In the RWW (Real-Win-Worth It) analysis framework, what does the question 'Can we WIN?' primarily evaluate?",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Whether the market need is real and customers desire the product"},
+        {"id": "b", "text": "Whether the investment will yield appropriate financial returns"},
+        {"id": "c", "text": "Whether the firm can deliver the product and establish sustainable competitive advantage"},
+        {"id": "d", "text": "Whether the total addressable market is large enough"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "In the RWW framework (Day, 2007), 'Can we WIN?' maps to the Technical/Feasible dimension of the Innovation Challenges Triangle. It asks whether the product is real, whether the firm can deliver at required volume and cost, whether it can establish sustainable competitive advantage, whether it can patent or brand the idea, and whether it is more capable than competitors. 'Is it REAL?' addresses market need (Option A), and 'Is it WORTH IT?' addresses financial returns (Option B)."
+    },
+    {
+      "id": "practice-exam-1-q-005",
+      "type": "multiple-choice",
+      "question": "What type of customer need did the P&G Swiffer address, based on the ethnographic discovery that 'it's hard to clean the broom'?",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Explicit need"},
+        {"id": "b", "text": "Unfulfilled need"},
+        {"id": "c", "text": "Latent need"},
+        {"id": "d", "text": "Expressed need"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "The Swiffer addressed a latent need -- one that customers could not easily express and were not even aware of. P&G's design partner Continuum discovered through ethnographic observation that people felt compelled to clean before researchers arrived, revealing the deeper latent insight 'it's hard to clean the broom.' Latent needs are hard for customers to express, not yet widely understood, and currently unaddressed. The Swiffer generated $100M in its first 4 months."
+    },
+    {
+      "id": "practice-exam-1-q-006",
+      "type": "multiple-choice",
+      "question": "In the TAM/SAM/SOM market sizing framework, what does SOM represent?",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "The entire potential revenue opportunity for a product, assuming 100% market share"},
+        {"id": "b", "text": "The portion of the market a business can realistically target with its current offerings"},
+        {"id": "c", "text": "The share of the market a business can capture considering competition and constraints"},
+        {"id": "d", "text": "The total number of units sold multiplied by average price per unit"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "SOM (Serviceable Obtainable Market) represents the share of SAM your business can capture, considering competition and constraints -- it answers 'What can you credibly win?' TAM (Option A) is the entire potential opportunity. SAM (Option B) is where you can actually play. Option D describes the market size formula, not a specific tier of market sizing."
+    },
+    {
+      "id": "practice-exam-1-q-007",
+      "type": "multiple-choice",
+      "question": "According to the guidelines for writing needs statements, which of the following is correctly written?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "The thermostat must be secure from unauthorized access"},
+        {"id": "b", "text": "The thermostat is accompanied by a downloadable iPhone app"},
+        {"id": "c", "text": "The thermostat does not require me to stand in front of it for programming"},
+        {"id": "d", "text": "The thermostat can be controlled remotely without requiring a special device"}
+      ],
+      "correctAnswer": "d",
+      "explanation": "Option D follows all five guidelines: it describes 'what' not 'how' (does not prescribe iPhone app), is specific, is phrased positively, describes a product attribute, and avoids 'must'/'should.' Option A violates the 'avoid must/should' rule. Option B violates the 'what not how' rule by prescribing a specific solution. Option C is phrased negatively rather than positively."
+    },
+    {
+      "id": "practice-exam-1-q-008",
+      "type": "multiple-choice",
+      "question": "In the Jobs To Be Done (JTBD) framework, what is the correct format for a JTBD statement?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "As a [user type], I want [feature] so that [benefit]"},
+        {"id": "b", "text": "When [situation], I want to [motivation], so I can [desired outcome]"},
+        {"id": "c", "text": "The product must [requirement] for [user] in [context]"},
+        {"id": "d", "text": "Given [precondition], when [action], then [result]"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The JTBD statement format is: 'When [situation], I want to [motivation], so I can [desired outcome].' This format anchors the product decision in real customer motivation and the specific situation that triggers the need. Option A is a user story format. Options C and D are other specification or testing formats not used in JTBD."
+    },
+    {
+      "id": "practice-exam-1-q-009",
+      "type": "multiple-choice",
+      "question": "What are the three inputs required to define a product concept, of which you need at least two?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Market, Competition, Resources"},
+        {"id": "b", "text": "Need, Strategy, Execution"},
+        {"id": "c", "text": "Form, Technology, Benefit/Need"},
+        {"id": "d", "text": "Design, Price, Distribution"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "A product concept requires three inputs: Form (the physical thing created), Technology (the source by which the form is attained), and Benefit/Need (the benefit to the customer). You need at least two of the three for a feasible concept. Starting from customer need (benefit) is identified as the least risky approach to concept generation."
+    },
+    {
+      "id": "practice-exam-1-q-010",
+      "type": "multiple-choice",
+      "question": "In a concept screening matrix (Pugh Method), how is the net score for a concept calculated?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "Sum of (weight x rating) for all criteria"},
+        {"id": "b", "text": "Number of '+' ratings minus number of '-' ratings"},
+        {"id": "c", "text": "Average of all ratings across criteria"},
+        {"id": "d", "text": "Sum of all ratings divided by number of criteria"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "In the concept screening matrix (Pugh Method), the net score is calculated as: Net Score = (Number of '+') - (Number of '-'). All criteria are unweighted, and each concept is compared against a reference concept using simple +/0/- ratings. Option A describes the concept scoring matrix formula, which is the more rigorous second-stage evaluation tool."
+    },
+    {
+      "id": "practice-exam-1-q-011",
+      "type": "multiple-choice",
+      "question": "What is the key danger of relying solely on a concept scoring matrix to select the best product concept?",
+      "sourceLecture": "Lecture 4",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "It is too expensive to implement across multiple concepts"},
+        {"id": "b", "text": "It may select the 'best average' product that excels at nothing"},
+        {"id": "c", "text": "It cannot incorporate more than three evaluation criteria"},
+        {"id": "d", "text": "It requires customer input that is unavailable in early stages"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The course warns about the 'best average trap' -- a concept scoring matrix can favor mediocre all-rounders over concepts with standout features that truly differentiate in the market. The ultimate goal of concept evaluation is concept improvement, not just concept selection. Teams should combine and refine concepts, stealing the best features from multiple candidates rather than simply picking the top scorer."
+    },
+    {
+      "id": "practice-exam-1-q-012",
+      "type": "multiple-choice",
+      "question": "In the product development process, what is the correct sequence of testing types from earliest to latest stage?",
+      "sourceLecture": "Lecture 4",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "A/B Testing -> Beta Testing -> Qualitative Concept Testing -> Alpha Testing"},
+        {"id": "b", "text": "Qualitative Concept Testing -> Alpha Testing -> Beta Testing -> A/B Testing"},
+        {"id": "c", "text": "Alpha Testing -> Qualitative Concept Testing -> A/B Testing -> Beta Testing"},
+        {"id": "d", "text": "Beta Testing -> Alpha Testing -> Qualitative Concept Testing -> A/B Testing"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The testing sequence maps to the PD process stages: Qualitative Concept Testing occurs early in concept development, Alpha Testing (performance and UI) occurs during detail design, Beta Testing (validation/acceptance) occurs during testing and refinement, and A/B Testing/release versioning occurs during production ramp-up. Testing evolves from 'Should we build this?' to 'How do we make it work better at scale?'"
+    },
+    {
+      "id": "practice-exam-1-q-013",
+      "type": "multiple-choice",
+      "question": "In a conjoint analysis for salsa with three thickness levels (Regular, Thick, Extra-Thick), three spiciness levels (Mild, Medium-Hot, Extra-Hot), and two colors (Green, Red), how many total product profiles exist in a full factorial design?",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "8"},
+        {"id": "b", "text": "12"},
+        {"id": "c", "text": "18"},
+        {"id": "d", "text": "27"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "In a full factorial design, the total number of profiles equals the product of the number of levels across all attributes: 3 (thickness) x 3 (spiciness) x 2 (color) = 18 profiles. Each profile represents a unique combination of attribute levels that respondents must evaluate."
+    },
+    {
+      "id": "practice-exam-1-q-014",
+      "type": "multiple-choice",
+      "question": "In the salsa conjoint analysis, the regression equation is: Rank = 3.33 - 2.33*Thick + 3.83*ExtraThick + 4.83*MedHot + 10.67*ExtraHot + 1.00*Red. What is the most preferred salsa configuration?",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "hard",
+      "options": [
+        {"id": "a", "text": "Extra-Thick, Mild, Green"},
+        {"id": "b", "text": "Thick, Mild, Green"},
+        {"id": "c", "text": "Regular, Mild, Red"},
+        {"id": "d", "text": "Thick, Medium-Hot, Green"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "Since rank 1 = most preferred, we want the lowest predicted rank. Thick, Mild, Green gives: 3.33 + (-2.33) + 0 + 0 = 1.00. The Thick coefficient is negative (lowers rank = more preferred), Mild is the baseline (coefficient 0), and Green is the baseline (coefficient 0). All other options produce higher (worse) ranks. For example, Extra-Thick, Mild, Green = 3.33 + 3.83 = 7.16, which is much less preferred."
+    },
+    {
+      "id": "practice-exam-1-q-015",
+      "type": "multiple-choice",
+      "question": "Benetton reduced its unsold stock from 33% to 8% by implementing which strategy?",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Conjoint analysis to determine which colors consumers preferred"},
+        {"id": "b", "text": "Delayed differentiation -- knitting white garments first and dyeing them after demand was observed"},
+        {"id": "c", "text": "Poka-Yoke design to prevent manufacturing errors"},
+        {"id": "d", "text": "Mass customization through direct-to-consumer online ordering"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "Benetton pioneered delayed differentiation (postponement) by switching from dyeing yarn before knitting (early differentiation) to knitting white garments and dyeing them after demand was observed. This allowed production in aggregate with color differentiation only when market demand was known, reducing unsold stock from 33% to 8%. The key insight: 'postponing the task of differentiating a product for a specific customer until the latest possible point in the supply network.'"
+    },
+    {
+      "id": "practice-exam-1-q-016",
+      "type": "multiple-choice",
+      "question": "Why is correlation not sufficient for making causal claims about the effect of a marketing action?",
+      "sourceLecture": "Lecture 6",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Correlation can only measure linear relationships between variables"},
+        {"id": "b", "text": "Confounding variables may create spurious apparent relationships between the variables"},
+        {"id": "c", "text": "Correlation requires larger sample sizes than causal studies"},
+        {"id": "d", "text": "Correlation can only be measured using qualitative data"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "Correlation means two variables move together but one does not necessarily cause the other. Confounding variables (extraneous variables that correlate with both the independent and dependent variables) can create spurious correlations. The classic example is ice cream sales and drowning rates both rising in summer -- the confound is warm weather. Only properly designed experiments with random assignment can establish causality."
+    },
+    {
+      "id": "practice-exam-1-q-017",
+      "type": "multiple-choice",
+      "question": "In a project network diagram, if Activity D has ES=8, EF=18, LS=8, and LF=18, what can you conclude about this activity?",
+      "sourceLecture": "Lecture 6",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "It has 10 days of slack and is not on the critical path"},
+        {"id": "b", "text": "It has 0 days of slack and is on the critical path"},
+        {"id": "c", "text": "It can be delayed by up to 8 days without affecting the project"},
+        {"id": "d", "text": "It is the first activity in the project"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "Slack = LS - ES = 8 - 8 = 0 (or equivalently, LF - EF = 18 - 18 = 0). Activities with zero slack are on the critical path -- any delay to this activity directly delays the entire project. The duration of 10 days (EF - ES = 18 - 8) is not the slack. In Practice Problem 1, Activity D is indeed on the critical path A-D-G-H."
+    },
+    {
+      "id": "practice-exam-1-q-018",
+      "type": "multiple-choice",
+      "question": "According to Keller's Brand Resonance Pyramid, which level must be established FIRST before a brand can achieve resonance?",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "Brand Judgments and Feelings (Response)"},
+        {"id": "b", "text": "Brand Salience (Identity)"},
+        {"id": "c", "text": "Brand Performance and Imagery (Meaning)"},
+        {"id": "d", "text": "Brand Resonance (Relationships)"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The Brand Resonance Pyramid must be built from the bottom up. The four levels in order are: (1) Identity -- Brand Salience ('Who are you?'), (2) Meaning -- Performance and Imagery ('What are you?'), (3) Response -- Judgments and Feelings ('What about you?'), (4) Relationships -- Resonance ('What about you and me?'). You cannot achieve resonance without first establishing identity through brand salience."
+    },
+    {
+      "id": "practice-exam-1-q-019",
+      "type": "multiple-choice",
+      "question": "What is a brand mantra, and what are its three components?",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "A consumer-facing tagline consisting of promise, proof, and personality"},
+        {"id": "b", "text": "A short internal articulation of the brand's essence consisting of emotional modifier, descriptive modifier, and brand function"},
+        {"id": "c", "text": "A mission statement consisting of vision, values, and purpose"},
+        {"id": "d", "text": "A positioning statement consisting of target market, frame of reference, and point of difference"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "A brand mantra is a short (3-5 word) internal articulation of the heart and soul of the brand, consisting of: (1) emotional modifier (how the brand provides benefits), (2) descriptive modifier (the nature of the product/experience), and (3) brand function (the type of benefit the brand delivers). For example, Nike's brand mantra is 'Authentic Athletic Performance.' It is an internal document, not a consumer-facing tagline."
+    },
+    {
+      "id": "practice-exam-1-q-020",
+      "type": "multiple-choice",
+      "question": "In the context of luxury brand management, what is 'brand dilution'?",
+      "sourceLecture": "Lecture 8",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "When a brand's advertising budget decreases over time"},
+        {"id": "b", "text": "When a brand loses awareness among younger consumers"},
+        {"id": "c", "text": "The weakening of a brand's core identity and perceived exclusivity when it extends into too many accessible categories"},
+        {"id": "d", "text": "When competitors copy a brand's visual identity"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "Brand dilution is the potential weakening of a brand's core identity and perceived exclusivity when the brand extends into more accessible product categories or broadens its consumer base too aggressively. Gucci's entry into beauty raised this question -- making the brand accessible to a larger consumer base may dilute its exclusive appeal. This is a fundamental tension in luxury brand management between accessibility and exclusivity."
+    },
+    {
+      "id": "practice-exam-1-q-021",
+      "type": "short-answer",
+      "question": "List the five phases of the New Product Development (NPD) process in order, as described by the Crawford model.",
+      "sourceLecture": "Lecture 1",
+      "difficulty": "medium",
+      "correctAnswer": "Phase 1: Opportunity Identification/Selection, Phase 2: Concept Generation, Phase 3: Concept/Project Evaluation, Phase 4: Development, Phase 5: Launch",
+      "acceptableKeywords": ["opportunity identification", "concept generation", "concept evaluation", "development", "launch"]
+    },
+    {
+      "id": "practice-exam-1-q-022",
+      "type": "short-answer",
+      "question": "What are the six letters in the PESTEL analysis framework, and what does each letter stand for?",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "easy",
+      "correctAnswer": "P = Political, E = Economic, S = Social, T = Technological, E = Environmental, L = Legal. PESTEL evaluates the broad, uncontrollable general environment surrounding a firm.",
+      "acceptableKeywords": ["political", "economic", "social", "technological", "environmental", "legal"]
+    },
+    {
+      "id": "practice-exam-1-q-023",
+      "type": "short-answer",
+      "question": "Explain the difference between the concept screening matrix (Pugh Method) and the concept scoring matrix. When would you use each one?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "medium",
+      "correctAnswer": "The concept screening matrix is a rapid first-pass tool that uses simple +/0/- ratings against a reference concept with unweighted criteria to quickly eliminate weak concepts. The concept scoring matrix is a more rigorous quantitative method that uses weighted criteria and numeric ratings (1-5) to produce ranked total scores. Use screening first to narrow a large set of concepts cheaply, then scoring to make rigorous final selections among surviving concepts.",
+      "acceptableKeywords": ["screening", "scoring", "unweighted", "weighted", "reference concept", "narrowing", "eliminate"]
+    },
+    {
+      "id": "practice-exam-1-q-024",
+      "type": "short-answer",
+      "question": "What is the formula for calculating the relative importance of an attribute in conjoint analysis? Explain each component.",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "hard",
+      "correctAnswer": "Relative Importance of Attribute A = (Range of coefficients for Attribute A) / (Sum of ranges across all attributes) x 100%. The range for an attribute is the absolute difference between the highest and lowest coefficient values across all levels of that attribute, where the baseline level has a coefficient of 0. This measures what percentage of overall preference variation is driven by that attribute.",
+      "acceptableKeywords": ["range", "coefficients", "sum of ranges", "baseline", "percentage"]
+    },
+    {
+      "id": "practice-exam-1-q-025",
+      "type": "short-answer",
+      "question": "In the hotel staycation conjoint analysis, the regression model is: Y = 2.08 + 1.42*LargeRoom + 2.05*CityView + 5.83*OceanView - 1.68*HighPrice. The price increment is $50 ($300 to $350). Calculate the willingness to pay (WTP) for an ocean view compared to a garden view.",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "hard",
+      "correctAnswer": "WTP for ocean view = (Coefficient of OceanView / |Coefficient of HighPrice|) x Price Increment = (5.83 / 1.68) x $50 = $173.51, approximately $174. This means a consumer is indifferent between a garden view room at $300 and an ocean view room at approximately $474.",
+      "acceptableKeywords": ["174", "173", "5.83", "1.68", "50", "coefficient", "price"]
+    },
+    {
+      "id": "practice-exam-1-q-026",
+      "type": "short-answer",
+      "question": "Define the endowment effect and explain one marketing implication of this cognitive bias.",
+      "sourceLecture": "Lecture 6",
+      "difficulty": "medium",
+      "correctAnswer": "The endowment effect is a cognitive bias where people value an item more highly once they own it compared to what they would pay to acquire it. In experiments, participants given a coffee mug demanded roughly twice the price to sell it as what non-owners were willing to pay. Marketing implications include the effectiveness of free trial strategies (once customers 'own' the product they are reluctant to give it up), generous return policies, and product sampling.",
+      "acceptableKeywords": ["own", "value", "higher", "free trial", "return policy", "sampling", "cognitive bias"]
+    },
+    {
+      "id": "practice-exam-1-q-027",
+      "type": "short-answer",
+      "question": "Explain what 'slack' (float) means in project management and why activities with zero slack are important.",
+      "sourceLecture": "Lecture 6",
+      "difficulty": "medium",
+      "correctAnswer": "Slack (float) is the maximum time an activity can be delayed without delaying the entire project's completion. It is calculated as Slack = LS - ES = LF - EF. Activities with zero slack are on the critical path, meaning any delay to these activities directly delays the entire project. They are the activities that require the most management attention because there is no buffer time.",
+      "acceptableKeywords": ["delay", "critical path", "zero", "LS", "ES", "LF", "EF", "buffer"]
+    },
+    {
+      "id": "practice-exam-1-q-028",
+      "type": "short-answer",
+      "question": "What are the four sub-dimensions of brand resonance at the top of Keller's Brand Resonance Pyramid?",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "hard",
+      "correctAnswer": "The four sub-dimensions of brand resonance are: (1) Behavioral loyalty -- repeat purchase frequency, (2) Attitudinal attachment -- emotional connection where consumers say they 'love' the brand, (3) Sense of community -- identification with other brand users, and (4) Active engagement -- willingness to invest time, energy, and money beyond purchase (e.g., joining brand clubs, following on social media).",
+      "acceptableKeywords": ["behavioral loyalty", "attitudinal attachment", "sense of community", "active engagement"]
+    },
+    {
+      "id": "practice-exam-1-q-029",
+      "type": "short-answer",
+      "question": "Explain the difference between points of parity (POPs) and points of difference (PODs) in brand positioning. Give one example of each.",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "hard",
+      "correctAnswer": "Points of parity (POPs) are associations shared with competitors that are necessary to be seen as a legitimate player in the category. Points of difference (PODs) are strong, favorable, unique associations that distinguish the brand from competitors. Example POP: A new smartphone brand must have a touchscreen and app store (category requirements). Example POD: Volvo is uniquely associated with 'safety' among car brands.",
+      "acceptableKeywords": ["shared", "necessary", "legitimate", "unique", "favorable", "strong", "differentiate"]
+    },
+    {
+      "id": "practice-exam-1-q-030",
+      "type": "short-answer",
+      "question": "Describe the 'Old Luxury vs. New Luxury' paradigm shift across at least three of the five dimensions discussed in the course.",
+      "sourceLecture": "Lecture 8",
+      "difficulty": "hard",
+      "correctAnswer": "The five dimensions are: (1) Symbol -- old luxury emphasized status-driven symbolism while new luxury emphasizes self-expression; (2) Customer Engagement -- old luxury involved passive engagement while new luxury involves active co-creation; (3) Consumption -- old luxury focused on ownership while new luxury is experience-driven; (4) Shopping Mindset -- old luxury was destination shopping while new luxury is omnichannel browsing; (5) Online Channels -- old luxury resisted online while new luxury has fully integrated digital presence.",
+      "acceptableKeywords": ["status", "self-expression", "passive", "co-creation", "ownership", "experience", "omnichannel", "digital", "online"]
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 30,
+    "questionTypes": {
+      "multiple-choice": 20,
+      "short-answer": 10
+    },
+    "generatedAt": "2026-03-23T01:45:00Z",
+    "verifiedAgainstNotes": true
+  }
+}
