@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Last-Minute Review — MKT 3717 - New Product Development &amp; Brand Management</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <style>
+    .review-page { max-width: var(--max-width); margin: 0 auto; padding: var(--padding-page); }
+    .review-page header { margin-bottom: var(--spacing-lg); }
+    .review-page h1 { color: var(--white); margin-bottom: var(--spacing); }
+    .review-page > .subtitle { color: var(--text-mute); font-size: 1rem; }
+    .review-columns { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-lg); }
+    @media (max-width: 768px) { .review-columns { grid-template-columns: 1fr; } }
+    .review-section { margin-bottom: var(--spacing-lg); break-inside: avoid; }
+    .review-section h2 { font-size: 1.2rem; color: var(--white); border-bottom: 2px solid var(--accent); padding-bottom: var(--spacing); margin-bottom: var(--spacing); }
+    .review-section ul { padding-left: 1.25rem; margin: 0; }
+    .review-section li { margin-bottom: 0.35rem; line-height: 1.5; }
+    .formula-card { background: var(--formula-bg); border: 1px solid var(--formula-border); border-radius: var(--radius); padding: var(--spacing); margin-bottom: var(--spacing); font-family: var(--font-mono); font-size: 0.9rem; }
+    .critical-term { background: var(--bg-sub); padding: 0.1rem 0.35rem; border-radius: var(--radius-sm); font-weight: 600; color: var(--accent-hi); border-bottom: 2px solid var(--accent); }
+    .distinction-table { width: 100%; border-collapse: collapse; margin-bottom: var(--spacing); font-size: 0.9rem; }
+    .distinction-table th, .distinction-table td { padding: 0.4rem 0.6rem; text-align: left; border: 1px solid var(--formula-border, rgba(255,255,255,0.1)); }
+    .distinction-table th { background: var(--bg-sub, rgba(255,255,255,0.05)); color: var(--white); font-weight: 600; }
+    .distinction-table td { color: var(--text-mute, #ccc); }
+    .distinction-table th.vs-col { text-align: center; width: 2.5rem; }
+    .exam-trap { border-left: 3px solid var(--accent, #f59e0b); background: var(--bg-sub, rgba(255,255,255,0.03)); padding: 0.75rem 1rem; margin-bottom: var(--spacing); border-radius: 0 var(--radius, 6px) var(--radius, 6px) 0; font-size: 0.9rem; line-height: 1.5; }
+    .exam-trap strong { color: var(--accent-hi, #fbbf24); }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin-bottom: 0.5rem; line-height: 1.5; padding-left: 1.5rem; position: relative; }
+    .checklist li::before { content: "\2610"; position: absolute; left: 0; color: var(--accent); font-size: 1.1rem; }
+    .formula-sheet-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-bottom: var(--spacing); }
+    .formula-sheet-table th, .formula-sheet-table td { padding: 0.4rem 0.5rem; text-align: left; border: 1px solid var(--formula-border, rgba(255,255,255,0.1)); }
+    .formula-sheet-table th { background: var(--bg-sub, rgba(255,255,255,0.05)); color: var(--white); font-weight: 600; }
+    .formula-sheet-table td { color: var(--text-mute, #ccc); }
+    .formula-sheet-table code { font-family: var(--font-mono); color: var(--accent-hi, #fbbf24); }
+    .full-width { grid-column: 1 / -1; }
+    @media print { body { font-size: 10pt; color: #000; background: #fff; } .review-page { padding: 0; max-width: none; } .review-columns { grid-template-columns: 1fr 1fr; gap: 1rem; } .review-section h2 { border-bottom-color: #000; color: #000; } .formula-card { border-color: #999; background: #f5f5f5; } .critical-term { background: none; text-decoration: underline; font-weight: bold; color: inherit; } .exam-trap { border-left-color: #000; background: #f5f5f5; } .distinction-table th, .distinction-table td, .formula-sheet-table th, .formula-sheet-table td { border-color: #999; } .distinction-table th, .formula-sheet-table th { background: #eee; color: #000; } .distinction-table td, .formula-sheet-table td { color: #000; } .formula-sheet-table code { color: #000; } nav, footer, .no-print { display: none !important; } }
+  </style>
+</head>
+<body>
+  <div class="review-page">
+    <header role="banner">
+      <h1>Last-Minute Review</h1>
+      <p class="subtitle">Quick-scan reference — everything on one page</p>
+    </header>
+    <main role="main">
+      <div class="review-columns">
+
+        <!-- Lecture 1 -->
+        <div class="review-section">
+          <h2>Lecture 1: Course Introduction</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">Product</span> — Anything offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want.</li>
+            <li><span class="critical-term">Brand</span> — Built through consumer perceptions, expectations, and experiences — "companies make products and consumers make brands."</li>
+            <li><span class="critical-term">Product Manager</span> — Cross-functional role responsible for vision, strategy, design, and execution of a product's life cycle.</li>
+            <li><span class="critical-term">Brand Manager</span> — Advocate of the organization who cultivates brand image and equity to sustain product success over time.</li>
+            <li><span class="critical-term">New Product Failure Rate</span> — ~40% of new products fail (research evidence); press sometimes quotes up to 90%.</li>
+            <li><span class="critical-term">Six Types of New Products</span> — New-to-the-world, new-to-the-firm, additions to existing lines, improvements/revisions, repositioning, cost reductions.</li>
+            <li><span class="critical-term">Three Innovation Challenge</span> — Successful innovation = People (desirable) + Business (viable) + Technical (feasible).</li>
+            <li><span class="critical-term">Five-Phase NPD Process</span> — Opportunity Identification &gt; Concept Generation &gt; Concept/Project Evaluation &gt; Development &gt; Launch.</li>
+            <li><span class="critical-term">Best Firms</span> — Top 25% need only 4.5 ideas per success (vs. 11.4 for the rest), achieve 82% success rate, derive ~48% of sales from new products.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Critical Distinctions</h3>
+          <div style="overflow-x:auto"><table class="distinction-table">
+            <thead><tr><th>Product</th><th class="vs-col">vs.</th><th>Brand</th></tr></thead>
+            <tbody>
+              <tr><td>Anything offered to a market for consumption</td><td class="vs-col"></td><td>Perceptions, expectations, and experiences in consumers' minds</td></tr>
+              <tr><td>Created by companies</td><td class="vs-col"></td><td>Created by consumers</td></tr>
+              <tr><td>The "body"</td><td class="vs-col"></td><td>The "soul"</td></tr>
+              <tr><td>Tangible offering</td><td class="vs-col"></td><td>Intangible equity built over time</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> A scented gel detergent in water-soluble bags from an existing detergent maker is a <strong>line extension</strong>, not a new-to-the-world product. Know your six types of new products.
+          </blockquote>
+        </div>
+
+        <!-- Lecture 2 -->
+        <div class="review-section">
+          <h2>Lecture 2: Opportunity Identification &amp; Concept Generation</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">RWW Framework</span> — Is it Real? Can we Win? Is it Worth it? — maps to Desirable, Feasible, Viable.</li>
+            <li><span class="critical-term">PESTEL</span> — Political, Economic, Social, Technological, Environmental, Legal — analyzes the <strong>general</strong> (macro) environment.</li>
+            <li><span class="critical-term">Porter's Five Forces</span> — Threat of new entrants, bargaining power of buyers, bargaining power of suppliers, threat of substitutes, intensity of rivalry — analyzes the <strong>industry</strong> (operating) environment.</li>
+            <li><span class="critical-term">TAM/SAM/SOM</span> — Total Addressable Market &gt; Serviceable Addressable Market &gt; Serviceable Obtainable Market.</li>
+            <li><span class="critical-term">Explicit Needs</span> — Easy to express, likely already fulfilled.</li>
+            <li><span class="critical-term">Latent Needs</span> — Customers cannot articulate; greatest innovation potential (e.g., P&amp;G Swiffer — $100M in first 4 months).</li>
+            <li><span class="critical-term">Needs Statement Guidelines</span> — "What" not "How," specific, positive, attribute of the product, avoid "must"/"should."</li>
+            <li><span class="critical-term">Product Specification</span> = Metric + Value + Units.</li>
+            <li><span class="critical-term">Post-It Note</span> — Technology-push innovation; 12 years from invention to market; latent need no one could articulate.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Key Formulas</h3>
+          <div class="formula-card">
+            Market Size = # Customers &times; Avg Units/Customer &times; Avg Price/Unit<br>
+            <small style="color:var(--text-mute);">Customers = Population &times; Filter %; Units = Frequency &times; Qty/Purchase</small>
+          </div>
+          <div class="formula-card">
+            # Customers = Baseline Population &times; Filter Ratio (%)<br>
+            <small style="color:var(--text-mute);">Chain of successive filters narrowing the population</small>
+          </div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Critical Distinctions</h3>
+          <div style="overflow-x:auto"><table class="distinction-table">
+            <thead><tr><th>Explicit Needs</th><th class="vs-col">vs.</th><th>Latent Needs</th></tr></thead>
+            <tbody>
+              <tr><td>Easy for customers to express</td><td class="vs-col"></td><td>Customers cannot articulate them</td></tr>
+              <tr><td>Widely known, likely already fulfilled</td><td class="vs-col"></td><td>Not yet understood or addressed</td></tr>
+              <tr><td>Incremental improvement territory</td><td class="vs-col"></td><td>Breakthrough innovation territory</td></tr>
+              <tr><td>Discovered through surveys/interviews</td><td class="vs-col"></td><td>Discovered through ethnography/observation</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> PESTEL is for the <strong>general</strong> environment; Porter's Five Forces is for the <strong>industry</strong> environment. Do not confuse which framework applies where.
+          </blockquote>
+        </div>
+
+        <!-- Lecture 3 -->
+        <div class="review-section">
+          <h2>Lecture 3: Concept Screening &amp; Testing</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">Product Concept</span> requires at least <strong>2 of 3 inputs:</strong> Form, Technology, Benefit/Need.</li>
+            <li><span class="critical-term">Need-first</span> concept generation is the <strong>least risky</strong> path.</li>
+            <li><span class="critical-term">Concept Screening (Pugh Method)</span> — Quick first pass; compares concepts to a reference using +/0/-; unweighted; eliminates weak concepts.</li>
+            <li><span class="critical-term">Concept Scoring (Weighted Matrix)</span> — Detailed second pass; weighted criteria &times; numerical ratings; produces ranked total scores.</li>
+            <li><span class="critical-term">Goal of concept evaluation</span> — Create and develop the <strong>best</strong> concept (combine and refine), not merely select the top scorer.</li>
+            <li><span class="critical-term">JTBD Statement</span> — "When [situation], I want to [motivation], so I can [desired outcome]."</li>
+            <li><span class="critical-term">Specification Freeze</span> — Early freeze enables optimization; late freeze enables market responsiveness.</li>
+            <li><span class="critical-term">Marginal Value</span> — Minimum acceptable performance. <span class="critical-term">Ideal Value</span> — Aspirational best-in-class target.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Key Formulas</h3>
+          <div class="formula-card">
+            Screening Net Score = (# of "+") &minus; (# of "&minus;")<br>
+            <small style="color:var(--text-mute);">+/0/- ratings vs. reference concept — first-pass narrowing</small>
+          </div>
+          <div class="formula-card">
+            Weighted Score = &Sigma;(Weight<sub>i</sub> &times; Rating<sub>ij</sub>)<br>
+            <small style="color:var(--text-mute);">Weight<sub>i</sub> = criterion importance (sum to 1.0); Rating<sub>ij</sub> = concept score (1–5 scale)</small>
+          </div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Critical Distinctions</h3>
+          <div style="overflow-x:auto"><table class="distinction-table">
+            <thead><tr><th>Concept Screening</th><th class="vs-col">vs.</th><th>Concept Scoring</th></tr></thead>
+            <tbody>
+              <tr><td>Qualitative (+/0/-)</td><td class="vs-col"></td><td>Quantitative (numerical ratings)</td></tr>
+              <tr><td>Unweighted criteria</td><td class="vs-col"></td><td>Weighted criteria</td></tr>
+              <tr><td>Fast, rough first pass</td><td class="vs-col"></td><td>Rigorous, detailed second pass</td></tr>
+              <tr><td>Eliminates weak concepts</td><td class="vs-col"></td><td>Ranks and selects best concepts</td></tr>
+              <tr><td>Many concepts in</td><td class="vs-col"></td><td>Few surviving concepts in</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> The concept scoring matrix can select the <strong>"best average" product</strong> — one that scores adequately everywhere but excels nowhere. Always check if standout features from lower-ranked concepts can be borrowed.
+          </blockquote>
+        </div>
+
+        <!-- Lecture 4 -->
+        <div class="review-section">
+          <h2>Lecture 4: Concept Testing Review</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">Concept Testing</span> is a "stage of elimination" — concepts failing on PIC criteria (unavailable technology, unfamiliar customers, wrong innovativeness, bad cost structure) are killed.</li>
+            <li><span class="critical-term">Testing evolves</span> across the PD process: qualitative concept testing (early) &gt; prototype/alpha testing &gt; quantitative market testing &gt; beta testing &gt; A/B testing (launch).</li>
+            <li><span class="critical-term">Sensitivity analysis</span> should always be performed on scoring matrix weights and ratings.</li>
+            <li><span class="critical-term">Different customer segments</span> may yield different concept rankings — evaluate separately.</li>
+            <li><span class="critical-term">Brainstorming rules</span> — Defer judgment, build on others' ideas, encourage wild ideas, one conversation at a time, stay focused.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Key Formulas</h3>
+          <div class="formula-card">
+            Total Weighted Score = &Sigma;(Category Weight &times; Sub-weight &times; Rating)<br>
+            <small style="color:var(--text-mute);">Category weights sum to 100%; sub-weights within categories; ratings per concept</small>
+          </div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> Close scores in a concept scoring matrix (e.g., 594 vs. 587 vs. 585) mean the ranking is <strong>sensitive to weight changes</strong>. Never treat a narrow win as definitive.
+          </blockquote>
+        </div>
+
+        <!-- Lecture 5 -->
+        <div class="review-section">
+          <h2>Lecture 5: Conjoint Analysis &amp; Product Architecture</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">Conjoint Analysis</span> — Decomposes overall product preference into part-worth utilities for individual attribute levels using regression.</li>
+            <li><span class="critical-term">Dummy Variable Coding</span> — One level per attribute is the <strong>baseline</strong> (omitted); all others get 0/1 dummies.</li>
+            <li><span class="critical-term">Intercept (B0)</span> — Predicted preference when all attributes are at baseline levels.</li>
+            <li><span class="critical-term">Direction matters</span> — With rank data (1 = most preferred), a <strong>negative</strong> coefficient = <strong>more preferred</strong>. With rating data (higher = better), a <strong>positive</strong> coefficient = more preferred.</li>
+            <li><span class="critical-term">R-squared</span> — Proportion of variance explained (salsa model = 0.956; notebook = 1.0).</li>
+            <li><span class="critical-term">Three conditions for conjoint</span> — (1) Product value = sum of attribute values, (2) attributes are independent, (3) attributes are discrete and unambiguous.</li>
+            <li><span class="critical-term">Bad candidates for conjoint</span> — Fragrances, clothing aesthetics, meal ingredients, subjective attributes ("sporty").</li>
+            <li><span class="critical-term">Modular Architecture</span> — Interchangeable modules with standardized interfaces; enables mass customization and delayed differentiation.</li>
+            <li><span class="critical-term">Delayed Differentiation (Postponement)</span> — Benetton reduced unsold stock from 33% to 8% by dyeing finished garments instead of yarn.</li>
+            <li><span class="critical-term">Poka-Yoke</span> — Fail-safe design to prevent user errors (e.g., battery compartment shape).</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Key Formulas</h3>
+          <div class="formula-card">
+            Rank<sub>i</sub> = B0 + B1&middot;X1 + B2&middot;X2 + &hellip; + Bk&middot;Xk<br>
+            <small style="color:var(--text-mute);">B0 = intercept; Bk = coefficient for each dummy; Xk = 0/1 dummy variables</small>
+          </div>
+          <div class="formula-card">
+            Relative Importance (%) = Range<sub>A</sub> / &Sigma;(all ranges) &times; 100<br>
+            <small style="color:var(--text-mute);">Range<sub>A</sub> = max coeff &minus; min coeff for attribute A (baseline = 0)</small>
+          </div>
+          <div class="formula-card">
+            WTP = (Coeff<sub>X</sub> / |Coeff<sub>Price</sub>|) &times; Price Increment<br>
+            <small style="color:var(--text-mute);">Coeff<sub>X</sub> = attribute level coefficient; Price Increment = dollar gap between price levels</small>
+          </div>
+          <div class="formula-card">
+            Total Profiles = L1 &times; L2 &times; &hellip; &times; Ln<br>
+            <small style="color:var(--text-mute);">L1&hellip;Ln = number of levels per attribute</small>
+          </div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Critical Distinctions</h3>
+          <div style="overflow-x:auto"><table class="distinction-table">
+            <thead><tr><th>Modular Architecture</th><th class="vs-col">vs.</th><th>Integral Architecture</th></tr></thead>
+            <tbody>
+              <tr><td>Each module maps to one function</td><td class="vs-col"></td><td>Functions distributed across coupled components</td></tr>
+              <tr><td>Standardized interfaces</td><td class="vs-col"></td><td>Tightly coupled interfaces</td></tr>
+              <tr><td>Enables variety and customization</td><td class="vs-col"></td><td>Enables performance optimization</td></tr>
+              <tr><td>Independent module upgrades</td><td class="vs-col"></td><td>Compact form factors</td></tr>
+              <tr><td>Higher manufacturing flexibility</td><td class="vs-col"></td><td>Higher performance ceiling</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> When computing Relative Importance, the <strong>baseline level has a coefficient of 0</strong> — do not forget to include it as the min (or max) when calculating the range. Also, do not confuse the coefficient's magnitude with its statistical significance.
+          </blockquote>
+        </div>
+
+        <!-- Lecture 6 -->
+        <div class="review-section">
+          <h2>Lecture 6: Market Experiments &amp; Project Management</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">Correlation is not causation.</span> Only experiments with random assignment establish causal effects.</li>
+            <li><span class="critical-term">Counterfactual</span> — What would have happened without the intervention; control groups serve as the proxy.</li>
+            <li><span class="critical-term">A/B Testing</span> — One variable, two versions, random assignment, measure outcome.</li>
+            <li><span class="critical-term">Factorial Design</span> — Tests multiple factors simultaneously; reveals <strong>interaction effects</strong> that separate A/B tests miss. A 2&times;2 = 4 conditions.</li>
+            <li><span class="critical-term">Endowment Effect</span> — People value items more once they own them (~2x); supports free trial and sampling strategies.</li>
+            <li><span class="critical-term">p &lt; 0.05</span> = statistically significant; confidence interval not containing zero = significant.</li>
+            <li><span class="critical-term">WBS</span> — Hierarchical decomposition of project scope into work packages.</li>
+            <li><span class="critical-term">Forward Pass</span> — ES = max(EF of all predecessors); EF = ES + Duration. Starting activities: ES = 0.</li>
+            <li><span class="critical-term">Backward Pass</span> — LF = min(LS of all successors); LS = LF &minus; Duration. Final activity: LF = project duration.</li>
+            <li><span class="critical-term">Critical Path</span> — Longest path through the network; all activities have Slack = 0; any delay here delays the project.</li>
+            <li><span class="critical-term">Crashing Rule</span> — Only crash critical path activities; crash the one with the <strong>lowest crash cost per unit time</strong> first; re-check the critical path after each crash.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Key Formulas</h3>
+          <div class="formula-card">
+            EF = ES + Duration<br>
+            <small style="color:var(--text-mute);">ES = Earliest Start; Duration = activity time</small>
+          </div>
+          <div class="formula-card">
+            ES = max(EF of all predecessors)<br>
+            <small style="color:var(--text-mute);">EF values of predecessor activities; start activities ES = 0</small>
+          </div>
+          <div class="formula-card">
+            LS = LF &minus; Duration<br>
+            <small style="color:var(--text-mute);">LF = Latest Finish; Duration = activity time</small>
+          </div>
+          <div class="formula-card">
+            LF = min(LS of all successors)<br>
+            <small style="color:var(--text-mute);">LS values of successor activities; final activity LF = project duration</small>
+          </div>
+          <div class="formula-card">
+            Slack = LS &minus; ES = LF &minus; EF<br>
+            <small style="color:var(--text-mute);">Critical path activities have Slack = 0</small>
+          </div>
+          <div class="formula-card">
+            Crash Cost/Unit Time = (Crash Cost &minus; Normal Cost) / (Normal Duration &minus; Crash Duration)<br>
+            <small style="color:var(--text-mute);">Pick the activity with the lowest value to crash first</small>
+          </div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Critical Distinctions</h3>
+          <div style="overflow-x:auto"><table class="distinction-table">
+            <thead><tr><th>Correlation</th><th class="vs-col">vs.</th><th>Causation</th></tr></thead>
+            <tbody>
+              <tr><td>Two variables move together</td><td class="vs-col"></td><td>One variable directly produces change in the other</td></tr>
+              <tr><td>Observed in any data</td><td class="vs-col"></td><td>Requires experimental design with random assignment</td></tr>
+              <tr><td>May be driven by confounding variables</td><td class="vs-col"></td><td>Confounds controlled through randomization</td></tr>
+              <tr><td>Sufficient for prediction</td><td class="vs-col"></td><td>Required for intervention decisions</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> ES uses the <strong>maximum</strong> EF of predecessors (all must finish). LF uses the <strong>minimum</strong> LS of successors (cannot delay any). Getting max/min backwards is the most common scheduling mistake. Also: after crashing one activity, the <strong>critical path may shift</strong> — always recalculate.
+          </blockquote>
+        </div>
+
+        <!-- Lecture 7 -->
+        <div class="review-section">
+          <h2>Lecture 7: Brand Management Overview</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">Brand (AMA)</span> — A name, term, sign, symbol, or design that identifies and differentiates a seller's goods from competitors.</li>
+            <li><span class="critical-term">Customer-Based Brand Equity</span> — The differential effect of brand knowledge on consumer response to marketing.</li>
+            <li><span class="critical-term">Brand Knowledge</span> = Brand Awareness + Brand Image.</li>
+            <li><span class="critical-term">Brand Recognition</span> — Aided — "Have you heard of X?" (lower bar).</li>
+            <li><span class="critical-term">Brand Recall</span> — Unaided — "Name a brand of running shoes" (higher bar). Top-of-mind = first recalled.</li>
+            <li><span class="critical-term">Brand Image</span> — Strength, favorability, and uniqueness of associations in consumer memory.</li>
+            <li><span class="critical-term">Brand Elements</span> — Name, logo, symbol, character, slogan, jingle, packaging. Criteria: memorable, meaningful, likable, transferable, adaptable, protectable.</li>
+            <li><span class="critical-term">Brand Positioning</span> — Target consumer + competitive frame of reference + POPs + PODs.</li>
+            <li><span class="critical-term">Brand Mantra</span> — Emotional modifier + Descriptive modifier + Brand function (e.g., Nike: "Authentic Athletic Performance").</li>
+            <li><span class="critical-term">Brand Mantra is NOT a tagline</span> — it is an internal strategic document.</li>
+            <li><span class="critical-term">Keller's Brand Resonance Pyramid</span> (bottom to top):
+              <ol style="margin:0.25rem 0 0 1.25rem;">
+                <li><strong>Identity</strong> — Salience (who are you?)</li>
+                <li><strong>Meaning</strong> — Performance (rational) + Imagery (emotional) (what are you?)</li>
+                <li><strong>Response</strong> — Judgments (rational) + Feelings (emotional) (what about you?)</li>
+                <li><strong>Resonance</strong> — Loyalty, attachment, community, engagement (what about you and me?)</li>
+              </ol>
+            </li>
+            <li><span class="critical-term">Brand Feelings (6 types)</span> — Warmth, fun, excitement, security, social approval, self-respect.</li>
+            <li><span class="critical-term">Brand Resonance (4 dimensions)</span> — Behavioral loyalty, attitudinal attachment, sense of community, active engagement.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Key Formulas</h3>
+          <div class="formula-card">
+            Brand Equity = f(Brand Awareness, Brand Image)<br>
+            <small style="color:var(--text-mute);">Awareness = recognition + recall; Image = strength, favorability, uniqueness of associations</small>
+          </div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Critical Distinctions</h3>
+          <div style="overflow-x:auto"><table class="distinction-table">
+            <thead><tr><th>Brand Recognition</th><th class="vs-col">vs.</th><th>Brand Recall</th></tr></thead>
+            <tbody>
+              <tr><td>Aided identification (brand as cue)</td><td class="vs-col"></td><td>Unaided retrieval (category/need as cue)</td></tr>
+              <tr><td>"Have you heard of X?"</td><td class="vs-col"></td><td>"What brands of Y can you name?"</td></tr>
+              <tr><td>Lower bar, easier to achieve</td><td class="vs-col"></td><td>Higher bar, stronger awareness</td></tr>
+              <tr><td>Matters at point of purchase (shelf)</td><td class="vs-col"></td><td>Matters when consumer thinks of a need</td></tr>
+            </tbody>
+          </table></div>
+          <div style="overflow-x:auto"><table class="distinction-table" style="margin-top:0.5rem;">
+            <thead><tr><th>Points of Parity (POPs)</th><th class="vs-col">vs.</th><th>Points of Difference (PODs)</th></tr></thead>
+            <tbody>
+              <tr><td>Shared with competitors</td><td class="vs-col"></td><td>Unique to the brand</td></tr>
+              <tr><td>Necessary for category legitimacy</td><td class="vs-col"></td><td>Basis of competitive advantage</td></tr>
+              <tr><td>"Must-haves" to be considered</td><td class="vs-col"></td><td>"Reasons to choose" this brand</td></tr>
+              <tr><td>Category POPs + Competitive POPs</td><td class="vs-col"></td><td>Must be desirable and deliverable</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> The Brand Resonance Pyramid must be built <strong>bottom-up</strong>. You cannot achieve resonance without first establishing identity, then meaning, then response. Skipping levels creates fragile equity. Also: behavioral loyalty alone (repeat purchase) is NOT resonance — it may just be habit.
+          </blockquote>
+        </div>
+
+        <!-- Lecture 8 -->
+        <div class="review-section">
+          <h2>Lecture 8: Brand Sustainability &amp; Personal Branding</h2>
+          <h3 style="font-size:1rem;color:var(--white);margin-bottom:0.5rem;">Must-Remember Facts</h3>
+          <ul>
+            <li><span class="critical-term">Disruptive Repositioning</span> — Bold, fundamental shift in positioning (vs. incremental). Gucci moved from classic/older to contemporary/younger under Michele.</li>
+            <li><span class="critical-term">Brand Dilution Risk</span> — Extending into accessible categories (e.g., beauty) may weaken perceived exclusivity.</li>
+            <li><span class="critical-term">Old Luxury</span> — Status symbols, passive engagement, ownership-focused, destination shopping, resisted online.</li>
+            <li><span class="critical-term">New Luxury</span> — Self-expression, active co-creation, experience-driven, omnichannel, fully digital.</li>
+            <li><span class="critical-term">Millennials + Gen Z</span> projected to be ~70% of luxury market by 2025.</li>
+            <li><span class="critical-term">Online luxury sales</span> nearly doubled: $37.3B (2019) to $70.1B (2021), projected 30% share by 2025.</li>
+            <li><span class="critical-term">Geographic Concentration Risk</span> — Chinese consumers = 33% of luxury purchases (2019), projected 43% by 2025.</li>
+            <li><span class="critical-term">Gucci's Shadow Committee</span> — Reverse-mentoring committee of employees under 30 advising senior leadership.</li>
+            <li><span class="critical-term">Gucci Revenue Growth</span> — EUR 3.9B (2015) to EUR 9.6B (2019), ~20% CAGR.</li>
+            <li><span class="critical-term">Consumption as Signaling</span> — Luxury purchases communicate status, identity, and values to others.</li>
+            <li><span class="critical-term">Personal Branding</span> = Passion (desirable) + Skills (feasible) + Market (viable) — same Desirable-Feasible-Viable framework.</li>
+            <li><span class="critical-term">Personal Brand Mantra</span> — Same structure as corporate — emotional modifier + descriptive modifier + brand function.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Critical Distinctions</h3>
+          <div style="overflow-x:auto"><table class="distinction-table">
+            <thead><tr><th>Old Luxury</th><th class="vs-col">vs.</th><th>New Luxury</th></tr></thead>
+            <tbody>
+              <tr><td>Status symbol</td><td class="vs-col"></td><td>Self-expression</td></tr>
+              <tr><td>Passive customer engagement</td><td class="vs-col"></td><td>Active co-creation</td></tr>
+              <tr><td>Ownership-focused consumption</td><td class="vs-col"></td><td>Experience-driven consumption</td></tr>
+              <tr><td>Destination shopping (in-store only)</td><td class="vs-col"></td><td>Omnichannel browsing</td></tr>
+              <tr><td>Resisted online channels</td><td class="vs-col"></td><td>Fully integrated digital presence</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3 style="font-size:1rem;color:var(--white);margin:0.75rem 0 0.5rem;">Common Exam Traps</h3>
+          <blockquote class="exam-trap">
+            <strong>Remember:</strong> Heritage and innovation are <strong>not mutually exclusive</strong>. Gucci preserved core identity elements (double-G monogram, green-red-green stripe) while radically refreshing creative expression. Repositioning does not mean abandoning heritage.
+          </blockquote>
+        </div>
+
+        <!-- Quick-Reference Formula Sheet -->
+        <div class="review-section full-width">
+          <h2>Quick-Reference Formula Sheet</h2>
+          <div style="overflow-x:auto"><table class="formula-sheet-table">
+            <thead>
+              <tr><th>#</th><th>Formula</th><th>Variables</th><th>Topic</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td><code>Market Size = # Customers &times; Avg Units/Customer &times; Avg Price/Unit</code></td><td>Customers = Population &times; Filter %; Units = Frequency &times; Qty/Purchase</td><td>Market Sizing (L2)</td></tr>
+              <tr><td>2</td><td><code>Screening Net Score = (# of "+") &minus; (# of "&minus;")</code></td><td>+/0/- ratings vs. reference concept</td><td>Concept Screening (L3)</td></tr>
+              <tr><td>3</td><td><code>Weighted Score = &Sigma;(Weight<sub>i</sub> &times; Rating<sub>ij</sub>)</code></td><td>Weights sum to 1.0; Ratings on 1–5 scale</td><td>Concept Scoring (L3–4)</td></tr>
+              <tr><td>4</td><td><code>Rank<sub>i</sub> = B0 + B1&middot;X1 + B2&middot;X2 + &hellip; + Bk&middot;Xk</code></td><td>B0 = intercept; Bk = part-worth utilities; Xk = 0/1 dummies</td><td>Conjoint Regression (L5)</td></tr>
+              <tr><td>5</td><td><code>Relative Importance (%) = Range<sub>A</sub> / &Sigma;(all ranges) &times; 100</code></td><td>Range = max coeff &minus; min coeff per attribute (baseline = 0)</td><td>Conjoint Attribute Importance (L5)</td></tr>
+              <tr><td>6</td><td><code>WTP = (Coeff<sub>X</sub> / |Coeff<sub>Price</sub>|) &times; Price Increment</code></td><td>Coeff<sub>X</sub> = attribute coefficient; Price Increment = $ difference between levels</td><td>Willingness to Pay (L5)</td></tr>
+              <tr><td>7</td><td><code>Total Profiles = L1 &times; L2 &times; &hellip; &times; Ln</code></td><td>Ln = number of levels for each of n attributes</td><td>Full Factorial Profile Count (L5)</td></tr>
+              <tr><td>8</td><td><code>EF = ES + Duration</code></td><td>ES = Earliest Start; Duration = activity time</td><td>Forward Pass (L6)</td></tr>
+              <tr><td>9</td><td><code>ES = max(EF of all predecessors)</code></td><td>EF values from predecessor activities; start activities ES = 0</td><td>Forward Pass (L6)</td></tr>
+              <tr><td>10</td><td><code>LS = LF &minus; Duration</code></td><td>LF = Latest Finish; Duration = activity time</td><td>Backward Pass (L6)</td></tr>
+              <tr><td>11</td><td><code>LF = min(LS of all successors)</code></td><td>LS values from successor activities; final activity LF = project duration</td><td>Backward Pass (L6)</td></tr>
+              <tr><td>12</td><td><code>Slack = LS &minus; ES = LF &minus; EF</code></td><td>Critical path activities have Slack = 0</td><td>Slack / Float (L6)</td></tr>
+              <tr><td>13</td><td><code>Crash Cost/Unit Time = (Crash Cost &minus; Normal Cost) / (Normal Duration &minus; Crash Duration)</code></td><td>Normal and crashed costs and durations</td><td>Project Crashing (L6)</td></tr>
+              <tr><td>14</td><td><code>Brand Equity = f(Brand Awareness, Brand Image)</code></td><td>Awareness = recognition + recall; Image = strength + favorability + uniqueness</td><td>Brand Equity (L7)</td></tr>
+            </tbody>
+          </table></div>
+        </div>
+
+        <!-- Don't Forget Checklist -->
+        <div class="review-section full-width">
+          <h2>"Don't Forget" Checklist</h2>
+          <ul class="checklist">
+            <li><strong>Conjoint direction:</strong> With rank data (1 = best), negative coefficient = more preferred. With rating data (higher = better), positive coefficient = more preferred. Know which scale is being used before interpreting.</li>
+            <li><strong>Baseline level coefficient is always 0</strong> in conjoint — include it when calculating ranges for Relative Importance.</li>
+            <li><strong>ES uses MAX of predecessor EFs</strong> (all must finish); <strong>LF uses MIN of successor LSs</strong> (cannot delay any). Getting max/min reversed is the #1 scheduling error.</li>
+            <li><strong>After crashing an activity, the critical path may shift.</strong> Always recalculate all paths before crashing the next activity.</li>
+            <li><strong>Only crash critical path activities</strong> — crashing non-critical activities does not shorten the project.</li>
+            <li><strong>Brand Resonance Pyramid is built bottom-up:</strong> Identity &gt; Meaning &gt; Response &gt; Resonance. Cannot skip levels.</li>
+            <li><strong>Brand mantra is internal; tagline is external.</strong> They should align but are not the same thing.</li>
+            <li><strong>Concept Screening then Scoring</strong> — screening is for narrowing (many concepts), scoring is for deciding (few concepts). Two-stage process.</li>
+            <li><strong>PESTEL = general/macro environment; Porter's Five Forces = industry/operating environment.</strong> Different scope, complementary use.</li>
+            <li><strong>Modular design benefits under demand uncertainty:</strong> product variety without forecasting specific configs, reduced inventory risk, faster response, component reuse.</li>
+            <li><strong>p-value &lt; 0.05 = statistically significant.</strong> A non-significant coefficient (like Red color p = 0.138 in the salsa example) should not drive product design decisions.</li>
+            <li><strong>Types of new products:</strong> New-to-the-world, new-to-the-firm, line extensions, improvements/revisions, repositioning, cost reductions. Know examples of each.</li>
+          </ul>
+        </div>
+
+      </div>
+    </main>
+    <footer class="no-print">
+      <p>Tip: Use <kbd>Ctrl+P</kbd> / <kbd>Cmd+P</kbd> to print this page as a study sheet.</p>
+    </footer>
+  </div>
+  <script src="js/nav.js" defer></script>
+</body>
+</html>

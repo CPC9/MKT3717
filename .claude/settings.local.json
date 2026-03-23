@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/Lecture Slides/\"* \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/source-materials/\")",
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/Course Materials/\"* \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/source-materials/\")",
+      "Bash(ls:*)",
+      "Bash(python -c \"import docx; doc = docx.Document\\(''source-materials/Random In-Class Notes \\(classes 1-4\\).docx''\\); printing=False:*)",
+      "Bash(python -c \":*)",
+      "Bash(python3 /tmp/build_flashcards.py)",
+      "Bash(python /tmp/build_flashcards.py)",
+      "Bash(python build_flashcards.py)",
+      "Bash(node -e \"const f=require\\(''./synthesis/flashcards.json''\\); console.log\\(''Valid JSON''\\); console.log\\(''Decks:'', f.decks.length\\); console.log\\(''Total cards:'', f.metadata.totalCards\\); console.log\\(''Deck IDs:'', f.decks.map\\(d=>d.id\\).join\\('', ''\\)\\); const actual = f.decks.reduce\\(\\(s,d\\)=>s+d.cards.length, 0\\); console.log\\(''Actual card count:'', actual\\); console.log\\(''Counts match:'', actual === f.metadata.totalCards\\);\")",
+      "Bash(python3 -c \"import PyPDF2; print\\(''available''\\)\")",
+      "Bash(python -c \"import PyPDF2; print\\(''available''\\)\")",
+      "Bash(python3 -c \"import fitz; print\\(''available''\\)\")",
+      "Bash(python -c \"import fitz; print\\(''available''\\)\")",
+      "Bash(pdftotext 'C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/source-materials/lec 6 Market Experiment and Project Management.pdf' -)",
+      "Bash(python3 -c \"import pdfplumber; print\\(''available''\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\(''available''\\)\")",
+      "Bash(pdftotext 'C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/source-materials/[Supplement] Project Management Practice Problems.pdf' -)",
+      "Bash(pdftotext 'C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/source-materials/lec 7 Brand Management Overview.pdf' -)",
+      "Bash(python:*)",
+      "Bash(pdftotext 'C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/source-materials/lec 8 Brand Sustainability and Personal Branding.pdf' -)",
+      "Bash(pdftotext 'C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/source-materials/Gucci Case.pdf' -)",
+      "Bash(node -e \":*)",
+      "Bash(mkdir -p site/css site/js site/data site/exams)",
+      "Bash(mkdir -p build)",
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/themes/midnight-blue/theme.css\" site/css/theme.css)",
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/shared-js/nav.js\" site/js/nav.js)",
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/shared-js/flashcards.js\" site/js/flashcards.js)",
+      "Bash(cp synthesis/flashcards.json site/data/flashcards.json)",
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/exam-formats/card-style/exam-styles.css\" \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/site/exams/exam-styles.css\")",
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/exam-formats/card-style/exam-checker.js\" \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/site/exams/exam-checker.js\")"
+    ]
+  }
+}

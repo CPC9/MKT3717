@@ -1,0 +1,54 @@
+{
+  "courseName": "MKT 3717 - New Product Development & Brand Management",
+  "sourceDir": "source-materials/",
+  "startedAt": "2026-03-22T22:45:00Z",
+  "currentPhase": "done",
+  "phases": [
+    {
+      "name": "content-ingest",
+      "status": "completed",
+      "completedAt": "2026-03-22T23:15:00Z",
+      "filesProduced": [
+        "study-notes/lecture-00-final-test-study-guide.md",
+        "study-notes/lecture-01-course-introduction.md",
+        "study-notes/lecture-02-npd-opportunity-identification.md",
+        "study-notes/lecture-03-npd-concept-screening.md",
+        "study-notes/lecture-04-concept-testing-review.md",
+        "study-notes/lecture-05-conjoint-analysis.md",
+        "study-notes/lecture-06-market-experiment-project-management.md",
+        "study-notes/lecture-07-brand-management.md",
+        "study-notes/lecture-08-brand-sustainability-personal-branding.md"
+      ]
+    },
+    {
+      "name": "concept-mapper",
+      "status": "completed",
+      "completedAt": "2026-03-23T00:30:00Z",
+      "filesProduced": [
+        "synthesis/conceptual-map.md",
+        "synthesis/last-minute-review.md",
+        "synthesis/flashcards.json"
+      ]
+    },
+    { "name": "content-auditor", "status": "completed", "completedAt": "2026-03-23T01:00:00Z", "filesProduced": ["audit/audit-report.md"] },
+    { "name": "site-designer", "status": "completed", "completedAt": "2026-03-23T01:10:00Z", "filesProduced": ["design/design-spec.md"] },
+    { "name": "site-builder", "status": "completed", "completedAt": "2026-03-23T01:30:00Z", "filesProduced": ["site/index.html", "site/study-map.html", "site/flashcards.html", "site/last-minute-review.html", "site/sample-questions.html", "site/css/theme.css", "site/js/nav.js", "site/js/flashcards.js", "site/data/flashcards.json", "site/data/nav-config.json"] },
+    { "name": "exam-generator", "status": "completed", "completedAt": "2026-03-23T01:50:00Z", "filesProduced": ["site/data/exam-1.json", "site/data/exam-2.json", "site/exams/practice-exam-1.html", "site/exams/practice-exam-2.html", "site/exams/exam-styles.css", "site/exams/exam-checker.js"] },
+    { "name": "mobile-checker", "status": "completed", "completedAt": "2026-03-23T00:05:00Z", "filesProduced": ["audit/mobile-report.md", "site/css/theme.css", "site/js/nav.js", "site/last-minute-review.html"] }
+  ],
+  "designChoices": {
+    "theme": "midnight-blue",
+    "examFormat": "card-style",
+    "pages": ["index", "study-map", "flashcards", "last-minute-review", "sample-questions", "practice-exams"],
+    "examCount": 2,
+    "questionsPerExam": 30,
+    "questionTypes": ["multiple-choice", "short-answer"],
+    "learningPreferences": {
+      "style": "visual",
+      "detail": "moderate",
+      "organization": "default"
+    }
+  },
+  "examCount": 2,
+  "errors": []
+}

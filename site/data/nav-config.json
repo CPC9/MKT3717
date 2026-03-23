@@ -1,0 +1,47 @@
+{
+  "siteName": "MKT 3717 - New Product Development & Brand Management",
+  "pages": [
+    {
+      "id": "index",
+      "title": "Home",
+      "path": "index.html",
+      "type": "core"
+    },
+    {
+      "id": "study-map",
+      "title": "Study Map",
+      "path": "study-map.html",
+      "type": "core"
+    },
+    {
+      "id": "flashcards",
+      "title": "Flashcards",
+      "path": "flashcards.html",
+      "type": "core"
+    },
+    {
+      "id": "last-minute-review",
+      "title": "Last-Minute Review",
+      "path": "last-minute-review.html",
+      "type": "core"
+    },
+    {
+      "id": "sample-questions",
+      "title": "Sample Questions",
+      "path": "sample-questions.html",
+      "type": "core"
+    },
+    {
+      "id": "practice-exam-1",
+      "title": "Practice Exam 1",
+      "path": "exams/practice-exam-1.html",
+      "type": "exam"
+    },
+    {
+      "id": "practice-exam-2",
+      "title": "Practice Exam 2",
+      "path": "exams/practice-exam-2.html",
+      "type": "exam"
+    }
+  ]
+}

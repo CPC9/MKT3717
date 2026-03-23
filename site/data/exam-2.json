@@ -1,0 +1,407 @@
+{
+  "examId": "practice-exam-2",
+  "title": "Practice Exam 2",
+  "description": "Second comprehensive practice exam with different questions covering NPD lifecycle, customer needs analysis, product architecture, experimental design, critical path method, brand equity, and brand repositioning.",
+  "focusAreas": ["NPD Lifecycle", "Customer Needs", "Product Architecture", "Experimental Design", "Critical Path Method", "Brand Equity", "Brand Repositioning"],
+  "questions": [
+    {
+      "id": "practice-exam-2-q-001",
+      "type": "multiple-choice",
+      "question": "A product manager at a startup has a working prototype that customers love, and the technology is proven, but the company cannot figure out how to make a profit from it. Which dimension of the Three Innovation Challenge is failing?",
+      "sourceLecture": "Lecture 1",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "People desirability"},
+        {"id": "b", "text": "Business viability"},
+        {"id": "c", "text": "Technical feasibility"},
+        {"id": "d", "text": "Market salience"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The Three Innovation Challenge requires desirability (customers want it), viability (the business model works), and feasibility (it can be built). In this scenario, the product is desirable (customers love it) and feasible (working prototype), but the business model is not profitable, meaning business viability is the failing dimension."
+    },
+    {
+      "id": "practice-exam-2-q-002",
+      "type": "multiple-choice",
+      "question": "According to course data, top-performing NPD firms need approximately how many ideas to produce one successful new product, compared to the rest?",
+      "sourceLecture": "Lecture 1",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "4.5 ideas (top firms) vs. 11.4 ideas (the rest)"},
+        {"id": "b", "text": "2.0 ideas (top firms) vs. 8.0 ideas (the rest)"},
+        {"id": "c", "text": "6.0 ideas (top firms) vs. 15.0 ideas (the rest)"},
+        {"id": "d", "text": "10.0 ideas (top firms) vs. 20.0 ideas (the rest)"}
+      ],
+      "correctAnswer": "a",
+      "explanation": "The Best New Product Firms data shows that the top 25% of firms need only 4.5 ideas per successful new product, while the bottom 75% need 11.4 ideas. Top firms also achieve 82.2% success rates and derive nearly 48% of sales and profits from new products."
+    },
+    {
+      "id": "practice-exam-2-q-003",
+      "type": "multiple-choice",
+      "question": "Arm & Hammer baking soda being marketed as a refrigerator deodorizer is an example of which type of new product?",
+      "sourceLecture": "Lecture 1",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "New-to-the-world product"},
+        {"id": "b", "text": "Cost reduction"},
+        {"id": "c", "text": "Repositioning"},
+        {"id": "d", "text": "Addition to existing product line"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "Repositioning involves retargeting existing products for a new use, application, or target market. Arm & Hammer baking soda was repositioned from a baking ingredient to a refrigerator deodorizer, which is a new use for the same existing product rather than a new invention, cost reduction, or line extension."
+    },
+    {
+      "id": "practice-exam-2-q-004",
+      "type": "multiple-choice",
+      "question": "In the opportunity tournament model, which two verified risk mitigation strategies underpin the filtering approach?",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Diversification and delay investment until more information is known"},
+        {"id": "b", "text": "Market testing and customer validation"},
+        {"id": "c", "text": "Focus groups and quantitative surveys"},
+        {"id": "d", "text": "First-mover advantage and rapid prototyping"}
+      ],
+      "correctAnswer": "a",
+      "explanation": "The opportunity tournament model is supported by two verified risk mitigation strategies: (1) diversification -- starting with many raw opportunities to increase chances of finding winners, and (2) delay investment until more information is known -- progressively filtering so that significant resources are committed only to thoroughly vetted opportunities."
+    },
+    {
+      "id": "practice-exam-2-q-005",
+      "type": "multiple-choice",
+      "question": "According to the Terwiesch & Ulrich survey of 524 managers, what is the single largest source of innovation opportunities?",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Customers (23%)"},
+        {"id": "b", "text": "Internally generated (46%)"},
+        {"id": "c", "text": "Competitive products (11%)"},
+        {"id": "d", "text": "University research (4%)"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The survey found that internally generated ideas account for 46% of innovation opportunities, making it the single largest source. Customers account for 23%, competitive products for 11%, sales force for 5%, universities for 4%, independent inventors for 4%, distribution partners for 3%, other partner companies for 2%, and suppliers for 2%."
+    },
+    {
+      "id": "practice-exam-2-q-006",
+      "type": "multiple-choice",
+      "question": "A customer says: 'I get tired of standing in front of my thermostat to program it.' According to the needs statement guidelines, which is the correctly written needs statement?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "The thermostat does not require me to stand in front of it for programming."},
+        {"id": "b", "text": "The thermostat must allow remote programming."},
+        {"id": "c", "text": "The thermostat can be programmed from a comfortable position."},
+        {"id": "d", "text": "The thermostat should have a mobile app for remote control."}
+      ],
+      "correctAnswer": "c",
+      "explanation": "Option C follows all five needs statement guidelines: it states 'what' not 'how' (no specific solution), is positive (not negative like option A), describes an attribute of the product, avoids 'must'/'should' (violated by options B and D), and is specific. Option A is negative framing, B uses 'must,' and D specifies a solution ('mobile app') rather than the need."
+    },
+    {
+      "id": "practice-exam-2-q-007",
+      "type": "multiple-choice",
+      "question": "What distinguishes a concept screening matrix (Pugh method) from a concept scoring matrix?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Screening uses weighted criteria; scoring uses unweighted criteria"},
+        {"id": "b", "text": "Screening uses simple +/0/- ratings against a reference; scoring uses weighted numerical ratings"},
+        {"id": "c", "text": "Screening is quantitative; scoring is qualitative"},
+        {"id": "d", "text": "Screening is used after scoring to validate the final selection"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The concept screening matrix (Pugh method) is a rapid first-pass tool that compares concepts against a reference using simple +/0/- ratings on unweighted criteria. The concept scoring matrix is more rigorous, using importance-weighted criteria and numerical ratings (typically 1-5) to produce total weighted scores. Screening is used first to narrow the field; scoring is used second for final selection."
+    },
+    {
+      "id": "practice-exam-2-q-008",
+      "type": "multiple-choice",
+      "question": "In concept generation, which pattern is considered the LEAST risky approach to developing a new product concept?",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "Form-first: envision form, then develop technology, then test with customers"},
+        {"id": "b", "text": "Technology-first: develop technology, then find a customer need it matches"},
+        {"id": "c", "text": "Need-first: identify customer need, then develop technology, then produce form"},
+        {"id": "d", "text": "All three patterns carry equal risk"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "The need-first approach (customer need leads to technology development which produces form) is the least risky because it starts with a validated customer need. Technology-first and form-first approaches carry more risk because they begin with a solution and then search for a problem or customer to match, which may not exist."
+    },
+    {
+      "id": "practice-exam-2-q-009",
+      "type": "multiple-choice",
+      "question": "When performing concept selection, why should teams be cautious about simply choosing the highest-scoring concept?",
+      "sourceLecture": "Lecture 4",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "The scoring matrix always produces incorrect results"},
+        {"id": "b", "text": "The top scorer may be a 'best average' product that excels at nothing, and features from lower-ranked concepts could improve it"},
+        {"id": "c", "text": "Higher scores indicate lower customer preference"},
+        {"id": "d", "text": "Concept scoring should only be used for services, not physical products"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "A concept scoring matrix can favor mediocre all-rounders -- the 'best average' product that scores adequately on everything but excels at nothing. The goal of concept evaluation is concept improvement, not just selection. Teams should examine whether standout features from lower-ranked concepts could be combined into the winning concept to create a superior design."
+    },
+    {
+      "id": "practice-exam-2-q-010",
+      "type": "multiple-choice",
+      "question": "In the spill-proof cup holder concept scoring exercise, Concept C scored 594 and Concept O scored 587. What does the closeness of these scores suggest the team should do?",
+      "sourceLecture": "Lecture 4",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Immediately select Concept C since it has the highest score"},
+        {"id": "b", "text": "Discard both concepts and start over"},
+        {"id": "c", "text": "Perform sensitivity analysis on weights and ratings, and consider combining strong features from both concepts"},
+        {"id": "d", "text": "Let the product manager make a unilateral decision"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "When scores are very close (594 vs. 587), small changes in weights or ratings could alter the ranking. The team should perform sensitivity analysis to check robustness and consider combining the strongest features from both concepts to create an improved design. Simply selecting the top scorer without further analysis risks missing a better combined solution."
+    },
+    {
+      "id": "practice-exam-2-q-011",
+      "type": "multiple-choice",
+      "question": "In a conjoint analysis study for salsa, the regression equation is Rank = 3.33 - 2.33*Thick + 3.83*ExtraThick + 4.83*MedHot + 10.67*ExtraHot + 1.00*Red. The coefficient for Red has a p-value of 0.138. What should the firm conclude about the color attribute?",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Red salsa is significantly preferred over green salsa"},
+        {"id": "b", "text": "Color does not significantly affect preference, so the firm can choose color based on other considerations like brand identity"},
+        {"id": "c", "text": "Green salsa is significantly preferred and the firm should only produce green"},
+        {"id": "d", "text": "The regression model is invalid because not all coefficients are significant"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The p-value of 0.138 exceeds the conventional 0.05 significance threshold, meaning the Red coefficient is not statistically significant. The firm cannot conclude that color meaningfully affects preference. The model is still valid (R-squared = 0.956) -- having one insignificant coefficient does not invalidate the model. The firm can choose salsa color based on other factors like shelf appeal or brand identity."
+    },
+    {
+      "id": "practice-exam-2-q-012",
+      "type": "multiple-choice",
+      "question": "Benetton reduced its unsold garment stock from 33% to 8% by implementing which production strategy?",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "Poka-Yoke fail-safe design"},
+        {"id": "b", "text": "Integral product architecture"},
+        {"id": "c", "text": "Delayed differentiation (postponement) -- knitting white garments first, then dyeing after demand was observed"},
+        {"id": "d", "text": "Full factorial experimental design"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "Benetton pioneered delayed differentiation by switching from dyeing yarn before knitting (early differentiation) to knitting white garments first and dyeing them after actual demand was observed. This postponement strategy reduced unsold stock from 33% to 8% by aligning production with real demand signals rather than forecasts."
+    },
+    {
+      "id": "practice-exam-2-q-013",
+      "type": "multiple-choice",
+      "question": "A researcher randomly gives coffee mugs to half the participants and then asks both groups to state a price -- owners demand roughly twice the price non-owners are willing to pay. This phenomenon is called:",
+      "sourceLecture": "Lecture 6",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "The endowment effect"},
+        {"id": "b", "text": "The anchoring bias"},
+        {"id": "c", "text": "The availability heuristic"},
+        {"id": "d", "text": "The sunk cost fallacy"}
+      ],
+      "correctAnswer": "a",
+      "explanation": "The endowment effect is a cognitive bias where people value an item more highly once they own it compared to what they would pay to acquire it. The coffee mug experiment is the classic demonstration -- owners demanded roughly twice the price that non-owners were willing to pay. This has implications for free trial strategies and return policies in marketing."
+    },
+    {
+      "id": "practice-exam-2-q-014",
+      "type": "multiple-choice",
+      "question": "In a project network, Activity G has predecessors D (EF=18) and E (EF=11). What is the Earliest Start (ES) for Activity G?",
+      "sourceLecture": "Lecture 6",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "11"},
+        {"id": "b", "text": "18"},
+        {"id": "c", "text": "14.5"},
+        {"id": "d", "text": "29"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "In the forward pass, ES = max(EF of all immediate predecessors). Since Activity G depends on both D (EF=18) and E (EF=11), all predecessors must finish before G can start. Therefore, ES for G = max(18, 11) = 18. You take the maximum (not minimum, average, or sum) because all predecessors must complete before the activity can begin."
+    },
+    {
+      "id": "practice-exam-2-q-015",
+      "type": "multiple-choice",
+      "question": "According to Keller's Brand Resonance Pyramid, which building block must be established FIRST before any others?",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "Brand Performance"},
+        {"id": "b", "text": "Brand Judgments"},
+        {"id": "c", "text": "Brand Salience (Identity)"},
+        {"id": "d", "text": "Brand Resonance"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "The Brand Resonance Pyramid must be built from the bottom up. The foundation (Level 1 - Identity) is Brand Salience, which represents the depth and breadth of brand awareness. Consumers cannot form associations (meaning), opinions (responses), or relationships (resonance) about a brand they are not aware of. Salience must precede all other building blocks."
+    },
+    {
+      "id": "practice-exam-2-q-016",
+      "type": "multiple-choice",
+      "question": "Nike's brand mantra is 'Authentic Athletic Performance.' In this mantra, what is the role of the word 'Authentic'?",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "It serves as the brand function"},
+        {"id": "b", "text": "It serves as the emotional modifier"},
+        {"id": "c", "text": "It serves as the descriptive modifier"},
+        {"id": "d", "text": "It serves as the brand tagline"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "A brand mantra has three components: (1) emotional modifier -- how the brand provides benefits, (2) descriptive modifier -- the nature of the product/experience, and (3) brand function -- the type of benefit delivered. In Nike's 'Authentic Athletic Performance,' 'Authentic' is the emotional modifier, 'Athletic' is the descriptive modifier, and 'Performance' is the brand function."
+    },
+    {
+      "id": "practice-exam-2-q-017",
+      "type": "multiple-choice",
+      "question": "What distinguishes brand recognition from brand recall?",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "Recognition requires generating the brand name from memory; recall requires confirming prior exposure"},
+        {"id": "b", "text": "Recognition requires confirming prior exposure when given the brand as a cue; recall requires retrieving the brand from memory given a category or need cue"},
+        {"id": "c", "text": "Recognition is stronger than recall"},
+        {"id": "d", "text": "There is no meaningful difference between the two"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "Brand recognition is the ability to confirm prior exposure when given the brand as a cue (e.g., 'Have you heard of X?'). Brand recall is the ability to retrieve the brand from memory given a product category or need cue (e.g., 'Name brands of running shoes'). Recall is a higher bar than recognition -- a consumer may recognize a logo on a shelf without being able to name the brand unprompted."
+    },
+    {
+      "id": "practice-exam-2-q-018",
+      "type": "multiple-choice",
+      "question": "In the old luxury vs. new luxury paradigm, how has the role of 'symbol' shifted?",
+      "sourceLecture": "Lecture 8",
+      "difficulty": "medium",
+      "options": [
+        {"id": "a", "text": "From self-expression to status-driven symbolism"},
+        {"id": "b", "text": "From status-driven symbolism to self-expression"},
+        {"id": "c", "text": "From digital engagement to in-store exclusivity"},
+        {"id": "d", "text": "From ownership to rental models"}
+      ],
+      "correctAnswer": "b",
+      "explanation": "The old luxury paradigm emphasized status-driven symbolism, where luxury purchases communicated social status. The new luxury paradigm has shifted toward self-expression, where consumers use luxury goods to express personal identity, values, and individuality rather than simply signaling status."
+    },
+    {
+      "id": "practice-exam-2-q-019",
+      "type": "multiple-choice",
+      "question": "What percentage of the luxury market are Millennials and Gen Z projected to represent by 2025?",
+      "sourceLecture": "Lecture 8",
+      "difficulty": "easy",
+      "options": [
+        {"id": "a", "text": "25%"},
+        {"id": "b", "text": "35%"},
+        {"id": "c", "text": "55%"},
+        {"id": "d", "text": "75%"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "According to the lecture, consumers under 35 (Millennials and Gen Z) are expected to account for approximately 55% of the luxury market by 2025 and are driving virtually all market growth. This generational shift makes youth-oriented repositioning strategically essential for luxury brands."
+    },
+    {
+      "id": "practice-exam-2-q-020",
+      "type": "multiple-choice",
+      "question": "In a conjoint analysis for a hotel staycation, the regression yields Y = 2.08 + 1.42*LargeRoom + 2.05*CityView + 5.83*OceanView - 1.68*HighPrice, where the price increment is $50. What is the willingness to pay for an ocean view over a garden view?",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "hard",
+      "options": [
+        {"id": "a", "text": "$42"},
+        {"id": "b", "text": "$61"},
+        {"id": "c", "text": "$174"},
+        {"id": "d", "text": "$292"}
+      ],
+      "correctAnswer": "c",
+      "explanation": "WTP = (Coefficient of attribute / |Coefficient of Price|) x Price Increment. For ocean view: WTP = (5.83 / 1.68) x $50 = $173.51, approximately $174. This means a consumer is indifferent between a garden view at $300 and an ocean view at $474. Option A ($42) is the WTP for a larger room, and option B ($61) is the WTP for a city view."
+    },
+    {
+      "id": "practice-exam-2-q-021",
+      "type": "short-answer",
+      "question": "The Post-It Note took 12 years from Spencer Silver's invention of microspheres (1968) to market launch (1980). Explain why this is an example of 'technology-push' innovation rather than 'customer-pull' innovation.",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "medium",
+      "correctAnswer": "It is a technology-push innovation because the product originated from a technology (microspheres) that was discovered first and then spent years searching for a practical application. No customer asked for a removable sticky note -- the need was latent. Silver invented the adhesive accidentally while trying to create a stronger glue, and it took years before Art Fry identified a use case (bookmarks falling out of his hymnbook). The technology existed before the market need was identified.",
+      "acceptableKeywords": ["technology-push", "microspheres", "latent need", "no customer asked", "technology first", "application", "searching for a use"]
+    },
+    {
+      "id": "practice-exam-2-q-022",
+      "type": "short-answer",
+      "question": "Explain the difference between explicit needs, unfulfilled needs, and latent needs using the candle product category as an example.",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "medium",
+      "correctAnswer": "Explicit needs are easy for customers to express and are likely already fulfilled (e.g., candles provide comforting smell and light for sleep). Unfulfilled needs are easy for customers to express but known to be difficult to address and generally not fulfilled (e.g., no burn or maintenance hazards with candles). Latent needs are hard for customers to express and not yet widely understood (e.g., happy sleep, happy morning -- addressed by a smart scent device). The greatest innovation potential lies in latent needs.",
+      "acceptableKeywords": ["explicit", "unfulfilled", "latent", "easy to express", "hard to express", "comforting smell", "burn hazards", "smart scent", "not yet understood"]
+    },
+    {
+      "id": "practice-exam-2-q-023",
+      "type": "short-answer",
+      "question": "What is the formula for calculating the relative importance of an attribute in conjoint analysis? Briefly describe each component.",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "hard",
+      "correctAnswer": "Relative Importance of Attribute A = (Range of coefficients for Attribute A) / (Sum of ranges across all attributes) x 100%. The Range for an attribute is the absolute difference between the highest and lowest coefficient values across all levels of that attribute, with the baseline level having a coefficient of 0. The Sum of Ranges is the total of all individual attribute ranges. This percentage indicates how much influence each attribute has on overall consumer preference.",
+      "acceptableKeywords": ["range", "coefficients", "sum of ranges", "baseline", "percentage", "absolute difference"]
+    },
+    {
+      "id": "practice-exam-2-q-024",
+      "type": "short-answer",
+      "question": "In the critical path method, explain the difference between a forward pass and a backward pass, and state the formula for calculating slack.",
+      "sourceLecture": "Lecture 6",
+      "difficulty": "hard",
+      "correctAnswer": "The forward pass moves left to right through the network diagram, calculating Earliest Start (ES) and Earliest Finish (EF) for each activity. ES = max(EF of all immediate predecessors); EF = ES + Duration. The backward pass moves right to left, calculating Latest Finish (LF) and Latest Start (LS). LF = min(LS of all immediate successors); LS = LF - Duration. Slack = LS - ES = LF - EF. Activities with zero slack are on the critical path.",
+      "acceptableKeywords": ["forward pass", "backward pass", "ES", "EF", "LS", "LF", "slack", "critical path", "zero slack", "max", "min"]
+    },
+    {
+      "id": "practice-exam-2-q-025",
+      "type": "short-answer",
+      "question": "What is a brand mantra? Identify its three components and provide Disney's brand mantra as an example.",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "easy",
+      "correctAnswer": "A brand mantra is a short (three- to five-word) articulation of the heart and soul of the brand, used internally to guide all marketing decisions. Its three components are: (1) emotional modifier -- how the brand provides benefits, (2) descriptive modifier -- the nature of the product/experience, and (3) brand function -- the type of benefit delivered. Disney's brand mantra is 'Fun Family Entertainment,' where 'Fun' is the emotional modifier, 'Family' is the descriptive modifier, and 'Entertainment' is the brand function.",
+      "acceptableKeywords": ["emotional modifier", "descriptive modifier", "brand function", "Fun", "Family", "Entertainment", "internal", "heart and soul"]
+    },
+    {
+      "id": "practice-exam-2-q-026",
+      "type": "short-answer",
+      "question": "Explain the concept of brand dilution and why Gucci's entry into the beauty segment raises this concern.",
+      "sourceLecture": "Lecture 8",
+      "difficulty": "medium",
+      "correctAnswer": "Brand dilution is the potential weakening of a brand's core identity and perceived exclusivity when the brand extends into more accessible product categories or broadens its consumer base too aggressively. Gucci's entry into beauty (cosmetics) raises this concern because beauty products are sold at lower price points than Gucci's core luxury fashion products, making the brand accessible to a much larger consumer base. While the launch was commercially successful (over 1 million lipsticks in the first month), greater accessibility could weaken the perception of exclusivity that is fundamental to luxury brand equity.",
+      "acceptableKeywords": ["brand dilution", "exclusivity", "accessible", "beauty", "lower price", "weaken", "luxury", "broader consumer base"]
+    },
+    {
+      "id": "practice-exam-2-q-027",
+      "type": "short-answer",
+      "question": "Describe the Jobs To Be Done (JTBD) statement format and explain how it differs from traditional product management thinking.",
+      "sourceLecture": "Lecture 3",
+      "difficulty": "hard",
+      "correctAnswer": "The JTBD statement follows the format: 'When [situation], I want to [motivation], so I can [desired outcome].' It differs from traditional PM thinking in key ways: instead of asking 'What features should we build?' it asks 'What progress is the user trying to make?'; instead of 'What do users say they want?' it asks 'In what situation do they hire this product?'; and instead of 'What does this persona need?' it asks 'What would cause them to switch to something else?' JTBD anchors product decisions in real motivation and the underlying progress customers seek, not surface-level feature requests.",
+      "acceptableKeywords": ["situation", "motivation", "desired outcome", "progress", "hire", "job", "not features", "real motivation"]
+    },
+    {
+      "id": "practice-exam-2-q-028",
+      "type": "short-answer",
+      "question": "What is Poka-Yoke and provide one example of how it is used in product design?",
+      "sourceLecture": "Lecture 5",
+      "difficulty": "easy",
+      "correctAnswer": "Poka-Yoke (Japanese for 'mistake-proofing') is a fail-safe design method that builds safeguards into a product or process to reduce or eliminate the potential for user errors. Examples include battery compartments shaped so batteries can only be inserted in the correct orientation, diesel fuel nozzles sized differently from gasoline nozzles to prevent misfueling, and differently sized fuel pump nozzles at gas stations.",
+      "acceptableKeywords": ["fail-safe", "mistake-proofing", "prevent errors", "safeguards", "battery", "fuel nozzle", "user errors"]
+    },
+    {
+      "id": "practice-exam-2-q-029",
+      "type": "short-answer",
+      "question": "Name the four sub-dimensions of Brand Resonance at the top of Keller's Brand Resonance Pyramid.",
+      "sourceLecture": "Lecture 7",
+      "difficulty": "hard",
+      "correctAnswer": "The four sub-dimensions of Brand Resonance are: (1) Behavioral Loyalty -- repeat purchase frequency and volume, (2) Attitudinal Attachment -- emotional connection where consumers 'love' the brand, (3) Sense of Community -- identification with other brand users, and (4) Active Engagement -- willingness to invest time, energy, and money beyond purchase, such as joining brand clubs or following on social media.",
+      "acceptableKeywords": ["behavioral loyalty", "attitudinal attachment", "sense of community", "active engagement"]
+    },
+    {
+      "id": "practice-exam-2-q-030",
+      "type": "short-answer",
+      "question": "In the RWW Analysis framework, what are the three questions a firm must ask, and how do they map to the Three Innovation Challenge dimensions?",
+      "sourceLecture": "Lecture 2",
+      "difficulty": "hard",
+      "correctAnswer": "The RWW (Real-Win-Worth It) framework asks: (1) 'Is it Real?' -- which maps to People/Desirable, examining whether there is a real market need, market size, and technology availability; (2) 'Can we Win?' -- which maps to Technical/Feasible, examining whether the product can be delivered at required volume and cost, whether sustainable competitive advantage exists, and whether the firm is more capable than competitors; (3) 'Is it Worth It?' -- which maps to Business/Viable, examining whether the opportunity will be profitable at acceptable risk and whether necessary resources are available.",
+      "acceptableKeywords": ["Real", "Win", "Worth It", "desirable", "feasible", "viable", "market need", "competitive advantage", "profitable"]
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 30,
+    "questionTypes": {
+      "multiple-choice": 20,
+      "short-answer": 10
+    },
+    "generatedAt": "2026-03-23T01:45:00Z",
+    "verifiedAgainstNotes": true
+  }
+}

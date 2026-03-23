@@ -1,0 +1,1422 @@
+{
+  "decks": [
+    {
+      "id": "lecture-00",
+      "title": "Final Test Study Guide",
+      "cards": [
+        {
+          "id": "lecture-00-001",
+          "term": "A/B Testing",
+          "definition": "A controlled experiment comparing two versions (A and B) of a single variable, with random assignment of subjects, to determine which version produces a better outcome.",
+          "relatedTerms": ["Factorial Design", "Causality", "Statistical Significance"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-002",
+          "term": "Brand Equity",
+          "definition": "The added value that a brand name gives to a product beyond its functional benefits, derived from consumer awareness, associations, perceived quality, and loyalty.",
+          "relatedTerms": ["Keller's Brand Resonance Pyramid", "Brand Awareness"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-003",
+          "term": "Brand Identity",
+          "definition": "The first level of Keller's brand resonance pyramid, focused on creating deep and broad brand awareness (salience) so that consumers know who you are.",
+          "relatedTerms": ["Brand Salience", "Brand Resonance Pyramid (Keller's CBBE Model)", "Brand Awareness"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-004",
+          "term": "Brand Mantra",
+          "definition": "A short three- to five-word phrase that captures the irrefutable essence or spirit of a brand's positioning, structured as emotional modifier + descriptive modifier + brand function.",
+          "relatedTerms": ["Brand Positioning"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-005",
+          "term": "Brand Meaning",
+          "definition": "The second level of Keller's brand resonance pyramid, encompassing what the brand stands for through its Performance associations (functional) and Imagery associations (abstract).",
+          "relatedTerms": ["Brand Performance", "Brand Resonance Pyramid (Keller's CBBE Model)"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-006",
+          "term": "Brand Resonance",
+          "definition": "The fourth and highest level of Keller's pyramid, describing the ultimate relationship a consumer has with a brand, characterized by behavioral loyalty, attitudinal attachment, community, and engagement.",
+          "relatedTerms": ["Brand Resonance Pyramid (Keller's CBBE Model)"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-007",
+          "term": "Brand Response",
+          "definition": "The third level of Keller's brand resonance pyramid, encompassing what consumers think (Judgments) and feel (Feelings) about the brand.",
+          "relatedTerms": ["Brand Resonance Pyramid (Keller's CBBE Model)"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-008",
+          "term": "Causality",
+          "definition": "The relationship where a change in one variable directly produces a change in another, as opposed to mere correlation; established through experimental methods with random assignment and controlled manipulation.",
+          "relatedTerms": ["A/B Testing", "Factorial Design"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-009",
+          "term": "Concept Scoring Matrix",
+          "definition": "A quantitative concept evaluation method that uses weighted criteria and numerical ratings to produce a total score for each concept, enabling finer distinctions than concept screening.",
+          "relatedTerms": ["Concept Screening Matrix"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-010",
+          "term": "Concept Screening Matrix",
+          "definition": "A qualitative concept evaluation method that compares each concept to a reference concept on multiple criteria using +/0/- ratings to quickly narrow down a large set of concepts.",
+          "relatedTerms": ["Concept Scoring Matrix"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-011",
+          "term": "Confidence Interval",
+          "definition": "A range of values within which the true population parameter falls with a specified probability (typically 95%); used to assess precision and significance of experimental results.",
+          "relatedTerms": ["P-Value", "Statistical Significance", "Regression Analysis"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-012",
+          "term": "Conjoint Analysis",
+          "definition": "A multivariate statistical technique that determines how consumers value different product attributes by analyzing their preferences across product profiles with varying attribute combinations.",
+          "relatedTerms": ["Part-Worth Utility", "Regression Analysis"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-013",
+          "term": "Cost Reduction (Product Type)",
+          "definition": "A type of new product that provides similar performance to existing products but at a lower cost, achieved through redesign, materials substitution, or manufacturing process improvements.",
+          "relatedTerms": ["Line Extension"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-014",
+          "term": "Critical Path",
+          "definition": "The longest sequence of dependent activities in a project network that determines the minimum project duration; any delay to a critical path activity delays the entire project.",
+          "relatedTerms": ["Slack Time (Float)", "Network Diagram", "Project Crashing"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-015",
+          "term": "Customer Needs Statement",
+          "definition": "A structured expression of what customers require from a product, translated from raw customer voice data into a format that can guide product specification development.",
+          "relatedTerms": ["Jobs-to-be-Done (JTBD)", "Product Specification"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-016",
+          "term": "Factorial Design",
+          "definition": "An experimental design that tests two or more factors simultaneously at multiple levels, allowing assessment of both main effects and interaction effects.",
+          "relatedTerms": ["A/B Testing"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-017",
+          "term": "Freezing Time",
+          "definition": "The point in the product development process at which product specifications are locked and no further changes are accepted; requires balancing information quality against time-to-market pressure.",
+          "relatedTerms": ["Product Specification"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-018",
+          "term": "Jobs-to-be-Done (JTBD)",
+          "definition": "A framework that defines market opportunities based on the underlying task or job customers are trying to accomplish, rather than focusing on product features or customer demographics.",
+          "relatedTerms": ["Customer Needs Statement"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-019",
+          "term": "Keller's Brand Resonance Pyramid",
+          "definition": "A four-level brand-building framework progressing from Identity (salience) through Meaning (performance and imagery) and Response (judgments and feelings) to Resonance (loyalty, attachment, community, engagement).",
+          "relatedTerms": ["Brand Equity"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-020",
+          "term": "Line Extension",
+          "definition": "An addition to an existing product line offered to the firm's current markets, designed to provide additional variety, fill gaps, or preempt competitors within an established category.",
+          "relatedTerms": ["Cost Reduction (Product Type)"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-021",
+          "term": "Market Sizing",
+          "definition": "The process of estimating the total potential demand (in revenue or units) for a product within a defined market, using top-down, bottom-up, or analogous estimation approaches.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-022",
+          "term": "Modular Design",
+          "definition": "A product architecture approach where a product is composed of independent, interchangeable modules that can be mixed and matched to create different product variants, enabling mass customization.",
+          "relatedTerms": ["Mass Customization", "Product Architecture"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-023",
+          "term": "Network Diagram",
+          "definition": "A graphical representation of project activities and their dependencies, used to identify the critical path, calculate slack times, and determine minimum project duration.",
+          "relatedTerms": ["Critical Path", "Work Breakdown Structure (WBS)"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-024",
+          "term": "New-to-the-World Product",
+          "definition": "A product that creates an entirely new category or market; the highest-risk, highest-potential type of new product, representing true innovation.",
+          "relatedTerms": ["Line Extension"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-025",
+          "term": "P-Value",
+          "definition": "The probability of observing results as extreme as the observed data assuming no true effect exists; values below 0.05 typically indicate statistical significance and rejection of the null hypothesis.",
+          "relatedTerms": ["Confidence Interval", "Statistical Significance"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-026",
+          "term": "Part-Worth Utility",
+          "definition": "The numerical value assigned to a specific level of a product attribute in conjoint analysis, representing the contribution of that attribute level to overall consumer preference.",
+          "relatedTerms": ["Conjoint Analysis", "Relative Importance (Conjoint)"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-027",
+          "term": "PEST Analysis",
+          "definition": "A macro-environmental analysis framework examining Political, Economic, Social, and Technological factors that affect all industries and may create or eliminate product opportunities.",
+          "relatedTerms": ["Situation Analysis", "Porter's Five Forces"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-028",
+          "term": "Porter's Five Forces",
+          "definition": "An industry analysis framework assessing competitive intensity through five forces: threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes, and rivalry.",
+          "relatedTerms": ["PEST Analysis", "Situation Analysis"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-029",
+          "term": "Product Concept",
+          "definition": "A written description of a proposed new product specifying its form, the technology it employs, and the benefits it delivers to a target customer.",
+          "relatedTerms": ["Conjoint Analysis"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-030",
+          "term": "Product Specification",
+          "definition": "The detailed technical and functional requirements that define what a product must do and how it must perform, translated from customer needs statements.",
+          "relatedTerms": ["Customer Needs Statement", "Freezing Time"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-031",
+          "term": "Project Crashing",
+          "definition": "The practice of reducing a critical path activity's duration by adding resources at additional cost, applied to the activity with the lowest crash cost per unit of time saved.",
+          "relatedTerms": ["Critical Path", "Slack Time (Float)"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-032",
+          "term": "Regression Analysis",
+          "definition": "A statistical method that models the relationship between a dependent variable and one or more independent variables; used for conjoint analysis estimation and interpretation of experimental results.",
+          "relatedTerms": ["Conjoint Analysis", "P-Value", "Confidence Interval"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-033",
+          "term": "Relative Importance (Conjoint)",
+          "definition": "The percentage measure of how much influence each product attribute has on consumer preference, calculated as the range of part-worth utilities divided by the sum of all attribute ranges.",
+          "relatedTerms": ["Conjoint Analysis", "Part-Worth Utility"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-034",
+          "term": "Repositioned Product",
+          "definition": "An existing product that is targeted at a new market segment or positioned differently in consumers' minds, without fundamental changes to the product itself.",
+          "relatedTerms": ["Brand Repositioning"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-035",
+          "term": "RWW Framework",
+          "definition": "A three-question screening tool for evaluating new product opportunities: Is it Real? Can we Win? Is it Worth it? Each question must be affirmatively answered to proceed with development.",
+          "relatedTerms": ["Situation Analysis"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-036",
+          "term": "Situation Analysis",
+          "definition": "A comprehensive assessment of the external environment (general and industry-specific) to identify opportunities and threats for new product development.",
+          "relatedTerms": ["PEST Analysis", "Porter's Five Forces", "RWW Framework"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-037",
+          "term": "Slack Time (Float)",
+          "definition": "The amount of time an activity can be delayed without delaying overall project completion, calculated as Latest Start minus Earliest Start; critical path activities have zero slack.",
+          "relatedTerms": ["Critical Path", "Network Diagram"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-038",
+          "term": "Statistical Significance",
+          "definition": "A result that is unlikely to have occurred by chance alone, typically indicated by a p-value below 0.05 or a confidence interval that does not include zero.",
+          "relatedTerms": ["P-Value", "Confidence Interval"],
+          "sourceLecture": "Lecture 0"
+        },
+        {
+          "id": "lecture-00-039",
+          "term": "Work Breakdown Structure (WBS)",
+          "definition": "A hierarchical decomposition of total project scope into smaller, manageable activities or work packages, each with estimated durations and defined dependencies.",
+          "relatedTerms": ["Network Diagram", "Critical Path"],
+          "sourceLecture": "Lecture 0"
+        }
+      ]
+    },
+    {
+      "id": "lecture-01",
+      "title": "Lecture 1: Course Introduction",
+      "cards": [
+        {
+          "id": "lecture-01-001",
+          "term": "Additions to Existing Product Lines",
+          "definition": "Line extensions that flesh out the product line in current markets, such as new flavors or variants of an existing product (e.g., Kellogg's Special K Red Berries).",
+          "relatedTerms": ["Line Extension"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-002",
+          "term": "Brand",
+          "definition": "More than a product; a brand has dimensions that differentiate it from other products, built through consumer perceptions, expectations, and experiences. Branding is the process of de-commoditizing a product.",
+          "relatedTerms": ["Product", "Brand Equity", "Brand Manager"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-003",
+          "term": "Brand Equity",
+          "definition": "The intrinsic value a brand holds over its competitors, cultivated by brand managers through image building and consumer relationship management.",
+          "relatedTerms": ["Brand", "Brand Manager"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-004",
+          "term": "Brand Manager",
+          "definition": "An organizational role responsible for building and sustaining brand equity by cultivating brand image and worth; serves as an advocate of the organization.",
+          "relatedTerms": ["Product Manager", "Brand Equity"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-005",
+          "term": "Concept Maturity Curve",
+          "definition": "A framework (Crawford Fig. 2.3) showing how product concepts progress from initial \"opportunity concept\" through increasing stages of clarity and market value until reaching \"successful concept\" status.",
+          "relatedTerms": ["Product Development Process"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-006",
+          "term": "Cost Reduction (as New Product Type)",
+          "definition": "New products that provide the customer similar performance but at a lower cost, which may be \"new\" primarily in terms of design or production process.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-007",
+          "term": "De-commoditizing",
+          "definition": "The process by which branding transforms a generic product category into differentiated offerings, allowing firms to compete on factors beyond price.",
+          "relatedTerms": ["Brand", "Brand Equity"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-008",
+          "term": "Design (in Product Management)",
+          "definition": "The plan or specification for the implementation of a process; the third step in the Vision-Strategy-Design-Execution chain.",
+          "relatedTerms": ["Vision", "Strategy", "Execution"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-009",
+          "term": "Execution",
+          "definition": "The carrying out of a plan; the final step in the Vision-Strategy-Design-Execution chain where products are actually built and brought to market.",
+          "relatedTerms": ["Vision", "Strategy", "Design (in Product Management)"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-010",
+          "term": "Generic PD Process",
+          "definition": "A six-phase product development framework (Ulrich et al.): Planning, Concept Development, System-Level Design, Detail Design, Testing and Refinement, and Production Ramp-Up, with gate reviews.",
+          "relatedTerms": ["Product Development Process", "Rapid Iteration PD Process", "Spiral PD Process"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-011",
+          "term": "New-to-the-Firm Products",
+          "definition": "Products that take a firm into a category new to it, though the category itself may already exist (e.g., Grab entering financial services with GrabFinance).",
+          "relatedTerms": ["New-to-the-World Products"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-012",
+          "term": "New-to-the-World Products",
+          "definition": "Also called \"really-new\" products; inventions that create a whole new market (e.g., the original iPhone, Netflix streaming). These represent the highest degree of product newness.",
+          "relatedTerms": ["New-to-the-Firm Products"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-013",
+          "term": "Process",
+          "definition": "A sequence of activities that transforms a set of inputs to outputs.",
+          "relatedTerms": ["Product Development Process"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-014",
+          "term": "Product",
+          "definition": "Anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want; can be a physical good, service, or other offering.",
+          "relatedTerms": ["Brand", "Product Manager"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-015",
+          "term": "Product Development Process",
+          "definition": "The sequence of activities an organization takes to conceive, design, and commercialize a product; it is intellectual and organizational. A well-defined PD process assures quality and promotes coordination.",
+          "relatedTerms": ["Generic PD Process"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-016",
+          "term": "Product Manager",
+          "definition": "A cross-functional role responsible for the life cycle of a product or product line, driving vision, strategy, design, and execution. Responsible for both success and failure of their products.",
+          "relatedTerms": ["Brand Manager", "Vision", "Strategy"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-017",
+          "term": "Rapid Iteration PD Process",
+          "definition": "A variant of the generic PD process that includes many iteration cycles of Design-Build-Test between System-Level Design and Production Ramp-Up, suitable for software and digital products.",
+          "relatedTerms": ["Generic PD Process", "Spiral PD Process"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-018",
+          "term": "Repositioning",
+          "definition": "A type of new product strategy where existing products are retargeted for a new use, application, or target market (e.g., Arm & Hammer baking soda repositioned as a refrigerator deodorizer).",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-019",
+          "term": "Spiral PD Process",
+          "definition": "A variant of the generic PD process that cycles through Planning, Concept Design, System-Level Design, Detailed Design, and Integration & Test in expanding spirals with increasing cost.",
+          "relatedTerms": ["Generic PD Process", "Rapid Iteration PD Process"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-020",
+          "term": "Strategy",
+          "definition": "The plan of action to achieve the long-term goal (vision); the second step in the Vision-Strategy-Design-Execution chain.",
+          "relatedTerms": ["Vision", "Design (in Product Management)", "Execution"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-021",
+          "term": "Three Innovation Challenge",
+          "definition": "A framework stating that successful innovation must simultaneously satisfy three criteria: people desirability (customers want it), business viability (the business model works), and technical feasibility.",
+          "relatedTerms": ["RWW Framework"],
+          "sourceLecture": "Lecture 1"
+        },
+        {
+          "id": "lecture-01-022",
+          "term": "Vision",
+          "definition": "What an organization desires to achieve in the long run; the aspirational end-state that guides all product decisions and the first step in the Vision-Strategy-Design-Execution chain.",
+          "relatedTerms": ["Strategy", "Design (in Product Management)", "Execution"],
+          "sourceLecture": "Lecture 1"
+        }
+      ]
+    },
+    {
+      "id": "lecture-02",
+      "title": "Lecture 2: New Product Development Part 1 - Opportunity Identification and Concept Generation",
+      "cards": [
+        {
+          "id": "lecture-02-001",
+          "term": "Customer Need Analysis",
+          "definition": "A five-step process for identifying and interpreting customer needs: Define scope, Gather information, Interpret customer data, Quantify relative importance, Reflect on the process.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-002",
+          "term": "Explicit Needs",
+          "definition": "Customer needs that are easy to express, widely known and understood, and likely already fulfilled by existing products.",
+          "relatedTerms": ["Unfulfilled Needs", "Latent Needs"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-003",
+          "term": "Generic PD Process",
+          "definition": "The standard product development process model (Ulrich et al.): Planning, Concept Development, System-Level Design, Detail Design, Testing and Refinement, Production Ramp-Up.",
+          "relatedTerms": ["Rapid Iteration PD Process", "Spiral PD Process"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-004",
+          "term": "Innovation Challenges Triangle",
+          "definition": "The three simultaneous requirements for successful product innovation: People (desirable), Business (viable), and Technical (feasible).",
+          "relatedTerms": ["Three Innovation Challenge", "RWW Framework"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-005",
+          "term": "Latent Needs",
+          "definition": "Customer needs that customers may not be aware of and are unable to express. When addressed, products may delight and exceed expectations.",
+          "relatedTerms": ["Explicit Needs", "Unfulfilled Needs"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-006",
+          "term": "Market Sizing",
+          "definition": "The process of estimating total sales of a product or service, typically over one year. Uses the filter formula: Market Size = # units x Average Price/unit.",
+          "relatedTerms": ["TAM (Total Addressable Market)", "SAM (Serviceable Addressable Market)", "SOM (Serviceable Obtainable Market)"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-007",
+          "term": "Needs Statement",
+          "definition": "A formalized expression of a customer need, written following specific guidelines (what not how, specific, positive, product attribute, avoid must/should) to enable translation into specifications.",
+          "relatedTerms": ["Product Specification"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-008",
+          "term": "New Product Development (NPD) Process",
+          "definition": "The sequence of activities to conceive, design, and commercialize a product. Five phases: Opportunity Identification, Concept Generation, Concept/Project Evaluation, Development, and Launch.",
+          "relatedTerms": ["Product Development Process"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-009",
+          "term": "Opportunity",
+          "definition": "An idea for a new product; a product description in embryonic form, a newly sensed need, a newly discovered technology, or a rough match between a need and a possible solution.",
+          "relatedTerms": ["Opportunity Tournament"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-010",
+          "term": "Opportunity Tournament",
+          "definition": "A risk mitigation strategy that passes a large pool of raw opportunities through multiple filters until only a limited number of exceptional opportunities remain.",
+          "relatedTerms": ["Opportunity", "RWW Analysis (Real-Win-Worth It)"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-011",
+          "term": "PESTEL Analysis",
+          "definition": "A framework for analyzing the general environment using six factors: Political, Economic, Social, Technological, Environmental, and Legal.",
+          "relatedTerms": ["Porter's Five Forces", "PEST Analysis"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-012",
+          "term": "Porter's Five Forces",
+          "definition": "A framework for evaluating industry attractiveness through five competitive forces: threat of new entrants, bargaining power of buyers/suppliers, threat of substitutes, and intensity of rivalry.",
+          "relatedTerms": ["PESTEL Analysis", "PEST Analysis"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-013",
+          "term": "Product Specification",
+          "definition": "A measurable description of a product requirement, composed of a Metric + Value(s) + Units (e.g., Total Mass: 8.5-10 kg).",
+          "relatedTerms": ["Needs Statement"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-014",
+          "term": "Rapid Iteration PD Process",
+          "definition": "A PD process variant that incorporates many iteration cycles of Design-Build-Test between system-level design and production ramp-up.",
+          "relatedTerms": ["Generic PD Process", "Spiral PD Process"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-015",
+          "term": "RWW Analysis (Real-Win-Worth It)",
+          "definition": "A framework by Day (2007) for evaluating innovation opportunities by asking three questions: Is it real? Can we win? Is it worth it? Maps to the three innovation challenges.",
+          "relatedTerms": ["RWW Framework", "Innovation Challenges Triangle"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-016",
+          "term": "SAM (Serviceable Addressable Market)",
+          "definition": "The portion of TAM that a business can realistically target with its current offerings, considering geography, product scope, and price tier.",
+          "relatedTerms": ["TAM (Total Addressable Market)", "SOM (Serviceable Obtainable Market)", "Market Sizing"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-017",
+          "term": "SOM (Serviceable Obtainable Market)",
+          "definition": "The share of SAM that a business can capture considering competition and execution constraints. Shows \"what you can credibly win.\"",
+          "relatedTerms": ["TAM (Total Addressable Market)", "SAM (Serviceable Addressable Market)", "Market Sizing"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-018",
+          "term": "Spiral PD Process",
+          "definition": "A PD process variant where development spirals outward through planning, concept design, system-level design, detailed design, and integration & test, with cumulative effort increasing each pass.",
+          "relatedTerms": ["Generic PD Process", "Rapid Iteration PD Process"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-019",
+          "term": "TAM (Total Addressable Market)",
+          "definition": "The entire potential revenue opportunity for a product or service in a specific market, assuming 100% market share. Shows \"how big the dream is.\"",
+          "relatedTerms": ["SAM (Serviceable Addressable Market)", "SOM (Serviceable Obtainable Market)", "Market Sizing"],
+          "sourceLecture": "Lecture 2"
+        },
+        {
+          "id": "lecture-02-020",
+          "term": "Unfulfilled Needs",
+          "definition": "Customer needs that are easy for customers to express but are known to be difficult to address and are generally not yet fulfilled.",
+          "relatedTerms": ["Explicit Needs", "Latent Needs"],
+          "sourceLecture": "Lecture 2"
+        }
+      ]
+    },
+    {
+      "id": "lecture-03",
+      "title": "Lecture 3: New Product Development Part 2 - Concept Screening and Testing",
+      "cards": [
+        {
+          "id": "lecture-03-001",
+          "term": "Benchmarking (Product Requirements)",
+          "definition": "The practice of evaluating competitive products on both perceived satisfaction of customer needs and established metrics to set informed target specifications.",
+          "relatedTerms": ["Product Specification", "Specification Freeze"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-002",
+          "term": "Benefit/Need (Concept Input)",
+          "definition": "The advantage to the customer for which they perceive a need or desire; one of the three inputs for defining a product concept and typically the least risky starting point.",
+          "relatedTerms": ["Form (Concept Input)", "Technology (Concept Input)", "Product Concept"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-003",
+          "term": "Concept Scoring Matrix (Weighted Decision Matrix)",
+          "definition": "A rigorous quantitative evaluation tool that scores concepts on weighted criteria (typically 1-5 scale) to produce ranked total scores for final concept selection.",
+          "relatedTerms": ["Concept Screening Matrix (Pugh Method)"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-004",
+          "term": "Concept Screening Matrix (Pugh Method)",
+          "definition": "A rapid first-pass evaluation tool that compares multiple concepts against a reference concept using simple +/0/- ratings on unweighted criteria to narrow a large set of alternatives.",
+          "relatedTerms": ["Concept Scoring Matrix (Weighted Decision Matrix)"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-005",
+          "term": "Concept Testing",
+          "definition": "A stage of elimination in the NPD process where concepts are evaluated against the PIC criteria and excluded if they require unavailable technologies, target unfamiliar customers, or fail on cost.",
+          "relatedTerms": ["Product Innovation Charter (PIC)"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-006",
+          "term": "Customer Need Statement",
+          "definition": "A structured expression of a customer need written following specific guidelines (what not how, specific, positive, product attribute, avoiding must/should) to enable translation into specifications.",
+          "relatedTerms": ["Product Specification", "Metric"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-007",
+          "term": "Ethnography",
+          "definition": "A deep qualitative research method involving immersion into the customer's environment and culture to discover latent needs that cannot be surfaced through interviews or surveys alone.",
+          "relatedTerms": ["Latent Needs"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-008",
+          "term": "Form (Concept Input)",
+          "definition": "The physical thing created or the set of processes by which a service is delivered; one of the three inputs required to define a product concept.",
+          "relatedTerms": ["Technology (Concept Input)", "Benefit/Need (Concept Input)", "Product Concept"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-009",
+          "term": "Ideal Value",
+          "definition": "The aspirational or best-in-class target for a product specification, representing breakthrough performance on a given metric.",
+          "relatedTerms": ["Marginal Value", "Product Specification"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-010",
+          "term": "Jobs To Be Done (JTBD)",
+          "definition": "A framework asserting that customers \"hire\" products to accomplish a specific job, expressed as: \"When [situation], I want to [motivation], so I can [desired outcome].\"",
+          "relatedTerms": ["Jobs-to-be-Done (JTBD)", "Customer Need Statement"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-011",
+          "term": "Marginal Value",
+          "definition": "The minimum acceptable performance level for a product specification; falling below this threshold means the product fails to meet customer expectations.",
+          "relatedTerms": ["Ideal Value", "Product Specification"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-012",
+          "term": "Market Testing",
+          "definition": "A concept selection method where concepts are tested with real customers using experiments or pilots; offers high validity but is costly and time-consuming.",
+          "relatedTerms": ["Concept Testing", "A/B Testing"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-013",
+          "term": "Metric",
+          "definition": "A quantitative or qualitative measure used to assess how well a product meets a specific customer need (e.g., mass in kg, time to lock in seconds, comfort as a subjective rating).",
+          "relatedTerms": ["Product Specification", "Customer Need Statement"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-014",
+          "term": "Open Multi-Voting",
+          "definition": "A concept selection method where team members vote openly on preferred concepts; fast and energizing but prone to groupthink and dominance effects.",
+          "relatedTerms": ["Secret Ballot Voting"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-015",
+          "term": "Pro/Con or Benefit/Effort List",
+          "definition": "A qualitative concept selection method that compares concepts by listing advantages versus drawbacks or benefits versus required effort.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-016",
+          "term": "Product Concept",
+          "definition": "A verbal or prototype statement describing what will be changed in a product and how the customer stands to gain or lose. Requires at least two of three inputs: form, technology, and benefit/need.",
+          "relatedTerms": ["Form (Concept Input)", "Technology (Concept Input)", "Benefit/Need (Concept Input)"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-017",
+          "term": "Product Specification",
+          "definition": "A measurable description of a product requirement consisting of three components: a metric, a value (or range), and units (e.g., Total Mass = 8.5-10 kg).",
+          "relatedTerms": ["Metric", "Marginal Value", "Ideal Value"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-018",
+          "term": "Secret Ballot Voting",
+          "definition": "A concept selection method using anonymous voting to reduce social pressure and hierarchy bias; useful when opinions are sensitive or conflict is likely.",
+          "relatedTerms": ["Open Multi-Voting"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-019",
+          "term": "Specification Freeze",
+          "definition": "The point at which product specifications are locked for downstream development. Early freeze enables optimization; late freeze enables better market matching.",
+          "relatedTerms": ["Product Specification", "Freezing Time"],
+          "sourceLecture": "Lecture 3"
+        },
+        {
+          "id": "lecture-03-020",
+          "term": "Technology (Concept Input)",
+          "definition": "The source or means by which the product's form is attained; one of the three inputs for defining a product concept.",
+          "relatedTerms": ["Form (Concept Input)", "Benefit/Need (Concept Input)", "Product Concept"],
+          "sourceLecture": "Lecture 3"
+        }
+      ]
+    },
+    {
+      "id": "lecture-04",
+      "title": "Lecture 4: Concept Testing Review and Guest Lecture",
+      "cards": [
+        {
+          "id": "lecture-04-001",
+          "term": "A/B Testing",
+          "definition": "A method of comparing two versions of a product or feature by exposing different user groups to each version and measuring which performs better. Used during production ramp-up.",
+          "relatedTerms": ["Beta Testing"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-002",
+          "term": "Alpha Testing",
+          "definition": "Internal performance and user interface testing conducted during the detail design phase, typically by the development team or internal users.",
+          "relatedTerms": ["Beta Testing", "Prototype Testing"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-003",
+          "term": "Beta Testing",
+          "definition": "Validation and acceptance testing conducted with real users in real-world conditions, typically during the testing and refinement phase before full launch.",
+          "relatedTerms": ["Alpha Testing", "A/B Testing"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-004",
+          "term": "Brainstorming",
+          "definition": "A structured group ideation technique designed to generate a large quantity of creative ideas by following rules such as deferring judgment, building on others' ideas, and encouraging wild thinking.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-005",
+          "term": "Concept Scoring",
+          "definition": "A quantitative evaluation method that rates product concepts against weighted criteria to produce total weighted scores and rankings, enabling systematic comparison and selection.",
+          "relatedTerms": ["Concept Screening", "Concept Scoring Matrix", "Weighted Score"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-006",
+          "term": "Concept Scoring Matrix",
+          "definition": "A structured table used to evaluate multiple product concepts against weighted selection criteria, producing ranked scores that guide concept selection and refinement.",
+          "relatedTerms": ["Concept Scoring", "Reference Concept", "Sensitivity Analysis"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-007",
+          "term": "Concept Screening",
+          "definition": "The initial stage of concept selection that uses simple scales (+, 0, -) to compare concepts against a reference concept and quickly eliminate weak candidates.",
+          "relatedTerms": ["Concept Scoring", "Reference Concept"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-008",
+          "term": "Concept Testing",
+          "definition": "Phase 3 of the product development process in which selected concepts are evaluated for feasibility, desirability, and strategic fit before advancing to full development. A stage of elimination.",
+          "relatedTerms": ["Product Innovation Charter (PIC)", "Go/No-Go Decision Gate"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-009",
+          "term": "Go/No-Go Decision Gate",
+          "definition": "A formal checkpoint in the product development process where stakeholders decide whether a project should proceed to the next stage, be revised, or be terminated.",
+          "relatedTerms": ["Concept Testing"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-010",
+          "term": "Product Innovation Charter (PIC)",
+          "definition": "A strategic document that defines the boundaries of a product development effort, including target markets, technology requirements, and innovation goals. Used as a filter during concept testing.",
+          "relatedTerms": ["Concept Testing", "Three Innovation Challenge"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-011",
+          "term": "Prototype Testing",
+          "definition": "Design iteration testing conducted during concept development and system-level design phases, using physical or digital prototypes to validate design decisions.",
+          "relatedTerms": ["Alpha Testing", "Specification Testing"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-012",
+          "term": "Reference Concept",
+          "definition": "A benchmark product concept used as the standard against which all other concepts are compared during screening and scoring evaluations.",
+          "relatedTerms": ["Concept Screening", "Concept Scoring"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-013",
+          "term": "Sensitivity Analysis",
+          "definition": "The practice of testing how changes in importance weightings or uncertain ratings affect the concept ranking, ensuring the selected concept is robust to assumption changes.",
+          "relatedTerms": ["Concept Scoring Matrix", "Weighted Score"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-014",
+          "term": "Specification Testing",
+          "definition": "Benchmarking tests conducted early in the product development process to verify that product specifications meet defined standards.",
+          "relatedTerms": ["Prototype Testing", "Product Specification"],
+          "sourceLecture": "Lecture 4"
+        },
+        {
+          "id": "lecture-04-015",
+          "term": "Weighted Score",
+          "definition": "The product of a criterion's importance weight and a concept's rating on that criterion, used to compute total concept scores in a scoring matrix.",
+          "relatedTerms": ["Concept Scoring Matrix", "Concept Scoring"],
+          "sourceLecture": "Lecture 4"
+        }
+      ]
+    },
+    {
+      "id": "lecture-05",
+      "title": "Lecture 5: Conjoint Analysis for Product Design",
+      "cards": [
+        {
+          "id": "lecture-05-001",
+          "term": "Attribute",
+          "definition": "An important product characteristic that is varied in a conjoint analysis study (e.g., thickness, spiciness, price). Each attribute has multiple levels.",
+          "relatedTerms": ["Levels", "Utility (Part-Worth)"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-002",
+          "term": "Baseline Level",
+          "definition": "The reference level for each attribute that is omitted from the regression equation; all other levels are interpreted relative to it (e.g., Regular thickness, Mild spiciness).",
+          "relatedTerms": ["Dummy Variable Coding", "Coefficient"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-003",
+          "term": "Choice-Based Conjoint",
+          "definition": "A variant of conjoint analysis where respondents choose their preferred option from sets of product profiles rather than ranking or rating all profiles.",
+          "relatedTerms": ["Conjoint Analysis", "Full Factorial Design"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-004",
+          "term": "Coefficient",
+          "definition": "The estimated numerical value in a regression equation that quantifies the effect of an attribute level on the dependent variable, holding all other attributes constant.",
+          "relatedTerms": ["Regression Analysis", "Utility (Part-Worth)"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-005",
+          "term": "Conjoint Analysis",
+          "definition": "A survey-based statistical technique to determine how people value different attributes of a product or service, based on the assumption that product value equals the sum of attribute values.",
+          "relatedTerms": ["Regression Analysis", "Attribute"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-006",
+          "term": "Delayed Differentiation (Postponement)",
+          "definition": "A production strategy that postpones the differentiating steps of manufacturing until customer preferences or demand signals are known, reducing inventory risk and waste.",
+          "relatedTerms": ["Mass Customization", "Modular Product Architecture"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-007",
+          "term": "Dummy Variable Coding",
+          "definition": "The practice of converting categorical attribute levels into binary (0/1) variables for regression analysis, with one level per attribute designated as the baseline and omitted.",
+          "relatedTerms": ["Baseline Level", "Coefficient"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-008",
+          "term": "Fractional Factorial Design",
+          "definition": "An experimental design approach that tests only a strategically chosen subset of all possible attribute combinations, used when the full factorial would require too many profiles.",
+          "relatedTerms": ["Full Factorial Design", "Conjoint Analysis"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-009",
+          "term": "Full Factorial Design",
+          "definition": "A conjoint analysis design where respondents evaluate every possible combination of attribute levels (e.g., 3x3x2 = 18 salsa profiles).",
+          "relatedTerms": ["Fractional Factorial Design", "Conjoint Analysis"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-010",
+          "term": "Levels",
+          "definition": "The specific quantities or qualities that an attribute can take in a conjoint analysis. Each attribute has two or more levels representing the options being tested.",
+          "relatedTerms": ["Attribute", "Baseline Level"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-011",
+          "term": "Mass Customization",
+          "definition": "A production strategy combining the efficiency of mass production with the flexibility of individual customization, typically enabled by modular design and postponement.",
+          "relatedTerms": ["Delayed Differentiation (Postponement)", "Modular Product Architecture"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-012",
+          "term": "Modular Product Architecture",
+          "definition": "A design approach where a product is composed of discrete, interchangeable modules with standardized interfaces, allowing independent upgrade, replacement, or customization of individual modules.",
+          "relatedTerms": ["Product Architecture", "Mass Customization", "Delayed Differentiation (Postponement)"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-013",
+          "term": "P-value",
+          "definition": "The probability that the observed regression coefficient could have arisen by chance if the true effect were zero. A p-value below 0.05 is conventionally considered statistically significant.",
+          "relatedTerms": ["Coefficient", "Statistical Significance"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-014",
+          "term": "Poka-Yoke",
+          "definition": "A Japanese term meaning \"mistake-proofing\" -- a fail-safe design method that builds safeguards into products or processes to prevent user errors (e.g., battery compartments shaped for correct orientation).",
+          "relatedTerms": ["Product Architecture"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-015",
+          "term": "Product Architecture",
+          "definition": "The arrangement of functional elements into physical chunks (modules) which become the building blocks for the product or product family.",
+          "relatedTerms": ["Modular Product Architecture", "Mass Customization"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-016",
+          "term": "R-Squared",
+          "definition": "The proportion of variance in the dependent variable explained by the regression model, ranging from 0 (no explanatory power) to 1 (perfect fit).",
+          "relatedTerms": ["Regression Analysis", "Conjoint Analysis"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-017",
+          "term": "Regression Analysis",
+          "definition": "A statistical method to estimate the relationship between a dependent variable and one or more independent variables. In conjoint analysis, it decomposes preference into attribute-level contributions.",
+          "relatedTerms": ["Conjoint Analysis", "Coefficient", "R-Squared"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-018",
+          "term": "Relative Importance",
+          "definition": "The percentage contribution of each attribute to overall preference, calculated as the range of an attribute's coefficients divided by the sum of ranges across all attributes.",
+          "relatedTerms": ["Conjoint Analysis", "Coefficient", "Utility (Part-Worth)"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-019",
+          "term": "Trade-off Analysis",
+          "definition": "An alternative name for conjoint analysis, emphasizing that respondents trade off less desirable attribute levels for more desirable ones when evaluating product profiles.",
+          "relatedTerms": ["Conjoint Analysis", "Attribute"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-020",
+          "term": "Utility (Part-Worth)",
+          "definition": "The value that customers place on each level of an attribute, estimated from regression coefficients in conjoint analysis. Higher utility indicates greater preference contribution.",
+          "relatedTerms": ["Conjoint Analysis", "Coefficient", "Relative Importance"],
+          "sourceLecture": "Lecture 5"
+        },
+        {
+          "id": "lecture-05-021",
+          "term": "Willingness to Pay (WTP)",
+          "definition": "The maximum additional amount a consumer would pay for a specific attribute level relative to the baseline while remaining equally satisfied, calculated from attribute and price coefficient ratios.",
+          "relatedTerms": ["Conjoint Analysis", "Coefficient"],
+          "sourceLecture": "Lecture 5"
+        }
+      ]
+    },
+    {
+      "id": "lecture-06",
+      "title": "Lecture 6: Market Experiment & Project Management",
+      "cards": [
+        {
+          "id": "lecture-06-001",
+          "term": "A/B Testing",
+          "definition": "A controlled experiment comparing two versions of a single variable (e.g., webpage design, email subject line) to determine which performs better on a defined metric.",
+          "relatedTerms": ["Factorial Design", "Statistical Significance", "Randomized Controlled Trial (RCT)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-002",
+          "term": "Activity",
+          "definition": "The smallest unit of work effort in a project that consumes both time and resources, and can be scheduled and controlled by the project manager.",
+          "relatedTerms": ["Activity Slack (Float)", "Network Diagram", "Work Breakdown Structure (WBS)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-003",
+          "term": "Activity Slack (Float)",
+          "definition": "The maximum length of time an activity can be delayed without delaying the entire project's completion. Calculated as LS - ES or LF - EF. Critical activities have zero slack.",
+          "relatedTerms": ["Critical Path", "Earliest Start (ES)", "Latest Start (LS)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-004",
+          "term": "Confounding Variable",
+          "definition": "An extraneous variable that correlates with both the independent and dependent variables, potentially creating a spurious apparent relationship between them.",
+          "relatedTerms": ["Counterfactual", "Randomized Controlled Trial (RCT)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-005",
+          "term": "Counterfactual",
+          "definition": "The hypothetical outcome that would have occurred in the absence of a treatment or intervention. Since counterfactuals cannot be directly observed, control groups serve as proxies.",
+          "relatedTerms": ["Confounding Variable", "Randomized Controlled Trial (RCT)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-006",
+          "term": "Critical Activity",
+          "definition": "An activity on the critical path with zero slack. Any delay to a critical activity directly delays the entire project.",
+          "relatedTerms": ["Critical Path", "Activity Slack (Float)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-007",
+          "term": "Critical Path",
+          "definition": "The longest path through a project network diagram, determining the minimum project duration. All activities on this path have zero slack.",
+          "relatedTerms": ["Network Diagram", "Activity Slack (Float)", "Project Crashing"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-008",
+          "term": "Earliest Finish (EF)",
+          "definition": "The earliest time at which an activity can be completed, calculated as ES + Activity Duration during the forward pass.",
+          "relatedTerms": ["Earliest Start (ES)", "Latest Finish (LF)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-009",
+          "term": "Earliest Start (ES)",
+          "definition": "The earliest time at which an activity can begin, determined by the maximum EF of all its immediate predecessors.",
+          "relatedTerms": ["Earliest Finish (EF)", "Latest Start (LS)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-010",
+          "term": "Endowment Effect",
+          "definition": "A cognitive bias where people ascribe higher value to objects they own compared to equivalent objects they do not own, leading to a gap between willingness to accept and willingness to pay.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-011",
+          "term": "Factorial Design",
+          "definition": "An experimental design in which all possible combinations of two or more independent variables are tested, allowing researchers to assess both main effects and interaction effects.",
+          "relatedTerms": ["A/B Testing"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-012",
+          "term": "Latest Finish (LF)",
+          "definition": "The latest time at which an activity can finish without delaying the project, calculated during the backward pass as the minimum LS of all immediate successors.",
+          "relatedTerms": ["Latest Start (LS)", "Earliest Finish (EF)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-013",
+          "term": "Latest Start (LS)",
+          "definition": "The latest time at which an activity can start without delaying the project, calculated as LF - Activity Duration.",
+          "relatedTerms": ["Latest Finish (LF)", "Earliest Start (ES)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-014",
+          "term": "Network Diagram",
+          "definition": "A visual representation of project activities and their precedence relationships, typically using Activity-on-Node (AON) notation, where nodes represent activities and arrows show dependencies.",
+          "relatedTerms": ["Critical Path", "Work Breakdown Structure (WBS)", "PERT/CPM"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-015",
+          "term": "Path",
+          "definition": "A sequence of connected activities that leads from the starting node to the finishing node in a network diagram.",
+          "relatedTerms": ["Critical Path", "Network Diagram"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-016",
+          "term": "PERT/CPM",
+          "definition": "Program Evaluation and Review Technique / Critical Path Method -- scheduling techniques used to plan and control project activities by identifying the critical path and calculating activity timing.",
+          "relatedTerms": ["Critical Path", "Network Diagram"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-017",
+          "term": "Project Crashing",
+          "definition": "The process of reducing the duration of critical path activities by allocating additional resources, typically at increased cost, to shorten the overall project timeline.",
+          "relatedTerms": ["Critical Path", "Activity Slack (Float)"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-018",
+          "term": "Randomized Controlled Trial (RCT)",
+          "definition": "An experimental design in which participants are randomly assigned to treatment and control groups, considered the gold standard for establishing causal effects.",
+          "relatedTerms": ["A/B Testing", "Confounding Variable", "Counterfactual"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-019",
+          "term": "Statistical Significance",
+          "definition": "An indication that an observed result is unlikely to have occurred by chance alone (conventionally, p < 0.05), providing confidence that the effect is real rather than random variation.",
+          "relatedTerms": ["P-Value", "Confidence Interval"],
+          "sourceLecture": "Lecture 6"
+        },
+        {
+          "id": "lecture-06-020",
+          "term": "Work Breakdown Structure (WBS)",
+          "definition": "A hierarchical decomposition of a project's total scope into progressively smaller, manageable work packages, organized by levels from the overall project down to individual tasks.",
+          "relatedTerms": ["Network Diagram", "Activity"],
+          "sourceLecture": "Lecture 6"
+        }
+      ]
+    },
+    {
+      "id": "lecture-07",
+      "title": "Lecture 7: Brand Management Overview",
+      "cards": [
+        {
+          "id": "lecture-07-001",
+          "term": "Associative Network Memory Model",
+          "definition": "A theoretical model of memory where knowledge is stored as interconnected nodes (concepts) and links (associations) of varying strength. Applied to branding, it describes consumer \"mental maps.\"",
+          "relatedTerms": ["Brand Image", "Brand Awareness", "Mental Map"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-002",
+          "term": "Brand Awareness",
+          "definition": "The extent to which consumers can identify or recognize a brand under different conditions. Comprises brand recognition (aided) and brand recall (unaided retrieval from memory).",
+          "relatedTerms": ["Brand Recognition", "Brand Recall", "Brand Image", "Brand Equity (Customer-Based)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-003",
+          "term": "Brand Element",
+          "definition": "A trademarked device that identifies and differentiates a brand, including names, logos, symbols, characters, slogans, jingles, and packaging. Must be memorable, meaningful, and protectable.",
+          "relatedTerms": ["Brand Awareness", "Brand Image"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-004",
+          "term": "Brand Equity (Customer-Based)",
+          "definition": "The differential effect that brand knowledge has on consumer response to the marketing of a brand. Positive equity exists when consumers react more favorably when they can identify the brand.",
+          "relatedTerms": ["Brand Awareness", "Brand Image", "Brand Resonance Pyramid (Keller's CBBE Model)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-005",
+          "term": "Brand Image",
+          "definition": "The set of perceptions and associations about a brand held in consumer memory. Characterized by the strength, favorability, and uniqueness of brand associations.",
+          "relatedTerms": ["Associative Network Memory Model", "Brand Awareness", "Brand Element"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-006",
+          "term": "Brand Mantra",
+          "definition": "A three- to five-word articulation of the brand's essence, consisting of an emotional modifier, a descriptive modifier, and a brand function. Used internally to guide marketing decisions.",
+          "relatedTerms": ["Brand Positioning", "Brand Resonance Pyramid (Keller's CBBE Model)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-007",
+          "term": "Brand Performance",
+          "definition": "A building block of the Brand Resonance Pyramid (Meaning level, rational side) describing how well the product meets customers' functional needs, including reliability, serviceability, style, and price.",
+          "relatedTerms": ["Brand Resonance Pyramid (Keller's CBBE Model)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-008",
+          "term": "Brand Positioning",
+          "definition": "The act of designing the company's offering and image to occupy a distinctive place in the target consumer's mind, defined by target market, competitive frame, points of parity, and points of difference.",
+          "relatedTerms": ["Brand Mantra", "Points of Difference (PODs)", "Points of Parity (POPs)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-009",
+          "term": "Brand Recall",
+          "definition": "The consumer's ability to retrieve a brand from memory when given a product category, usage situation, or need as a cue, without the brand being physically present. Higher bar than recognition.",
+          "relatedTerms": ["Brand Recognition", "Brand Awareness"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-010",
+          "term": "Brand Recognition",
+          "definition": "The consumer's ability to confirm prior exposure to a brand when given the brand as a cue (e.g., seeing a logo and confirming familiarity). A lower bar than brand recall.",
+          "relatedTerms": ["Brand Recall", "Brand Awareness"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-011",
+          "term": "Brand Resonance",
+          "definition": "The highest level of the Brand Resonance Pyramid, representing the ultimate relationship between consumer and brand. Characterized by loyalty, attachment, community, and active engagement.",
+          "relatedTerms": ["Brand Resonance Pyramid (Keller's CBBE Model)", "Brand Equity (Customer-Based)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-012",
+          "term": "Brand Resonance Pyramid (Keller's CBBE Model)",
+          "definition": "A four-level, six-block framework for building strong brands. From bottom to top: Identity (Salience), Meaning (Performance, Imagery), Response (Judgments, Feelings), Relationships (Resonance).",
+          "relatedTerms": ["Brand Salience", "Brand Performance", "Brand Resonance", "Brand Equity (Customer-Based)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-013",
+          "term": "Brand Salience",
+          "definition": "The depth and breadth of brand awareness -- how easily, frequently, and in how many situations the brand comes to mind. The foundation of the Brand Resonance Pyramid.",
+          "relatedTerms": ["Brand Awareness", "Brand Resonance Pyramid (Keller's CBBE Model)"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-014",
+          "term": "Points of Difference (PODs)",
+          "definition": "Strong, favorable, and unique brand associations that consumers believe they cannot find to the same extent with a competitive brand. They form the basis of competitive advantage.",
+          "relatedTerms": ["Points of Parity (POPs)", "Brand Positioning"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-015",
+          "term": "Points of Parity (POPs)",
+          "definition": "Brand associations shared with other brands that are not necessarily unique, but are necessary for the brand to be considered a legitimate and credible competitor in the category.",
+          "relatedTerms": ["Points of Difference (PODs)", "Brand Positioning"],
+          "sourceLecture": "Lecture 7"
+        },
+        {
+          "id": "lecture-07-016",
+          "term": "Strategic Brand Management Process",
+          "definition": "The four-step process of (1) establishing brand positioning/values, (2) planning/implementing brand marketing programs, (3) measuring brand performance, and (4) growing/sustaining brand equity.",
+          "relatedTerms": ["Brand Equity (Customer-Based)", "Brand Positioning"],
+          "sourceLecture": "Lecture 7"
+        }
+      ]
+    },
+    {
+      "id": "lecture-08",
+      "title": "Lecture 8: Brand Sustainability and Personal Branding",
+      "cards": [
+        {
+          "id": "lecture-08-001",
+          "term": "Brand Dilution",
+          "definition": "The weakening of a brand's core identity and perceived value that can occur when a brand extends into too many categories or becomes too widely accessible.",
+          "relatedTerms": ["Brand Equity (Customer-Based)", "Exclusivity"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-002",
+          "term": "Brand Mantra (Personal)",
+          "definition": "A short phrase capturing the essence of an individual's professional identity, structured as emotional modifier + descriptive modifier + brand function.",
+          "relatedTerms": ["Brand Positioning", "Mental Map", "Personal Branding"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-003",
+          "term": "Brand Repositioning",
+          "definition": "The strategic process of changing a brand's position in consumers' minds relative to competitors, which can range from incremental adjustments to disruptive overhauls.",
+          "relatedTerms": ["Perceptual Map", "Brand Image", "Disruptive Repositioning"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-004",
+          "term": "Consumption as Signaling",
+          "definition": "The use of product purchases and brand choices to communicate social status, identity, values, or group membership to others.",
+          "relatedTerms": ["Brand Image"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-005",
+          "term": "Deliverability",
+          "definition": "In the context of points-of-difference for personal branding, the extent to which a person can actually and consistently demonstrate or perform the skills and abilities they claim.",
+          "relatedTerms": ["Personal Branding", "Points-of-Difference (Personal)"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-006",
+          "term": "Desirability",
+          "definition": "In personal branding, the degree to which a person's passion, values, and brand promise resonate with and are wanted by their target audience.",
+          "relatedTerms": ["Personal Branding", "Points-of-Difference (Personal)"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-007",
+          "term": "Differentiation",
+          "definition": "In personal branding, the long-term viability and uniqueness of a person's positioning relative to competitors in their professional space.",
+          "relatedTerms": ["Points-of-Difference (Personal)", "Personal Branding"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-008",
+          "term": "Disruptive Repositioning",
+          "definition": "A bold, fundamental shift in a brand's market positioning that breaks significantly from its historical identity, as opposed to incremental or evolutionary changes.",
+          "relatedTerms": ["Brand Repositioning", "Brand Image"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-009",
+          "term": "Exclusivity",
+          "definition": "The perception that a brand or product is rare, limited, or accessible only to a select group, which is a core value driver in the luxury industry.",
+          "relatedTerms": ["Scarcity Strategy", "Brand Dilution"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-010",
+          "term": "Geographic Market Dependence",
+          "definition": "The strategic risk created when a disproportionate share of a brand's revenue comes from consumers of a single country or region.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-011",
+          "term": "Luxury Consumption Drivers",
+          "definition": "The underlying motivations for consumers to pay premium prices for luxury goods, including status signaling, quality perception, self-reward, craftsmanship appreciation, and social belonging.",
+          "relatedTerms": ["Consumption as Signaling", "Brand Equity (Customer-Based)"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-012",
+          "term": "Mental Map",
+          "definition": "A visual diagram showing all the associations and perceptions that people hold about a brand (or person), displayed as attributes radiating outward from a central brand node.",
+          "relatedTerms": ["Brand Image", "Associative Network Memory Model"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-013",
+          "term": "Merchandise Mix",
+          "definition": "The assortment of product categories and styles that a brand offers, which in luxury must be carefully managed to balance breadth of appeal with brand coherence.",
+          "relatedTerms": [],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-014",
+          "term": "New Luxury Paradigm",
+          "definition": "The evolved model of luxury consumption characterized by experience over ownership, digital engagement, younger consumers, and values-driven purchasing.",
+          "relatedTerms": ["Old Luxury"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-015",
+          "term": "Old Luxury",
+          "definition": "The traditional model of luxury consumption characterized by status symbolism, exclusive in-store experiences, ownership-focused consumption, and resistance to digital channels.",
+          "relatedTerms": ["New Luxury Paradigm", "Exclusivity"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-016",
+          "term": "Perceptual Map",
+          "definition": "A visual tool that plots brands or products on two or more dimensions (e.g., classic vs. contemporary, demographic appeal) to illustrate competitive positioning.",
+          "relatedTerms": ["Brand Repositioning", "Brand Positioning"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-017",
+          "term": "Personal Branding",
+          "definition": "The practice of applying brand management principles -- including positioning, differentiation, brand mantra, and mental maps -- to build and manage an individual's professional identity.",
+          "relatedTerms": ["Brand Mantra (Personal)", "Mental Map", "Points-of-Difference (Personal)"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-018",
+          "term": "Personal SWOT Analysis",
+          "definition": "A self-assessment tool that evaluates an individual's Strengths, Weaknesses, Opportunities, and Threats as part of the personal branding process.",
+          "relatedTerms": ["Personal Branding"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-019",
+          "term": "Points-of-Difference (Personal)",
+          "definition": "The unique attributes or benefits that distinguish an individual from competitors in the job market or professional space, evaluated on desirability, deliverability, and differentiation.",
+          "relatedTerms": ["Personal Branding", "Desirability", "Deliverability", "Differentiation"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-020",
+          "term": "Scarcity Strategy",
+          "definition": "The deliberate limitation of product supply to maintain perceptions of exclusivity and drive premium pricing, commonly used in the luxury industry.",
+          "relatedTerms": ["Exclusivity"],
+          "sourceLecture": "Lecture 8"
+        },
+        {
+          "id": "lecture-08-021",
+          "term": "Viability",
+          "definition": "In personal branding, the extent to which the market (employers, clients, partners) will actually reward and value a person's chosen brand positioning.",
+          "relatedTerms": ["Personal Branding"],
+          "sourceLecture": "Lecture 8"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalCards": 194,
+    "totalDecks": 9,
+    "generatedFrom": "study-notes/",
+    "generatedAt": "2026-03-23T00:00:00Z"
+  }
+}

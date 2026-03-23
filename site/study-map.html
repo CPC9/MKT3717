@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Map — MKT 3717 - New Product Development &amp; Brand Management</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <style>
+    .study-map-layout { display: grid; grid-template-columns: 240px 1fr; gap: var(--spacing-lg); max-width: var(--max-width); margin: 0 auto; padding: var(--padding-page); }
+    @media (max-width: 768px) { .study-map-layout { grid-template-columns: 1fr; } .toc-sidebar { position: static; max-height: none; } }
+    .toc-sidebar { position: sticky; top: var(--spacing-lg); align-self: start; max-height: calc(100vh - 3rem); overflow-y: auto; padding: var(--spacing); background: var(--bg-sub); border: 1px solid var(--border); border-radius: var(--radius); }
+    .toc-sidebar h2 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-mute); margin: 0 0 var(--spacing); }
+    .toc-sidebar ol { list-style: none; padding: 0; margin: 0; }
+    .toc-sidebar li { margin-bottom: 0.25rem; }
+    .toc-sidebar a { display: block; padding: 0.3rem 0.5rem; font-size: 0.85rem; color: var(--accent); text-decoration: none; border-radius: var(--radius-sm); }
+    .toc-sidebar a:hover, .toc-sidebar a:focus-visible { background: var(--bg-deep); }
+    .toc-sidebar .toc-subtopic { padding-left: 1rem; }
+    .study-map-content section { margin-bottom: var(--spacing-lg); }
+    .study-map-content details { border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--spacing); background: var(--bg-card); }
+    .study-map-content details[open] > summary { border-bottom: 1px solid var(--border); }
+    .study-map-content summary { padding: var(--spacing) var(--padding-card); font-weight: 600; cursor: pointer; color: var(--white); list-style: none; }
+    .study-map-content summary::before { content: "\25B6 "; font-size: 0.75em; display: inline-block; transition: transform 0.2s ease; }
+    .study-map-content details[open] > summary::before { transform: rotate(90deg); }
+    .study-map-content summary::-webkit-details-marker { display: none; }
+    .topic-body { padding: var(--spacing) var(--padding-card); }
+    .subtopic { margin-left: var(--spacing); border-left: 2px solid var(--accent); padding-left: var(--spacing); margin-top: var(--spacing); }
+    .related-topics { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: var(--spacing); padding-top: var(--spacing); border-top: 1px dashed var(--border); }
+    .related-tag { font-size: 0.75rem; padding: 0.15rem 0.5rem; background: var(--bg-sub); color: var(--accent); border-radius: var(--radius-sm); text-decoration: none; }
+    .related-tag:hover, .related-tag:focus-visible { background: var(--bg-deep); color: var(--accent-hi); }
+    .dependency-graph { background: var(--bg-deep); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--spacing) var(--padding-card); overflow-x: auto; font-family: 'Courier New', Courier, monospace; font-size: 0.82rem; line-height: 1.5; color: var(--text-mute); white-space: pre; }
+    .lecture-meta { font-size: 0.85rem; color: var(--text-mute); margin-bottom: 0.5rem; }
+    .lecture-meta strong { color: var(--white); }
+    .topic-body ul { margin: 0.5rem 0; padding-left: 1.25rem; }
+    .topic-body li { margin-bottom: 0.35rem; font-size: 0.9rem; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <header role="banner">
+    <h1>Study Map</h1>
+  </header>
+  <div class="study-map-layout">
+    <aside class="toc-sidebar" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#course-narrative">Course Narrative</a></li>
+        <li><a href="#lecture-progression">Lecture Progression</a>
+          <ol>
+            <li class="toc-subtopic"><a href="#lecture-1">L1: Course Introduction</a></li>
+            <li class="toc-subtopic"><a href="#lecture-2">L2: Opportunity Identification</a></li>
+            <li class="toc-subtopic"><a href="#lecture-3">L3: Concept Screening &amp; Testing</a></li>
+            <li class="toc-subtopic"><a href="#lecture-4">L4: Concept Testing Review</a></li>
+            <li class="toc-subtopic"><a href="#lecture-5">L5: Conjoint Analysis</a></li>
+            <li class="toc-subtopic"><a href="#lecture-6">L6: Market Experiments &amp; PM</a></li>
+            <li class="toc-subtopic"><a href="#lecture-7">L7: Brand Management</a></li>
+            <li class="toc-subtopic"><a href="#lecture-8">L8: Brand Sustainability</a></li>
+          </ol>
+        </li>
+        <li><a href="#cross-cutting-themes">Cross-Cutting Themes</a>
+          <ol>
+            <li class="toc-subtopic"><a href="#theme-1">Innovation Challenge</a></li>
+            <li class="toc-subtopic"><a href="#theme-2">Evaluation Methods</a></li>
+            <li class="toc-subtopic"><a href="#theme-3">Customer Understanding</a></li>
+            <li class="toc-subtopic"><a href="#theme-4">Product-to-Brand Lifecycle</a></li>
+          </ol>
+        </li>
+        <li><a href="#dependency-graph">Dependency Graph</a></li>
+      </ol>
+    </aside>
+    <main class="study-map-content" role="main">
+
+      <!-- ===== COURSE NARRATIVE ===== -->
+      <section id="course-narrative">
+        <details>
+          <summary>Course Narrative</summary>
+          <div class="topic-body">
+            <p>MKT 3717 is structured as a two-act course that follows the lifecycle of a market offering from its earliest inception as a raw opportunity through its maturation into a managed brand. The first act (Lectures 1&ndash;6) focuses on product management: how firms systematically identify opportunities, generate and evaluate product concepts, design product architectures, validate decisions through market experiments, and manage the execution timeline of development projects. The recurring thread throughout this first act is disciplined uncertainty reduction &mdash; each lecture introduces a more rigorous tool for filtering out bad ideas and refining good ones, progressing from qualitative screening to quantitative scoring, conjoint analysis, controlled experiments, and finally project scheduling. The Three Innovation Challenge (Desirable, Viable, Feasible) introduced in Lecture 1 serves as the evaluative backbone that connects every phase of the product development process.</p>
+            <p>The second act (Lectures 7&ndash;8) pivots to brand management, asking: once a product exists, how do you build and sustain something greater than the product itself? Lecture 7 introduces the conceptual architecture of brands &mdash; brand knowledge, brand equity, positioning, and Keller&rsquo;s Brand Resonance Pyramid &mdash; establishing that brands live in consumers&rsquo; minds and must be built from the bottom up. Lecture 8 then confronts the hardest challenge in brand management: sustaining equity over time in a changing world, illustrated through luxury brand repositioning, the old-to-new luxury paradigm shift, and the tension between continuity and relevance. The course closes by bringing the framework full circle: personal branding applies the same Desirable-Viable-Feasible lens and the same brand management tools (mantras, mental maps, points of difference) to individuals, demonstrating that the principles of product and brand management are universally applicable.</p>
+            <p>Across both acts, the course builds a coherent argument: great products and brands are not accidents. They are the result of structured processes, rigorous evaluation, deep customer understanding, and strategic consistency &mdash; whether you are launching a salsa, repositioning Gucci, or building your own professional identity.</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- ===== LECTURE PROGRESSION ===== -->
+      <section id="lecture-progression">
+        <details>
+          <summary>Lecture Progression</summary>
+          <div class="topic-body">
+
+            <!-- Lecture 1 -->
+            <div class="subtopic" id="lecture-1">
+              <details>
+                <summary>Lecture 1: Course Introduction</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> What is the relationship between products and brands, and why does new product development require a structured process?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> Product vs. Brand distinction, Three Innovation Challenge (Desirable/Viable/Feasible), Five-Phase NPD Process, Types of New Products, Product Manager vs. Brand Manager roles</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Foundation &mdash; no prerequisites</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> Lecture 2 (operationalizes Phase 1 of the NPD process), Lecture 7 (the brand management half fulfills the brand concepts introduced here)</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[Three Innovation Challenge] connects to [RWW Analysis] in Lecture 2 because RWW operationalizes the same three dimensions (Real = Desirable, Win = Feasible, Worth It = Viable) as a concrete screening tool</li>
+                    <li>[Five-Phase NPD Process] connects to [Opportunity Identification] in Lecture 2, [Concept Screening] in Lecture 3, and [Conjoint Analysis] in Lecture 5 because each lecture addresses a specific phase of this process</li>
+                    <li>[Product vs. Brand] connects to [Brand Equity] in Lecture 7 because the course&rsquo;s second half explores what makes a brand more than its underlying product</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-2" class="related-tag">L2: Opportunity ID</a>
+                    <a href="#lecture-7" class="related-tag">L7: Brand Management</a>
+                    <a href="#theme-1" class="related-tag">Theme: Innovation Challenge</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <!-- Lecture 2 -->
+            <div class="subtopic" id="lecture-2">
+              <details>
+                <summary>Lecture 2: NPD Part 1 &mdash; Opportunity Identification and Concept Generation</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> How does a firm identify and select the right opportunities to pursue before committing resources to concept generation?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> PESTEL Analysis, Porter&rsquo;s Five Forces, Market Sizing (TAM/SAM/SOM), RWW Analysis, Customer Need Analysis, Jobs-to-be-Done, Needs Statements, Product Specifications</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Lecture 1 (Phase 1 of the Five-Phase NPD Process; Three Innovation Challenge maps to RWW)</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> Lecture 3 (customer needs and specifications feed concept generation and screening), Lecture 5 (customer attribute preferences feed conjoint analysis)</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[RWW Analysis] connects to [Three Innovation Challenge] in Lecture 1 because it is the applied screening framework that operationalizes the desirable/viable/feasible lens</li>
+                    <li>[Customer Needs Analysis] connects to [Concept Screening Criteria] in Lecture 3 because the needs identified here become the evaluation criteria for scoring product concepts</li>
+                    <li>[Latent Needs] connects to [Jobs-to-be-Done] in Lecture 3 because JTBD interviews are the primary method for uncovering needs customers cannot articulate</li>
+                    <li>[Product Specifications] connects to [Conjoint Analysis Attributes] in Lecture 5 because the metrics defined here become the attributes whose trade-offs consumers evaluate</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-1" class="related-tag">L1: Introduction</a>
+                    <a href="#lecture-3" class="related-tag">L3: Concept Screening</a>
+                    <a href="#lecture-5" class="related-tag">L5: Conjoint Analysis</a>
+                    <a href="#theme-2" class="related-tag">Theme: Evaluation Methods</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <!-- Lecture 3 -->
+            <div class="subtopic" id="lecture-3">
+              <details>
+                <summary>Lecture 3: NPD Part 2 &mdash; Concept Screening and Testing</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> How do we move from understanding what customers need to generating, evaluating, and selecting the best product concept to develop?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> Jobs-to-be-Done Framework, Concept Generation (Form/Technology/Benefit), Concept Screening Matrix (Pugh Method), Concept Scoring Matrix, Specification Freeze Timing</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Lecture 2 (customer needs statements and product specifications provide the inputs for concept generation and the criteria for concept evaluation)</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> Lecture 4 (deeper review of concept scoring and testing), Lecture 5 (conjoint analysis provides a more rigorous, consumer-data-driven evaluation method)</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[Concept Screening Matrix] connects to [Concept Scoring Matrix] in Lecture 4 because screening is the quick first-pass filter and scoring is the rigorous second-pass evaluation</li>
+                    <li>[JTBD Framework] connects to [Customer Needs Analysis] in Lecture 2 because JTBD reframes needs discovery from &ldquo;what features&rdquo; to &ldquo;what job is the customer hiring this product to do&rdquo;</li>
+                    <li>[Specification Freeze Timing] connects to [Project Management] in Lecture 6 because the decision of when to freeze specs directly affects the project schedule and critical path</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-2" class="related-tag">L2: Opportunity ID</a>
+                    <a href="#lecture-4" class="related-tag">L4: Concept Testing</a>
+                    <a href="#lecture-5" class="related-tag">L5: Conjoint Analysis</a>
+                    <a href="#theme-3" class="related-tag">Theme: Customer Understanding</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <!-- Lecture 4 -->
+            <div class="subtopic" id="lecture-4">
+              <details>
+                <summary>Lecture 4: Concept Testing Review and Guest Lecture</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> How do we ensure we are selecting and refining the best possible concept, not merely the highest-scoring one?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> Concept Scoring Matrix (deep dive), Combine-and-Improve principle, PIC Filtering, Testing Across Development Stages, Group Creativity and Brainstorming</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Lecture 3 (concept screening and scoring matrices), Lecture 2 (customer needs provide evaluation criteria)</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> Lecture 5 (conjoint analysis as a consumer-data-driven complement to team-based scoring), Lecture 6 (A/B testing and market experiments as later-stage validation)</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[Combine-and-Improve Principle] connects to [Concept Scoring Matrix] in Lecture 3 because the goal of evaluation is not just selection but the creation of a better concept by merging features from multiple candidates</li>
+                    <li>[PIC Filtering] connects to [Three Innovation Challenge] in Lecture 1 because the Product Innovation Charter eliminates concepts that fail on technology (feasibility), customer fit (desirability), or cost structure (viability)</li>
+                    <li>[Testing Across Development Stages] connects to [A/B Testing] in Lecture 6 because it maps the progression from early qualitative concept tests to late-stage quantitative market experiments</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-3" class="related-tag">L3: Concept Screening</a>
+                    <a href="#lecture-5" class="related-tag">L5: Conjoint Analysis</a>
+                    <a href="#lecture-6" class="related-tag">L6: Market Experiments</a>
+                    <a href="#theme-1" class="related-tag">Theme: Innovation Challenge</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <!-- Lecture 5 -->
+            <div class="subtopic" id="lecture-5">
+              <details>
+                <summary>Lecture 5: Conjoint Analysis for Product Design</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> How can we quantitatively determine which product attributes matter most to consumers and design the optimal product configuration?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> Conjoint Analysis, Dummy Variable Coding, Part-Worth Utilities, Relative Importance, Willingness to Pay, Product Architecture, Modular Design, Delayed Differentiation, Poka-Yoke</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Lecture 3 (concept evaluation methods &mdash; conjoint is a more rigorous, data-driven alternative to scoring matrices), Lecture 2 (product specifications define the attributes tested)</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> Lecture 6 (market experiments extend the statistical reasoning; regression interpretation skills transfer directly)</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[Conjoint Analysis] connects to [Concept Scoring Matrix] in Lectures 3&ndash;4 because both evaluate product concepts against criteria, but conjoint uses consumer preference data and regression rather than team judgment</li>
+                    <li>[Regression Interpretation] connects to [Market Experiments] in Lecture 6 because the same statistical tools (coefficients, p-values, confidence intervals) are used to interpret experimental results</li>
+                    <li>[Modular Design / Delayed Differentiation] connects to [Product Specifications] in Lecture 2 because architecture decisions determine how specifications translate into physical product structure</li>
+                    <li>[Willingness to Pay] connects to [Brand Equity] in Lecture 7 because brand-driven price premiums are a manifestation of the same consumer valuation logic</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-3" class="related-tag">L3: Concept Screening</a>
+                    <a href="#lecture-6" class="related-tag">L6: Market Experiments</a>
+                    <a href="#lecture-7" class="related-tag">L7: Brand Management</a>
+                    <a href="#theme-2" class="related-tag">Theme: Evaluation Methods</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <!-- Lecture 6 -->
+            <div class="subtopic" id="lecture-6">
+              <details>
+                <summary>Lecture 6: Market Experiments &amp; Project Management</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> How do we establish that our marketing decisions actually cause the outcomes we observe, and how do we manage the execution timeline of a product development project?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> Causality vs. Correlation, A/B Testing, Factorial Design, Statistical Significance, Work Breakdown Structure, Network Diagrams, Critical Path Method, Slack Time, Project Crashing</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Lecture 5 (regression analysis and statistical interpretation), Lecture 4 (testing across development stages)</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> Lecture 7 (transitions from product development to brand management; project management ensures timely product launch that precedes brand building)</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[A/B Testing] connects to [Conjoint Analysis] in Lecture 5 because both use controlled variation and regression to isolate the effects of specific variables on consumer outcomes</li>
+                    <li>[Factorial Design] connects to [Conjoint Analysis] in Lecture 5 because conjoint&rsquo;s full factorial design of product profiles is structurally identical to factorial experimental design</li>
+                    <li>[Critical Path Method] connects to [Specification Freeze Timing] in Lecture 3 because late specification changes can delay critical path activities and extend the project timeline</li>
+                    <li>[Project Crashing] connects to [Three Innovation Challenge] in Lecture 1 because crashing decisions involve the viability trade-off between time saved and additional cost incurred</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-5" class="related-tag">L5: Conjoint Analysis</a>
+                    <a href="#lecture-3" class="related-tag">L3: Spec Freeze</a>
+                    <a href="#lecture-7" class="related-tag">L7: Brand Management</a>
+                    <a href="#theme-2" class="related-tag">Theme: Evaluation Methods</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <!-- Lecture 7 -->
+            <div class="subtopic" id="lecture-7">
+              <details>
+                <summary>Lecture 7: Brand Management Overview</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> What makes a brand more than its product, and how do you systematically build strong brand equity in consumers&rsquo; minds?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> Customer-Based Brand Equity, Brand Knowledge (Awareness + Image), Associative Network Memory Model, Brand Positioning (POPs and PODs), Brand Mantra, Brand Resonance Pyramid</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Lecture 1 (product vs. brand distinction; the &ldquo;soul&rdquo; of a product), Lecture 2 (customer understanding &mdash; the same deep customer insight that drives NPD also drives brand building)</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> Lecture 8 (sustaining and repositioning brand equity over time; personal branding applies these frameworks to individuals)</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[Brand Resonance Pyramid] connects to [Three Innovation Challenge] in Lecture 1 because building from Identity through Meaning and Response to Resonance requires a product that is desirable, viable, and feasible at its foundation</li>
+                    <li>[Brand Knowledge] connects to [Customer Needs Analysis] in Lecture 2 because understanding what consumers know, feel, and associate with a brand requires the same qualitative research methods used in needs analysis</li>
+                    <li>[Points of Difference] connects to [Conjoint Analysis] in Lecture 5 because conjoint can quantify how much consumers value the attribute differences that define a brand&rsquo;s PODs</li>
+                    <li>[Brand Mantra] connects to [Personal Brand Mantra] in Lecture 8 because the same three-component structure (emotional modifier + descriptive modifier + brand function) applies to individuals</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-1" class="related-tag">L1: Product vs. Brand</a>
+                    <a href="#lecture-5" class="related-tag">L5: Conjoint (PODs)</a>
+                    <a href="#lecture-8" class="related-tag">L8: Brand Sustainability</a>
+                    <a href="#theme-4" class="related-tag">Theme: Product-to-Brand</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <!-- Lecture 8 -->
+            <div class="subtopic" id="lecture-8">
+              <details>
+                <summary>Lecture 8: Brand Sustainability and Personal Branding</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Driving Question:</strong> How do established brands remain relevant over time, and how can individuals apply brand management principles to their own careers?</p>
+                  <p class="lecture-meta"><strong>Core Concepts:</strong> Disruptive Repositioning, Brand Dilution, Old Luxury vs. New Luxury, Continuity vs. Relevance Tension, Personal Branding (Passion-Skills-Market), Personal Brand Mantra, Personal Mental Maps</p>
+                  <p class="lecture-meta"><strong>Builds On:</strong> Lecture 7 (brand equity, brand resonance pyramid, brand mantra, positioning, and POPs/PODs provide the toolkit that is now applied to sustainability challenges and personal branding)</p>
+                  <p class="lecture-meta"><strong>Leads To:</strong> This is the final lecture; it synthesizes the entire course by applying the Desirable-Viable-Feasible framework from Lecture 1 to personal branding, completing the course arc</p>
+                  <p class="lecture-meta"><strong>Key Relationships:</strong></p>
+                  <ul>
+                    <li>[Disruptive Repositioning] connects to [Brand Resonance Pyramid] in Lecture 7 because repositioning requires rebuilding brand meaning and response while preserving the brand identity (salience) foundation</li>
+                    <li>[Personal Branding Framework] connects to [Three Innovation Challenge] in Lecture 1 because the Passion-Skills-Market Venn diagram is a direct translation of Desirable-Feasible-Viable to the individual level</li>
+                    <li>[Brand Dilution] connects to [Brand Equity] in Lecture 7 because dilution occurs when brand extensions weaken the strength, favorability, or uniqueness of brand associations</li>
+                    <li>[Continuity vs. Relevance] connects to [Specification Freeze Timing] in Lecture 3 because both involve the same fundamental tension: locking in identity too early risks irrelevance, while changing too aggressively risks losing coherence</li>
+                  </ul>
+                  <div class="related-topics">
+                    <a href="#lecture-7" class="related-tag">L7: Brand Management</a>
+                    <a href="#lecture-1" class="related-tag">L1: Innovation Challenge</a>
+                    <a href="#lecture-3" class="related-tag">L3: Spec Freeze</a>
+                    <a href="#theme-1" class="related-tag">Theme: Innovation Challenge</a>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+          </div>
+        </details>
+      </section>
+
+      <!-- ===== CROSS-CUTTING THEMES ===== -->
+      <section id="cross-cutting-themes">
+        <details>
+          <summary>Cross-Cutting Themes</summary>
+          <div class="topic-body">
+
+            <!-- Theme 1 -->
+            <div class="subtopic" id="theme-1">
+              <details>
+                <summary>Theme 1: The Three Innovation Challenge (Desirable / Viable / Feasible)</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Appears in:</strong> Lectures 1, 2, 3, 4, 6, 7, 8</p>
+                  <p><strong>Evolution:</strong> Introduced in Lecture 1 as a Venn diagram for evaluating product ideas. Operationalized in Lecture 2 as the RWW (Real-Win-Worth It) screening framework. Implicitly embedded in Lectures 3&ndash;4 through concept evaluation criteria that assess customer appeal, technical feasibility, and business case. Resurfaces in Lecture 6 through the project management &ldquo;iron triangle&rdquo; (time, cost, quality) as a viability constraint. In Lecture 7, brand building requires a desirable product foundation. In Lecture 8, the framework comes full circle when it is translated directly into personal branding as Passion (Desirable), Skills (Feasible), and Market (Viable).</p>
+                  <p><strong>Key Insight:</strong> This is the single most portable framework in the course. Every evaluation decision &mdash; from screening a raw opportunity to repositioning a heritage luxury brand to crafting a personal career strategy &mdash; can be tested against these three dimensions. A product or brand that fails on any one dimension will ultimately fail in the market.</p>
+                </div>
+              </details>
+            </div>
+
+            <!-- Theme 2 -->
+            <div class="subtopic" id="theme-2">
+              <details>
+                <summary>Theme 2: Structured Evaluation Methods (Progressive Rigor)</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Appears in:</strong> Lectures 2, 3, 4, 5, 6</p>
+                  <p><strong>Evolution:</strong> The course introduces evaluation methods in order of increasing quantitative rigor. Lecture 2 begins with qualitative situation analysis (PESTEL, Porter&rsquo;s Five Forces) and the RWW framework. Lecture 3 introduces the concept screening matrix (qualitative +/0/- comparisons) followed by the concept scoring matrix (weighted numerical ratings). Lecture 4 deepens scoring with sensitivity analysis and the combine-and-improve principle. Lecture 5 introduces conjoint analysis, which replaces team judgment with consumer preference data and regression-estimated part-worth utilities. Lecture 6 adds controlled experiments (A/B testing, factorial design) with formal statistical significance testing. Throughout, the progression moves from expert judgment toward empirical consumer data.</p>
+                  <p><strong>Key Insight:</strong> No single evaluation method is sufficient. The course teaches a layered approach where cheap, fast, qualitative methods are used early to eliminate obviously bad ideas, and expensive, slow, quantitative methods are reserved for the high-stakes decisions that survive initial screening. The goal of evaluation is not to find the &ldquo;right answer&rdquo; but to systematically reduce uncertainty at each stage.</p>
+                </div>
+              </details>
+            </div>
+
+            <!-- Theme 3 -->
+            <div class="subtopic" id="theme-3">
+              <details>
+                <summary>Theme 3: Customer Understanding (Needs, Jobs, Knowledge, Associations)</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Appears in:</strong> Lectures 2, 3, 5, 7, 8</p>
+                  <p><strong>Evolution:</strong> Begins in Lecture 2 with customer need analysis &mdash; the five-step process of identifying explicit, unfulfilled, and latent needs through interviews, observation, and ethnography. Lecture 3 deepens this with the Jobs-to-be-Done framework, which reframes the question from &ldquo;what features do customers want?&rdquo; to &ldquo;what progress are they trying to make?&rdquo; Lecture 5 quantifies customer preferences through conjoint analysis, measuring how consumers trade off between product attributes. Lecture 7 shifts the lens from product needs to brand knowledge &mdash; how consumers store, organize, and retrieve brand-related information through associative memory networks. Lecture 8 completes the arc by showing how brand associations evolve over time and how personal brands are perceived by others through mental maps.</p>
+                  <p><strong>Key Insight:</strong> Across both product and brand management, the fundamental challenge is the same: understanding what exists in the customer&rsquo;s mind. In product development, this means uncovering latent needs and measuring attribute preferences. In brand management, this means mapping brand associations and building toward resonance. The methods differ (ethnography vs. brand tracking, conjoint vs. mental maps), but the underlying principle is constant &mdash; value is defined by the customer, not the firm.</p>
+                </div>
+              </details>
+            </div>
+
+            <!-- Theme 4 -->
+            <div class="subtopic" id="theme-4">
+              <details>
+                <summary>Theme 4: The Product-to-Brand Lifecycle</summary>
+                <div class="topic-body">
+                  <p class="lecture-meta"><strong>Appears in:</strong> Lectures 1, 2, 3, 4, 5, 6, 7, 8</p>
+                  <p><strong>Evolution:</strong> Lecture 1 establishes that &ldquo;companies make products and consumers make brands&rdquo; and introduces the product-brand relationship as &ldquo;body and soul.&rdquo; Lectures 2&ndash;6 focus exclusively on building the &ldquo;body&rdquo; &mdash; identifying opportunities, generating concepts, designing architecture, testing in markets, and managing execution. Lecture 7 pivots to building the &ldquo;soul&rdquo; &mdash; establishing brand identity, meaning, response, and resonance in consumers&rsquo; minds. Lecture 8 addresses the long-term challenge of keeping both body and soul alive &mdash; sustaining brand equity while adapting to changing markets. The Fyre Festival (Lecture 1) and Gucci (Lectures 7&ndash;8) bookend this theme: the festival failed because it had a brand without a product, while Gucci succeeded because it had both a strong product heritage and the ability to reinvent its brand meaning.</p>
+                  <p><strong>Key Insight:</strong> Product management and brand management are not separate disciplines but sequential phases of the same lifecycle. A brand cannot exist without a viable product, and a product&rsquo;s long-term success depends on the brand equity built around it. The course&rsquo;s two-act structure mirrors this lifecycle, teaching students to first build something worth branding, and then to brand it in a way that endures.</p>
+                </div>
+              </details>
+            </div>
+
+          </div>
+        </details>
+      </section>
+
+      <!-- ===== DEPENDENCY GRAPH ===== -->
+      <section id="dependency-graph">
+        <details>
+          <summary>Concept Dependency Graph</summary>
+          <div class="topic-body">
+            <pre class="dependency-graph"><code>Three Innovation Challenge (Desirable / Viable / Feasible) [L1]
+|
+|-- RWW Analysis (Real / Win / Worth It) [L2]
+|   |-- Opportunity Tournament &amp; Filtering [L2]
+|   |-- PIC Filtering (concept elimination) [L4]
+|
+|-- Situation Analysis [L2]
+|   |-- PESTEL Analysis (general environment) [L2]
+|   |-- Porter's Five Forces (industry environment) [L2]
+|   |-- Market Sizing (TAM / SAM / SOM) [L2]
+|
+|-- Customer Understanding [L2-L3]
+|   |-- Customer Need Analysis (5-step process) [L2]
+|   |   |-- Explicit / Unfulfilled / Latent Needs [L2]
+|   |   |-- Jobs-to-be-Done Framework [L3]
+|   |   |-- Needs Statements (5 guidelines) [L2-L3]
+|   |       |-- Product Specifications (Metric + Value + Units) [L3]
+|   |           |-- Specification Freeze Timing [L3]
+|   |           |-- Conjoint Analysis Attributes [L5]
+|   |
+|   |-- Brand Knowledge [L7]
+|       |-- Brand Awareness (Recognition + Recall) [L7]
+|       |-- Brand Image (Associative Network Memory Model) [L7]
+|           |-- Mental Maps [L7-L8]
+|
+|-- Concept Generation (Form / Technology / Benefit) [L3]
+|   |-- Concept Screening Matrix (Pugh Method) [L3]
+|       |-- Concept Scoring Matrix (Weighted Decision Matrix) [L3-L4]
+|           |-- Combine-and-Improve Principle [L4]
+|           |-- Sensitivity Analysis [L4]
+|
+|-- Quantitative Evaluation Methods [L5-L6]
+|   |-- Conjoint Analysis [L5]
+|   |   |-- Dummy Variable Coding [L5]
+|   |   |-- Part-Worth Utilities (Regression Coefficients) [L5]
+|   |   |-- Relative Importance Calculation [L5]
+|   |   |-- Willingness to Pay Estimation [L5]
+|   |
+|   |-- Market Experiments [L6]
+|       |-- Causality vs. Correlation [L6]
+|       |-- A/B Testing [L6]
+|       |-- Factorial Design [L6]
+|       |-- Statistical Significance (p-values, confidence intervals) [L5-L6]
+|
+|-- Product Architecture &amp; Design [L5]
+|   |-- Modular vs. Integral Architecture [L5]
+|   |-- Mass Customization [L5]
+|   |   |-- Delayed Differentiation (Postponement) [L5]
+|   |-- Poka-Yoke (Fail-Safe Design) [L5]
+|
+|-- Project Management [L6]
+|   |-- Work Breakdown Structure [L6]
+|       |-- Network Diagrams [L6]
+|           |-- Forward Pass (ES / EF) [L6]
+|           |-- Backward Pass (LS / LF) [L6]
+|               |-- Slack Time (Float) [L6]
+|               |-- Critical Path [L6]
+|                   |-- Project Crashing [L6]
+|
+|-- Brand Management [L7-L8]
+    |-- Customer-Based Brand Equity [L7]
+    |   |-- Brand Positioning [L7]
+    |   |   |-- Points of Parity (POPs) [L7]
+    |   |   |-- Points of Difference (PODs) [L7]
+    |   |   |-- Brand Mantra [L7]
+    |   |
+    |   |-- Brand Resonance Pyramid [L7]
+    |       |-- L1 Identity: Brand Salience [L7]
+    |       |-- L2 Meaning: Performance + Imagery [L7]
+    |       |-- L3 Response: Judgments + Feelings [L7]
+    |       |-- L4 Relationships: Resonance [L7]
+    |
+    |-- Brand Sustainability [L8]
+    |   |-- Continuity vs. Relevance Tension [L8]
+    |   |-- Disruptive Repositioning [L8]
+    |   |-- Brand Dilution Risk [L8]
+    |   |-- Old Luxury vs. New Luxury Paradigm [L8]
+    |
+    |-- Personal Branding [L8]
+        |-- Passion-Skills-Market Venn Diagram [L8]
+        |-- Personal Brand Mantra [L8]
+        |-- Personal Mental Maps [L8]</code></pre>
+          </div>
+        </details>
+      </section>
+
+    </main>
+  </div>
+  <script src="js/nav.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.study-map-content details').forEach(function (el) {
+        el.setAttribute('open', '');
+      });
+    });
+  </script>
+</body>
+</html>
