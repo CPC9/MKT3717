@@ -3,23 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sample Questions — MKT 3717 - New Product Development &amp; Brand Management</title>
+  <title>Sample Questions — MKT 3717 — Product &amp; Brand Management</title>
   <link rel="stylesheet" href="css/theme.css">
   <style>
-    .questions-page { max-width: 800px; margin: 0 auto; padding: var(--padding-page); }
-    .questions-page h1 { color: var(--white); margin-bottom: var(--spacing); }
-    .questions-page > .subtitle { color: var(--text-mute); margin-bottom: var(--spacing-lg); }
-    .question-group { margin-bottom: var(--spacing-lg); }
-    .question-group h2 { font-size: 1.2rem; color: var(--white); padding-bottom: var(--spacing); border-bottom: 2px solid var(--accent); margin-bottom: var(--spacing); }
-    .question-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--spacing) var(--padding-card); margin-bottom: var(--spacing); }
-    .question-item p.question-text { font-weight: 600; margin: 0 0 var(--spacing); line-height: 1.5; }
-    .question-item details { margin-top: var(--spacing); }
-    .question-item summary { cursor: pointer; font-size: 0.9rem; color: var(--accent); font-weight: 500; padding: 0.3rem 0; list-style: none; }
-    .question-item summary::-webkit-details-marker { display: none; }
-    .question-item summary::before { content: "\25B8 "; }
-    .question-item details[open] > summary::before { content: "\25BE "; }
-    .answer-content { margin-top: var(--spacing); padding: var(--spacing); background: var(--bg-sub); border-radius: var(--radius-sm); border-left: 3px solid var(--accent); line-height: 1.6; }
-    @media (max-width: 600px) { .questions-page { padding: var(--spacing); } }
+    .questions-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: var(--padding-page);
+    }
+
+    .questions-page h1 {
+      color: var(--white);
+      margin-bottom: var(--spacing);
+    }
+
+    .questions-page > .subtitle {
+      color: var(--text-mute);
+      margin-bottom: var(--spacing-lg);
+    }
+
+    /* Topic group */
+    .question-group {
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .question-group h2 {
+      font-size: 1.2rem;
+      color: var(--white);
+      padding-bottom: var(--spacing);
+      border-bottom: 2px solid var(--accent);
+      margin-bottom: var(--spacing);
+    }
+
+    /* Individual question */
+    .question-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: var(--spacing) var(--padding-card);
+      margin-bottom: var(--spacing);
+    }
+
+    .question-item p.question-text {
+      font-weight: 600;
+      margin: 0 0 var(--spacing);
+      line-height: 1.5;
+    }
+
+    /* Spoiler-style answer reveal */
+    .question-item details {
+      margin-top: var(--spacing);
+    }
+
+    .question-item summary {
+      cursor: pointer;
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 500;
+      padding: 0.3rem 0;
+      list-style: none;
+    }
+
+    .question-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .question-item summary::before {
+      content: "\25B8 ";
+    }
+
+    .question-item details[open] > summary::before {
+      content: "\25BE ";
+    }
+
+    .answer-content {
+      margin-top: var(--spacing);
+      padding: var(--spacing);
+      background: var(--bg-sub);
+      border-radius: var(--radius-sm);
+      border-left: 3px solid var(--accent);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .questions-page {
+        padding: var(--spacing);
+      }
+    }
   </style>
 </head>
 <body>
@@ -28,152 +98,215 @@
       <h1>Sample Questions</h1>
       <p class="subtitle">Quick self-test — click "Show Answer" to check your understanding</p>
     </header>
+
     <main role="main">
 
       <!-- Lecture 1 -->
       <div class="question-group">
-        <h2>Lecture 1: Course Introduction</h2>
+        <h2>Lecture 1: Course Introduction and Product Management</h2>
 
         <div class="question-item">
-          <p class="question-text">What is the difference between a product and a brand?</p>
+          <p class="question-text">What is the difference between a product and a brand, and why does the course describe them as "body and soul"?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">A product is anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want. A brand goes beyond the product -- it is built through consumer perceptions, expectations, and experiences. The course uses the analogy that "product and brand is like body and soul": companies make products, but consumers make brands through their perceptions and associations.</div>
+            <div class="answer-content">
+              A product is anything offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want — the physical or functional offering. A brand is the layer of consumer perceptions, expectations, and experiences built on top of that product, differentiating it from competitors in ways the physical item alone cannot. They are called "body and soul" because the product provides the tangible substance while the brand provides the identity and meaning that consumers attach to it. The course maxim captures this precisely: "Companies make products, and consumers make brands."
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What are the three dimensions of the Innovation Challenge framework, and why must a successful product satisfy all three?</p>
+          <p class="question-text">Explain the Three Innovation Challenge framework. How does the iRobot Roomba illustrate all three dimensions?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The three dimensions are: (1) People desirability -- customers must want it, (2) Business viability -- the business model must work, and (3) Technical feasibility -- it must be buildable. A product must satisfy all three simultaneously because missing any one dimension leads to failure. For example, a product that is desirable and feasible but not viable cannot sustain a business, while one that is viable and feasible but not desirable will not attract customers.</div>
+            <div class="answer-content">
+              The Three Innovation Challenge is a Venn diagram with three overlapping circles: People/Desirable (does the market want it?), Technical/Feasible (can it be built?), and Business/Viable (can the firm profit from it?). The innovation sweet spot is the center intersection where all three conditions are met simultaneously. The Roomba satisfies all three: consumers genuinely wanted automated vacuuming (Desirable), iRobot's celestial guidance technology made autonomous navigation achievable (Feasible), and the consumer robotic vacuum category proved commercially sustainable at a mass price point (Viable). Failure in any single dimension — as seen when a product is technically impressive but nobody wants it, or desired but unprofitable — leads to product failure.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What are the five phases of the New Product Development (NPD) process?</p>
+          <p class="question-text">What are Crawford's six categories of new products? Give a real example for each category.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The five phases are: (1) Opportunity Identification and Selection, (2) Concept Generation, (3) Concept/Project Evaluation, (4) Development, and (5) Launch. This structured sequence provides quality assurance, promotes coordination in the development team, provides a benchmark for performance assessment, and identifies opportunities for improvement.</div>
+            <div class="answer-content">
+              Crawford's six categories are: (1) New-to-the-World Products — the original iPhone created the touchscreen smartphone market; (2) New-to-the-Firm Products — Grab entering food delivery with GrabFood; (3) Additions to Existing Product Lines — Kellogg's Special K variants; (4) Improvements and Revisions — each new iPhone generation with better camera and chip; (5) Repositioning — Aspirin repositioned for cardiovascular prevention; (6) Cost Reduction — redesigning manufacturing to deliver similar performance at lower cost. Most "new" products are improvements or additions rather than radical new-to-the-world innovations, which carry the highest risk and reward.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">Explain the difference between a product manager and a brand manager.</p>
+          <p class="question-text">What does research evidence say about the NPD failure rate, and what are the five most common reasons products fail?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">A product manager is a cross-functional role responsible for the life cycle of a product, driving its vision, strategy, design, and execution. They are responsible for creating a successful product. A brand manager is an advocate of the organization who cultivates brand image and worth by building brand equity (the intrinsic value a brand holds over competitors). In short, the product manager ensures a successful product is created, while the brand manager sustains that success over time.</div>
+            <div class="answer-content">
+              Research (Markham and Lee, 2013) places the failure rate at approximately 40% — lower than the 80–90% figure often cited in the popular press. The five primary failure causes are: (1) misunderstanding customers, (2) underfunded R&D, (3) lack of senior management support, (4) insufficient attention to quality, and (5) chasing a moving target — constantly shifting product specifications. McDonald's Arch Deluxe is a canonical example of the first failure mode: despite over $300 million in research and marketing, the product misread what McDonald's core customers actually wanted.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">Compare and contrast the Generic PD Process, the Rapid Iteration PD Process, and the Spiral PD Process. When is each model most appropriate?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              The Generic PD Process (Ulrich/Eppinger) is a linear six-phase model (Planning → Concept Development → System-Level Design → Detail Design → Testing and Refinement → Production Ramp-Up) best suited to hardware-heavy products where sequential quality gates are essential — Apple's "get it right" philosophy exemplifies this. The Rapid Iteration Process inserts many Design-Build-Test loops before production ramp-up, making it ideal for software and digital products where fast user feedback is more valuable than exhaustive upfront specification — Google's "try it out" approach. The Spiral Process is visualized as concentric rings of increasing fidelity and cost, where each revolution revisits and refines all prior decisions; it is used in high-complexity, high-uncertainty contexts such as aerospace and enterprise software where incremental risk reduction is critical.
+            </div>
           </details>
         </div>
       </div>
 
       <!-- Lecture 2 -->
       <div class="question-group">
-        <h2>Lecture 2: NPD Opportunity Identification</h2>
+        <h2>Lecture 2: NPD Part 1 — Opportunity Identification and Concept Generation</h2>
 
         <div class="question-item">
-          <p class="question-text">What is the difference between TAM, SAM, and SOM in market sizing?</p>
+          <p class="question-text">What is the RWW Analysis framework, and what three questions does it ask? How do those questions map onto the Three Innovation Challenge?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">TAM (Total Addressable Market) is the entire potential revenue opportunity, answering "How big is the dream?" SAM (Serviceable Addressable Market) is the portion of TAM your business can realistically target with its current offerings, answering "Where can you actually play?" SOM (Serviceable Obtainable Market) is the share of SAM your business can capture considering competition and constraints, answering "What can you credibly win?" For example, for Nike yoga apparel in Singapore: TAM = SGD 300M, SAM = SGD 180M (premium segment), SOM = SGD 18M (10% capture).</div>
+            <div class="answer-content">
+              RWW Analysis (George Day, HBR 2007) asks three go/no-go questions: Is it Real? (Does a genuine market need exist and is the product achievable?), Can we Win? (Can the firm establish competitive advantage and execute better than rivals?), and Is it Worth It? (Will the investment generate sufficient financial returns at acceptable risk?). These map directly onto the Three Innovation Challenge: Real = People/Desirable, Win = Technical/Feasible, Worth It = Business/Viable. The framework operationalizes the Venn diagram into a structured decision gate used at the end of Phase 1 to filter which opportunities deserve further investment.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is the RWW (Real-Win-Worth It) analysis, and how does it relate to the Three Innovation Challenge?</p>
+          <p class="question-text">Explain the three types of customer needs — explicit, unfulfilled, and latent — and explain why latent needs represent the highest-value innovation opportunity.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The RWW Analysis (Day, 2007) is a framework for evaluating opportunities by asking three questions: "Is it Real?" (maps to People/Desirable -- is there a real market need?), "Can we Win?" (maps to Technical/Feasible -- can we deliver the product and establish competitive advantage?), and "Is it Worth It?" (maps to Business/Viable -- will it be profitable at acceptable risk?). It provides a structured way to screen opportunities against the same three innovation challenge dimensions.</div>
+            <div class="answer-content">
+              Explicit needs are easy to express and likely already fulfilled by existing products. Unfulfilled needs are acknowledged but known to be difficult to address. Latent needs are real but customers cannot yet articulate them — they are unaware or have never connected the need to a potential product solution. Latent needs represent the highest value because they are the most underserved: no competitor has addressed them yet, and discovering them creates the possibility of a new product category. The P&G Swiffer case illustrates this perfectly — consumers could never have asked for a disposable floor-cleaning pad, yet ethnographic observation revealed the latent insight about cleaning-tool maintenance burden, leading to $750M in revenue within two years.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is the difference between explicit, unfulfilled, and latent customer needs? Why are latent needs important for innovation?</p>
+          <p class="question-text">How would you calculate TAM, SAM, and SOM? Walk through the Nike yoga apparel in Singapore example.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Explicit needs are easy for customers to express and are likely already fulfilled (e.g., a candle that smells good). Unfulfilled needs are easy to express but known to be difficult to address (e.g., a candle with no burn hazards). Latent needs are hard for customers to express because they are not yet widely understood (e.g., a smart scent device for better sleep). Latent needs are important because when they are addressed, products can delight customers in new ways and exceed expectations. The Swiffer is a famous example -- P&amp;G discovered through ethnography that "it's hard to clean the broom," a latent need that generated $100M in its first four months.</div>
+            <div class="answer-content">
+              Market sizing uses the formula: Market Size = Total Units Sold × Average Price per Unit, filtered through three layers. TAM (Total Addressable Market) is the entire theoretical demand at 100% share. SAM (Serviceable Addressable Market) is the portion the firm can realistically target given product scope and geography. SOM (Serviceable Obtainable Market) is the realistic share of SAM capturable given competition. For Nike yoga apparel in Singapore: TAM = 1,000,000 yoga consumers × SGD 300 average annual spend = SGD 300M; SAM = SGD 300M × 60% (premium branded buyers) = SGD 180M; SOM = SGD 180M × 10% (Nike's realistic capture rate given Lululemon and others) = SGD 18M. The SOM, not the TAM, is the figure that feeds into the RWW "Worth It?" assessment.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">When would you use PESTEL analysis versus Porter's Five Forces?</p>
+          <p class="question-text">What is the Opportunity Tournament and Filtering Model? What four factors determine the quality of the best opportunity that emerges from the process?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">PESTEL analysis is used to evaluate the broad, uncontrollable general environment (Political, Economic, Social, Technological, Environmental, Legal factors). Porter's Five Forces is used to evaluate the industry or operating environment (threat of new entrants, bargaining power of buyers, bargaining power of suppliers, threat of substitutes, intensity of rivalry). Use PESTEL when assessing macro-level conditions that affect all players in the market, and use Porter's Five Forces when analyzing the competitive attractiveness and dynamics of a specific industry.</div>
+            <div class="answer-content">
+              The Opportunity Tournament and Filtering Model is a risk mitigation strategy in which a large pool of raw opportunities passes through successive evaluation gates, with only exceptional opportunities surviving. It mirrors the logic used by venture capitalists (who review 1,000+ meetings to make 1–2 winning investments) and pharmaceutical developers (10,000 compounds yield one approved drug). The quality of the best opportunity depends on four levers: (1) mean quality of ideas generated, (2) variance in quality — seeking diverse, unconventional ideas, (3) volume — generating more raw ideas, and (4) accuracy of evaluation — using structured RWW, PESTEL, and Five Forces analysis. Improving any single lever raises the expected quality of the best surviving opportunity.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">What are the five guidelines for writing a valid customer needs statement? Give a correct and incorrect example using the same customer quote.</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              The five guidelines are: (1) "What not How" — express the outcome, not the mechanism; (2) Specificity — be precise and testable; (3) Positive not Negative — state what the product does, not what it avoids; (4) Attribute of the Product — frame the need as a product property; (5) Avoid "Must" and "Should." For example, from the customer quote "I would like my iPhone to adjust my thermostat": the correct needs statement is "The thermostat can be controlled remotely without requiring a special device" (what, positive, product attribute). The incorrect version is "The thermostat is accompanied by a downloadable iPhone app" — this specifies a solution mechanism (how), violating guideline 1. Only correctly formed needs statements can be validly translated into measurable product specifications.
+            </div>
           </details>
         </div>
       </div>
 
       <!-- Lecture 3 -->
       <div class="question-group">
-        <h2>Lecture 3: NPD Concept Screening and Testing</h2>
+        <h2>Lecture 3: NPD Part 2 — Concept Screening and Testing</h2>
 
         <div class="question-item">
           <p class="question-text">What is the Jobs To Be Done (JTBD) framework, and how does it differ from traditional product management thinking?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The JTBD framework asserts that "people don't buy products -- they hire them to get a job done in their life." A JTBD statement follows the format: "When [situation], I want to [motivation], so I can [desired outcome]." Traditional PM thinking asks "What features should we build?" or "What do users say they want?" whereas JTBD asks "What progress is the user trying to make?" and "In what situation do they hire this product?" This reframing prevents feature-bloat and keeps the team anchored in real customer motivation rather than surface-level requests.</div>
+            <div class="answer-content">
+              JTBD reframes the question of why customers buy products. Rather than asking what features users want, it asks what "job" the customer is trying to accomplish in a specific situation: "When [situation], I want to [motivation], so I can [desired outcome]." Traditional product management centers on feature requests, user personas, and stated preferences — which anchor teams to surface-level requests rather than root motivations. JTBD anchors the team to the actual motivational trigger, identifying the specific situation in which someone decides to "hire" a product to make progress. This distinction matters because the same job can be hired by many different products — and customers often abandon one product for another when a better candidate for the same job emerges.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is the difference between a Concept Screening Matrix (Pugh Method) and a Concept Scoring Matrix?</p>
+          <p class="question-text">Explain how the Concept Screening Matrix (Pugh Matrix) works. What scale does it use, and what happens to eliminated concepts?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The Concept Screening Matrix is a rapid first-pass tool that compares concepts against a reference concept using simple +/0/- ratings on unweighted criteria, producing a net score to quickly eliminate weak concepts. The Concept Scoring Matrix is more rigorous: it uses weighted criteria (importance weights from customer surveys) and a 1-5 rating scale, producing weighted total scores for detailed ranking. Screening is for narrowing a large set of concepts cheaply; scoring is for making rigorous final selections among the surviving concepts.</div>
+            <div class="answer-content">
+              The Pugh Matrix compares multiple product concepts against a reference concept (usually the existing or most familiar design) on a set of selection criteria using a three-point scale: + (better than reference), 0 (same), − (worse). The net score is Plusses minus Minuses. In the reusable insulin syringe example, seven concepts (A–G) were evaluated against seven criteria; Concept A (Master Cylinder) ranked first at net +3 while Concepts C and F were eliminated. However, eliminated concepts are not discarded entirely — their individual high-performing features may be transplanted into surviving concepts. The screening matrix is designed for speed and rough pruning, not final selection; it deliberately precedes the more discriminating Concept Scoring Matrix.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What are the five guidelines for writing proper customer needs statements?</p>
+          <p class="question-text">How does the Concept Scoring Matrix (weighted scoring) work? Walk through the formula and explain what a total score above 3.0 means.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The five guidelines are: (1) Write in "what" not "how" -- describe what the product does, not the specific solution. (2) Be specific -- avoid vague terms like "versatile." (3) Use positive language, not negative -- describe what the product does, not what it avoids. (4) Frame as an attribute of the product, not an action by the user. (5) Avoid prescriptive language like "must" and "should" -- use "can" instead. These guidelines ensure needs statements are neutral, actionable, and translatable into measurable product specifications.</div>
+            <div class="answer-content">
+              The Concept Scoring Matrix formula is: Total Score = Σ (Weight_i × Rating_i), summed across all selection criteria. Each criterion has an importance weight (summing to 1.0 across all criteria, derived from customer surveys) and each concept receives a rating from 1 (Much Worse than Reference) to 5 (Much Better than Reference), with 3 meaning the same as the reference. A total score above 3.0 means the concept outperforms the reference on a weighted basis. In the syringe example, Concept DF (Lever Stop) won with 3.45 — notably, DF was a combination of two concepts (D and F) that had been individually eliminated in screening, demonstrating the critical value of the "combine and improve" step before finalizing the selection.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What three inputs are needed to define a product concept, and which starting point is the least risky?</p>
+          <p class="question-text">What is a product specification, and what three components must every specification contain? Give an example from the bike lock exercise.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">A product concept requires at least two of three inputs: (1) Form -- the physical thing created or service process, (2) Technology -- the source by which the form is attained, and (3) Benefit/Need -- the advantage to the customer. Starting from the customer need (need-first approach) is the least risky, because the product is grounded in a known demand. Technology-first and form-first approaches are riskier because the team must find a market fit after the fact, as illustrated by the Post-It Note's 12-year journey from technology to product.</div>
+            <div class="answer-content">
+              A product specification is the quantified, measurable translation of a customer needs statement into engineering terms. Every specification must contain three components: a Metric (what is measured), a Value (the target number or acceptable range), and Units (the unit of measurement). From the bike lock exercise: customer quote "How do you carry something this heavy?" → Needs statement: "The lock is easy to transport" → Specification: Metric = Weight, Value = a specific target threshold, Units = kg. A needs statement without a metric is not yet a specification; a metric without a value is not actionable; and a value without units is ambiguous — all three must be present.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">Why is concept testing described as a "continuous strand" rather than a single event, and what are the stages it spans across the development pipeline?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Concept testing is continuous because the questions it answers evolve through the development pipeline — early testing asks "Should we build this?" while later testing shifts to "Does it work at scale?" and "How do we optimize?" The testing stages in sequence are: Go/No-Go Decision Gates, Specification Testing (benchmarking), Prototype Testing (design iterations), Qualitative Concept Testing, Alpha Performance and User Interface Testing (internal), Quantitative Market Testing, Beta Validation/Acceptance Testing (external users), and A/B Testing at release versioning. Skipping any stage removes a layer of validation and accelerates the risk of product failure — the lecture makes clear that no single stage can substitute for the others.
+            </div>
           </details>
         </div>
       </div>
 
       <!-- Lecture 4 -->
       <div class="question-group">
-        <h2>Lecture 4: Concept Testing Review</h2>
+        <h2>Lecture 4: Concept Testing Review and Guest Lecture</h2>
 
         <div class="question-item">
-          <p class="question-text">Why is the goal of concept evaluation "concept improvement" rather than just "concept selection"?</p>
+          <p class="question-text">Why must criteria weights in a Concept Scoring Matrix come from consumer research rather than internal team judgment?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The best product concept is often created by merging the strongest features from multiple candidates rather than simply picking the highest scorer. A concept scoring matrix can favor mediocre all-rounders -- the "best average" that excels at nothing. Teams should examine standout features from lower-ranked concepts and combine them into an improved design. This approach produces a final concept that is stronger than any single original candidate.</div>
+            <div class="answer-content">
+              Criteria weights reflect how much each selection criterion matters to the target customer. If weights are set by the internal team rather than grounded in consumer problem surveys, the matrix reflects team preferences rather than actual customer priorities — potentially selecting a concept optimized for what engineers find elegant rather than what consumers value. The mechanical pencil class exercise illustrated this directly: different student teams assigned different weights and arrived at different "best" concepts, demonstrating that without consumer-anchored weights the tool produces divergent, subjective outputs. In the boat cup-holder example, weights like "Flexible Use" (20%) and "Keeps Drink Container Stable" (20%) were derived from boater surveys, not from assumptions.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What role does the Product Innovation Charter (PIC) play in concept testing?</p>
+          <p class="question-text">What is the "best average product" trap in concept scoring, and how does sensitivity analysis guard against it?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The Product Innovation Charter acts as a strategic filter during concept testing (Phase 3 of NPD). It defines the boundaries of a product development effort, including target markets, technology requirements, and innovation goals. Concepts that fall outside these boundaries -- requiring technologies the firm lacks, targeting unfamiliar customers, offering wrong levels of innovativeness, or failing on cost/competitive dimensions -- should be eliminated before development resources are committed. Concept testing is fundamentally a "stage of elimination."</div>
+            <div class="answer-content">
+              The "best average product" trap occurs when the concept with the highest total score is merely adequate across all criteria rather than excellent on the dimensions customers care most about. Because the scoring formula averages across all weighted criteria, a concept that scores 3 (same as reference) on everything can outrank a concept that scores 5 on the most critical criteria but 2 on less important ones. Sensitivity analysis guards against this by varying uncertain weights within a plausible range and checking whether the ranking flips — if it does, the decision is not robust and the team needs additional consumer data or a qualitative discussion before committing. The boat cup-holder case, where Concepts C, O, and F were separated by only 7–9 points out of 600, is a clear example where sensitivity analysis was essential.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">How does testing evolve across the different stages of the product development process?</p>
+          <p class="question-text">How does the Product Innovation Charter (PIC) function as a concept filter during concept testing?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Testing evolves from qualitative to quantitative methods across six stages: During Planning and Concept Development, firms use specification testing, benchmarking, and qualitative concept testing ("Should we build this?"). During System-Level and Detail Design, prototype testing and alpha testing validate design decisions. During Testing and Refinement, quantitative market testing and beta testing with real users occur. During Production Ramp-Up, A/B testing and release versioning optimize the product at scale ("How do we make it work better?"). Go/No-Go decision gates at key transition points determine whether the project advances.</div>
+            <div class="answer-content">
+              The PIC is a strategic document that defines the product's description, benefit proposition, key business goals, primary and secondary markets, constraints, assumptions, and stakeholders. During concept testing, it serves as an elimination filter by excluding concepts that require technologies the firm does not possess, target customer segments the firm does not understand well, are inappropriately innovative (too radical or too incremental for the firm's strategy), or are misaligned on cost, competitive position, or other strategic dimensions. It ensures the scoring matrix evaluates only concepts that are strategically legitimate — so that the winning concept is not just mathematically superior but also practically pursuable within the firm's capabilities and strategic scope.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">Why should sensitivity analysis always be performed on a concept scoring matrix?</p>
+          <p class="question-text">What are the behavioral rules and setup conditions for a productive brainstorming session, and why do they matter for downstream concept quality?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Sensitivity analysis tests how changes in importance weightings or uncertain ratings affect the concept ranking. This is essential because close scores between concepts (e.g., 594 vs. 587 vs. 585 in the cup holder exercise) mean that small changes in assumptions could reverse the outcome. If the top-ranked concept's lead is not robust to reasonable changes in weights or ratings, the team should reconsider its choice. Additionally, different customer segments may yield different rankings, so concept selection should be performed separately for each target group.</div>
+            <div class="answer-content">
+              Effective brainstorming requires behavioral rules — defer judgment, build on others' ideas, encourage wild ideas, express ideas visually, stay on topic, one conversation at a time — and proper setup conditions: groups of 4–8 participants, a skilled facilitator, a stimulating physical environment with whiteboards and markers, and topic-relevant stimuli. These conditions matter because the quality of concepts entering the scoring matrix is bounded by the quality of the ideation that produced them. Poor brainstorming produces a narrow field of incremental variants; the Concept Scoring Matrix can only select the best option from what it receives — it cannot compensate for a weak input set. Concept scoring is a selection tool, not a generation tool.
+            </div>
           </details>
         </div>
       </div>
@@ -183,151 +316,323 @@
         <h2>Lecture 5: Conjoint Analysis for Product Design</h2>
 
         <div class="question-item">
-          <p class="question-text">What is conjoint analysis, and what key assumption does it rely on?</p>
+          <p class="question-text">What is conjoint analysis, and what core assumption makes it work? When is this assumption likely to break down?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Conjoint analysis is a survey-based statistical technique used to determine how consumers value different attributes of a product or service. It works by presenting respondents with product profiles combining different attribute levels and asking them to rank, rate, or choose among them. Its key assumption is that a product is a bundle of attributes and that customers combine the values they derive from individual attributes to generate their overall valuation -- in other words, product value equals the sum of its parts. Regression analysis then decomposes reported preferences to infer the utility each attribute level provides.</div>
+            <div class="answer-content">
+              Conjoint analysis is a survey-based statistical technique that decomposes consumer preferences into part-worth utilities for individual product attributes by presenting respondents with many product configurations and running OLS regression on their stated preferences. The core assumption is the additive utility model: a product's total utility equals the sum of the part-worth utilities of each attribute level, with no cross-attribute interaction effects. This assumption holds well for products like computers, hotel packages, and financial products where attributes are independently combinable. It breaks down for products where attribute interactions are non-additive — fragrances, where ingredients interact chemically, and meal ingredients, where combinations create emergent flavors, are classic examples where the whole is not the sum of its parts.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">How do you calculate the relative importance of attributes in conjoint analysis?</p>
+          <p class="question-text">How do you calculate the relative importance of an attribute in conjoint analysis? Using the salsa example, calculate and interpret the importance of Spiciness.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Relative importance is calculated by finding the range of coefficients for each attribute (the absolute difference between the highest and lowest coefficient values, including the baseline which is 0), then dividing each attribute's range by the sum of all ranges. For example, in the salsa study: Spiciness range = 10.67, Thickness range = 6.17, Color range = 1.00. Sum = 17.84. Spiciness importance = 10.67/17.84 = 59.8%, Thickness = 34.6%, Color = 5.6%. This tells the product manager which attributes have the greatest influence on consumer preference.</div>
+            <div class="answer-content">
+              Relative Importance = (Range of attribute's part-worth utilities / Sum of all attributes' ranges) × 100, where Range = max utility level − min utility level across all levels of that attribute. For the salsa example: Spiciness levels are Mild (baseline = 0), Medium-Hot (+4.83), Extra-Hot (+10.67); Range = 10.67 − 0 = 10.67. Thickness range = 3.83 − (−2.33) = 6.16. Color range = 1.00 − 0 = 1.00. Total = 10.67 + 6.16 + 1.00 = 17.83. Spiciness importance = (10.67 / 17.83) × 100 = 59.8%. This means spiciness accounts for nearly 60% of all preference variation — it dominates the design decision. Investing in color or packaging variety would largely waste resources since color importance is only 5.6%.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">When would conjoint analysis NOT be appropriate to use?</p>
+          <p class="question-text">How is willingness to pay (WTP) derived from conjoint analysis? Using the hotel staycation example, calculate WTP for an ocean view.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Conjoint analysis is not appropriate when: (1) product value cannot be approximated as the sum of its parts because attributes interact strongly (e.g., fragrances, meal ingredients), (2) the product cannot be decomposed into discrete attributes (e.g., clothing design aesthetics), or (3) attributes are subjective and ambiguous (e.g., "friendly" or "sporty"). It works best for products like computers, credit cards, hotel packages, and financial products where attributes are independent, discrete, and unambiguous.</div>
+            <div class="answer-content">
+              WTP for an attribute upgrade = (Attribute utility gain / |Price coefficient|) × Price increment tested. In the hotel example, the estimated model is: Y = 2.08 + 1.42·LargeRoom + 2.05·CityView + 5.83·OceanView − 1.68·HighPrice. The price coefficient is −1.68 for a $50 increment (from $300 to $350). Ocean view utility gain over garden view = 5.83. WTP = (5.83 / 1.68) × $50 = $173.51 ≈ $174. This means a consumer is indifferent between a garden-view room at $300 and an ocean-view room at $474. Ocean view is by far the most valued attribute — worth more than three times the room size upgrade ($42) — giving the hotel clear pricing guidance to charge substantial premiums for ocean-facing rooms.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is delayed differentiation (postponement), and how did Benetton use it to reduce waste?</p>
+          <p class="question-text">What is postponement (delayed differentiation), and how did Benetton use it to reduce unsold inventory from 33% to 8%?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Delayed differentiation is a production strategy that postpones the product-differentiating steps until customer preferences or demand signals are known. Benetton originally dyed yarn before knitting sweaters, which required forecasting demand for each color far in advance -- resulting in 33% unsold stock. They reversed the process: knit white garments first, then dye finished sweaters based on actual demand. This reduced unsold stock from 33% to 8%. The strategy requires modular product architecture where the differentiating element (color, in this case) can be applied as the last step.</div>
+            <div class="answer-content">
+              Postponement is a supply chain strategy in which a product is manufactured up to a semi-finished, generic state and the differentiating step — the step that locks it into a specific variant — is deferred to the latest possible point in the supply network. Benetton previously dyed yarn in specific colors before knitting garments, requiring them to forecast color demand months in advance. They redesigned the process to knit garments first in undyed white yarn and dye finished garments only after observing actual seasonal demand. This shifted the forecast requirement from color-level demand (highly uncertain, many variants) to total sweater volume (far more stable, single aggregate). Unsold stock fell from 33% to 8% because they only dyed the colors actually selling, virtually eliminating color-mismatch inventory waste.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">What is poka-yoke, and give two product design examples that illustrate how it prevents user error?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Poka-yoke is a Japanese fail-proofing design philosophy (meaning "mistake-proofing") that builds physical or procedural safeguards into a product so that errors are prevented or immediately detected before they cause harm — rather than relying on user training, warning labels, or behavioral change. Two examples from the lecture: (1) Asymmetric battery terminals — the positive and negative ends are physically shaped differently so batteries can only be inserted in the correct orientation, making reverse insertion mechanically impossible; (2) Diesel fuel nozzles — diesel pump nozzles are sized larger than petrol nozzles, so a driver cannot accidentally insert a diesel nozzle into a petrol-engine vehicle's fuel inlet. Both examples eliminate the error at the design level rather than warning against it.
+            </div>
           </details>
         </div>
       </div>
 
       <!-- Lecture 6 -->
       <div class="question-group">
-        <h2>Lecture 6: Market Experiments &amp; Project Management</h2>
+        <h2>Lecture 6: Market Experiment and Project Management</h2>
 
         <div class="question-item">
-          <p class="question-text">Why is correlation not the same as causation, and how do experiments solve this problem?</p>
+          <p class="question-text">Why are Randomized Controlled Trials (RCTs) considered the "gold standard" for causal inference in marketing? What makes a correlation insufficient to prove causation?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Correlation means two variables move together, but one does not necessarily cause the other -- a confounding variable may be responsible (e.g., ice cream sales and drowning rates both rise in summer because of hot weather, not because one causes the other). Experiments solve this by randomly assigning subjects to treatment and control groups, which ensures the groups are comparable on all factors except the one being tested. This isolates the causal effect of the variable of interest. The key concept is the counterfactual: "What would have happened if we had not taken this action?"</div>
+            <div class="answer-content">
+              RCTs are the gold standard because random assignment distributes all confounding variables — both observed and unobserved — approximately equally across treatment and control groups in expectation. When the only systematic difference between groups is the variable being manipulated, any observed difference in outcomes can be causally attributed to the treatment. Correlation is insufficient because many alternative causal stories can generate the same pattern: the Apple Watch and body weight example illustrates at least five possible mechanisms (direct effect, reverse causation, health-conscious people buying both, wealth as a common cause, gender as a confound). Regression analysis controls for observed confounders but cannot eliminate unobserved ones, leaving causal claims uncertain — only randomization resolves this.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is the critical path in project management, and why does it matter?</p>
+          <p class="question-text">What is factorial design, and why can it find optimal combinations that sequential A/B testing will miss?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The critical path is the longest path through a project network diagram, and it determines the minimum project duration. All activities on the critical path have zero slack, meaning any delay to a critical activity directly delays the entire project. It matters because no amount of optimization on non-critical activities will shorten the project -- management attention and crashing efforts must focus on the critical path. If an activity duration changes, the critical path may shift, requiring recalculation of all paths.</div>
+            <div class="answer-content">
+              Factorial design tests multiple treatment dimensions simultaneously by creating a full grid of all possible combinations of factor levels. In the wine email example, Dimension 1 is product ($24 Cabernet vs. $32 Rioja) and Dimension 2 is text length (short, medium, long), creating 2 × 3 = 6 conditions. Sequential A/B testing starts from one cell and changes one variable at a time — but this path can get trapped in a local optimum and never reach the globally best combination. In the example, starting from [short text + $24 Cabernet] and iterating would never reach the highest-profitability condition of [long text + $32 Rioja]. Factorial design reveals interaction effects between dimensions — where the best level of one variable depends on the level of another — which sequential testing structurally cannot detect.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is the difference between a factorial design and a simple A/B test?</p>
+          <p class="question-text">What is the endowment effect, and what are its implications for product trial and sampling strategies?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">An A/B test compares two versions of a single variable (e.g., webpage layout A vs. B) to determine which performs better. A factorial design tests all possible combinations of two or more independent variables simultaneously. For example, a 2x2 factorial design tests 2 levels of Factor A crossed with 2 levels of Factor B, yielding 4 conditions. The advantage of factorial design is that it reveals not only the main effect of each factor but also interaction effects (where the effect of one factor depends on the level of another), and it is more efficient than running separate A/B tests for each factor.</div>
+            <div class="answer-content">
+              The endowment effect is a cognitive bias in which people assign higher value to objects they own than to identical objects they do not own. Demonstrated experimentally by Kahneman, Knetsch, and Thaler (1990), owners of coffee mugs priced at $6 demanded $5.25 to sell, while non-owners would only pay $2.50 — a $2.75 gap driven purely by ownership status, replicated in class with Lindor chocolates. For product managers, this implies that getting customers to trial or "own" a product — even temporarily — significantly increases their willingness to pay and reduces churn. Free samples, trial periods, product customization experiences, and even short-term loans all leverage the endowment effect by converting a prospective buyer into a temporary owner before the purchase decision is made.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">Explain what slack (float) means in project scheduling. How is it calculated?</p>
+          <p class="question-text">How do you use the Critical Path Method (CPM) to find the minimum project duration? Walk through the CPM formulas for ES, EF, LS, LF, and Slack.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Slack (or float) is the maximum time an activity can be delayed without delaying the entire project's completion date. It is calculated as: Slack = LS - ES = LF - EF, where LS is Latest Start, ES is Earliest Start, LF is Latest Finish, and EF is Earliest Finish. Activities with zero slack are on the critical path and cannot be delayed at all. Activities with positive slack can absorb that many time units of delay without affecting the project deadline, which is essential information for resource allocation and risk management.</div>
+            <div class="answer-content">
+              CPM uses the AON network diagram and two passes. Forward pass: EF = ES + t (where t is activity duration), and ES for each activity = maximum EF of all immediate predecessors (0 for activities with no predecessors). Backward pass: LS = LF − t, and LF for each activity = minimum LS of all immediate successors (project duration for the final activity). Slack S = LS − ES (equivalently LF − EF). The critical path is the longest path from Start to Finish — all activities on it have S = 0, and any delay in a critical activity delays the entire project by an equal amount. In the St. John's Hospital example, path B-D-H-J-K at 69 weeks is the critical path; path A-C-G-J-K at 67 weeks has only 2 weeks of slack, making it nearly critical and worth monitoring closely.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">Given [scenario]: A startup NPD project has three activities — A (8 weeks, no predecessor), B (5 weeks, no predecessor), and C (6 weeks, requires both A and B). What is the project duration and which activities are critical?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Forward pass: ES_A = 0, EF_A = 8; ES_B = 0, EF_B = 5; ES_C = max(EF_A, EF_B) = max(8, 5) = 8, EF_C = 8 + 6 = 14. Project duration = 14 weeks. Backward pass: LF_C = 14, LS_C = 14 − 6 = 8; LF_A = LS_C = 8, LS_A = 8 − 8 = 0; LF_B = LS_C = 8, LS_B = 8 − 5 = 3. Slack: S_A = 0 − 0 = 0 (critical); S_B = 3 − 0 = 3 (non-critical — B can be delayed up to 3 weeks without delaying the project); S_C = 8 − 8 = 0 (critical). The critical path is A → C (14 weeks); activity B has 3 weeks of scheduling flexibility and can absorb modest delays without consequence.
+            </div>
           </details>
         </div>
       </div>
 
       <!-- Lecture 7 -->
       <div class="question-group">
-        <h2>Lecture 7: Brand Management</h2>
+        <h2>Lecture 7: Brand Management Overview</h2>
 
         <div class="question-item">
-          <p class="question-text">What is customer-based brand equity (CBBE), and what two components make up brand knowledge?</p>
+          <p class="question-text">What is brand equity, and how does the CBBE framework (Keller) define the source of that equity?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Customer-based brand equity is the differential effect that brand knowledge has on consumer response to the marketing of a brand. When consumers react more favorably to a product because they recognize the brand (compared to when they do not), the brand has positive equity. Brand knowledge consists of two components: (1) Brand awareness -- whether and how easily consumers can identify the brand (through recognition and recall), and (2) Brand image -- the perceptions, associations, and meanings consumers hold about the brand in memory. Both must be strong for robust brand equity.</div>
+            <div class="answer-content">
+              Brand equity is the value added to a product by its brand — the differential effect that makes consumers willing to pay more for Coca-Cola than a generic cola or Apple than a commodity PC. Under Keller's Customer-Based Brand Equity (CBBE) framework, the source of all brand equity is brand knowledge residing in consumer memory. Brand knowledge has two components: brand awareness (the strength of the brand node in memory — recognition and recall) and brand image (the set of associations consumers hold about the brand). It is this accumulated brand knowledge that creates the differential consumer response to marketing activity, making CBBE an inside-out model: build the right knowledge in consumer minds and financial brand equity follows.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What are the four levels and six building blocks of Keller's Brand Resonance Pyramid?</p>
+          <p class="question-text">Describe the four levels of the CBBE Pyramid in order. What is the branding objective at each level?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The four levels (bottom to top) are: (1) Identity -- "Who are you?" with the building block of Brand Salience (depth and breadth of awareness). (2) Meaning -- "What are you?" with Brand Performance (functional needs) and Brand Imagery (psychological and social needs). (3) Response -- "What about you?" with Brand Judgments (quality, credibility, consideration, superiority) and Brand Feelings (warmth, fun, excitement, security, social approval, self-respect). (4) Relationships -- "What about you and me?" with Brand Resonance (behavioral loyalty, attitudinal attachment, sense of community, active engagement). The pyramid must be built from the bottom up.</div>
+            <div class="answer-content">
+              Level 1 — Salience (Who are you?): building deep, broad brand awareness so the brand is easily recalled across purchase and consumption situations. Level 2 — Meaning (What are you?): establishing Performance associations (functional attributes, quality, price) and Imagery associations (user profiles, personality, heritage) that define what the brand stands for; the objective is strong Points of Parity and Difference. Level 3 — Response (What about you?): generating positive Judgments (quality, credibility, consideration, superiority) and Feelings (warmth, fun, excitement, security, social approval, self-respect); the objective is positive, accessible reactions. Level 4 — Resonance (What about you and me?): achieving an intense, active relationship through behavioral loyalty, attitudinal attachment, sense of community, and active engagement — the ultimate objective and the basis of sustainable competitive advantage.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is a brand mantra, and how does it differ from a tagline?</p>
+          <p class="question-text">What is a brand mantra, and what is its structure? Give the brand mantras for Nike and Disney.</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">A brand mantra is a short (three- to five-word) internal articulation of the heart and soul of the brand. It consists of three components: an emotional modifier (how the brand provides benefits), a descriptive modifier (the nature of the product/experience), and a brand function (the type of benefit delivered). For example, Nike's brand mantra is "Authentic Athletic Performance." A tagline is an external, consumer-facing phrase used in marketing communications. The brand mantra guides internal marketing decisions and ensures consistency, while the tagline communicates to consumers. The two should be aligned but serve different purposes.</div>
+            <div class="answer-content">
+              A brand mantra is a short, three-to-five-word phrase that captures the irrefutable essence of the brand positioning, structured as: Emotional Modifier + Descriptive Modifier + Brand Function. It is internally facing — used to guide decisions about products, campaigns, and distribution by ensuring all choices are consistent with the brand's core spirit. Nike's brand mantra is "Authentic Athletic Performance" — Authentic (emotional modifier), Athletic (descriptive modifier), Performance (brand function). Disney's is "Fun Family Entertainment" — Fun (emotional), Family (descriptive), Entertainment (function). The mantra is not a tagline for consumers; it is a strategic compass for the brand management team, constraining the brand's scope and ensuring consistency.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What is the difference between points of parity (POPs) and points of difference (PODs) in brand positioning?</p>
+          <p class="question-text">What is the Parmentier logic for brand repositioning, and what constraints did Parmentier work under that make the lesson transferable?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Points of parity are associations shared with competitors that are necessary for the brand to be considered a legitimate player in the category. There are two types: category POPs (must-have associations to compete) and competitive POPs (associations that negate a competitor's advantage). Points of difference are strong, favorable, and unique associations that consumers believe they cannot find to the same extent with a competitive brand -- they form the basis of the brand's competitive advantage. Effective positioning requires establishing both: POPs to ensure credibility and PODs to drive preference.</div>
+            <div class="answer-content">
+              The Parmentier logic is a three-step template for building brand desire without functional claims or mass advertising: (A) secure endorsement from an elite, aspirational, or culturally relevant authority; (B) design a curated, exclusive first experience for the target audience; (C) execute a reframing move that attaches new meaning to the product. Parmentier had King Louis XVI wear potato blossoms and served potatoes at royal banquets — creating aspirational association where previously there was only stigma, without using health claims, price promotions, or conventional advertising. The constraints (no health benefits messaging, no price promotions, no mass advertising) are deliberately imposed to force identity-level interventions that are more durable than functional or promotional appeals. Won Soju's launch strategy — leveraging Jay Park's cultural capital, pop-up experiential events, and premium pricing — is a modern application of the same logic.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">What is brand consideration (within Brand Judgments), and why is it described as a "crucial filter for brand equity"?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Brand consideration is the degree to which consumers view the brand as personally relevant and include it in their purchase consideration set. It is one of four key judgment types (alongside quality, credibility, and superiority) at Level 3 of the CBBE Pyramid. It is described as a "crucial filter" because even a brand that is highly rated on quality and credibility cannot achieve brand resonance if consumers do not consider it personally relevant to their needs, situation, or identity — they will simply never buy it. High awareness and positive associations are necessary but not sufficient: the brand must also pass the personal relevance test. This is why brand positioning must be defined from the consumer's benefit perspective, not the firm's capability perspective.
+            </div>
           </details>
         </div>
       </div>
 
       <!-- Lecture 8 -->
       <div class="question-group">
-        <h2>Lecture 8: Brand Sustainability &amp; Personal Branding</h2>
+        <h2>Lecture 8: Brand Sustainability and Personal Branding</h2>
 
         <div class="question-item">
-          <p class="question-text">What is disruptive repositioning, and what risks does it carry for a luxury brand?</p>
+          <p class="question-text">What is brand dilution, and how did Gucci experience it in the late 1980s? What was done to arrest it?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Disruptive repositioning is a bold strategic shift that fundamentally changes a brand's target segment, image, or value proposition rather than making incremental adjustments. For luxury brands, this carries the risk of alienating core existing customers while pursuing new demographics. There is also the risk of brand dilution -- when the brand extends into more accessible product categories (like Gucci entering beauty) or broadens its consumer base too aggressively, it may weaken the perception of exclusivity that is central to luxury brand identity.</div>
+            <div class="answer-content">
+              Brand dilution is the weakening of a brand's distinctive associations, perceived quality, and exclusivity — typically caused by overextension, inappropriate licensing, or distribution inconsistent with the brand's core identity. In the late 1980s, Gucci's product line had ballooned to 22,000 items including key chains, playing cards, and toilet paper, all logo-emblazoned and sold through mass-market department stores. The proliferation made the brand feel cheap, invited a surge of counterfeits, and collapsed the exclusivity that underpinned its premium pricing. Creative director Dawn Mello (1989) arrested the dilution by pruning the line from 22,000 to 7,000 SKUs and cutting retail doors from 1,000+ to approximately 180 — restoring scarcity and curation. However, the case shows that curation alone is insufficient without compelling creative vision: Mello's collections failed to resonate and the brand still posted a $102M loss in 1993.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">What are the key differences between the "old luxury" and "new luxury" paradigms?</p>
+          <p class="question-text">Compare the "Old Luxury" and "New Luxury" paradigms across the five dimensions discussed in the lecture. What is driving the shift?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Old luxury emphasized status symbols, passive customer engagement, ownership-focused consumption, destination shopping (exclusive in-store experiences), and resistance to online channels. New luxury has shifted toward self-expression, active customer co-creation, experience-driven consumption, omnichannel browsing, and fully integrated digital presence. This transformation is driven by Millennials and Gen Z (projected to represent 55% of the luxury market by 2025), who value experiences, digital engagement, sustainability, and inclusivity over traditional status signaling.</div>
+            <div class="answer-content">
+              Across five dimensions: Symbol (old: status artifact; new: experience and self-expression vehicle), Customer Engagement (old: transactional, passive; new: participatory, co-creative), Consumption (old: restricted to elite physical retail; new: omni-channel, digital-native), Shopping Mindset (old: exclusivity and heritage as primary values; new: cultural relevance, authenticity, and values alignment), and Online Channels (old: peripheral; new: 22% of market in 2021 and projected 30% by 2025). The shift is driven primarily by the Millennial and Gen Z demographic transition — these cohorts are projected to exceed 70% of the luxury market by 2025 and account for 130% of market growth. They are digital-first, prioritize brand purpose and inclusivity, and discover luxury through social media and online channels rather than traditional retail environments.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">How does the personal branding framework connect to the product development frameworks taught earlier in the course?</p>
+          <p class="question-text">What are the Three D's framework for personal brand positioning, and how do they map onto the classic product design framework?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">The personal branding framework directly maps the Desirable-Feasible-Viable innovation challenge from product development to individuals: what you are passionate about (desirable), what you are skilled at (feasible), and what the market values (viable). The sweet spot lies at the intersection of all three. Additionally, personal branding uses the same brand management tools: brand mantras (emotional modifier + descriptive modifier + brand function), mental maps (associative networks of how others perceive you), positioning statements, and points-of-difference -- all applied to building and managing an individual's professional identity.</div>
+            <div class="answer-content">
+              The Three D's evaluate whether a personal brand positioning is genuinely sustainable: Desirability (passion/importance — do you genuinely care about this, and do others want what you stand for?), Deliverability (skills/ability — can you consistently and credibly deliver this, grounded in real competencies?), and Differentiation (long-term viability — is your positioning distinctively sustainable and difficult for others to replicate?). These map directly onto the product design framework: Desirability corresponds to People/Desirable, Deliverability to Technical/Feasible, and Differentiation to Business/Viable. The optimal personal brand positioning, like the optimal product concept, sits at the intersection of all three — where passion, market demand, and genuine capability align simultaneously.
+            </div>
           </details>
         </div>
 
         <div class="question-item">
-          <p class="question-text">Why is geographic market dependence a strategic risk for luxury brands?</p>
+          <p class="question-text">What is geographic concentration risk in luxury brand management, and what concrete data from the course illustrates this risk for Gucci?</p>
           <details>
             <summary>Show Answer</summary>
-            <div class="answer-content">Geographic market dependence occurs when a disproportionate share of a brand's revenue comes from consumers of a single nationality or region. For example, Chinese consumers accounted for 35% of luxury purchases in 2019 and were projected to reach 50% by 2025. This creates vulnerability to geopolitical tensions, economic downturns, and health crises (such as COVID-19) in that region. When Gucci's H1 2020 sales declined by 33.8% during the pandemic, it highlighted how over-reliance on a single consumer base can severely impact business performance.</div>
+            <div class="answer-content">
+              Geographic concentration risk is the strategic vulnerability that arises when a brand's revenue is disproportionately dependent on consumers from a single country or region, making it sensitive to localized political, economic, or logistical disruptions. For Gucci, Chinese consumers by nationality represented 33% of global luxury purchases in 2019, projected to reach 43% by 2025. COVID-19 demonstrated this risk concretely: travel restrictions redirected Chinese purchasing domestically rather than abroad, and Western markets were severely suppressed while China recovered faster — in H1 2020, Gucci's sales fell 33.8% and operating income dropped over 50%. Anti-extravagance campaigns, geopolitical tensions, or currency shocks in China would have an outsized impact on Gucci's revenue with limited ability to offset through other markets.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">Given [scenario]: You are the brand manager for a heritage luxury watchmaker facing stagnant sales and an aging consumer base. Using the perceptual map framework, how would you diagnose the problem and outline a repositioning approach?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Start by mapping the brand on the two most relevant perceptual axes — for example, Classic/Contemporary on one axis and consumer age skew (30s through 60s+) on the other. If the brand plots as "Classic, 50s+" while competitors and growth segments cluster in the "Contemporary, 30s" quadrant, the diagnosis is a generational relevance gap. The repositioning approach mirrors Gucci's Alessandro Michele strategy: (1) appoint creative leadership with cultural credibility among younger consumers; (2) establish a shadow advisory body of employees under 30 to institutionalize millennial perspective-taking; (3) redesign retail as an experiential environment rather than a guarded boutique; (4) invest in digital content and social media campaigns that use cultural idioms resonant with the target cohort; (5) preserve brand heritage in core product lines (the "70% staples" approach) while introducing bold, culturally engaged limited editions (30% trendy items) to generate awareness and attract new consumers without alienating existing ones.
+            </div>
           </details>
         </div>
       </div>
 
+      <!-- Supplementary Topics -->
+      <div class="question-group">
+        <h2>Supplementary Topics</h2>
+
+        <!-- Slack -->
+        <div class="question-item">
+          <p class="question-text">[Slack Case] What is Slack's "magic number," and how did identifying it change the company's go-to-market approach?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Slack's magic number is 2,000 messages exchanged by a team: after crossing this threshold, 93% of teams remain active long-term users. Butterfield identified it through cohort retention analysis rather than industry benchmarks. Identifying this number transformed the go-to-market approach because it gave the team a concrete activation target around which to align every downstream decision: onboarding email sequences were redesigned to push teams toward 2,000 messages, in-product prompts were introduced to encourage team-wide participation, and support interventions were triggered when teams appeared to stall before crossing the threshold. The magic number also reframed the revenue model — losing the majority of sign-ups (over 90% never sent a single message) was acceptable because the 93% retention rate of activated teams justified deep investment in activation rather than acquisition.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">[Slack Case] Explain Slack's bottoms-up enterprise adoption strategy. How did it bypass traditional IT procurement, and what risk did it introduce?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Bottoms-up adoption means Slack entered large organizations through individual teams or departments at a price point low enough for mid-level managers to expense without CIO or IT approval — bypassing the formal enterprise procurement process that would otherwise require security audits and executive sign-off. Adobe had nine separate paid Slack teams before any company-wide procurement decision was made, illustrating how the product spread organically within an enterprise before IT was involved. The risk this strategy introduced is the team-level veto dynamic: because any single team member who refuses to use the product can block the entire team's adoption, Slack had to make its first-impression quality exceptional for every user type, not just the decision-maker. This asymmetry — one dissenter can override many enthusiasts — is fundamentally more demanding than selling to an individual user.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">[Slack Case] What is the Buchheit Framework, and how did Slack apply it to product differentiation?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Paul Buchheit's framework (creator of Gmail) states: "If your product is Great, it doesn't need to be Good" — meaning excellence in a few critical dimensions is more valuable than broad adequacy across many features. Rather than building a complete competitive feature set, Slack chose three capabilities to execute at an exceptional level and accepted mediocrity or absence elsewhere: (1) Search — users can instantly find any past message or file without manual organization; (2) Leave-state synchronization — Slack tracks exactly where each user left off in every conversation across all devices in real time; (3) Simple file-sharing — intuitive drag-and-drop and paste-image capabilities. These were not glamorous features, but they addressed the core daily friction of team communication so reliably that users who loved these three capabilities were not deterred by missing features elsewhere.
+            </div>
+          </details>
+        </div>
+
+        <!-- Gucci Case -->
+        <div class="question-item">
+          <p class="question-text">[Gucci Case] What are the four pillars of the Bizzarri-Michele turnaround strategy at Gucci (2015–2019), and what quantitative evidence demonstrates its success?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              The four interlocking pillars were: (1) Creative Repositioning — Alessandro Michele's maximalist, gender-fluid, culturally eclectic aesthetic targeting a "state of mind" rather than a demographic; (2) Digital Capability Building — investing 35% of total budget in 2016 in digital and omni-channel infrastructure, becoming the best-performing digital fashion brand in 2016–2017; (3) Experiential Retail Redesign — replacing guard-patrolled boutiques with open, sensory-rich environments with "connectors" rather than security guards; (4) Creative-Merchandising Integration — hiring Jacopo Venturini to collaborate with Michele from the design process start. The quantitative evidence: revenue grew from €3,898M (2015) to €9,628M (2019), a ~25% CAGR; operating income grew from €1,032M to €3,947M, a ~40% CAGR; millennial revenue contribution rose from near zero to 60%; and Gucci became the world's fastest-growing luxury brand in 2017.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">[Gucci Case] What is the "staples-trendy portfolio split," and how did Gucci structure it? Why does this balance matter for luxury brand management?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Gucci structured its product portfolio as approximately 70% staples — enduring, season-agnostic core products that persist unchanged and provide revenue stability and brand consistency — and 30% trendy items — culturally responsive, trend-driven pieces that generate media buzz, cultural conversation, and new consumer acquisition. This balance matters for luxury brand management because staples provide the reliable revenue base and brand identity continuity that loyal customers depend on, while trendy items keep the brand culturally relevant, attract new cohorts, and generate earned media without requiring large paid advertising budgets. Without staples, the brand risks creative exhaustion and inconsistency; without trendy items, it risks becoming stale and irrelevant to younger consumers who drive luxury market growth.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">[Gucci Case] What is the luxury democratisation tension, and how does the beauty category extension crystallise it for Gucci?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              The luxury democratisation tension is the enduring strategic trade-off between accessibility (reaching more consumers and growing revenue) and exclusivity (maintaining aspirational status, scarcity cues, and premium pricing power). The beauty extension crystallises this tension because cosmetics and fragrances are fundamentally accessible products — entry-level Gucci lipsticks costing far less than a handbag — that dramatically widen who can "own" a piece of the Gucci brand. This risks diluting the exclusivity that makes the core leather goods and ready-to-wear desirable. Kering's move to bring beauty in-house (from Coty) was a distribution and brand control response: by owning the operation directly, Gucci can manage pricing discipline, limit off-brand distribution, and ensure the beauty line's aesthetics are consistent with the broader repositioning — controlling how accessibility is managed rather than simply preventing it.
+            </div>
+          </details>
+        </div>
+
+        <!-- Post-It Note Case -->
+        <div class="question-item">
+          <p class="question-text">[Post-It Note Case] Explain the "defect-to-feature reframing" mental model using Spencer Silver's microsphere adhesive. What conditions within 3M made this reframing possible?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              Silver's microsphere adhesive was a failure relative to its original brief — developing stronger, more permanent adhesives. Its defining property (low tack, repositionability without residue) was a defect in the industrial bonding context. Art Fry's insight reframed this defect as a feature: for the job of a temporary, damage-free bookmark, the inability to bond permanently was not a weakness but the core value proposition. The reframing was made possible by three 3M cultural conditions: (1) tolerance for exploratory research with open briefs that did not require pre-justified outcomes; (2) internal knowledge-sharing through formal seminars that kept Silver's "failed" adhesive circulating until Fry encountered it years later; and (3) champion-driven development culture that empowered Silver and Fry to advocate internally without formal authority. The twelve-year path from discovery (1968) to market launch (1980) reflects the organizational patience required for discontinuous innovation.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">[Post-It Note Case] How does the Post-It Note illustrate both technology push innovation and latent need identification? How does this connect to the NPD framework from Lecture 2?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              The Post-It Note is a canonical technology push case: Silver created the microsphere adhesive with no identified market application, and pushed it through the organization hoping a use would emerge — the opposite of demand-pull, where a known customer need drives R&D. It also illustrates latent need identification: before Art Fry connected the adhesive to his hymnbook frustration in 1974, no consumer had ever articulated a need for a repositionable self-adhesive note. The need (a temporary, damage-free attachment mechanism) was real and felt — Fry experienced it every choir practice — but had never been connected to a product solution. This connects to the Lecture 2 Customer Needs Pyramid: latent needs are the broadest, most underserved category precisely because customers cannot surface them in surveys or traditional focus groups. The Post-It story reinforces why ethnographic observation and internal cross-pollination (like 3M's seminars) can surface latent needs that market research cannot.
+            </div>
+          </details>
+        </div>
+
+        <div class="question-item">
+          <p class="question-text">[Post-It Note Case] Why did 3M choose trade secret protection over patent protection for the microsphere adhesive manufacturing process, and what are the strategic implications of this choice?</p>
+          <details>
+            <summary>Show Answer</summary>
+            <div class="answer-content">
+              3M chose not to patent the microsphere manufacturing process, relying instead on trade secret protection — keeping the precise formula confidential rather than disclosing it in a public patent filing. Fry stated the strategic rationale directly: "Because we didn't patent it, we didn't have to tell people how we make it." A patent provides legal exclusivity for a limited term (typically 20 years) but requires full public disclosure of the invention, which enables competitors to design around it or exploit it immediately upon expiration. Trade secret protection can theoretically last indefinitely as long as the formula remains confidential, providing a permanent barrier to imitation for a process-based advantage. The strategic implication is that trade secrets are superior protection when the manufacturing process — rather than the product design — is the key barrier to competition and when the risk of independent discovery by competitors is low.
+            </div>
+          </details>
+        </div>
+
+      </div>
+
     </main>
   </div>
+
   <script src="js/nav.js" defer></script>
 </body>
 </html>

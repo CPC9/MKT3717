@@ -378,16 +378,16 @@
   font-size: 1rem;
   border-radius: 10px;
   margin-left: 0.75rem;
-  background: var(--bg-card);
+  background: var(--bg-sub);
+  border: 1px solid var(--border);
   color: var(--text);
-  border: 1px solid var(--border-hi);
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
 }
 
 .btn-reset:hover {
-  background: var(--bg-deep);
   border-color: var(--accent);
+  background: var(--bg-deep);
 }
 
 /* ── Score Summary Card ── */

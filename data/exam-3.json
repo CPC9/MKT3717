@@ -1,0 +1,822 @@
+{
+  "examId": "practice-exam-3",
+  "title": "Practice Exam 3",
+  "description": "Practice exam emphasizing concept screening methods and market experiments. Deep focus on Pugh Matrix, Concept Scoring Matrix, JTBD, Critical Path Method, A/B testing, and experimental design.",
+  "focusAreas": [
+    "Lecture 3: Concept Screening & Testing",
+    "Lecture 6: Market Experiments & Project Management"
+  ],
+  "questions": [
+    {
+      "id": "practice-exam-3-q-001",
+      "type": "multiple-choice",
+      "question": "In the Jobs To Be Done (JTBD) framework, what is the core question a product team should ask instead of 'What features do customers want?'",
+      "options": [
+        {
+          "id": "a",
+          "text": "What is the customer's demographic profile and income level?"
+        },
+        {
+          "id": "b",
+          "text": "What 'job' is the customer trying to accomplish in a given situation, and what progress are they trying to make?"
+        },
+        {
+          "id": "c",
+          "text": "Which existing product most closely resembles what the customer described?"
+        },
+        {
+          "id": "d",
+          "text": "How many competing products exist in the market that satisfy similar needs?"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "JTBD reframes the question from feature requests and user personas to the situational motivation — what progress the customer is trying to make. The framework is structured as: 'When [situation], I want to [motivation], so I can [desired outcome].' Options (a), (c), and (d) focus on demographic profiling, competitive mapping, or feature comparison — none of which capture the underlying motivational trigger that JTBD targets.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-002",
+      "type": "multiple-choice",
+      "question": "How is the net score calculated in a Pugh Concept Screening Matrix?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Net Score = Plusses + Sames − Minuses"
+        },
+        {
+          "id": "b",
+          "text": "Net Score = Plusses × Criterion Weights"
+        },
+        {
+          "id": "c",
+          "text": "Net Score = Plusses − Minuses"
+        },
+        {
+          "id": "d",
+          "text": "Net Score = (Plusses − Minuses) ÷ Total Criteria"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "The Pugh Screening Matrix net score is simply Plusses minus Minuses. Sames (zeros) do not contribute to the net score. Option (a) incorrectly adds Sames. Option (b) conflates screening with the Scoring Matrix which uses weights. Option (d) normalizes by total criteria, which is not part of the Pugh methodology.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-003",
+      "type": "multiple-choice",
+      "question": "In the insulin syringe case study, Concept DF (Lever Stop) won the Concept Scoring Matrix evaluation. Why is this result particularly instructive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Concept DF had the highest net score in the Pugh Matrix screening stage"
+        },
+        {
+          "id": "b",
+          "text": "Concept DF was a combination of Concepts D and F — both of which had been individually eliminated during the Pugh Matrix screening stage"
+        },
+        {
+          "id": "c",
+          "text": "Concept DF scored 5 on every criterion in the Scoring Matrix"
+        },
+        {
+          "id": "d",
+          "text": "The team chose Concept DF based on engineering intuition rather than the matrix"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The critical insight is that the winning concept, DF (Lever Stop), was a hybrid of Concepts D and F — both eliminated in the Pugh screening stage. This demonstrates that teams should never treat eliminated concepts as entirely worthless. Features from eliminated concepts can be recombined to produce a superior hybrid that outperforms every individual candidate. Option (a) is false — Concept A ranked first in the Pugh screening. Option (c) is false — DF scored 3 on several criteria.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-004",
+      "type": "multiple-choice",
+      "question": "What score does the reference concept always receive on every criterion in the Concept Scoring Matrix, and what is its resulting total weighted score?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0 on all criteria; total score of 0.0"
+        },
+        {
+          "id": "b",
+          "text": "3 on all criteria; total weighted score of 3.0"
+        },
+        {
+          "id": "c",
+          "text": "5 on all criteria; total weighted score of 5.0"
+        },
+        {
+          "id": "d",
+          "text": "1 on all criteria; total weighted score of 1.0"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In the Concept Scoring Matrix the rating scale runs 1–5, where 3 = Same as Reference. The reference concept scores 3 on every criterion by definition, giving it a total weighted score of 3.0 (the baseline), since Σ(3 × Weight_i) = 3 × Σ Weight_i = 3 × 1.0 = 3.0. This is different from the Pugh Screening Matrix, where the reference scores 0 on all criteria. Confusing these two scales is a common mistake.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-005",
+      "type": "multiple-choice",
+      "question": "A product concept rates '5' on Durability (weight 15%) and '4' on Ease of Use (weight 15%) in the Concept Scoring Matrix. What is the combined weighted score for just those two criteria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.90"
+        },
+        {
+          "id": "b",
+          "text": "1.20"
+        },
+        {
+          "id": "c",
+          "text": "1.35"
+        },
+        {
+          "id": "d",
+          "text": "1.50"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Weighted Score = (Rating × Weight) summed across criteria. Durability: 5 × 0.15 = 0.75. Ease of Use: 4 × 0.15 = 0.60. Combined = 0.75 + 0.60 = 1.35. This matches the actual scores for Concept DF in the insulin syringe case study. Option (a) would require two criteria rated 3 (3×0.15 + 3×0.15 = 0.90). Option (d) would require both rated 5 (5×0.15 + 5×0.15 = 1.50).",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-006",
+      "type": "short-answer",
+      "question": "A concept scoring matrix produces total scores of 3.38 and 3.40 for two competing concepts — a difference of only 0.02. What two actions should a product team take before committing to the higher-scoring concept, and why?",
+      "correctAnswer": "First, the team should conduct a sensitivity analysis: vary the uncertain criterion weights within a plausible range and check whether the ranking flips. If small weight changes reverse the ranking, the result is not robust and additional consumer research is needed before committing. Second, the team should examine whether strong features from the second-ranked concept can be combined with the first-ranked concept to eliminate each other's weaknesses — the goal of concept evaluation is not selection but creation of a superior hybrid. Close scores are a signal that neither concept is clearly dominant, making concept combination especially valuable.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 3",
+      "verified": true,
+      "acceptableKeywords": [
+        "sensitivity analysis",
+        "weights",
+        "ranking",
+        "robust",
+        "combine",
+        "hybrid",
+        "combination",
+        "close scores",
+        "consumer research"
+      ]
+    },
+    {
+      "id": "practice-exam-3-q-007",
+      "type": "short-answer",
+      "question": "Explain the difference between Alpha testing and Beta testing in the product development lifecycle. Who conducts each, and what type of issues does each test address?",
+      "correctAnswer": "Alpha testing (Performance and User Interface Testing) is conducted internally by company personnel in the Testing and Refinement phase, after system-level and detail design are complete. It identifies functional failures — bugs, interface problems, and performance gaps — before the product is exposed to external users. Beta testing (Validation/Acceptance Testing) is conducted by real external users testing a near-final product in realistic conditions. It validates that the product meets user expectations at scale and confirms market readiness. Alpha catches internal technical failures; beta confirms external user acceptance.",
+      "acceptableKeywords": [
+        "alpha",
+        "internal",
+        "company personnel",
+        "beta",
+        "external users",
+        "realistic conditions",
+        "Testing and Refinement",
+        "functional failures",
+        "validation",
+        "acceptance"
+      ],
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-008",
+      "type": "multiple-choice",
+      "question": "A customer says: 'I get tired of standing in front of my thermostat to program it.' Which of the following is the CORRECTLY written customer needs statement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The thermostat does not require me to stand in front of it for programming."
+        },
+        {
+          "id": "b",
+          "text": "The thermostat must include a mobile app so it can be operated remotely."
+        },
+        {
+          "id": "c",
+          "text": "The thermostat can be programmed from a comfortable position."
+        },
+        {
+          "id": "d",
+          "text": "The thermostat should not make users stand while operating it."
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Option (c) follows all five guidelines: it is positive (states what the product does), expresses the 'what' not 'how' (comfortable position, not a specific mechanism), is an attribute of the product, is specific, and avoids 'must' or 'should.' Option (a) is negative ('does not require'). Option (b) specifies the 'how' (mobile app) and uses 'must.' Option (d) uses 'should' and frames the outcome around users rather than the product attribute.",
+      "difficulty": "hard",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-009",
+      "type": "short-answer",
+      "question": "Describe the two-stage concept selection process used in the insulin syringe case. Specifically: what tool was used in each stage, how many concepts were evaluated, and what was the final outcome and its key lesson?",
+      "correctAnswer": "Stage 1 used the Concept Screening Matrix (Pugh Matrix), evaluating all seven concepts (A through G) against the existing product (reference) on seven criteria using the +/0/− scale. Concept A ranked first (+3); Concepts C and F were eliminated. Stage 2 used the Concept Scoring Matrix with weighted 1–5 ratings on four surviving concepts (A, DF, E, and G+). Concept DF — a combination of previously eliminated Concepts D and F — won with a total weighted score of 3.45 and was selected for development. The key lesson is that the winning concept was a hybrid of two eliminated concepts, showing that features from eliminated concepts should be actively recycled rather than discarded entirely.",
+      "acceptableKeywords": [
+        "Pugh Matrix",
+        "screening",
+        "scoring",
+        "seven concepts",
+        "four concepts",
+        "Concept DF",
+        "3.45",
+        "eliminated",
+        "combination",
+        "two stages",
+        "hybrid"
+      ],
+      "difficulty": "hard",
+      "sourceLecture": "Lecture 3",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-010",
+      "type": "multiple-choice",
+      "question": "In the regression model Y = a + bX for an A/B experiment (X = 0 for control, X = 1 for treatment), what does the coefficient 'b' represent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The mean outcome for the control group"
+        },
+        {
+          "id": "b",
+          "text": "The mean outcome for the treatment group"
+        },
+        {
+          "id": "c",
+          "text": "The treatment effect — the mean difference in outcome between the treatment and control groups"
+        },
+        {
+          "id": "d",
+          "text": "The correlation coefficient between treatment and outcome"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "With binary X: 'a' = mean outcome for control (X=0); 'a + b' = mean outcome for treatment (X=1); therefore b = treatment mean minus control mean — the causal increment. In the endowment effect experiment: a = control group mean valuation ($0.90), b = endowment premium ($0.35), a+b = endowed group mean ($1.25). Because X is randomly assigned, b has a causal interpretation. Option (a) describes the intercept 'a'. Option (b) describes 'a + b'. Option (d) describes a correlation, not a regression coefficient.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-011",
+      "type": "multiple-choice",
+      "question": "The Kahneman, Knetsch, and Thaler (1990) mug experiment showed that endowed sellers valued the mug at $5.25 while non-endowed buyers valued it at $2.50. What does this $2.75 gap demonstrate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sellers are systematically more rational than buyers in all market exchanges"
+        },
+        {
+          "id": "b",
+          "text": "The endowment effect: ownership inflates perceived value for identical objects"
+        },
+        {
+          "id": "c",
+          "text": "The mug was objectively overpriced at $6 retail"
+        },
+        {
+          "id": "d",
+          "text": "Incentive-compatible experiments always produce higher prices than non-incentivized surveys"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Both groups received the same $6 mug; the only difference was random ownership assignment. The gap between seller minimum ($5.25) and buyer maximum ($2.50) is entirely attributable to ownership status — those endowed with the mug valued it more. This is the endowment effect: a cognitive bias where people assign higher value to objects they own than to identical objects they do not own. Because assignment was random, the effect is causally attributed to endowment, not pre-existing preferences.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-012",
+      "type": "multiple-choice",
+      "question": "Why does factorial design reveal optimal product configurations that sequential A/B testing cannot?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Factorial design requires fewer respondents, making it statistically more powerful"
+        },
+        {
+          "id": "b",
+          "text": "Sequential A/B testing can get trapped at a local optimum; factorial design simultaneously tests all dimension combinations to find the global optimum"
+        },
+        {
+          "id": "c",
+          "text": "Factorial design eliminates the need for a control group entirely"
+        },
+        {
+          "id": "d",
+          "text": "Sequential A/B testing only works for digital products, not physical products"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In the wine email example, a sequential A/B test starting from [short text + $24 Cabernet] optimizes one dimension at a time and may never reach the globally best combination [long text + $32 Rioja]. Factorial design tests all 2×3 = 6 conditions simultaneously, capturing interaction effects and the globally optimal combination. Option (a) is incorrect — factorial designs typically need more subjects. Option (c) is false — control conditions are still needed. Option (d) incorrectly limits A/B testing by medium.",
+      "difficulty": "hard",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-013",
+      "type": "multiple-choice",
+      "question": "In CPM scheduling, how is the Early Start (ES) of an activity with multiple predecessors determined?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ES = the minimum Early Finish among all immediate predecessors"
+        },
+        {
+          "id": "b",
+          "text": "ES = the average Early Finish among all immediate predecessors"
+        },
+        {
+          "id": "c",
+          "text": "ES = the maximum Early Finish among all immediate predecessors"
+        },
+        {
+          "id": "d",
+          "text": "ES = the sum of durations of all predecessor activities"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "ES = max EF of all immediate predecessors, because the activity cannot start until ALL predecessors are complete. In the hospital example, Activity J has predecessors E (EF=33), G (EF=57), and H (EF=59). Therefore ES_J = max(33, 57, 59) = 59. Taking the minimum (option a) would incorrectly allow the activity to start before some predecessors finish. The study notes explicitly list taking the maximum instead of minimum as a common mistake in the backward pass.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-014",
+      "type": "multiple-choice",
+      "question": "In the St. John's Hospital Relocation project, which path is the critical path and what is its total duration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A-C-G-J-K; 67 weeks"
+        },
+        {
+          "id": "b",
+          "text": "B-D-H-J-K; 69 weeks"
+        },
+        {
+          "id": "c",
+          "text": "B-E-J-K; 43 weeks"
+        },
+        {
+          "id": "d",
+          "text": "A-I-K; 33 weeks"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The critical path is the longest path through the network. Path B-D-H-J-K: 9 + 10 + 40 + 4 + 6 = 69 weeks — the longest of the five paths. All activities on this path have zero slack. The near-critical path A-C-G-J-K (67 weeks) has only 2 weeks of slack. The minimum project duration is therefore 69 weeks.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-015",
+      "type": "multiple-choice",
+      "question": "Activity A in the hospital project has Duration = 12, ES = 0, EF = 12, and LF = 14. What is the slack for Activity A, and is it on the critical path?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Slack = 0; Activity A is on the critical path"
+        },
+        {
+          "id": "b",
+          "text": "Slack = 1 week; Activity A is not on the critical path"
+        },
+        {
+          "id": "c",
+          "text": "Slack = 2 weeks; Activity A is not on the critical path"
+        },
+        {
+          "id": "d",
+          "text": "Slack = 14 weeks; Activity A is not on the critical path"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Slack = LF − EF = 14 − 12 = 2 weeks. Alternatively: LS = LF − Duration = 14 − 12 = 2; Slack = LS − ES = 2 − 0 = 2. Since Slack > 0, Activity A is NOT on the critical path — it can be delayed up to 2 weeks without delaying the project. Option (a) is incorrect because only zero-slack activities are critical. Option (b) is arithmetically wrong. Option (d) confuses LF with slack.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-016",
+      "type": "short-answer",
+      "question": "Explain the purpose of a Work Breakdown Structure (WBS) and describe its three levels as illustrated in the coffee shop example from Lecture 6.",
+      "correctAnswer": "A Work Breakdown Structure is a hierarchical decomposition of all work required to complete a project. Its purpose is to ensure no tasks are overlooked and to translate the overall project objective into schedulable, controllable individual activities that feed into the network diagram. In the coffee shop example: Level 0 is the overall project objective (opening the coffee shop at NUS). Level 1 contains the two major work streams — Organizing HR (Barista) and Physical Facilities Remodeling. Level 2 contains the six individual schedulable activities: (1) Barista Interview, (2) Recruitment and Training, (3) Locate facility, (4) Order furniture, (5) Furniture setup, (6) Remodeling of venue. Each Level 2 activity is the smallest unit of work the project manager can schedule and control.",
+      "acceptableKeywords": [
+        "hierarchical decomposition",
+        "Level 0",
+        "Level 1",
+        "Level 2",
+        "work streams",
+        "schedulable activities",
+        "Barista",
+        "Physical Facilities",
+        "six activities",
+        "project objective",
+        "network diagram"
+      ],
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-017",
+      "type": "short-answer",
+      "question": "A researcher reports a negative correlation between Apple Watch ownership and body weight. Identify TWO distinct alternative explanations (other than the watch causing weight loss) that could produce this correlation, and explain why these undermine a causal interpretation.",
+      "correctAnswer": "Two alternative explanations are: (1) Reverse causation — overweight individuals selectively purchase the watch specifically to help lose weight, meaning the causal arrow runs from weight to purchase, not from watch to weight reduction. The correlation exists but the direction of causality is reversed. (2) Confounding — a third variable such as wealth or health-consciousness independently increases the likelihood of owning an Apple Watch (treatment) and also correlates with lower body weight through diet, gym access, and healthier lifestyle choices, creating a spurious negative association that has nothing to do with any direct effect of the watch. Both undermine a causal interpretation because correlation alone cannot disentangle these alternative explanations — only random assignment of watch ownership would isolate the true causal effect.",
+      "difficulty": "hard",
+      "sourceLecture": "Lecture 6",
+      "verified": true,
+      "acceptableKeywords": [
+        "reverse causation",
+        "confounding",
+        "third variable",
+        "wealth",
+        "health-conscious",
+        "spurious",
+        "randomization",
+        "causal"
+      ]
+    },
+    {
+      "id": "practice-exam-3-q-018",
+      "type": "short-answer",
+      "question": "Define activity slack in the Critical Path Method. Provide the formula. Explain what zero slack means for a project manager versus substantial slack, and identify which path in the hospital relocation project had zero slack.",
+      "correctAnswer": "Slack (S) is the maximum time an activity can be delayed without delaying overall project completion. Formula: S = LS − ES, equivalently LF − EF. Zero slack means the activity is on the critical path — any delay in it directly delays the entire project by the same amount, requiring close monitoring and priority resource allocation. Substantial slack means the activity can be delayed up to S time units without affecting project completion, giving scheduling flexibility to reallocate resources toward critical activities. In the hospital relocation project, path B-D-H-J-K (69 weeks) had zero slack — this was the critical path.",
+      "acceptableKeywords": [
+        "slack",
+        "LS minus ES",
+        "LF minus EF",
+        "zero slack",
+        "critical path",
+        "delays project",
+        "flexibility",
+        "B-D-H-J-K",
+        "69 weeks"
+      ],
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 6",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-019",
+      "type": "multiple-choice",
+      "question": "According to Crawford's six-category taxonomy (Lecture 1), which type of new product involves retargeting an existing product for a new use or customer segment without necessarily changing the physical product?",
+      "options": [
+        {
+          "id": "a",
+          "text": "New-to-the-world product"
+        },
+        {
+          "id": "b",
+          "text": "Addition to an existing product line"
+        },
+        {
+          "id": "c",
+          "text": "Repositioning"
+        },
+        {
+          "id": "d",
+          "text": "Cost reduction"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Repositioning involves taking an existing product and retargeting it for a new use, user group, or market segment. Classic examples from Lecture 1 include aspirin repositioned for cardiovascular prevention and Arm & Hammer baking soda repositioned as a refrigerator deodorizer. The physical product is largely unchanged, but positioning and target market shift. Option (a) creates an entirely new market category. Option (b) expands a current product family within the same market. Option (d) reduces production cost while maintaining similar performance.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 1",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-020",
+      "type": "multiple-choice",
+      "question": "The iRobot Roomba is the lecture's canonical example of meeting all three innovation challenges simultaneously. Which option correctly identifies those three challenges and how the Roomba satisfies each?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cost (affordable price), Speed (fast navigation), Safety (no hazard to pets)"
+        },
+        {
+          "id": "b",
+          "text": "Desirable to people (consumers wanted automated vacuuming), Technically feasible (celestial guidance technology), Business viable (commercially sustainable at a consumer price point)"
+        },
+        {
+          "id": "c",
+          "text": "High brand equity, Strong distribution, Innovative packaging"
+        },
+        {
+          "id": "d",
+          "text": "R&D investment, Patent protection, Mass-market distribution"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The Three Innovation Challenge Venn diagram has three circles: People/Desirable, Technical/Feasible, and Business/Viable. For the Roomba: consumers wanted automated vacuuming (Desirable); iRobot developed celestial guidance technology enabling autonomous navigation (Feasible); and the robotic vacuum category proved commercially sustainable at a consumer price point (Viable). Meeting all three simultaneously is what distinguishes the Roomba as a successful innovation. Options (a), (c), and (d) do not map to the Desirable/Feasible/Viable framework.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 1",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-021",
+      "type": "multiple-choice",
+      "question": "In the Opportunity Tournament and Filtering model (Lecture 2), what are the four factors that determine the quality of the best opportunity that emerges from the selection process?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer interviews, competitive analysis, technical feasibility, and budget availability"
+        },
+        {
+          "id": "b",
+          "text": "Mean quality, variance in quality, number of opportunities generated, and accuracy of evaluation"
+        },
+        {
+          "id": "c",
+          "text": "Market size, customer segment size, competitor count, and product uniqueness"
+        },
+        {
+          "id": "d",
+          "text": "R&D spending, time to market, patent protection, and distribution network"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The lecture explicitly states the four factors: (1) mean quality of opportunities in the process, (2) variance in quality, (3) number of opportunities generated, and (4) accuracy of evaluation. Improving any of these factors improves the expected quality of the surviving opportunity. The statistical logic is that the best idea in a pool of 100 is better than the best in a pool of 10. Options (a), (c), and (d) list research techniques, market factors, or resource factors — not the statistical determinants of tournament output quality.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 2",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-022",
+      "type": "multiple-choice",
+      "question": "The P&G Swiffer case illustrates which type of customer need, and why was ethnographic research essential to discovering it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An explicit need; customers clearly stated in surveys that they wanted a disposable floor-cleaning pad"
+        },
+        {
+          "id": "b",
+          "text": "An unfulfilled need; consumers knew they were dissatisfied with mops but could not agree on a solution"
+        },
+        {
+          "id": "c",
+          "text": "A latent need; customers could not articulate it, and it was discovered through in-home observation of cleaning behavior and emotional reactions"
+        },
+        {
+          "id": "d",
+          "text": "A technical need; the problem was with manufacturing efficiency rather than consumer desire"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Swiffer addressed a latent need — one customers could not consciously articulate. Design Continuum researchers used ethnographic observation in customers' homes and noticed floors were already clean before the research team arrived, revealing that floor cleaning was emotionally tied to identity ('our floors are a reflection of ourselves'). They also observed that brooms were themselves hard to clean. Customers could never have said 'I want a disposable electrostatic floor pad' in a survey — the insight required observing behavior rather than asking questions.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 2",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-023",
+      "type": "multiple-choice",
+      "question": "In conjoint analysis (Lecture 5), how is the relative importance of an attribute calculated from the regression output?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The coefficient of the most preferred level divided by the total number of attributes"
+        },
+        {
+          "id": "b",
+          "text": "The range of part-worth utilities for the attribute divided by the sum of ranges across all attributes, multiplied by 100"
+        },
+        {
+          "id": "c",
+          "text": "The average part-worth utility across all levels of the attribute"
+        },
+        {
+          "id": "d",
+          "text": "The p-value of the attribute's regression coefficient"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Relative importance = (Range_j / Σ Range_k) × 100, where Range_j = max part-worth utility − min part-worth utility for attribute j. In the salsa example: Spiciness range = 10.67 − 0 = 10.67; Thickness range = 3.83 − (−2.33) = 6.16; Color range = 1.00 − 0 = 1.00; Total = 17.83. Spiciness importance = 10.67/17.83 × 100 = 59.8%. Option (a) only uses the maximum coefficient. Option (c) averages rather than ranges. Option (d) uses p-values, which measure significance not preference importance.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 5",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-024",
+      "type": "multiple-choice",
+      "question": "In the hotel staycation conjoint example (Lecture 5), the Ocean view coefficient is +5.83 and the HighPrice coefficient is −1.68 (a $50 price increase). What is the willingness to pay for an Ocean view upgrade from a Garden view?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Approximately $42"
+        },
+        {
+          "id": "b",
+          "text": "Approximately $61"
+        },
+        {
+          "id": "c",
+          "text": "Approximately $174"
+        },
+        {
+          "id": "d",
+          "text": "Approximately $290"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "WTP = (Attribute utility gain / |Price coefficient|) × Price increment. WTP for Ocean view = (5.83 / 1.68) × $50 = 3.47 × $50 = $173.50 ≈ $174. This means a consumer is indifferent between a Garden view room at $300 and an Ocean view room at $474. The $42 in option (a) is the WTP for a room size upgrade (1.42/1.68 × $50). The $61 in option (b) is the WTP for a City view upgrade (2.05/1.68 × $50). Option (d) is not a valid result from the data.",
+      "difficulty": "hard",
+      "sourceLecture": "Lecture 5",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-025",
+      "type": "multiple-choice",
+      "question": "Which of the following best describes the goal of concept testing as guided by the Product Innovation Charter (PIC), as covered in Lecture 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To pick the numerically highest-scoring concept from the Scoring Matrix and immediately begin development"
+        },
+        {
+          "id": "b",
+          "text": "To eliminate concepts misaligned with the firm's technology, customer knowledge, or strategic scope — and to combine and refine survivors into a superior design"
+        },
+        {
+          "id": "c",
+          "text": "To conduct A/B testing on all candidate concepts simultaneously before specifications are written"
+        },
+        {
+          "id": "d",
+          "text": "To ensure every concept is tested with consumers before entering the Pugh Matrix screening stage"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Concept testing guided by the PIC serves as a strategic filter: it eliminates concepts requiring unknown technologies, targeting unfamiliar customer segments, with inappropriate innovation levels, or misaligned on cost and competitive dimensions. The process also includes a combination-and-refinement step — the goal is not merely selection but creation of something genuinely superior. Option (a) ignores the PIC filter and concept combination. Options (c) and (d) misplace A/B testing and reverse the sequence of screening and concept testing.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 4",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-026",
+      "type": "multiple-choice",
+      "question": "A concept scoring matrix shows that Concept X ranks first overall but scores poorly on the single most important criterion (weight 25%). Concept Y ranks second but excels on that highest-weighted criterion. According to Lecture 4 best practice, what should the team consider?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Select Concept X because it has the highest aggregate score"
+        },
+        {
+          "id": "b",
+          "text": "Select Concept Y because it wins on the most important criterion"
+        },
+        {
+          "id": "c",
+          "text": "Investigate whether Concept Y's strength on the critical criterion can be combined with Concept X's overall strengths to create a superior hybrid"
+        },
+        {
+          "id": "d",
+          "text": "Disqualify both concepts and restart the concept generation phase"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Lecture 4 explicitly warns against the 'best average product' trap — selecting a concept that scores moderately on all criteria rather than finding one that excels on the dimensions customers care most about. Best practice after completing the matrix is to ask: 'Which features from the losing concepts would you steal?' A concept that excels on the highest-weighted criterion (like Ease of Use or Dose Metering Accuracy) offers features worth incorporating into the overall winner. The matrix is a starting point for concept improvement, not a final verdict.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 4",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-027",
+      "type": "multiple-choice",
+      "question": "In Keller's CBBE pyramid (Lecture 7), which layer must be built FIRST as a prerequisite for all other layers, and what does it measure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brand Resonance — the depth of the consumer's psychological bond with the brand"
+        },
+        {
+          "id": "b",
+          "text": "Brand Judgments — consumers' rational evaluations of brand quality and credibility"
+        },
+        {
+          "id": "c",
+          "text": "Brand Salience — how easily and often the brand is evoked across different situations; depth and breadth of awareness"
+        },
+        {
+          "id": "d",
+          "text": "Brand Performance — how well the product meets functional customer needs"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Brand Salience forms the base (Level 1) of the CBBE pyramid. It measures how easily and often the brand is evoked — i.e., depth and breadth of brand awareness, including recognition and recall across purchase and consumption situations. Salience must be achieved before consumers can develop any meaning associations (Level 2), form responses (Level 3), or build a relationship (Level 4 Resonance). Achieving the right brand identity means creating salience: consumers must know who you are before they can care about what you offer.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 7",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-028",
+      "type": "multiple-choice",
+      "question": "In Lecture 8's analysis of luxury brand sustainability, what is the primary strategic tension created when a luxury brand like Gucci enters the beauty category with lower-priced products?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beauty products are regulated differently from apparel, creating legal compliance costs"
+        },
+        {
+          "id": "b",
+          "text": "Wider accessibility risks diluting the exclusivity and signaling value that justifies premium pricing in the core luxury category"
+        },
+        {
+          "id": "c",
+          "text": "Beauty consumers are older than apparel consumers, contradicting Gucci's repositioning toward younger demographics"
+        },
+        {
+          "id": "d",
+          "text": "The beauty market has higher margins than apparel, making it strategically unattractive for a luxury brand"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The core tension is between accessibility and exclusivity: luxury brands derive value partly from the signaling function of ownership, which requires that not everyone can own the product. Beauty products are priced far below core luxury goods, making the brand accessible to a much broader consumer base. This risks eroding the 'exclusive' appeal that makes core luxury items desirable — a process called brand dilution. Kering's move to bring beauty operations in-house was aimed at controlling this extension more tightly. Options (a) and (d) misrepresent the strategic issue. Option (c) is not supported by the case facts.",
+      "difficulty": "hard",
+      "sourceLecture": "Lecture 8",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-029",
+      "type": "multiple-choice",
+      "question": "According to the CBBE pyramid (Lecture 7), a brand discovers that consumers have strong brand awareness but hold mostly neutral associations — they know the brand but feel no particular connection to it. At which pyramid level is the brand failing, and what should the brand manager prioritize next?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brand Salience — the brand manager should invest in more advertising to build awareness"
+        },
+        {
+          "id": "b",
+          "text": "Brand Resonance — the brand should immediately launch a loyalty program to create repeat purchase"
+        },
+        {
+          "id": "c",
+          "text": "Brand Performance and Imagery (Level 2 Meaning) — the brand manager must develop stronger, favorable, and unique associations that differentiate the brand from competitors"
+        },
+        {
+          "id": "d",
+          "text": "Brand Feelings — the brand should focus exclusively on creating emotional advertising"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "The CBBE pyramid is sequential: Salience (Level 1) → Performance/Imagery (Level 2 Meaning) → Judgments/Feelings (Level 3 Response) → Resonance (Level 4). If consumers have awareness but only neutral associations, the Meaning layer (Level 2) is underdeveloped. The brand has achieved salience but has not yet created points of parity and difference in consumers' minds. Jumping to Level 4 loyalty programs (option b) or Level 3 feelings (option d) without first building meaningful associations skips the sequential logic of the pyramid.",
+      "difficulty": "medium",
+      "sourceLecture": "Lecture 7",
+      "verified": true
+    },
+    {
+      "id": "practice-exam-3-q-030",
+      "type": "multiple-choice",
+      "question": "According to Lecture 8, Millennial and Gen Z consumers combined were projected to represent approximately what share of the global personal luxury goods market by 2025, and why does this matter for brand managers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Approximately 30%, which means traditional luxury buyers still dominate and brand managers need not change their strategies significantly"
+        },
+        {
+          "id": "b",
+          "text": "Approximately 44%, a figure that reflects 2019 data and requires only modest adaptation"
+        },
+        {
+          "id": "c",
+          "text": "More than 70%, accounting for 130% of market growth — meaning virtually all luxury market growth is driven by these cohorts and brands must adapt to their digital-first, experiential values"
+        },
+        {
+          "id": "d",
+          "text": "Approximately 55%, with the remaining 45% still dominated by Baby Boomers who prefer traditional physical retail"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Bain & Company data cited in Lecture 8 projects that Millennials and Gen Z will together exceed 70% of the personal luxury goods market by 2025 and account for 130% of its growth (meaning older cohorts are actually declining in share). This demographic reality means luxury brand managers must adapt to consumers who are digital-first, value experiential engagement over pure status signaling, and discover and purchase luxury through online channels. Gucci's disruptive repositioning under Alessandro Michele toward younger, more culturally engaged consumers is a direct response to this shift.",
+      "difficulty": "easy",
+      "sourceLecture": "Lecture 8",
+      "verified": true
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 30,
+    "questionTypes": {
+      "multiple-choice": 24,
+      "short-answer": 6
+    },
+    "difficulty": {
+      "easy": 9,
+      "medium": 15,
+      "hard": 6
+    },
+    "generatedAt": "2026-03-24T09:00:00Z",
+    "verifiedAgainstNotes": true,
+    "autoResolvedFlags": []
+  }
+}
