@@ -1,0 +1,146 @@
+{
+  "id": "lecture-15",
+  "title": "Practice Problems: Project Management Practice Problems",
+  "cards": [
+    {
+      "id": "lecture-15-001",
+      "term": "Activity",
+      "definition": "The smallest unit of work effort consuming both time and resources that a project manager can schedule and control; a project step that takes time and uses resources.",
+      "relatedTerms": ["Critical Activity", "Predecessor", "Duration"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-002",
+      "term": "Activity Slack",
+      "definition": "The maximum number of days an activity can be delayed without delaying the entire project; computed as LS − ES or LF − EF; zero for critical activities.",
+      "relatedTerms": ["Critical Path", "Float", "Path Slack"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-003",
+      "term": "Backward Pass",
+      "definition": "The procedure of moving right to left through the network diagram to calculate Latest Finish and Latest Start for every activity, beginning from the project end date.",
+      "relatedTerms": ["Latest Finish", "Latest Start", "Forward Pass"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-004",
+      "term": "Crashing",
+      "definition": "The deliberate reduction of an activity's duration by adding extra resources or cost to shorten the critical path and reduce total project duration; only effective on critical activities.",
+      "relatedTerms": ["Critical Path", "Critical Activity", "Resource Allocation"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-005",
+      "term": "Critical Activity",
+      "definition": "Any activity that lies on the critical path; it has zero slack and any delay to it directly delays the entire project by the same amount.",
+      "relatedTerms": ["Critical Path", "Activity Slack"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-006",
+      "term": "Critical Path",
+      "definition": "The longest path from Start to Finish in a network diagram; determines the minimum possible project duration; activities on it have zero slack.",
+      "relatedTerms": ["Critical Activity", "Path", "Project Duration"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-007",
+      "term": "Critical Path Method (CPM)",
+      "definition": "A project scheduling technique that identifies all paths through a network diagram, determines the critical path, and computes earliest/latest start and finish times and slack for every activity.",
+      "relatedTerms": ["Network Diagram", "Activity Slack", "Forward Pass", "Backward Pass"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-008",
+      "term": "Duration",
+      "definition": "The estimated time required to complete one activity, measured in consistent units; the value shown in each node of the network diagram.",
+      "relatedTerms": ["Activity", "Path Length", "Earliest Finish"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-009",
+      "term": "Earliest Finish (EF)",
+      "definition": "The earliest possible day an activity can be completed, calculated as ES + Duration in the forward pass through the network.",
+      "relatedTerms": ["Earliest Start", "Forward Pass"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-010",
+      "term": "Earliest Start (ES)",
+      "definition": "The earliest possible day an activity can begin, equal to the maximum Earliest Finish among all predecessors; Day 0 for activities with no predecessors.",
+      "relatedTerms": ["Predecessor", "Earliest Finish", "Forward Pass"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-011",
+      "term": "Float",
+      "definition": "Another term for slack — the amount of scheduling flexibility available to an activity or path without delaying the project end date.",
+      "relatedTerms": ["Activity Slack", "Path Slack"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-012",
+      "term": "Forward Pass",
+      "definition": "The procedure of moving left to right through the network diagram to calculate Earliest Start and Earliest Finish for every activity, beginning from the project start.",
+      "relatedTerms": ["Earliest Start", "Earliest Finish", "Backward Pass"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-013",
+      "term": "Latest Finish (LF)",
+      "definition": "The latest day an activity can be completed without delaying the project; equal to the minimum Latest Start of all immediate successors; calculated in the backward pass.",
+      "relatedTerms": ["Latest Start", "Backward Pass"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-014",
+      "term": "Latest Start (LS)",
+      "definition": "The latest day an activity can begin without delaying the project; calculated as LF − Duration in the backward pass.",
+      "relatedTerms": ["Latest Finish", "Backward Pass", "Activity Slack"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-015",
+      "term": "Network Diagram",
+      "definition": "A directed graph representing all project activities and their precedence relationships; nodes are activities and arrows are dependencies; used to identify all paths and the critical path.",
+      "relatedTerms": ["Path", "Activity", "Critical Path Method (CPM)", "Node"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-016",
+      "term": "Node",
+      "definition": "A connecting point in a network diagram; in Activity-on-Node format, each node represents one activity and displays the activity label and duration.",
+      "relatedTerms": ["Network Diagram", "Activity"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-017",
+      "term": "Path",
+      "definition": "A sequence of activities leading continuously from the starting node to the finishing node of a network diagram; its length is the sum of its activities' durations.",
+      "relatedTerms": ["Critical Path", "Path Length", "Path Slack"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-018",
+      "term": "Path Slack",
+      "definition": "The difference between the critical path length and a given path's length; represents how much total delay that path can absorb before it becomes the new critical path.",
+      "relatedTerms": ["Activity Slack", "Critical Path"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-019",
+      "term": "Predecessor",
+      "definition": "An activity that must be fully completed before a given activity can begin; shown in the predecessor column of an activity table and as an incoming arrow in a network diagram.",
+      "relatedTerms": ["Activity", "Successor", "Earliest Start"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    },
+    {
+      "id": "lecture-15-020",
+      "term": "Project Duration",
+      "definition": "The total time required to complete the entire project; equal to the length of the critical path; cannot be reduced without crashing one or more critical activities.",
+      "relatedTerms": ["Critical Path", "Crashing"],
+      "sourceLecture": "Practice Problems: Project Management Practice Problems"
+    }
+  ]
+}

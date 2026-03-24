@@ -1,0 +1,153 @@
+{
+  "id": "lecture-10",
+  "title": "Practice Problems: Final Test Study Guide",
+  "cards": [
+    {
+      "id": "lecture-10-001",
+      "term": "A/B Testing",
+      "definition": "A controlled market experiment assigning participants randomly to a control version (A) and treatment version (B) to compare outcome metrics and establish causal impact of a product, feature, price, or message change.",
+      "relatedTerms": ["Factorial Design", "Causality", "Market Testing"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-002",
+      "term": "Brand",
+      "definition": "A name, term, sign, symbol, design, or combination thereof intended to identify the goods or services of one seller and differentiate them from competitors.",
+      "relatedTerms": ["Brand Equity", "Brand Identity", "Brand Image"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-003",
+      "term": "Brand Equity",
+      "definition": "The added value a brand name confers on a product beyond its functional benefits, reflected in consumer perceptions, preferences, and behaviors.",
+      "relatedTerms": ["Brand", "Brand Associations", "Keller's Brand Resonance Pyramid"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-004",
+      "term": "Brand Resonance",
+      "definition": "The highest level of Keller's Brand Resonance Pyramid: a deep psychological relationship between consumer and brand expressed through behavioral loyalty, attitudinal attachment, sense of community, and active engagement.",
+      "relatedTerms": ["Keller's Brand Resonance Pyramid", "Brand Salience", "Brand Judgments"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-005",
+      "term": "Concept Scoring Matrix",
+      "definition": "A quantitative concept selection tool that multiplies consumer-derived importance weights by concept ratings on each criterion and sums the products for a total score per concept; used after screening to distinguish among surviving concepts.",
+      "relatedTerms": ["Concept Screening Matrix", "Weighted Score", "Criteria Weighting"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-006",
+      "term": "Concept Screening Matrix",
+      "definition": "A coarse concept selection tool using a +/0/− scale relative to a reference concept to eliminate clearly inferior alternatives before applying the more detailed scoring matrix.",
+      "relatedTerms": ["Concept Scoring Matrix", "Reference Concept"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-007",
+      "term": "Conjoint Analysis",
+      "definition": "A quantitative concept testing technique that decomposes overall consumer preference into part-worth contributions of each product attribute and level via regression; used to identify important attributes and simulate preference for new configurations.",
+      "relatedTerms": ["Part-Worth", "Attribute Importance", "Regression"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-008",
+      "term": "Critical Path",
+      "definition": "The sequence of activities from project start to finish that takes the longest time to complete, determining minimum total project duration; all activities on the critical path have zero slack.",
+      "relatedTerms": ["Network Diagram (PERT/CPM)", "Slack Time (Float)", "PERT"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-009",
+      "term": "Factorial Design",
+      "definition": "An experimental design that tests all combinations of multiple independent variables simultaneously, enabling estimation of main effects and interaction effects; more efficient than running separate A/B tests for each factor.",
+      "relatedTerms": ["A/B Testing", "Main Effect", "Interaction Effect"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-010",
+      "term": "Jobs-to-Be-Done",
+      "definition": "A customer research philosophy framing needs as functional, social, or emotional jobs consumers are trying to accomplish, revealing latent needs and non-obvious competitors more effectively than attribute-focused surveys.",
+      "relatedTerms": ["Latent Needs", "Customer Needs Analysis", "Opportunity Identification"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-011",
+      "term": "Keller's Brand Resonance Pyramid",
+      "definition": "A four-level brand building model: Brand Salience → Brand Performance + Brand Imagery → Brand Judgments + Brand Feelings → Brand Resonance; each level must be built before the next can be achieved.",
+      "relatedTerms": ["Brand Equity", "Brand Salience", "Brand Resonance"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-012",
+      "term": "Line Extension",
+      "definition": "A new product that is an addition to an existing product line of the firm, designed to broaden the portfolio for the firm's current markets.",
+      "relatedTerms": ["New Product Types", "Product Portfolio"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-013",
+      "term": "Modular Design",
+      "definition": "A product architecture composed of standardized, interchangeable modules combined in different configurations to produce variety without redesigning from scratch; enables mass customization and reduces inventory risk under demand uncertainty.",
+      "relatedTerms": ["Mass Customization", "Product Architecture", "Demand Uncertainty"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-014",
+      "term": "Network Diagram (PERT/CPM)",
+      "definition": "A graphical representation of project activities and precedence relationships used to identify the critical path, compute slack times, and make crashing decisions via forward pass and backward pass calculations.",
+      "relatedTerms": ["Critical Path", "Slack Time (Float)", "Work-Breakdown Structure (WBS)"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-015",
+      "term": "Part-Worth",
+      "definition": "The contribution of a specific attribute level to a consumer's overall product preference, estimated as a regression coefficient in conjoint analysis; used to calculate attribute importance and simulate preference for new product profiles.",
+      "relatedTerms": ["Conjoint Analysis", "Attribute Importance", "Regression"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-016",
+      "term": "Porter's Five Forces",
+      "definition": "A framework for evaluating industry competitive attractiveness through five structural forces: Threat of New Entrants, Bargaining Power of Buyers, Bargaining Power of Suppliers, Threat of Substitutes, and Intensity of Rivalry.",
+      "relatedTerms": ["PESTEL", "Industry Environment", "RWW Analysis (Real-Win-Worth It)"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-017",
+      "term": "Project Crashing",
+      "definition": "The deliberate reduction of activity durations by adding resources to shorten total project duration at additional cost; prioritizes the critical path activity with the lowest crash cost per unit of time saved.",
+      "relatedTerms": ["Critical Path", "Slack Time (Float)", "Crash Cost Rate"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-018",
+      "term": "RWW Analysis (Real-Win-Worth It)",
+      "definition": "A three-question opportunity evaluation framework: Is it Real? (genuine need + technical achievability), Can We Win? (sustainable competitive advantage), Is it Worth It? (sufficient financial return at acceptable risk); all three must be satisfied.",
+      "relatedTerms": ["Opportunity Identification", "Porter's Five Forces"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-019",
+      "term": "Slack Time (Float)",
+      "definition": "The amount of time a project activity can be delayed without delaying total project completion; computed as LS − ES or LF − EF; activities on the critical path have slack = 0.",
+      "relatedTerms": ["Critical Path", "Network Diagram (PERT/CPM)", "Forward Pass", "Backward Pass"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-020",
+      "term": "TAM/SAM/SOM",
+      "definition": "Three nested market sizing estimates: Total Addressable Market (100% share), Serviceable Addressable Market (realistic target segment), and Serviceable Obtainable Market (credibly capturable share given competition); SOM is the operationally relevant figure.",
+      "relatedTerms": ["Market Sizing", "RWW Analysis (Real-Win-Worth It)", "Guesstimation"],
+      "sourceLecture": "Lecture 10"
+    },
+    {
+      "id": "lecture-10-021",
+      "term": "Work-Breakdown Structure (WBS)",
+      "definition": "A hierarchical decomposition of a project into progressively smaller components and individual work packages, serving as the input for constructing a project network diagram and identifying precedence relationships.",
+      "relatedTerms": ["Network Diagram (PERT/CPM)", "Project Management", "Critical Path"],
+      "sourceLecture": "Lecture 10"
+    }
+  ]
+}

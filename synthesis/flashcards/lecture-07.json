@@ -1,0 +1,181 @@
+{
+  "id": "lecture-07",
+  "title": "Lecture 7: Brand Management Overview",
+  "cards": [
+    {
+      "id": "lecture-07-001",
+      "term": "Active Engagement",
+      "definition": "The strongest form of brand resonance; consumers willingly invest time, energy, money, or other resources in the brand beyond purchase or consumption.",
+      "relatedTerms": ["Brand Resonance", "Attitudinal Attachment", "Sense of Community"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-002",
+      "term": "Associative Network Memory Model",
+      "definition": "A cognitive model that views memory as a network of nodes and connecting links; brand knowledge is the set of brand-related nodes and their associations in this network.",
+      "relatedTerms": ["Mental Map", "Brand Image", "Brand Awareness"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-003",
+      "term": "Attitudinal Attachment",
+      "definition": "A dimension of brand resonance in which consumers view the brand as something special beyond mere functional utility; characterized by love or devotion.",
+      "relatedTerms": ["Brand Resonance", "Brand Feelings", "Behavioral Loyalty"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-004",
+      "term": "Brand",
+      "definition": "A name, term, sign, symbol, or design, or combination thereof, intended to identify the goods/services of one seller and differentiate them from competitors (AMA definition).",
+      "relatedTerms": ["Brand Elements", "Brand Identity"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-005",
+      "term": "Brand Awareness",
+      "definition": "The strength of the brand node in consumer memory; the extent to which consumers can recognize or recall the brand under different conditions. Composed of brand recognition and brand recall.",
+      "relatedTerms": ["Brand Salience", "Brand Knowledge", "Brand Equity"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-006",
+      "term": "Brand Credibility",
+      "definition": "A dimension of brand judgment capturing perceived expertise, trustworthiness, and likability; drives the extent to which consumers believe the brand can deliver on its promises.",
+      "relatedTerms": ["Brand Judgment", "Brand Image"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-007",
+      "term": "Brand Elements",
+      "definition": "The identifiable components of a brand — name, logo, symbol, packaging, slogan, characters — chosen to identify and differentiate the brand and contribute to brand knowledge building.",
+      "relatedTerms": ["Brand Identity", "Brand Salience", "Brand Image"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-008",
+      "term": "Brand Equity",
+      "definition": "The value added to a product or service by its brand, as determined by consumer perception, experience, and differential response relative to an unbranded equivalent.",
+      "relatedTerms": ["Customer-Based Brand Equity (CBBE)", "Brand Knowledge", "Brand Resonance"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-009",
+      "term": "Brand Feelings",
+      "definition": "Customers' emotional responses and reactions to a brand relating to its social currency; the six types are warmth, fun, excitement, security, social approval, and self-respect.",
+      "relatedTerms": ["Brand Resonance", "Brand Imagery", "Brand Judgment"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-010",
+      "term": "Brand Identity",
+      "definition": "The clear and solid meaning a marketer provides for a brand — communicating who the product is, what it does, and why consumers should care.",
+      "relatedTerms": ["Brand Positioning", "Brand Elements", "Brand Salience"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-011",
+      "term": "Brand Image",
+      "definition": "Consumers' perceptions about a brand as reflected by the associations held in consumer memory; the totality of all brand-related associations in the associative network.",
+      "relatedTerms": ["Brand Knowledge", "Brand Awareness", "Brand Associations"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-012",
+      "term": "Brand Imagery",
+      "definition": "The extrinsic, intangible properties of a product or service linked to a brand through user profiles, purchase/usage situations, personality/values, and history/heritage/experiences. Part of the CBBE pyramid Meaning layer.",
+      "relatedTerms": ["Brand Performance", "Brand Feelings", "CBBE Pyramid"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-013",
+      "term": "Brand Judgment",
+      "definition": "Customers' personal opinions and evaluations of a brand synthesized from performance and imagery associations; types include quality, credibility, consideration, and superiority.",
+      "relatedTerms": ["Brand Feelings", "Brand Resonance", "CBBE Pyramid"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-014",
+      "term": "Brand Knowledge",
+      "definition": "The full set of brand associations in consumer memory, comprising brand awareness and brand image; the key source of brand equity under the CBBE framework.",
+      "relatedTerms": ["Brand Equity", "Brand Awareness", "Brand Image"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-015",
+      "term": "Brand Mantra",
+      "definition": "A short, three-to-five-word phrase capturing the essential spirit of brand positioning; structured around an emotional modifier, descriptive modifier, and brand function. Guides internal decisions.",
+      "relatedTerms": ["Brand Positioning", "Brand Identity"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-016",
+      "term": "Brand Performance",
+      "definition": "How a product or service meets customers' functional needs; includes primary/secondary features, reliability/durability/serviceability, service quality, style and design, and price. Part of the CBBE pyramid Meaning layer.",
+      "relatedTerms": ["Brand Imagery", "Brand Judgment", "CBBE Pyramid"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-017",
+      "term": "Brand Positioning",
+      "definition": "The act of designing the company's offer and image so that it occupies a distinct and valued place in target customers' minds; defined from the consumer's benefit perspective.",
+      "relatedTerms": ["Points of Parity", "Points of Difference", "Brand Mantra"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-018",
+      "term": "Brand Recall",
+      "definition": "Consumers' ability to retrieve a brand from memory when given the product category, needs fulfilled, or a purchase situation — an unprompted form of brand awareness.",
+      "relatedTerms": ["Brand Recognition", "Brand Awareness", "Brand Salience"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-019",
+      "term": "Brand Recognition",
+      "definition": "Consumers' ability to confirm prior exposure to a brand when given the brand as a cue — a prompted form of brand awareness.",
+      "relatedTerms": ["Brand Recall", "Brand Awareness", "Brand Salience"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-020",
+      "term": "Brand Resonance",
+      "definition": "The ultimate relationship and level of identification a customer has with a brand; characterized by depth of psychological bond across behavioral loyalty, attitudinal attachment, sense of community, and active engagement.",
+      "relatedTerms": ["CBBE Pyramid", "Brand Feelings", "Brand Judgment"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-021",
+      "term": "Brand Salience",
+      "definition": "How easily and often the brand is evoked under various situations; measures depth and breadth of brand awareness and links the brand to its category and usage situations. Forms the base of the CBBE pyramid.",
+      "relatedTerms": ["Brand Awareness", "CBBE Pyramid", "Brand Identity"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-022",
+      "term": "Customer-Based Brand Equity (CBBE)",
+      "definition": "Keller's framework defining brand equity as the differential effect of brand knowledge on consumer response to marketing, structured as a four-level pyramid: Salience → Performance/Imagery → Judgments/Feelings → Resonance.",
+      "relatedTerms": ["Brand Equity", "Brand Knowledge", "Brand Resonance"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-023",
+      "term": "Points of Difference (PODs)",
+      "definition": "Attributes or benefits consumers strongly associate with a brand and believe they could not find to the same extent with a competitive brand; the basis of differentiation in positioning.",
+      "relatedTerms": ["Brand Positioning", "Points of Parity"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-024",
+      "term": "Points of Parity (POPs)",
+      "definition": "Associations not necessarily unique to the brand but shared with other brands; necessary to establish category credibility before differentiation can be effective.",
+      "relatedTerms": ["Brand Positioning", "Points of Difference"],
+      "sourceLecture": "Lecture 7"
+    },
+    {
+      "id": "lecture-07-025",
+      "term": "Sense of Community",
+      "definition": "A dimension of brand resonance in which consumers feel a sense of kinship or affiliation with other users of the brand or members of the brand community.",
+      "relatedTerms": ["Brand Resonance", "Active Engagement", "Attitudinal Attachment"],
+      "sourceLecture": "Lecture 7"
+    }
+  ]
+}

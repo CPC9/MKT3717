@@ -1,0 +1,125 @@
+{
+  "id": "lecture-11",
+  "title": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B",
+  "cards": [
+    {
+      "id": "lecture-11-001",
+      "term": "Activation",
+      "definition": "The moment a user or team crosses a product-specific usage threshold that predicts sustained retention. For Slack, activation is defined as a team exchanging 2,000 messages.",
+      "relatedTerms": ["Magic Number", "Retention", "Conversion"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-002",
+      "term": "Bottoms-Up Adoption",
+      "definition": "A B2B go-to-market motion in which a product enters organizations through individual teams at a price point not requiring senior management approval, spreading organically before formal enterprise procurement begins.",
+      "relatedTerms": ["Team-Level Veto", "Go-to-Market (GTM) Strategy"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-003",
+      "term": "Buchheit Principle",
+      "definition": "Paul Buchheit's framework stating that excellence in a few critical dimensions is more valuable than broad adequacy across many features. Named for the creator of Gmail.",
+      "relatedTerms": ["Go-to-Market (GTM) Strategy", "Leave-State Synchronization"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-004",
+      "term": "Category Creation",
+      "definition": "The go-to-market challenge faced by products in markets where prospective customers do not yet recognize the problem the product solves, requiring the company to establish category legitimacy before selling its solution.",
+      "relatedTerms": ["Market Education", "Nascent Market", "Go-to-Market (GTM) Strategy"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-005",
+      "term": "Customer Experience (CX) Function",
+      "definition": "Slack's organizational unit combining QA and customer support into a single team responsible for processing feedback, routing it to product teams, and resolving user issues — treated as a strategic asset rather than a cost center.",
+      "relatedTerms": ["Word-of-Mouth Growth", "Qualitative Data"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-006",
+      "term": "Daily Active Users (DAU)",
+      "definition": "The number of unique users engaging with a product on a given day, measuring genuine engagement distinct from total registered accounts or teams created.",
+      "relatedTerms": ["Retention", "Activation", "Magic Number"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-007",
+      "term": "Go-to-Market (GTM) Strategy",
+      "definition": "The plan a company executes to bring a product to market, encompassing positioning, pricing, distribution, launch tactics, customer acquisition, and retention.",
+      "relatedTerms": ["Category Creation", "Bottoms-Up Adoption", "Word-of-Mouth Growth"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-008",
+      "term": "Leave-State Synchronization",
+      "definition": "Slack's cross-device synchronization feature that tracks exactly where each user left off in every conversation across all devices in real time, eliminating context loss when switching between devices.",
+      "relatedTerms": ["Buchheit Principle"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-009",
+      "term": "Magic Number",
+      "definition": "A product-specific activation threshold, determined empirically from cohort retention data, at which a team's probability of long-term retention becomes highly predictable. Slack's magic number is 2,000 messages, after which 93% of teams remain active.",
+      "relatedTerms": ["Activation", "Retention"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-010",
+      "term": "Market Education",
+      "definition": "The go-to-market activity of teaching prospective customers that a product category exists and that they have the problem it solves — required when a significant portion of the target market does not recognize the category.",
+      "relatedTerms": ["Category Creation", "Nascent Market", "Go-to-Market (GTM) Strategy"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-011",
+      "term": "Nascent Market",
+      "definition": "A product category that is new or undefined, in which customers have not yet established buying criteria, recognized solution providers, or standard evaluation processes, requiring buyer education before persuasion.",
+      "relatedTerms": ["Category Creation", "Market Education"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-012",
+      "term": "Preview Release",
+      "definition": "A framing choice for a controlled early-access product release that signals quality and intentionality, as opposed to calling the same release a \"beta,\" which connotes instability and incompleteness.",
+      "relatedTerms": ["Go-to-Market (GTM) Strategy"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-013",
+      "term": "Qualitative Data",
+      "definition": "Non-numerical user insights gathered through support tickets, social media mentions, interview responses, and open-ended feedback — treated as equally important to quantitative metrics.",
+      "relatedTerms": ["Customer Experience (CX) Function"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-014",
+      "term": "Retention",
+      "definition": "The rate at which users or teams continue using a product over time after activation. Slack's 93% retention rate among teams crossing the 2,000-message threshold was the business case for investing in activation.",
+      "relatedTerms": ["Magic Number", "Activation"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-015",
+      "term": "Team-Level Veto",
+      "definition": "The dynamic in collaborative software where a single team member who refuses to use the product can prevent the entire team from adopting it, making it qualitatively different from individual-user product adoption.",
+      "relatedTerms": ["Bottoms-Up Adoption"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-016",
+      "term": "Twitter Wall of Love",
+      "definition": "Slack's curated collection of enthusiastic, unsolicited public tweets from users expressing extreme satisfaction — used as social proof and a symbol of organic word-of-mouth advocacy, many originating from resolved customer service complaints.",
+      "relatedTerms": ["Word-of-Mouth Growth", "Customer Experience (CX) Function"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    },
+    {
+      "id": "lecture-11-017",
+      "term": "Word-of-Mouth Growth",
+      "definition": "Organic product awareness and adoption driven by users spontaneously recommending or publicly praising a product to their networks, without paid promotion. Slack's primary growth mechanism, enabled by exceptional product quality and customer service.",
+      "relatedTerms": ["Twitter Wall of Love", "Customer Experience (CX) Function"],
+      "sourceLecture": "Supplementary Reading: Slack Launch Strategy — From 0 to $1B"
+    }
+  ]
+}

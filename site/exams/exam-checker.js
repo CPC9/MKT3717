@@ -267,57 +267,6 @@
     }
   }
 
-  // ── Reset exam ──
-
-  function resetExam() {
-    answered = {};
-    checked = false;
-
-    // Remove grading classes from all options
-    var allOptions = container.querySelectorAll('.option-card');
-    for (var i = 0; i < allOptions.length; i++) {
-      allOptions[i].classList.remove('correct', 'incorrect', 'missed', 'selected', 'disabled');
-    }
-
-    // Clear and re-enable textareas
-    var allTextareas = container.querySelectorAll('textarea');
-    for (var j = 0; j < allTextareas.length; j++) {
-      allTextareas[j].disabled = false;
-      allTextareas[j].value = '';
-    }
-
-    // Remove answer reveals and source lecture tags
-    var reveals = container.querySelectorAll('.answer-reveal, .source-lecture');
-    for (var k = 0; k < reveals.length; k++) {
-      reveals[k].remove();
-    }
-
-    // Hide score summary
-    if (scoreSummary) {
-      scoreSummary.hidden = true;
-      scoreSummary.innerHTML = '';
-    }
-
-    // Reset check button
-    if (btnCheck) {
-      btnCheck.disabled = false;
-      btnCheck.textContent = 'Show Correct Answers';
-    }
-
-    // Hide reset button
-    if (btnReset) {
-      btnReset.style.display = 'none';
-    }
-
-    // Reset progress
-    var progressEl = document.getElementById('exam-progress');
-    var questions = examData.questions || examData;
-    if (progressEl) progressEl.textContent = '0 of ' + questions.length + ' answered';
-
-    // Scroll to top
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
   // ── Grading functions ──
 
   function gradeMC(q, cardEl) {
@@ -453,6 +402,51 @@
       '<div class="score-value">' + correct + ' / ' + total + '</div>' +
       '<span class="score-label">' + pct + '% on auto-graded questions</span>' +
       '<div class="score-bar"><div class="score-bar-fill" style="width:' + pct + '%"></div></div>';
+  }
+
+  // ── Reset exam ──
+
+  function resetExam() {
+    checked = false;
+    answered = {};
+
+    // Remove grading classes from option cards
+    var allOptions = container.querySelectorAll('.option-card');
+    for (var i = 0; i < allOptions.length; i++) {
+      allOptions[i].classList.remove('correct', 'incorrect', 'missed', 'selected', 'disabled');
+    }
+
+    // Remove injected answer-reveals and source-lecture elements
+    var reveals = container.querySelectorAll('.answer-reveal, .source-lecture');
+    for (var j = 0; j < reveals.length; j++) {
+      reveals[j].parentNode.removeChild(reveals[j]);
+    }
+
+    // Re-enable and clear textareas
+    var allTextareas = container.querySelectorAll('textarea');
+    for (var k = 0; k < allTextareas.length; k++) {
+      allTextareas[k].disabled = false;
+      allTextareas[k].value = '';
+    }
+
+    // Reset score summary
+    if (scoreSummary) {
+      scoreSummary.hidden = true;
+      scoreSummary.innerHTML = '';
+    }
+
+    // Reset check button
+    btnCheck.disabled = false;
+    btnCheck.textContent = 'Show Correct Answers';
+
+    // Hide reset button
+    if (btnReset) btnReset.style.display = 'none';
+
+    // Reset progress
+    updateProgress();
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // ── Helpers ──

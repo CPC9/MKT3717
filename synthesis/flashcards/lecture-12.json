@@ -1,0 +1,118 @@
+{
+  "id": "lecture-12",
+  "title": "Case Study: Gucci Brand Strategy",
+  "cards": [
+    {
+      "id": "lecture-12-001",
+      "term": "Brand Ambassador",
+      "definition": "A public figure who represents and embodies a brand's values in public communications. Gucci replaced heritage ambassadors with contemporary figures like Beyoncé and Harry Styles to signal repositioning toward younger consumers.",
+      "relatedTerms": ["brand endorsement", "influencer marketing", "brand identity"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-002",
+      "term": "Brand Dilution",
+      "definition": "The weakening of a brand's equity or premium positioning caused by over-extension of the product line, inappropriate distribution, or associations inconsistent with core brand identity.",
+      "relatedTerms": ["brand equity", "overextension", "logo fatigue", "exclusivity"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-003",
+      "term": "Brand Equity",
+      "definition": "The commercial and perceptual value added to a product by its brand name, associations, and consumer loyalty — enabling premium pricing, preference, and advocacy beyond functional attributes alone.",
+      "relatedTerms": ["brand revitalization", "brand positioning", "brand dilution"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-004",
+      "term": "Brand Revitalization",
+      "definition": "A strategic process of restoring a brand's relevance, desirability, and commercial performance after decline, typically involving changes to creative direction, target consumer, product range, and communications.",
+      "relatedTerms": ["repositioning", "creative direction", "brand lifecycle"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-005",
+      "term": "Culture of Purpose",
+      "definition": "Gucci's ten-year strategic charter embedding environmental sustainability, employee welfare, community engagement, and production efficiency as core organisational commitments, tracked publicly via the Gucci Equilibrium platform.",
+      "relatedTerms": ["sustainability", "purpose-driven branding", "ESG"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-006",
+      "term": "Direct-to-Consumer (DTC)",
+      "definition": "A go-to-market model in which a brand sells directly to end consumers through its own stores rather than wholesale intermediaries, giving control over pricing, experience, data, and margin.",
+      "relatedTerms": ["omni-channel retail", "wholesale", "brand experience"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-007",
+      "term": "Gender-Fluid Fashion",
+      "definition": "Clothing and accessories designed to be worn across the gender spectrum without masculine or feminine coding. Gucci normalised this under Alessandro Michele, aligning with Gen Z and millennial identity trends.",
+      "relatedTerms": ["inclusivity", "brand values", "millennial consumer"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-008",
+      "term": "Gucci Equilibrium",
+      "definition": "An online platform launched in 2018 that publicly tracks Gucci's real-time progress against its sustainability commitments, functioning as a transparency mechanism and authenticity signal for socially conscious consumers.",
+      "relatedTerms": ["sustainability", "purpose-driven branding", "values sensitivity"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-009",
+      "term": "Kering",
+      "definition": "The French luxury conglomerate formerly known as PPR that owns Gucci, Saint Laurent, Balenciaga, and others. In 2019 it operated in 120+ countries with €15.8B revenue; Gucci contributed 63% of revenues and 78% of profits.",
+      "relatedTerms": ["conglomerate strategy", "brand portfolio management"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-010",
+      "term": "Line Extension",
+      "definition": "The expansion of an existing brand into a new product category adjacent to its core offering. The strategic risk is that categories with different price points or positioning may dilute the parent brand's equity.",
+      "relatedTerms": ["brand dilution", "brand equity", "product portfolio"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-011",
+      "term": "Omni-Channel Retail",
+      "definition": "An integrated retailing approach providing consumers a seamless brand experience across all purchase channels — physical stores, branded e-commerce, third-party online, social media, and mobile — with consistent product, pricing, and service.",
+      "relatedTerms": ["DTC", "experiential retail", "digital strategy"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-012",
+      "term": "Personal Luxury Goods",
+      "definition": "The luxury market segment comprising fashion, leather goods, shoes, jewellery, watches, and fragrances and beauty products that are personally consumed. This segment was worth €281 billion globally in 2019.",
+      "relatedTerms": ["luxury industry", "hard luxury", "soft luxury"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-013",
+      "term": "Purpose-Driven Branding",
+      "definition": "A brand strategy positioning a brand around a higher social, environmental, or cultural mission beyond product attributes, resonating with consumers who expect brands to address societal challenges.",
+      "relatedTerms": ["values sensitivity", "brand authenticity", "ESG", "Gen Y/Z consumers"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-014",
+      "term": "Recommerce",
+      "definition": "The resale and repurchase of pre-owned luxury goods via platforms such as TheRealReal and Farfetch. The second-hand luxury market reached €26B in 2019, growing four times faster than the primary market.",
+      "relatedTerms": ["sustainability", "circular economy", "luxury democratisation"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-015",
+      "term": "Shadow Committee",
+      "definition": "Gucci's internal advisory body of its most talented employees under 30, created by CEO Marco Bizzarri to provide generational consumer insights to senior leadership and institutionalise millennial perspective-taking.",
+      "relatedTerms": ["consumer insight", "millennial consumers", "organisational innovation"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    },
+    {
+      "id": "lecture-12-016",
+      "term": "Staples-Trendy Portfolio Split",
+      "definition": "A merchandising framework dividing a brand's assortment into stable core products (Gucci: 70%) and trend-driven items (Gucci: 30%). Staples provide revenue stability; trendy items generate media coverage and new consumer acquisition.",
+      "relatedTerms": ["merchandising", "product portfolio management", "creative-commercial integration"],
+      "sourceLecture": "Case Study: Gucci Brand Strategy"
+    }
+  ]
+}

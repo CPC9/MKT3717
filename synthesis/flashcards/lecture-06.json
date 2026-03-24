@@ -1,0 +1,209 @@
+{
+  "id": "lecture-06",
+  "title": "Lecture 6: Market Experiment and Project Management",
+  "cards": [
+    {
+      "id": "lecture-06-001",
+      "term": "A/B Testing",
+      "definition": "The simplest form of randomized controlled experiment. Subjects are randomly split into a control group (A) and a treatment group (B), a single variable is manipulated for group B, and outcome variables are compared.",
+      "relatedTerms": ["Randomized Controlled Trial (RCT)", "Factorial Design", "Statistical Significance"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-002",
+      "term": "Activity",
+      "definition": "The smallest unit of work effort consuming both time and resources that a project manager can schedule and control; a node in the AON network diagram.",
+      "relatedTerms": ["Work Breakdown Structure (WBS)", "Critical Path", "Network Diagram"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-003",
+      "term": "Activity Slack (S)",
+      "definition": "The maximum time an activity can be delayed without delaying overall project completion. Calculated as S = LS − ES (or LF − EF). Activities on the critical path have S = 0.",
+      "relatedTerms": ["Critical Path", "Latest Start Time (LS)", "Earliest Start Time (ES)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-004",
+      "term": "AON Diagram (Activities-On-Node)",
+      "definition": "A network diagram format in which activities are represented as nodes and precedence relationships as directed arrows. Each node stores ES, EF, LS, LF, and activity duration.",
+      "relatedTerms": ["Network Diagram", "Precedence Relationship", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-005",
+      "term": "Causality",
+      "definition": "A relationship in which manipulation of variable X directly produces a change in variable Y, independent of all other factors. Distinct from correlation, which may be confounded by third variables.",
+      "relatedTerms": ["Confounding Variables", "Randomized Controlled Trial (RCT)", "Counterfactual Scenario"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-006",
+      "term": "Confidence Interval (95% CI)",
+      "definition": "A range within which the true population mean is estimated to lie with 95% probability. Non-overlapping confidence intervals between two groups indicate a statistically significant difference.",
+      "relatedTerms": ["Statistical Significance", "Regression Analysis"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-007",
+      "term": "Confounding Variables",
+      "definition": "Variables that affect both the treatment variable and the outcome variable, creating spurious associations. Random assignment in RCTs eliminates confounding in expectation.",
+      "relatedTerms": ["Causality", "Randomized Controlled Trial (RCT)", "Regression Analysis"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-008",
+      "term": "Counterfactual Scenario",
+      "definition": "The hypothetical state of the world in which a different treatment was applied, as opposed to the factual scenario. The fundamental challenge of causal inference is that counterfactuals are unobservable.",
+      "relatedTerms": ["Causality", "Randomized Controlled Trial (RCT)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-009",
+      "term": "CPM (Critical Path Method)",
+      "definition": "A project scheduling technique using the network diagram to identify the critical path, calculate ES/EF/LS/LF for all activities, determine minimum project duration, and calculate slack times. Functionally equivalent to PERT.",
+      "relatedTerms": ["PERT (Program Evaluation and Review Technique)", "Critical Path", "Activity Slack (S)", "Network Diagram"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-010",
+      "term": "Critical Activity",
+      "definition": "An activity that lies on the critical path, has zero slack, and whose delay directly delays the entire project.",
+      "relatedTerms": ["Critical Path", "Activity Slack (S)", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-011",
+      "term": "Critical Path",
+      "definition": "The longest path through the project network from Start to Finish. It determines the minimum possible project duration. All activities on the critical path have zero slack.",
+      "relatedTerms": ["CPM (Critical Path Method)", "Activity Slack (S)", "Network Diagram", "Path"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-012",
+      "term": "Earliest Finish Time (EF)",
+      "definition": "The earliest time an activity can be completed, calculated as EF = ES + t. Determined during the forward pass through the network.",
+      "relatedTerms": ["Earliest Start Time (ES)", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-013",
+      "term": "Earliest Start Time (ES)",
+      "definition": "The earliest time an activity can begin, equal to the maximum EF of all immediate predecessors. For activities with no predecessors, ES = 0.",
+      "relatedTerms": ["Earliest Finish Time (EF)", "Precedence Relationship"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-014",
+      "term": "Endowment Effect",
+      "definition": "A cognitive bias in which individuals assign higher value to objects they own than to identical objects they do not own. Relevant to product trials, free samples, and loss aversion in pricing.",
+      "relatedTerms": ["Randomized Controlled Trial (RCT)", "A/B Testing"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-015",
+      "term": "Factorial Design",
+      "definition": "An experimental design that simultaneously tests all combinations of levels across two or more treatment dimensions. Reveals optimal combinations and interaction effects that sequential A/B testing cannot find.",
+      "relatedTerms": ["A/B Testing", "Treatment Effect"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-016",
+      "term": "Latest Finish Time (LF)",
+      "definition": "The latest time an activity can be completed without delaying the project. Determined during the backward pass as the minimum LS of all immediate successors. For the final activity, LF = project duration.",
+      "relatedTerms": ["Latest Start Time (LS)", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-017",
+      "term": "Latest Start Time (LS)",
+      "definition": "The latest time an activity can begin without delaying the project. Calculated as LS = LF − t during the backward pass.",
+      "relatedTerms": ["Latest Finish Time (LF)", "Activity Slack (S)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-018",
+      "term": "Network Diagram",
+      "definition": "A graphical display of project activities and their precedence relationships. Consists of nodes (activities) and directed arcs (dependencies). Used as the basis for CPM/PERT analysis.",
+      "relatedTerms": ["AON Diagram (Activities-On-Node)", "Precedence Relationship", "CPM (Critical Path Method)", "PERT (Program Evaluation and Review Technique)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-019",
+      "term": "Path",
+      "definition": "A sequence of activities in the network diagram leading from the Start node to the Finish node. Path length is the sum of activity durations along that route.",
+      "relatedTerms": ["Critical Path", "Activity Slack (S)", "Network Diagram"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-020",
+      "term": "PERT (Program Evaluation and Review Technique)",
+      "definition": "A project scheduling and network analysis technique functionally equivalent to CPM. Historically developed for large-scale government and defense projects.",
+      "relatedTerms": ["CPM (Critical Path Method)", "Network Diagram", "Critical Path"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-021",
+      "term": "Precedence Relationship",
+      "definition": "A constraint specifying that one activity cannot begin until one or more preceding activities have been completed. Represented as directed arrows in the AON diagram.",
+      "relatedTerms": ["AON Diagram (Activities-On-Node)", "Network Diagram", "Activity"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-022",
+      "term": "Project",
+      "definition": "A unique, one-time set of interrelated activities with a definite start and end point, designed to achieve specific objectives within a limited time frame using a defined allocation of resources.",
+      "relatedTerms": ["Work Breakdown Structure (WBS)", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-023",
+      "term": "Project Crashing",
+      "definition": "The deliberate shortening of one or more critical path activities by committing additional resources to reduce overall project duration. The minimum-cost approach crashes the cheapest critical activity first.",
+      "relatedTerms": ["Critical Path", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-024",
+      "term": "Randomized Controlled Trial (RCT)",
+      "definition": "An experiment in which subjects are randomly assigned to a control or treatment group. The gold standard for causal inference because random assignment distributes confounding variables equally across groups in expectation.",
+      "relatedTerms": ["A/B Testing", "Causality", "Confounding Variables"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-025",
+      "term": "Regression Analysis",
+      "definition": "A statistical method for estimating the relationship between an outcome variable (Y) and explanatory variables (X). In Y = a + bX, b represents the treatment effect and its p-value tests statistical significance.",
+      "relatedTerms": ["Statistical Significance", "Causality", "Confounding Variables"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-026",
+      "term": "Slack",
+      "definition": "See Activity Slack.",
+      "relatedTerms": ["Critical Path", "Activity Slack (S)", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-027",
+      "term": "Statistical Significance",
+      "definition": "A result is statistically significant if the observed difference between groups is unlikely to have occurred by chance, assessed via non-overlapping 95% confidence intervals or a p-value below 0.05 in regression.",
+      "relatedTerms": ["Confidence Interval (95% CI)", "Regression Analysis", "A/B Testing"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-028",
+      "term": "Treatment Effect",
+      "definition": "The causal impact of the manipulated variable (X) on the outcome variable (Y), isolated from all other influences through random assignment. In regression Y = a + bX, coefficient b estimates the treatment effect.",
+      "relatedTerms": ["Causality", "Randomized Controlled Trial (RCT)"],
+      "sourceLecture": "Lecture 6"
+    },
+    {
+      "id": "lecture-06-029",
+      "term": "Work Breakdown Structure (WBS)",
+      "definition": "A hierarchical decomposition of all work required to complete a project. Level 0 is the overall project; Level 1 represents major work streams; Level 2 and below represent individual schedulable activities.",
+      "relatedTerms": ["Activity", "Project", "Network Diagram", "CPM (Critical Path Method)"],
+      "sourceLecture": "Lecture 6"
+    }
+  ]
+}

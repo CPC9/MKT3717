@@ -1,0 +1,139 @@
+{
+  "id": "lecture-02",
+  "title": "Lecture 2: New Product Development Part 1 — Opportunity Identification and Concept Generation",
+  "cards": [
+    {
+      "id": "lecture-02-001",
+      "term": "Concept Generation",
+      "definition": "Phase 2 of the NPD process in which the team creates new product ideas through external and internal search, grounded in identified customer needs; the most fruitful ideation identifies both problems and solutions simultaneously.",
+      "relatedTerms": ["Opportunity Identification", "Needs Statement", "Product Specification"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-002",
+      "term": "Customer Need Analysis",
+      "definition": "A five-step process for identifying, interpreting, and prioritizing customer needs: scope definition, data gathering, needs-statement writing, importance quantification, and process reflection.",
+      "relatedTerms": ["Explicit Needs", "Unfulfilled Needs", "Latent Needs", "Needs Statement"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-003",
+      "term": "Ethnography",
+      "definition": "A qualitative research method in which researchers observe and participate in customers' natural environments to surface behaviors, workarounds, and frustrations that customers cannot articulate in interviews or surveys.",
+      "relatedTerms": ["Latent Needs", "Customer Need Analysis"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-004",
+      "term": "Explicit Needs",
+      "definition": "Customer needs that are easy to express, widely known and understood, and likely already fulfilled by existing products in the market.",
+      "relatedTerms": ["Unfulfilled Needs", "Latent Needs"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-005",
+      "term": "Five Forces (Porter's)",
+      "definition": "A framework for evaluating industry competitive dynamics through five forces: threat of new entrants, bargaining power of buyers, bargaining power of suppliers, threat of substitute products, and intensity of rivalry among existing competitors.",
+      "relatedTerms": ["PESTEL Analysis", "Real-Win-Worth It (RWW) Analysis"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-006",
+      "term": "Gantt Chart",
+      "definition": "A project planning tool that displays NPD tasks as horizontal bars across a timeline, indicating start dates, durations, deliverable due dates, and periods of continued refinement.",
+      "relatedTerms": [],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-007",
+      "term": "Latent Needs",
+      "definition": "Customer needs that customers may not be aware of and cannot express; when addressed, they can create entirely new market categories and exceed expectations. Identified primarily through ethnographic observation.",
+      "relatedTerms": ["Explicit Needs", "Unfulfilled Needs", "Customer Need Analysis"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-008",
+      "term": "Market Sizing",
+      "definition": "The process of estimating total potential revenue for a product, structured as TAM, SAM, and SOM, using a four-step guesstimation approach.",
+      "relatedTerms": ["Total Addressable Market (TAM)", "Serviceable Obtainable Market (SOM)", "Real-Win-Worth It (RWW) Analysis"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-009",
+      "term": "Needs Statement",
+      "definition": "A structured translation of a raw customer quote into product-requirement language that expresses what the product should do, is specific, positive, framed as a product attribute, and avoids \"must\" or \"should.\"",
+      "relatedTerms": ["Product Specification", "Customer Need Analysis"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-010",
+      "term": "Opportunity",
+      "definition": "An idea for a new product in embryonic form — a newly sensed need, newly discovered technology, or rough match between a need and a possible solution, typically described in less than one page.",
+      "relatedTerms": ["Opportunity Tournament and Filtering Model", "Concept Generation"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-011",
+      "term": "Opportunity Tournament and Filtering Model",
+      "definition": "A risk mitigation strategy in which a large pool of raw opportunities is passed through successive evaluation filters, with only the highest-quality opportunities surviving to receive development investment.",
+      "relatedTerms": ["Opportunity", "Real-Win-Worth It (RWW) Analysis"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-012",
+      "term": "PESTEL Analysis",
+      "definition": "A macro-environment scanning framework assessing Political, Economic, Social, Technological, Environmental, and Legal factors that affect market attractiveness and opportunity viability, rated on a 1–5 favorability scale.",
+      "relatedTerms": ["Five Forces (Porter's)"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-013",
+      "term": "Product Innovation Charter (PIC)",
+      "definition": "A guiding document that defines the product description, benefit proposition, key business goals, primary and secondary markets, assumptions, and stakeholders for a new product development project.",
+      "relatedTerms": ["Customer Need Analysis"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-014",
+      "term": "Product Specification",
+      "definition": "A technical, measurable definition of what a product must do to satisfy a customer need, expressed in engineering metrics with a target value. Translates needs statements into design requirements.",
+      "relatedTerms": ["Needs Statement", "Concept Generation"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-015",
+      "term": "Push vs. Pull Innovation",
+      "definition": "Two contrasting opportunity-sourcing approaches: Push originates from internal capabilities or passion; Pull is driven by identified market needs pulling solutions from the firm.",
+      "relatedTerms": [],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-016",
+      "term": "Real-Win-Worth It (RWW) Analysis",
+      "definition": "A three-question opportunity evaluation framework: Is it Real? (genuine market need exists), Can we Win? (competitive advantage is achievable), Is it Worth It? (acceptable financial return at acceptable risk).",
+      "relatedTerms": ["Five Forces (Porter's)", "Opportunity Tournament and Filtering Model"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-017",
+      "term": "Serviceable Obtainable Market (SOM)",
+      "definition": "The share of the Serviceable Addressable Market that a firm can realistically capture given competition and execution constraints; the most practically relevant market size figure for resource allocation.",
+      "relatedTerms": ["Total Addressable Market (TAM)", "Market Sizing"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-018",
+      "term": "Total Addressable Market (TAM)",
+      "definition": "The entire theoretical revenue opportunity for a product in a specific market assuming 100% market share; represents the maximum possible size of the opportunity.",
+      "relatedTerms": ["Serviceable Obtainable Market (SOM)", "Market Sizing"],
+      "sourceLecture": "Lecture 2"
+    },
+    {
+      "id": "lecture-02-019",
+      "term": "Unfulfilled Needs",
+      "definition": "Customer needs that are easy to express and widely acknowledged, but known to be difficult to address and generally not yet satisfied by any existing product.",
+      "relatedTerms": ["Explicit Needs", "Latent Needs"],
+      "sourceLecture": "Lecture 2"
+    }
+  ]
+}

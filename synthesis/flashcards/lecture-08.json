@@ -1,0 +1,111 @@
+{
+  "id": "lecture-08",
+  "title": "Lecture 8: Brand Sustainability and Personal Branding",
+  "cards": [
+    {
+      "id": "lecture-08-001",
+      "term": "Brand Dilution",
+      "definition": "The weakening of a brand's distinctive associations, perceived quality, or exclusivity, typically from overextension into inappropriate categories, excessive licensing, or overly broad distribution.",
+      "relatedTerms": ["Brand Extension", "Scarcity", "Brand Equity"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-002",
+      "term": "Brand Extension",
+      "definition": "The use of an established brand name to enter a new product category, leveraging existing equity to reduce consumer adoption risk; carries dilution risk if the new category is incongruent with the parent brand's identity.",
+      "relatedTerms": ["Brand Dilution", "Merchandise Mix", "Luxury Branding"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-003",
+      "term": "Brand Mantra",
+      "definition": "A short, three-to-five-word phrase capturing the essential meaning and spirit of a brand, used internally to guide decision-making and ensure consistency. Format: [Emotional Modifier] + [Descriptive Modifier] + [Brand Function].",
+      "relatedTerms": ["Positioning", "Brand Identity", "Personal Branding"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-004",
+      "term": "Brand Repositioning",
+      "definition": "The deliberate strategic effort to change how a target audience perceives a brand by altering its associations along key perceptual dimensions; can be incremental or disruptive in scope.",
+      "relatedTerms": ["Perceptual Map", "Brand Equity", "Brand Reinforcement"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-005",
+      "term": "Consumption as Signaling",
+      "definition": "The use of luxury or premium goods purchases to communicate social status, wealth, taste, and group membership to others — the mechanism by which conspicuous consumption generates social utility for the purchaser.",
+      "relatedTerms": ["Scarcity", "Exclusivity", "Luxury Branding"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-006",
+      "term": "Deliverability",
+      "definition": "In the Three D's framework, the dimension assessing whether an individual can consistently and credibly deliver the value promised by their brand positioning, grounded in genuine skills and demonstrated track record.",
+      "relatedTerms": ["Desirability", "Differentiation", "Personal Branding"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-007",
+      "term": "Desirability",
+      "definition": "In the Three D's framework, the dimension assessing whether a positioning reflects genuine personal passion and whether the target audience wants what the individual stands for. Maps to \"People Desirable\" in the classic product design framework.",
+      "relatedTerms": ["Deliverability", "Differentiation", "Viability"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-008",
+      "term": "Differentiation",
+      "definition": "In the Three D's framework, the dimension assessing whether a positioning is sufficiently distinctive and sustainable to carve out a unique market position that competitors or similar professionals cannot easily replicate.",
+      "relatedTerms": ["Points-of-Difference", "Competitive Advantage", "Viability"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-009",
+      "term": "Geographic Concentration Risk",
+      "definition": "The strategic vulnerability arising from excessive dependence on consumers from a single country or region, making brand revenue sensitive to localized political, economic, or logistical disruptions.",
+      "relatedTerms": ["Chinese Luxury Market", "Global Market", "Brand Sustainability"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-010",
+      "term": "Mental Map",
+      "definition": "A visual representation of the associations — attributes, emotions, symbols, people, and situations — that a target audience links to a brand; used to audit brand equity and identify positioning gaps.",
+      "relatedTerms": ["Brand Associations", "Brand Equity", "Personal Branding"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-011",
+      "term": "New Luxury Paradigm",
+      "definition": "The evolved luxury consumption model characterized by experiential engagement, digital-first access, cultural resonance, intergenerational relevance, and a shift from pure status symbolism toward self-expression and values alignment.",
+      "relatedTerms": ["Old Luxury", "Brand Repositioning", "Digital Platform"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-012",
+      "term": "Perceptual Map",
+      "definition": "A two-dimensional grid plotting brands on key consumer perception axes to visualize competitive positioning, identify white spaces, and design repositioning strategies.",
+      "relatedTerms": ["Brand Repositioning", "Competitive Analysis", "Points-of-Difference"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-013",
+      "term": "Personal Brand",
+      "definition": "The sum of associations, perceptions, and reputation that a professional intentionally cultivates in the minds of a defined target audience, managed using the same strategic frameworks as corporate brand management.",
+      "relatedTerms": ["Brand Mantra", "Mental Map", "Points-of-Difference"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-014",
+      "term": "Points-of-Difference (PODs)",
+      "definition": "Attributes or associations unique to a brand and strongly linked to it — the distinctive elements giving consumers a reason to prefer that brand over alternatives. Must satisfy Desirability, Deliverability, and Differentiation criteria.",
+      "relatedTerms": ["Positioning", "Brand Equity", "Personal Branding"],
+      "sourceLecture": "Lecture 8"
+    },
+    {
+      "id": "lecture-08-015",
+      "term": "Scarcity",
+      "definition": "The deliberate limitation of supply or access to a luxury product, used to preserve exclusivity, maintain high price points, and reinforce the signaling value of ownership. Exists in tension with revenue maximization and sustainability goals.",
+      "relatedTerms": ["Exclusivity", "Consumption as Signaling", "Brand Dilution"],
+      "sourceLecture": "Lecture 8"
+    }
+  ]
+}

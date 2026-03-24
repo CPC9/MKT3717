@@ -1,0 +1,139 @@
+{
+  "id": "lecture-14",
+  "title": "Supplementary Reading: In-Class Notes (Classes 1-4)",
+  "cards": [
+    {
+      "id": "lecture-14-001",
+      "term": "Brand",
+      "definition": "The full set of dimensions — perceptions, associations, expectations, and experiences — that differentiate a product in customers' minds beyond its physical or functional attributes.",
+      "relatedTerms": ["De-Commoditization", "Product"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-002",
+      "term": "Concept Generation",
+      "definition": "The NPD stage in which multiple product concepts are created and explored before one is selected for further development.",
+      "relatedTerms": ["New Product Development (NPD) Process", "Opportunity Identification"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-003",
+      "term": "De-Commoditization",
+      "definition": "The strategic act of differentiating a product through branding so that it competes on dimensions other than price alone, reducing substitutability.",
+      "relatedTerms": ["Brand", "Porter's Five Forces"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-004",
+      "term": "Explicit Needs",
+      "definition": "Customer needs that are readily articulated and are typically already being addressed by existing market offerings.",
+      "relatedTerms": ["Unfulfilled Needs", "Latent Needs"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-005",
+      "term": "Feasibility",
+      "definition": "The technical dimension of the Three Innovation Challenge — whether the organization has or can develop the capability to build and deliver the product.",
+      "relatedTerms": ["Three Innovation Challenge", "Real-Win-Worth It (RWW) Analysis", "Viability"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-006",
+      "term": "Jobs-to-Be-Done (JTBD)",
+      "definition": "A customer insight framework holding that customers \"hire\" products to accomplish a job, framed as \"When [situation], I want to [motivation], so I can [desired outcome].\"",
+      "relatedTerms": ["Latent Needs", "Needs Statement"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-007",
+      "term": "Latent Needs",
+      "definition": "Needs that customers may not be aware of or cannot yet express; addressing them can produce products that dramatically exceed expectations.",
+      "relatedTerms": ["Explicit Needs", "Unfulfilled Needs", "Jobs-to-Be-Done (JTBD)"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-008",
+      "term": "Needs Statement",
+      "definition": "A clear, concise written expression of a customer need — written in \"what\" not \"how,\" specific, positive, active voice, using \"can\" not \"must/should,\" neutral and understandable.",
+      "relatedTerms": ["Jobs-to-Be-Done (JTBD)", "Product Specifications"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-009",
+      "term": "New Product Development (NPD) Process",
+      "definition": "The end-to-end sequence of organizational activities — from opportunity identification through launch — used to conceive, design, and commercialize a product.",
+      "relatedTerms": ["Opportunity Identification", "Concept Generation", "Product Specifications"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-010",
+      "term": "Opportunity Identification",
+      "definition": "The first stage of the NPD process, in which the organization identifies and selects among potential market needs or technology opportunities to pursue.",
+      "relatedTerms": ["New Product Development (NPD) Process", "Opportunity Tournament Filtering Model"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-011",
+      "term": "Opportunity Tournament Filtering Model",
+      "definition": "A portfolio risk-management approach in which a large initial pool of opportunities is progressively narrowed through multiple evidence-based filters until only the most promising opportunities remain.",
+      "relatedTerms": ["Opportunity Identification", "Real-Win-Worth It (RWW) Analysis"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-012",
+      "term": "PESTEL Analysis",
+      "definition": "A macro-environmental scanning framework covering Political, Economic, Social, Technological, Environmental, and Legal factors affecting an organization's general environment.",
+      "relatedTerms": ["Porter's Five Forces", "Opportunity Identification"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-013",
+      "term": "Porter's Five Forces",
+      "definition": "A competitive analysis framework examining Threat of New Entrants, Bargaining Power of Buyers, Bargaining Power of Suppliers, Threat of Substitutes, and Intensity of Rivalry in an operating environment.",
+      "relatedTerms": ["PESTEL Analysis", "De-Commoditization"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-014",
+      "term": "Product",
+      "definition": "Any offering — physical good, service, or other market offering — that can satisfy a want or need and is offered to a market for attention, acquisition, use, or consumption.",
+      "relatedTerms": ["Brand", "New Product Development (NPD) Process", "Product Specifications"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-015",
+      "term": "Product Specifications",
+      "definition": "Quantified product requirements expressed as a metric, a target value, and units, derived from customer needs statements and prioritized by importance.",
+      "relatedTerms": ["Needs Statement", "New Product Development (NPD) Process"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-016",
+      "term": "Real-Win-Worth It (RWW) Analysis",
+      "definition": "An opportunity evaluation framework testing whether a market opportunity is real, winnable, and worth it — mapping to desirability, competitive feasibility, and business viability respectively.",
+      "relatedTerms": ["Three Innovation Challenge", "Opportunity Tournament Filtering Model", "Opportunity Identification"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-017",
+      "term": "Three Innovation Challenge",
+      "definition": "The requirement that a successful product simultaneously be desirable to people, viable for the business, and technically feasible — failure on any single dimension disqualifies the opportunity.",
+      "relatedTerms": ["Real-Win-Worth It (RWW) Analysis", "New Product Development (NPD) Process", "Feasibility", "Viability"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-018",
+      "term": "Unfulfilled Needs",
+      "definition": "Needs that customers can easily express but that are not yet broadly addressed by available market offerings — representing a clear, validated opportunity space.",
+      "relatedTerms": ["Explicit Needs", "Latent Needs", "Opportunity Identification"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    },
+    {
+      "id": "lecture-14-019",
+      "term": "Viability",
+      "definition": "The business dimension of the Three Innovation Challenge — whether the product can generate sufficient revenue, margin, or strategic value to justify investment.",
+      "relatedTerms": ["Three Innovation Challenge", "Real-Win-Worth It (RWW) Analysis", "Feasibility"],
+      "sourceLecture": "Supplementary Reading: In-Class Notes (Classes 1-4)"
+    }
+  ]
+}

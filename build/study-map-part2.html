@@ -1,0 +1,569 @@
+      <!-- ═══════════════════════════════════════════════════════════
+           TOPIC BLOCK 3: CONJOINT ANALYSIS (Lecture 5)
+           ═══════════════════════════════════════════════════════════ -->
+      <div class="topic-block" id="t-quantitative">
+        <div class="topic-header" onclick="toggleTopic('t-quantitative')">
+          <div class="topic-icon">📊</div>
+          <div class="topic-text">
+            <div class="topic-eyebrow">Lecture 5 · Quantitative Methods</div>
+            <div class="topic-title">Conjoint Analysis for Product Design</div>
+            <div class="topic-desc">Additive Utility Model, Part-Worths, Relative Importance, WTP Derivation, Market Simulation, Modular Architecture, Postponement, Poka-Yoke</div>
+          </div>
+          <div class="topic-right">
+            <span class="topic-pill">9 sub-topics</span>
+            <span class="chevron">▶</span>
+          </div>
+        </div>
+        <div class="topic-body">
+          <div class="subtopic-grid">
+
+            <!-- 3.1 Conjoint Analysis Overview -->
+            <div class="subtopic" id="s-conjoint-overview">
+              <div class="subtopic-hdr" onclick="toggleSub('s-conjoint-overview')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Conjoint Analysis Overview</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Conjoint analysis</strong> is a quantitative research method that infers how much individual product attributes contribute to overall product preference by analyzing respondents' stated preferences across designed product profiles. It is the most widely used method in industry for product design optimization and pricing research because it solves a problem that direct questioning cannot: when you ask customers "how important is speed vs. price?", they say both are very important. Conjoint forces trade-off decisions by showing realistic product options that cannot be simultaneously best on all dimensions.</p>
+                <div class="section-label">THE CORE PROBLEM CONJOINT SOLVES</div>
+                <p class="prose">Direct questions produce overstated importance for everything because customers want everything to be good. <strong>Conjoint reveals revealed preferences</strong> — what customers actually trade off when they have to choose. By showing respondents realistic product "profiles" (combinations of attributes and levels) and asking them to rate or rank them, the analysis can statistically decompose overall preference into the contribution of each individual attribute level. These contributions are called <strong>part-worths</strong>.</p>
+                <div class="section-label">WHEN TO USE CONJOINT</div>
+                <ul class="bullets">
+                  <li>When you need to decide which product features to include or exclude given resource or cost constraints.</li>
+                  <li>When you need to set the optimal price for a new product given competitive alternatives.</li>
+                  <li>When you need to identify market segments with different preference profiles to enable product line differentiation.</li>
+                  <li>When you need to simulate competitive response to a new product launch (using the part-worths to build a market simulation model).</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Conjoint is not just a measurement tool — it is a <strong>decision support tool</strong>. The output (part-worths) feeds directly into product design (which levels to offer), pricing (WTP derivation), segmentation (clustering respondents by preference pattern), and competitive simulation (predicting market share under different product configurations). Understanding the full chain from data to decision is what separates practitioners from students who can run the analysis but don't know what to do with the results.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Additive Utility Model</span>
+                  <span class="link-tag">Related: Part-Worths</span>
+                  <span class="link-tag">Case: Hotel Design Example</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.2 Additive Utility Model -->
+            <div class="subtopic" id="s-additive-utility">
+              <div class="subtopic-hdr" onclick="toggleSub('s-additive-utility')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Additive Utility Model</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>additive utility model</strong> is the mathematical foundation of conjoint analysis. It assumes that a consumer's total utility (preference value) for a product profile is the <em>sum</em> of the separate utility contributions of each attribute level in that profile. This is called "additive" because the total utility adds up: there are no interaction effects, no synergies between attributes, and no non-linear combinations. While this is a simplification of reality, it is an empirically robust approximation for most product design decisions and allows for clean statistical estimation of part-worths using OLS regression.</p>
+                <div class="section-label">THE FORMULA</div>
+                <div class="formula-wrap">
+                  <div class="formula">Total Utility (Profile) = Σ Part-Worth(attribute level)</div>
+                  <div class="formula-explain">
+                    <strong>In regression form:</strong><br>
+                    U = β₀ + β₁X₁ + β₂X₂ + ... + βₙXₙ + ε<br><br>
+                    <strong>Variables:</strong><br>
+                    U = overall utility rating given by the respondent for a product profile<br>
+                    β₀ = baseline utility (intercept)<br>
+                    βₖ = part-worth for attribute level k (estimated regression coefficient)<br>
+                    Xₖ = dummy variable = 1 if the profile contains attribute level k, 0 otherwise<br>
+                    ε = error term (unexplained preference variance)<br><br>
+                    <strong>Intuition:</strong> The model decomposes a single holistic rating (e.g., "I give this hotel profile a 7/10") into the separate contributions of each attribute level ("brand" contributes +1.2 utils, "free breakfast" contributes +0.8 utils, etc.). The regression solves for the βₖ values that best explain the pattern of ratings across all profiles shown to the respondent.
+                  </div>
+                </div>
+                <div class="section-label">THE SALSA EXAMPLE</div>
+                <p class="prose">The lecture uses a salsa product conjoint where attributes include brand (Pace vs. Herdez vs. Old El Paso), heat level (mild/medium/hot), pack size (small/large), and price. The additive model would estimate part-worths for each level — e.g., Herdez brand adds +2.1 utils, medium heat adds +1.4 utils, large pack adds +0.6 utils, $3.99 price adds −1.2 utils — and the total utility for any profile is their sum.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The additive assumption is both the model's strength and its limitation. <strong>Strength: it makes estimation tractable with a small number of profiles.</strong> Limitation: real preferences sometimes involve interactions (e.g., "I want large pack only if the price is low" — an interaction effect the additive model ignores). For most practical product design decisions, the additive model is sufficient; for luxury goods or high-involvement categories where image and attributes interact, more complex models may be needed.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Part-Worths</span>
+                  <span class="link-tag">Related: OLS Regression</span>
+                  <span class="link-tag">Case: Salsa Conjoint</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.3 Part-Worths -->
+            <div class="subtopic" id="s-part-worths">
+              <div class="subtopic-hdr" onclick="toggleSub('s-part-worths')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Part-Worths (Utility Scores)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Part-worths</strong> (also called utility scores) are the estimated values that each attribute level contributes to total product utility, as estimated by the conjoint regression. They are the fundamental output of conjoint analysis — every subsequent conjoint application (WTP calculation, market simulation, segmentation, product optimization) is derived from part-worths. The part-worth for a level represents how much adding that level increases (or decreases) a respondent's overall preference for a product, holding all other attributes constant.</p>
+                <div class="section-label">INTERPRETING PART-WORTHS</div>
+                <ul class="bullets">
+                  <li><strong>Sign:</strong> Positive part-worth = this level adds utility (respondent prefers this over the baseline level). Negative part-worth = this level reduces utility.</li>
+                  <li><strong>Magnitude:</strong> The larger the absolute value of the part-worth, the more important this level is relative to other levels of the same attribute.</li>
+                  <li><strong>Baseline reference:</strong> Part-worths are relative to the "omitted" (baseline) level for each attribute. Always interpret in comparison: "medium heat has a part-worth of +1.4 relative to mild heat."</li>
+                  <li><strong>Price part-worths:</strong> The price attribute's part-worths are typically negative (higher price = lower utility) and are used to derive WTP by comparing the utility value of an attribute change to the utility value of a price change.</li>
+                </ul>
+                <div class="section-label">HOTEL EXAMPLE (LECTURE)</div>
+                <p class="prose">The lecture walks through a hotel design conjoint with attributes including brand tier, room size, breakfast inclusion, and nightly rate. The part-worth for "free breakfast" might be +0.80 utils and the part-worth for a $20 price increase might be −0.40 utils. The <strong>WTP for free breakfast</strong> = $20 × (0.80 / 0.40) = $40 — customers would pay up to $40 more per night for free breakfast. This is the direct link between part-worths and pricing decisions.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Part-worths are estimated at the <strong>individual respondent level</strong> before being averaged. This matters enormously: <strong>segment-level averages can mask bimodal distributions</strong> where half the market strongly prefers one level and half strongly prefers the opposite. The average looks moderate when the truth is polarized. Always inspect the distribution of part-worths before reporting means — segmentation analysis often reveals two or more distinct preference clusters that should be served by different product configurations.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Additive Utility Model</span>
+                  <span class="link-tag">Related: WTP Derivation</span>
+                  <span class="link-tag">Related: Relative Importance</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.4 Relative Importance -->
+            <div class="subtopic" id="s-relative-importance">
+              <div class="subtopic-hdr" onclick="toggleSub('s-relative-importance')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Relative Importance (RI)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Relative Importance (RI)</strong> is a derived metric that tells you how much each attribute matters <em>relative to all other attributes</em> in determining overall product preference. While part-worths tell you how much each level contributes, RI summarizes the entire attribute — normalizing across attributes so that the importances sum to 100%. RI answers the question: "If we could only improve one attribute of this product, which one would have the greatest impact on customer preference?" It is the primary input to resource allocation decisions in product development.</p>
+                <div class="section-label">THE FORMULA</div>
+                <div class="formula-wrap">
+                  <div class="formula">RI(attribute i) = [Range(i) / Σ Range(j)] × 100%
+
+Range(i) = max part-worth(i) − min part-worth(i)</div>
+                  <div class="formula-explain">
+                    <strong>Variables:</strong><br>
+                    Range(i) = the spread between the best and worst levels of attribute i (in utility units)<br>
+                    max part-worth(i) = the part-worth of the most preferred level of attribute i<br>
+                    min part-worth(i) = the part-worth of the least preferred level of attribute i<br>
+                    Σ Range(j) = sum of ranges across ALL attributes in the conjoint<br><br>
+                    <strong>Intuition:</strong> RI measures how much utility "swings" across the levels of an attribute. An attribute where all levels are equally preferred has Range = 0, contributing nothing to preference — it is irrelevant to product choice. An attribute where the best level is far preferred over the worst (large Range) dominates the purchase decision. Dividing each attribute's range by the total of all ranges standardizes into a percentage share of "preference-driving power."
+                  </div>
+                </div>
+                <div class="section-label">APPLYING RI TO PRODUCT DESIGN</div>
+                <ul class="bullets">
+                  <li>Attributes with high RI deserve the most product development investment — they are where performance differences translate most directly to preference differences.</li>
+                  <li>Attributes with low RI can often be standardized (pick the cheapest level) without meaningful preference loss.</li>
+                  <li>Price RI should be interpreted carefully: high price RI means price is the primary driver of choice, which signals a commoditized category where differentiation on features is difficult.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>RI is <strong>sensitive to the range of levels included in the conjoint design.</strong> If you include a price range of $10–$20 in one study and $10–$100 in another, price RI will be very different — not because customers' preferences changed but because you expanded the range. This is why <strong>the levels chosen in the conjoint design must reflect the realistic market range</strong>, not an artificially narrow or broad set chosen to produce a desired RI answer.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Part-Worths</span>
+                  <span class="link-tag">Related: WTP Derivation</span>
+                  <span class="link-tag">Related: Product Specifications</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.5 WTP Derivation -->
+            <div class="subtopic" id="s-wtp">
+              <div class="subtopic-hdr" onclick="toggleSub('s-wtp')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Willingness to Pay (WTP) Derivation</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Willingness to Pay (WTP)</strong> is the maximum price a customer would pay for a specific product feature, upgrade, or attribute level. Conjoint analysis is the most rigorous method for estimating WTP because it embeds price as just another attribute in a trade-off task — the revealed preference for a feature vs. a price change converts directly into a dollar value. Unlike direct WTP questions ("how much would you pay for feature X?"), which produce systematically overestimated responses, conjoint-derived WTP reflects actual trade-off behavior in a realistic choice context.</p>
+                <div class="section-label">THE DERIVATION FORMULA</div>
+                <div class="formula-wrap">
+                  <div class="formula">WTP(feature A) = |ΔPrice| × [ΔUtility(feature A) / |ΔUtility(price)|]</div>
+                  <div class="formula-explain">
+                    <strong>Variables:</strong><br>
+                    ΔUtility(feature A) = difference in part-worths between two levels of the feature (e.g., "with free breakfast" minus "without free breakfast")<br>
+                    |ΔUtility(price)| = absolute change in utility for a given price change (e.g., utility at $120 minus utility at $100 per night)<br>
+                    |ΔPrice| = the price increment corresponding to the denominator utility change (e.g., $20)<br><br>
+                    <strong>Intuition:</strong> The formula asks: "how large a price change produces the same utility change as this feature change?" If free breakfast adds +0.80 utils and a $20 price increase removes −0.40 utils, then free breakfast is worth twice the $20 price change, i.e., $40. The customer is indifferent between "no breakfast at $X" and "free breakfast at $X + $40."
+                  </div>
+                </div>
+                <div class="section-label">WORKED EXAMPLE</div>
+                <p class="prose">From the hotel conjoint: suppose the part-worth for "free breakfast" = +0.80 utils. The part-worth for "$120 vs. $100" = −0.40 utils (a $20 increase reduces utility by 0.40). Then: WTP = $20 × (0.80 / 0.40) = <strong>$40</strong>. The average customer would pay up to $40 more per night for a hotel that includes free breakfast. The product management implication: if breakfast costs the hotel $15 to provide, including it and raising price by $40 generates a $25 margin improvement per room night — a clear positive NPV decision.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p><strong>WTP is not the price to charge — it is the upper bound on the price premium you can capture.</strong> Setting price equal to WTP extracts all consumer surplus and maximizes revenue from the price-insensitive segment but may reduce volume significantly. In competitive markets, the optimal price is typically set below WTP — the conjoint WTP tells you the ceiling; competitive dynamics and volume objectives determine the floor. Always use WTP in conjunction with price elasticity and competitive price positioning, not in isolation.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Part-Worths</span>
+                  <span class="link-tag">Related: Pricing Strategy</span>
+                  <span class="link-tag">Case: Hotel Conjoint</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.6 Market Simulation with Conjoint -->
+            <div class="subtopic" id="s-conjoint-simulation">
+              <div class="subtopic-hdr" onclick="toggleSub('s-conjoint-simulation')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Market Simulation with Conjoint</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">Once part-worths are estimated, conjoint data can be used to <strong>simulate competitive market share</strong> for any product configuration. The market simulation works by calculating each respondent's total utility for every product in a simulated competitive set (including your product and all competitor products), then predicting which product each respondent would "choose" (the one with the highest total utility). Aggregating these individual choices across all respondents gives an estimated market share for each product. This enables scenario testing — "what happens to our share if we add feature X?" or "how does a competitor's price cut affect us?"</p>
+                <div class="section-label">SIMULATION STEPS</div>
+                <ul class="bullets">
+                  <li><strong>Step 1:</strong> Define the competitive set — the profiles of your product and all key competitors in the market.</li>
+                  <li><strong>Step 2:</strong> For each respondent, calculate the total utility for every product in the competitive set using their individual part-worths.</li>
+                  <li><strong>Step 3:</strong> Apply a choice rule. Most common: First Choice Rule (respondent "buys" whichever product has the highest total utility) or Share of Preference Rule (share proportional to utility).</li>
+                  <li><strong>Step 4:</strong> Aggregate across all respondents to get estimated market shares for each product profile.</li>
+                  <li><strong>Step 5:</strong> Run sensitivity analyses — vary your product's feature levels or price, and observe how market share changes.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Market simulation reveals the <strong>non-linearity of competitive response</strong>: a small price change or feature addition can produce a disproportionate market share gain if it shifts the product above a competitor's utility score for many respondents simultaneously. This is why the "tipping point" analysis — finding the minimum change needed to become the first-choice product for a target segment — is often the most actionable output of a conjoint market simulation.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Part-Worths</span>
+                  <span class="link-tag">Related: Segmentation</span>
+                  <span class="link-tag">Related: Competitive Strategy</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.7 Modular Architecture -->
+            <div class="subtopic" id="s-modular-arch">
+              <div class="subtopic-hdr" onclick="toggleSub('s-modular-arch')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Modular Product Architecture</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Modular architecture</strong> is a product design philosophy in which a product is structured as a set of independent, interchangeable components (modules) with standardized interfaces. Each module can be designed, produced, and updated independently without affecting the rest of the product. This is the structural foundation that enables mass customization — the ability to offer a wide variety of end products to meet diverse customer preferences without the cost of full custom manufacturing for each variant. Conjoint analysis identifies which attributes customers want to mix and match; modular architecture is how you deliver those options efficiently.</p>
+                <div class="section-label">MODULAR vs. INTEGRAL ARCHITECTURE</div>
+                <ul class="bullets">
+                  <li><strong>Modular:</strong> Components have standardized interfaces, can be swapped without redesigning the whole system, and are functionally independent. Example: PC desktop computer — you can upgrade the GPU without redesigning the motherboard. Advantage: mass customization, faster updates, lower complexity per variant.</li>
+                  <li><strong>Integral:</strong> Components are tightly coupled — changing one requires changing others. Example: MacBook — the battery is soldered to the motherboard for space efficiency. Advantage: performance optimization, smaller form factor, lower unit cost at scale. Disadvantage: inflexible, hard to customize.</li>
+                </ul>
+                <div class="section-label">WHEN TO CHOOSE MODULAR</div>
+                <p class="prose">Choose modular architecture when: (1) conjoint analysis reveals diverse preference segments with different optimal configurations, (2) technology is evolving rapidly and components will need frequent updates, (3) post-purchase customization is a valued feature, (4) the firm targets both B2C and B2B markets with different needs. Choose integral architecture when: unit cost minimization is the primary objective, performance optimization requires component interaction, or the product targets a single well-defined segment.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The choice between modular and integral architecture is fundamentally a <strong>competitive strategy decision</strong>, not an engineering one. Modular architecture enables platform strategies (letting third parties build complementary modules — as in Android) and sustains competitive advantage through an ecosystem rather than through proprietary integration. <strong>Intel vs. Apple silicon is the canonical modern example:</strong> Intel's modular-compatible chips enabled the PC ecosystem; Apple's integrated chips enable performance advantages but lock out third-party customization.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Postponement Strategy</span>
+                  <span class="link-tag">Related: Conjoint Segmentation</span>
+                  <span class="link-tag">Related: Mass Customization</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.8 Postponement Strategy -->
+            <div class="subtopic" id="s-postponement">
+              <div class="subtopic-hdr" onclick="toggleSub('s-postponement')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Postponement Strategy</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Postponement</strong> is a supply chain and product design strategy that delays the differentiation of a product (the point at which it becomes specific to a particular variant or customer segment) as late as possible in the production or distribution process. By keeping the product in a "generic" or "semi-finished" state as long as feasible, a firm can respond to actual demand information rather than forecast demand — reducing the risk of producing the wrong variants. Modular architecture is the product design enabler; postponement is the operations strategy that exploits it.</p>
+                <div class="section-label">FORM POSTPONEMENT vs. TIME POSTPONEMENT</div>
+                <ul class="bullets">
+                  <li><strong>Form Postponement:</strong> Delay the physical differentiation of the product. Produce a common platform, then add variant-specific components (color, configuration, label) close to the point of delivery based on actual orders. Example: HP printers — print the power supply version (US vs. European voltage) at the distribution center after orders are confirmed, not at the factory.</li>
+                  <li><strong>Time Postponement:</strong> Delay shipment of finished goods to distribution centers until actual demand is known. Centralizes inventory at one point and ships to regional demand as it materializes. Example: Dell's build-to-order model — no inventory of finished PCs; each unit assembled after an order is placed.</li>
+                </ul>
+                <div class="section-label">CONJOINT + POSTPONEMENT</div>
+                <p class="prose">Conjoint analysis directly supports postponement decisions: the part-worths reveal which attributes drive segmentation (i.e., which attributes customers want in different combinations). Attributes with high RI and high inter-segment variation are the ones to postpone — make the generic base early and add the high-RI, high-variance attribute levels late, after observing segment demand.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Postponement is most valuable when <strong>demand uncertainty is high AND product variety is high</strong>. The inventory holding cost of carrying multiple finished variants far exceeds the cost of maintaining one generic WIP inventory and differentiating late. The HP printer example is canonical: by moving voltage-differentiation to the distribution center, HP cut European inventory by 25% while improving product availability — a simultaneous cost reduction and service level improvement that only works because the architecture was designed to support late differentiation.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Modular Architecture</span>
+                  <span class="link-tag">Related: Mass Customization</span>
+                  <span class="link-tag">Related: Supply Chain Strategy</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3.9 Poka-Yoke -->
+            <div class="subtopic" id="s-poka-yoke">
+              <div class="subtopic-hdr" onclick="toggleSub('s-poka-yoke')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Poka-Yoke (Error Proofing)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Poka-yoke</strong> (Japanese: "mistake-proofing" or "inadvertent error prevention") is a design principle that makes it physically or procedurally impossible — or at least highly difficult — to make a specific error. Developed by Shigeo Shingo as part of the Toyota Production System, it applies to product design, manufacturing process design, and service design. In the NPD context, poka-yoke is used during concept development and testing to design out foreseeable user errors before launch, rather than correcting them through instructions, warnings, or training after the fact.</p>
+                <div class="section-label">TYPES OF POKA-YOKE</div>
+                <ul class="bullets">
+                  <li><strong>Prevention poka-yoke:</strong> Makes the error physically impossible. Example: a USB-A plug can only be inserted in one orientation (though USB-C improved on this by being reversible). The shape prevents the wrong insertion.</li>
+                  <li><strong>Detection poka-yoke:</strong> Makes the error immediately visible or generates an alert when an error occurs. Example: a checkout system that requires confirmation before processing a refund above $500 — the action is not prevented but the error triggers a detection pause.</li>
+                  <li><strong>Guidance poka-yoke:</strong> Makes the correct action obvious and the incorrect action unnatural. Example: color-coded electrical wiring (red positive, black negative) doesn't prevent reversal but makes the correct orientation intuitively obvious.</li>
+                </ul>
+                <div class="section-label">APPLICATION IN PRODUCT DESIGN</div>
+                <p class="prose">During beta testing and concept testing, teams should systematically ask: "In what ways could a user misuse this product or make this error? How often would that error occur? What is the consequence?" High-frequency errors with severe consequences are priority poka-yoke targets. The cost of designing the error out during development is almost always lower than the cost of managing the error in production through recalls, support calls, or returns.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Poka-yoke reflects a fundamental design philosophy: <strong>"If a user makes an error, the design failed, not the user."</strong> This shifts accountability from the customer (who must read the manual) to the designer (who must anticipate every misuse scenario). Products designed with this philosophy generate fewer support calls, higher customer satisfaction, and lower recall risk — which translates directly into lower long-run cost and higher brand equity for quality and reliability.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Product Design</span>
+                  <span class="link-tag">Related: Beta Testing</span>
+                  <span class="link-tag">Related: Quality Assurance</span>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /subtopic-grid -->
+        </div><!-- /topic-body -->
+      </div><!-- /topic-block t-quantitative -->
+
+
+      <!-- ═══════════════════════════════════════════════════════════
+           TOPIC BLOCK 4: MARKET EXPERIMENTS & PROJECT MANAGEMENT (Lecture 6)
+           ═══════════════════════════════════════════════════════════ -->
+      <div class="topic-block" id="t-market-pm">
+        <div class="topic-header" onclick="toggleTopic('t-market-pm')">
+          <div class="topic-icon">🧪</div>
+          <div class="topic-text">
+            <div class="topic-eyebrow">Lecture 6 · Market Experiments &amp; Project Management</div>
+            <div class="topic-title">Testing in the Market &amp; Managing Development Projects</div>
+            <div class="topic-desc">Randomized Controlled Trials, A/B Testing, Factorial Design, Endowment Effect, WBS, Critical Path Method, Slack Time</div>
+          </div>
+          <div class="topic-right">
+            <span class="topic-pill">7 sub-topics</span>
+            <span class="chevron">▶</span>
+          </div>
+        </div>
+        <div class="topic-body">
+          <div class="subtopic-grid">
+
+            <!-- 4.1 Randomized Controlled Trials (RCT) -->
+            <div class="subtopic" id="s-rct">
+              <div class="subtopic-hdr" onclick="toggleSub('s-rct')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Randomized Controlled Trials (RCT)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">A <strong>Randomized Controlled Trial (RCT)</strong> is the gold standard experimental design for establishing causal relationships in market research and product testing. The key feature is <em>random assignment</em>: participants are randomly allocated to treatment or control conditions, which statistically eliminates selection bias and ensures that any observed difference in outcomes can be causally attributed to the treatment rather than pre-existing differences between groups. In marketing and NPD, RCTs are used to test whether a product, price, promotion, or design change actually <em>causes</em> changes in purchase behavior, rather than merely correlating with it.</p>
+                <div class="section-label">CAUSAL vs. CORRELATIONAL EVIDENCE</div>
+                <p class="prose">The fundamental problem in market research is that correlation does not equal causation. <strong>Without random assignment, you cannot rule out that the people who chose your new product were already more likely to buy, regardless of the product change.</strong> This is selection bias. An RCT eliminates selection bias by ensuring that, on average, the treatment and control groups are identical in all ways except the treatment. Any systematic outcome difference between groups after random assignment is therefore caused by the treatment.</p>
+                <div class="section-label">DESIGN COMPONENTS</div>
+                <ul class="bullets">
+                  <li><strong>Random assignment:</strong> The defining feature. Must be truly random — not "assign mornings to treatment and afternoons to control" (which confounds treatment with time-of-day effects).</li>
+                  <li><strong>Control group:</strong> The baseline — receives no treatment (or the current default). Required for comparison; without a control, you have no counterfactual.</li>
+                  <li><strong>Treatment group:</strong> Receives the intervention being tested (new product, new price, new promotion).</li>
+                  <li><strong>Pre-specified outcome metric:</strong> The primary outcome to be measured (e.g., conversion rate, average order value, customer satisfaction). Must be defined before the experiment begins.</li>
+                  <li><strong>Sample size calculation:</strong> Determine required n based on desired statistical power (typically 80%) and minimum detectable effect size before running. Underpowered experiments generate inconclusive results even when effects are real.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The transition from "we observed X" to "X caused Y" is the most consequential inference in business decision-making, and it can <strong>only</strong> be made with random assignment. Correlational studies, surveys, and observational data can generate hypotheses but cannot test causal claims. <strong>Every product launch and marketing experiment that does not use random assignment is generating correlation, not causation</strong> — and building strategy on correlation leads to the attribution errors that cause campaigns to be credited with effects they did not produce and products to be scaled that succeeded for confounded reasons.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: A/B Testing</span>
+                  <span class="link-tag">Related: Factorial Design</span>
+                  <span class="link-tag">Related: Statistical Significance</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4.2 Factorial Experimental Design -->
+            <div class="subtopic" id="s-factorial">
+              <div class="subtopic-hdr" onclick="toggleSub('s-factorial')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Factorial Experimental Design</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Factorial design</strong> extends the basic A/B test to simultaneously test the effects of multiple factors (independent variables) and their interactions. A 2×2 factorial design tests two factors, each at two levels, creating four experimental conditions. Factorial design is more efficient than running separate A/B tests for each factor because it captures both main effects and interaction effects in a single experiment. <strong>Interaction effects</strong> — where the effect of Factor A depends on the level of Factor B — cannot be detected with separate A/B tests and are often the most managerially important finding.</p>
+                <div class="section-label">2×2 FACTORIAL STRUCTURE</div>
+                <div class="formula-wrap">
+                  <div class="formula">Conditions in a 2×2 design:
+  (A1, B1): Factor A at Level 1, Factor B at Level 1
+  (A1, B2): Factor A at Level 1, Factor B at Level 2
+  (A2, B1): Factor A at Level 2, Factor B at Level 1
+  (A2, B2): Factor A at Level 2, Factor B at Level 2</div>
+                  <div class="formula-explain">
+                    <strong>Main effect of A:</strong> Compare (A1 average) vs. (A2 average) across both levels of B<br>
+                    <strong>Main effect of B:</strong> Compare (B1 average) vs. (B2 average) across both levels of A<br>
+                    <strong>Interaction (A×B):</strong> Does the effect of A differ by level of B? If yes, there is an interaction — the factors are not independent in their effects.<br><br>
+                    <strong>Intuition:</strong> Interaction effects reveal synergies and conflicts. Example: Free shipping (Factor A) might double conversion when combined with a 10% discount (Factor B), but free shipping alone barely moves the needle. The interaction is where the strategic insight lives.
+                  </div>
+                </div>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Interaction effects are the most underappreciated output of factorial designs. <strong>A main effect says "A works on average"; an interaction effect says "A works only when B is also present."</strong> Marketing is full of interaction effects — the right message to the right segment at the right time, none of which can be detected by testing each variable separately. Factorial design is the only experimental method that reveals these conditional relationships efficiently.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: RCT</span>
+                  <span class="link-tag">Related: A/B Testing</span>
+                  <span class="link-tag">Related: Conjoint Design</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4.3 Endowment Effect -->
+            <div class="subtopic" id="s-endowment">
+              <div class="subtopic-hdr" onclick="toggleSub('s-endowment')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Endowment Effect &amp; Behavioral Pricing</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>endowment effect</strong> is a behavioral economics phenomenon in which people assign more value to objects they already own (or believe they own) than to identical objects they do not own. This creates asymmetry in pricing behavior: the price someone requires to <em>give up</em> something they have (their "willingness to accept" or WTA) is systematically higher than the price they would pay to acquire the same object (their WTP). The classical Kahneman, Knetsch, and Thaler mug experiment demonstrated this: participants who received a mug would only sell it for ~$7, while participants who did not receive a mug would only pay ~$3 for the identical mug.</p>
+                <div class="section-label">MARKETING APPLICATIONS</div>
+                <ul class="bullets">
+                  <li><strong>Free trials / freemium:</strong> Giving customers temporary possession of a product activates the endowment effect — they feel like they "own" it and are reluctant to give it up, increasing conversion from trial to paid.</li>
+                  <li><strong>Loss-framed messaging:</strong> "Don't lose $50 in savings" outperforms "Gain $50 in savings" because losses loom larger than equivalent gains (loss aversion, a related concept). Frame features as preventing a loss rather than delivering a gain.</li>
+                  <li><strong>Returns policy:</strong> A generous returns policy does not just reduce purchase risk — it creates an opportunity for the endowment effect to activate. Customers who bring products home and live with them become psychologically attached before the returns window closes.</li>
+                  <li><strong>Personalization:</strong> Customized products activate stronger endowment effects because the product was "made for me" — it feels more like "mine" even before purchase.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The endowment effect is not irrational from the customer's perspective — <strong>it reflects the real psychological cost of loss, which is greater than the psychological benefit of an equivalent gain (loss aversion)</strong>. For product managers, this means that switching costs are not just economic (time, money to switch) but psychological (the pain of giving up what you have). This is why incumbent products with high installed bases are stickier than rational switching cost analysis predicts — and why new entrants need to offer significantly superior value to overcome both the economic and psychological lock-in.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Behavioral Economics</span>
+                  <span class="link-tag">Related: Pricing Strategy</span>
+                  <span class="link-tag">Related: WTP</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4.4 Work Breakdown Structure (WBS) -->
+            <div class="subtopic" id="s-wbs">
+              <div class="subtopic-hdr" onclick="toggleSub('s-wbs')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Work Breakdown Structure (WBS)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">A <strong>Work Breakdown Structure (WBS)</strong> is a hierarchical decomposition of a project into its component deliverables, sub-deliverables, and work packages — the building blocks that, when completed, collectively produce the project's total scope. The WBS is the foundation of all other project management tools: schedules, budgets, resource plans, and risk registers all trace back to the WBS. <strong>Without a WBS, you cannot schedule what you haven't defined, budget what you haven't decomposed, or assign accountability for what you haven't named.</strong></p>
+                <div class="section-label">WBS CONSTRUCTION RULES</div>
+                <ul class="bullets">
+                  <li><strong>100% rule:</strong> The WBS must capture 100% of the project scope — every deliverable and work package. Nothing outside the WBS is in scope; nothing inside is out of scope.</li>
+                  <li><strong>Mutual exclusivity:</strong> Work packages should not overlap — double-counting creates cost and schedule ambiguity.</li>
+                  <li><strong>Outcome-oriented naming:</strong> Name deliverables as nouns (things produced), not verbs (activities). "Market research report" not "conduct market research."</li>
+                  <li><strong>Decomposition to work package level:</strong> Continue decomposing until each element can be assigned to a single responsible team, has a clear start/finish, and can be tracked independently.</li>
+                </ul>
+                <div class="section-label">WBS → SCHEDULE</div>
+                <p class="prose">The transition from WBS to schedule requires two additional steps: (1) sequencing work packages into a <strong>network diagram</strong> showing precedence relationships (what must be done before what), and (2) estimating durations for each work package. The resulting network is the input for Critical Path Method (CPM) analysis.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The WBS is where most project failures begin — not in the schedule or the execution, but in the <strong>failure to define scope completely at the outset</strong>. "Scope creep" (adding work after the project starts) is only possible when the original WBS was incomplete. A rigorous WBS creation process — involving all key stakeholders before scheduling begins — is the most cost-effective investment in project success because it surfaces ambiguities and conflicts at definition time, when they cost almost nothing to resolve, rather than at execution time, when they cost everything.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Critical Path Method</span>
+                  <span class="link-tag">Related: Project Scheduling</span>
+                  <span class="link-tag">Related: Resource Planning</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4.5 Critical Path Method (CPM) -->
+            <div class="subtopic" id="s-cpm">
+              <div class="subtopic-hdr" onclick="toggleSub('s-cpm')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Critical Path Method (CPM)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>Critical Path Method (CPM)</strong> is a project scheduling algorithm that identifies the sequence of dependent activities that determines the minimum possible project duration. The <strong>critical path</strong> is the longest path through the activity network — any delay on a critical activity delays the entire project by the same amount. Non-critical activities have "slack" (also called float) — they can be delayed up to their slack duration without affecting the project end date. CPM is the primary tool for answering "when can this project finish?" and "where should we focus management attention?"</p>
+                <div class="section-label">THE FOUR CPM FORMULAS</div>
+                <div class="formula-wrap">
+                  <div class="formula">Forward Pass (Earliest Times):
+  ES (Early Start) = max(EF of all predecessors)
+  EF (Early Finish) = ES + t
+
+Backward Pass (Latest Times):
+  LF (Late Finish) = min(LS of all successors)
+  LS (Late Start) = LF − t
+
+Slack (Float):
+  S = LS − ES  (or equivalently: LF − EF)</div>
+                  <div class="formula-explain">
+                    <strong>Variables:</strong><br>
+                    ES = Earliest time the activity can start (forward pass)<br>
+                    EF = Earliest time the activity can finish (forward pass)<br>
+                    LS = Latest time the activity can start without delaying the project (backward pass)<br>
+                    LF = Latest time the activity can finish without delaying the project (backward pass)<br>
+                    t = estimated duration of the activity<br>
+                    S = Slack = how long this activity can be delayed without delaying the project<br><br>
+                    <strong>Critical path activities have S = 0.</strong> A positive S means the activity has scheduling flexibility. The project end date = the EF of the last activity on the critical path.
+                  </div>
+                </div>
+                <div class="section-label">WORKED EXAMPLE — HOSPITAL CONSTRUCTION</div>
+                <p class="prose">The lecture uses a hospital construction network. Activities and durations (weeks): A=12, B=14, C=10, D=11, E=7, F=11, G=11, H=8, I=14, J=4, K=12. The critical path is <strong>B–D–H–J–K = 14+11+8+4+12 = 49 weeks</strong> (the longest path). Any delay to B, D, H, J, or K delays the entire hospital construction completion. Activity A (12 weeks) has slack of several weeks and does not require the same management urgency as critical activities.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>CPM's most important practical insight is that <strong>not all activities deserve equal management attention</strong>. On a 50-activity project, perhaps 12 are critical. Pouring management attention, buffer resources, and executive scrutiny on those 12 activities while letting the other 38 proceed within their slack windows is the optimal strategy. <strong>Crashing the critical path</strong> (spending money to shorten critical activities) is the lever for accelerating completion date — spending on non-critical activities has zero effect on the end date.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Slack Time</span>
+                  <span class="link-tag">Related: WBS</span>
+                  <span class="link-tag">Case: Hospital Construction Network</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4.6 Slack Time -->
+            <div class="subtopic" id="s-slack-time">
+              <div class="subtopic-hdr" onclick="toggleSub('s-slack-time')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Slack Time (Float)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Slack time</strong> (or "float") is the amount of time that an activity can be delayed or extended without causing a delay to the project's end date or to any subsequent activities. It is calculated as the difference between an activity's latest allowable start (LS) and its earliest possible start (ES): <strong>S = LS − ES</strong>. Activities on the critical path have zero slack. Activities not on the critical path have positive slack — they have scheduling flexibility that can be used to manage resource conflicts, absorb small delays, or reduce peak resource demand.</p>
+                <div class="section-label">TOTAL FLOAT vs. FREE FLOAT</div>
+                <ul class="bullets">
+                  <li><strong>Total Float:</strong> S = LS − ES. The maximum time an activity can be delayed without delaying the project end date. "Shared" with successor activities — using your total float may affect the slack available to downstream activities.</li>
+                  <li><strong>Free Float:</strong> The time an activity can be delayed without delaying the <em>earliest start</em> of any <em>immediate successor</em>. More conservative; using free float has no impact on any other activity. Free Float ≤ Total Float always.</li>
+                </ul>
+                <div class="section-label">EXAM CALCULATION PROCEDURE</div>
+                <ul class="bullets">
+                  <li>Step 1: Forward pass — calculate ES and EF for every activity (ES of first activity = 0).</li>
+                  <li>Step 2: Backward pass — calculate LF and LS for every activity (LF of last activity = EF of last activity = project duration).</li>
+                  <li>Step 3: Calculate Slack for every activity: S = LS − ES.</li>
+                  <li>Step 4: Identify the critical path — all activities with S = 0.</li>
+                  <li>Step 5: Verify by confirming the critical path duration = project duration from forward pass.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Slack is a <strong>resource management lever, not just a scheduling concept.</strong> Activities with high slack can have their assigned resources temporarily reallocated to critical path activities that are in danger of delay — without affecting project completion. <strong>Resource leveling</strong> (smoothing resource demand over time) exploits slack: delay non-critical activities within their slack windows to avoid resource peaks when critical activities also need those resources. This is the connection between CPM and cost management — skilled project managers reduce overtime costs by exploiting slack strategically.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Critical Path Method</span>
+                  <span class="link-tag">Related: Resource Management</span>
+                  <span class="link-tag">Related: Project Crashing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4.7 Network Diagram Construction -->
+            <div class="subtopic" id="s-network-diagram">
+              <div class="subtopic-hdr" onclick="toggleSub('s-network-diagram')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Network Diagram &amp; Precedence Logic</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">A <strong>project network diagram</strong> is a directed graph where nodes represent activities (or milestones) and arrows represent precedence relationships — which activities must complete before others can begin. The network translates a WBS into a time-ordered structure that reveals the project's logic and enables CPM calculations. Building the network correctly requires identifying three types of relationships for every activity: its predecessors (what must finish before I can start), its successors (what can only start after I finish), and its duration.</p>
+                <div class="section-label">BUILDING THE NETWORK</div>
+                <ul class="bullets">
+                  <li><strong>Step 1 — List all activities:</strong> From the WBS. Every leaf-level work package becomes a node in the network.</li>
+                  <li><strong>Step 2 — Determine precedence:</strong> For each activity, ask "what must be finished before this can start?" These are the immediate predecessors. Avoid over-constraining — only add dependencies that are genuinely required by logic, resource, or regulatory requirements.</li>
+                  <li><strong>Step 3 — Draw the network:</strong> Place activities as nodes, draw arrows from predecessors to successors. Activities with no predecessors start at time 0. Activities with no successors mark the project end.</li>
+                  <li><strong>Step 4 — Assign durations:</strong> Estimate duration for each activity. Use a three-point estimate (optimistic/most likely/pessimistic) for high-uncertainty activities.</li>
+                </ul>
+                <div class="section-label">PARALLEL vs. SEQUENTIAL ACTIVITIES</div>
+                <p class="prose"><strong>Parallel (concurrent) activities</strong> have no precedence relationship between them and can proceed simultaneously. They are the primary source of schedule compression — doing more work in the same clock time. <strong>Sequential activities</strong> form chains; the total duration of a chain equals the sum of individual activity durations. The critical path is the longest chain of sequential activities through the network.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The single most impactful schedule improvement is identifying opportunities to convert <strong>sequential activities into parallel ones</strong>. Fast-track project management does exactly this: it accepts higher coordination costs and some rework risk in exchange for starting downstream activities before their predecessors are fully complete. <strong>The hospital construction example demonstrates that parallelism — not just short durations — determines whether the project completes on a competitive timeline.</strong></p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: CPM</span>
+                  <span class="link-tag">Related: WBS</span>
+                  <span class="link-tag">Case: Hospital Construction</span>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /subtopic-grid -->
+        </div><!-- /topic-body -->
+      </div><!-- /topic-block t-market-pm -->
+
+      <!-- CONTINUED IN PART 3 -->

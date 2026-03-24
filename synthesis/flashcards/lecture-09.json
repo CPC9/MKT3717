@@ -1,0 +1,139 @@
+{
+  "id": "lecture-09",
+  "title": "Reference: Course Syllabus MKT3717",
+  "cards": [
+    {
+      "id": "lecture-09-001",
+      "term": "3-Minute Product Idea Talk",
+      "definition": "An individual participation component (5% of grade) in which each student briefly pitches an original product idea to the class, developing concise communication and concept articulation skills.",
+      "relatedTerms": [],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-002",
+      "term": "Academic Dishonesty",
+      "definition": "Any misrepresentation with intent to deceive, failure to acknowledge sources, falsification of information, cheating at examinations, or inappropriate use of resources — all prohibited under NUS policy.",
+      "relatedTerms": ["Plagiarism"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-003",
+      "term": "Brand Equity",
+      "definition": "The long-term cumulative value embedded in a brand, built through consistent strategic choices and consumer associations over time.",
+      "relatedTerms": ["Brand Health"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-004",
+      "term": "Brand Health",
+      "definition": "The long-term vitality and consumer relevance of a brand, contrasted with short-term performance metrics. Decisions that boost immediate results must be balanced against sustaining brand health.",
+      "relatedTerms": ["Brand Equity"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-005",
+      "term": "Brand Storytelling",
+      "definition": "The practice of crafting and communicating a coherent narrative around a brand or product to build consumer connection and meaning; featured in the Week 4 guest speaker session.",
+      "relatedTerms": ["Service Design"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-006",
+      "term": "Concept Evaluation",
+      "definition": "The structured process of assessing new product ideas against market, technical, and financial criteria before committing to full development; covered in Week 3.",
+      "relatedTerms": ["New Product Development (NPD)"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-007",
+      "term": "Conjoint Analysis",
+      "definition": "A quantitative research technique that measures how consumers trade off among product attributes to reveal preference structures and implied willingness to pay; used in NPD to optimize product design.",
+      "relatedTerms": ["Demand Forecasting", "New Product Development (NPD)"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-008",
+      "term": "Demand Forecasting",
+      "definition": "Quantitative and experimental methods for projecting consumer demand and market response before a product's full commercial launch; covered in Week 6.",
+      "relatedTerms": ["Conjoint Analysis"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-009",
+      "term": "Design Thinking",
+      "definition": "A structured, human-centered approach to innovation emphasizing empathy with users, iterative prototyping, and creative problem-solving; exemplified by the IDEO case in Week 8.",
+      "relatedTerms": ["Human-Centered Innovation", "Service Design"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-010",
+      "term": "Final Marketing Plan Report",
+      "definition": "The written deliverable of the group project, worth 20% of the final grade, documenting the full new product launch strategy developed by each team.",
+      "relatedTerms": ["Group Project on New Product Launching"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-011",
+      "term": "Group Project on New Product Launching",
+      "definition": "The primary applied assessment in MKT3717, comprising group presentations (25%) and a final marketing plan report (20%), requiring teams to develop and present a complete new product launch strategy.",
+      "relatedTerms": ["Final Marketing Plan Report"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-012",
+      "term": "Human-Centered Innovation",
+      "definition": "An approach to product and service design that places end-user needs, behaviors, and experiences at the center of the innovation process, as opposed to technology- or operations-driven approaches.",
+      "relatedTerms": ["Design Thinking", "Service Design"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-013",
+      "term": "Market Sizing",
+      "definition": "The quantitative exercise of estimating the total addressable market (TAM) or relevant opportunity size for a new product; practiced as a hands-on exercise in Week 2.",
+      "relatedTerms": ["Demand Forecasting"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-014",
+      "term": "New Product Development (NPD)",
+      "definition": "The full end-to-end process by which firms move from identifying customer needs to designing, testing, launching, and managing new products; the organizing spine of the first half of the course.",
+      "relatedTerms": ["Concept Evaluation", "Product Architecture", "Product Life Cycle"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-015",
+      "term": "Peer Evaluation",
+      "definition": "A structured assessment component (5% of grade) in which students formally evaluate their group project teammates' contributions, reinforcing accountability in collaborative work.",
+      "relatedTerms": ["Group Project on New Product Launching"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-016",
+      "term": "Plagiarism",
+      "definition": "Taking someone else's work or ideas and presenting them as one's own; strictly prohibited under NUS academic integrity policy.",
+      "relatedTerms": ["Academic Dishonesty"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-017",
+      "term": "Product Architecture",
+      "definition": "The scheme by which the functional elements of a product are arranged and interact; covered in Week 3 as part of concept development and prototyping.",
+      "relatedTerms": ["New Product Development (NPD)"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-018",
+      "term": "Product Life Cycle",
+      "definition": "The stages a product passes through from introduction through growth, maturity, and decline; the course's managerial perspective involves actively managing products across all these stages.",
+      "relatedTerms": ["New Product Development (NPD)"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    },
+    {
+      "id": "lecture-09-019",
+      "term": "Service Design",
+      "definition": "The activity of planning and organizing a service's components — people, infrastructure, communication, and material — to improve quality and user experience; featured in Week 4 and the Week 8 IDEO case.",
+      "relatedTerms": ["Design Thinking", "Human-Centered Innovation"],
+      "sourceLecture": "Reference: Course Syllabus MKT3717"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "lecture-16",
+  "title": "Supplementary Reading: Post-It Note Innovation History",
+  "cards": [
+    {
+      "id": "lecture-16-001",
+      "term": "Category Creation",
+      "definition": "The process of introducing a product so novel that it defines an entirely new market segment rather than competing within an existing one.",
+      "relatedTerms": ["Discontinuous Innovation", "Latent Need"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-002",
+      "term": "Champion (Innovation Champion)",
+      "definition": "An individual within an organization who actively promotes and advocates for a new idea, technology, or product concept, often without formal authority or guaranteed reward.",
+      "relatedTerms": ["Internal Evangelism", "Technology Push"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-003",
+      "term": "Cross-Pollination",
+      "definition": "The process by which ideas, technologies, or insights from one domain or department are transferred to another, often producing novel applications.",
+      "relatedTerms": ["Knowledge Sharing", "Serendipitous Discovery"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-004",
+      "term": "Defect-to-Feature Reframing",
+      "definition": "A cognitive strategy in which a product characteristic initially perceived as a flaw is reconceptualized as a benefit or core value proposition in a different context.",
+      "relatedTerms": ["Opportunity Identification", "Reframing"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-005",
+      "term": "Discontinuous Innovation",
+      "definition": "An innovation that creates a fundamentally new product category or radically changes how a need is met, as opposed to incremental improvements on existing products.",
+      "relatedTerms": ["Category Creation", "Latent Need"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-006",
+      "term": "Eureka Moment",
+      "definition": "A sudden, often emotionally vivid insight in which a solution to a problem becomes clear.",
+      "relatedTerms": ["Serendipitous Discovery", "Opportunity Identification"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-007",
+      "term": "Internal Evangelism",
+      "definition": "The practice of promoting an idea or technology within an organization to build support, resources, and adoption, particularly when the idea lacks obvious commercial precedent.",
+      "relatedTerms": ["Champion (Innovation Champion)", "Technology Push"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-008",
+      "term": "Latent Need",
+      "definition": "A consumer need that is real and experienced but has not been consciously articulated or connected to a product solution.",
+      "relatedTerms": ["Opportunity Identification", "Discontinuous Innovation"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-009",
+      "term": "Microspheres",
+      "definition": "Tiny spherical acrylic polymer beads developed by Spencer Silver in 1968 that form the core of the Post-it Note's adhesive, enabling contact stickiness without permanent bonding and clean repositioning.",
+      "relatedTerms": ["Repositionable Adhesive", "Trade Secret"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-010",
+      "term": "Opportunity Identification",
+      "definition": "The phase of new product development in which a firm recognizes an unmet or underserved need that could be addressed by a new product or service.",
+      "relatedTerms": ["Latent Need", "Serendipitous Discovery"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-011",
+      "term": "Repositionable Adhesive",
+      "definition": "An adhesive that allows a bonded surface to be peeled away and reattached multiple times without losing tack or leaving residue.",
+      "relatedTerms": ["Microspheres", "Defect-to-Feature Reframing"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-012",
+      "term": "Serendipitous Discovery",
+      "definition": "An unexpected finding that arises from research aimed at a different goal, which nonetheless proves valuable. Requires researchers to remain observant when results diverge from expectations.",
+      "relatedTerms": ["Eureka Moment", "Technology Push"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-013",
+      "term": "Technology Push",
+      "definition": "An innovation model in which a new technology is developed first and a market application is identified afterward, as opposed to demand-pull where a known customer need drives R&D.",
+      "relatedTerms": ["Demand Pull", "Champion (Innovation Champion)", "Discontinuous Innovation"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-014",
+      "term": "Trade Secret",
+      "definition": "Proprietary business information — including formulas, processes, or methods — that a company protects by keeping confidential rather than by filing a patent.",
+      "relatedTerms": ["Microspheres", "Intellectual Property"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    },
+    {
+      "id": "lecture-16-015",
+      "term": "Viral Adoption",
+      "definition": "A pattern of product diffusion in which users naturally expose non-users to the product through ordinary use, triggering organic demand without paid advertising.",
+      "relatedTerms": ["Self-Advertising Product", "Category Creation"],
+      "sourceLecture": "Supplementary Reading: Post-It Note Innovation History"
+    }
+  ]
+}

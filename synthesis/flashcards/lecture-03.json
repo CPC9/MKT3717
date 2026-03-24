@@ -1,0 +1,132 @@
+{
+  "id": "lecture-03",
+  "title": "Lecture 3: New Product Development Part 2 — Concept Screening and Testing",
+  "cards": [
+    {
+      "id": "lecture-03-001",
+      "term": "Benchmarking",
+      "definition": "Evaluating competitive products against customer needs and objective metrics to set realistic target specification values.",
+      "relatedTerms": ["Product Specifications", "Concept Scoring Matrix"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-002",
+      "term": "Concept Screening Matrix (Pugh Matrix)",
+      "definition": "A matrix tool for rapid, qualitative comparison of multiple product concepts against a reference concept using a +/0/– scale. Net score = Plusses minus Minuses.",
+      "relatedTerms": ["Concept Scoring Matrix", "Reference Concept"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-003",
+      "term": "Concept Scoring Matrix",
+      "definition": "A weighted matrix tool that rates concepts on a 1–5 numerical scale across importance-weighted criteria, producing a total weighted score for ranking and selection.",
+      "relatedTerms": ["Concept Screening Matrix (Pugh Matrix)", "Weighted Score"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-004",
+      "term": "Concept Testing",
+      "definition": "The phase in which selected product concepts are validated against customer and strategic criteria to eliminate concepts that are technically unfeasible, strategically misaligned, or lacking market fit.",
+      "relatedTerms": ["Product Concept", "Needs-Form-Technology Model"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-005",
+      "term": "Customer Needs Statement",
+      "definition": "A formally structured, product-attribute expression of what the customer requires, written in positive \"what not how\" language without solution prescription or obligatory phrasing.",
+      "relatedTerms": ["Voice of the Customer (VoC)", "Product Specification"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-006",
+      "term": "Early Freeze",
+      "definition": "A strategy of committing to final specifications early in development, enabling downstream tasks to begin with firm inputs and facilitating cost and performance optimisation.",
+      "relatedTerms": ["Late Freeze", "Product Specification"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-007",
+      "term": "Ideal Value",
+      "definition": "The best achievable value for a product specification metric, representing the target if no constraints existed; contrasted with the Marginal Value.",
+      "relatedTerms": ["Marginal Value", "Product Specification"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-008",
+      "term": "Jobs To Be Done (JTBD)",
+      "definition": "A customer insight framework asserting that people \"hire\" products to accomplish a specific job in a specific situation: \"When [situation], I want to [motivation], so I can [desired outcome].\"",
+      "relatedTerms": ["Customer Needs Statement", "Voice of the Customer (VoC)"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-009",
+      "term": "Late Freeze",
+      "definition": "A strategy of committing to final specifications as late as possible in development, allowing better alignment with evolving customer needs and competitive dynamics.",
+      "relatedTerms": ["Early Freeze", "Product Specification"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-010",
+      "term": "Marginal Value",
+      "definition": "The minimum acceptable value for a product specification metric — the threshold below which the product fails to satisfy the need.",
+      "relatedTerms": ["Ideal Value", "Product Specification"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-011",
+      "term": "Metric",
+      "definition": "The measurable property used to operationalise a customer need as a product specification; combined with a value and units to form a complete specification.",
+      "relatedTerms": ["Product Specification", "Customer Needs Statement"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-012",
+      "term": "Mission Statement (Product)",
+      "definition": "A formal document defining a product's description, benefit proposition, key business goals, primary and secondary markets, constraints, assumptions, and stakeholders; used to scope customer needs analysis.",
+      "relatedTerms": ["Customer Needs Statement", "Benchmarking"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-013",
+      "term": "Needs-Form-Technology Model",
+      "definition": "A framework representing a product concept as the intersection of at least two of three inputs — customer Need/Benefit, physical Form, and enabling Technology. A new product requires all three.",
+      "relatedTerms": ["Product Concept", "Concept Testing"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-014",
+      "term": "Product Concept",
+      "definition": "A verbal or prototype statement describing what will change in a product and how the customer stands to gain or lose; requires at least two of Need, Form, and Technology to be feasible.",
+      "relatedTerms": ["Needs-Form-Technology Model", "Concept Screening Matrix (Pugh Matrix)"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-015",
+      "term": "Product Specification",
+      "definition": "The quantified, measurable translation of a customer needs statement into engineering terms; composed of Metric + Value(s) + Units.",
+      "relatedTerms": ["Customer Needs Statement", "Metric"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-016",
+      "term": "Reference Concept",
+      "definition": "The baseline concept used as the comparison standard in Concept Screening and Scoring Matrices; typically the current/existing product; assigned a score of 0 (screening) or 3 (scoring) on all criteria.",
+      "relatedTerms": ["Concept Screening Matrix (Pugh Matrix)", "Concept Scoring Matrix"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-017",
+      "term": "Voice of the Customer (VoC)",
+      "definition": "The raw, verbatim language in which customers express their needs, frustrations, and desires, gathered through interviews, focus groups, observation, and ethnography; the starting input to customer needs translation.",
+      "relatedTerms": ["Customer Needs Statement", "Jobs To Be Done (JTBD)"],
+      "sourceLecture": "Lecture 3"
+    },
+    {
+      "id": "lecture-03-018",
+      "term": "Weighted Score",
+      "definition": "The product of a criterion's importance weight and a concept's rating on that criterion in the Concept Scoring Matrix; summed across all criteria to produce the Total Score.",
+      "relatedTerms": ["Concept Scoring Matrix"],
+      "sourceLecture": "Lecture 3"
+    }
+  ]
+}

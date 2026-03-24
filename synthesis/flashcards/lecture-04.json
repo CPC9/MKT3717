@@ -1,0 +1,132 @@
+{
+  "id": "lecture-04",
+  "title": "Lecture 4: Concept Testing Review and Guest Lecture",
+  "cards": [
+    {
+      "id": "lecture-04-001",
+      "term": "A/B Testing",
+      "definition": "A controlled experiment releasing two product versions simultaneously to different user groups to compare performance; used at or near production release for optimization decisions.",
+      "relatedTerms": ["Beta Testing", "Quantitative Market Testing"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-002",
+      "term": "Alpha Testing",
+      "definition": "Internal performance and user interface testing conducted by company personnel on a near-complete product to identify functional failures before external exposure.",
+      "relatedTerms": ["Beta Testing", "Prototype Testing"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-003",
+      "term": "Beta Testing",
+      "definition": "Validation and acceptance testing conducted by real external users in realistic conditions to confirm the product meets expectations prior to full production ramp-up.",
+      "relatedTerms": ["Alpha Testing", "Validation"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-004",
+      "term": "Brainstorming",
+      "definition": "A structured group ideation method governed by rules such as deferring judgment, building on others' ideas, and encouraging wild ideas, used during concept generation to maximize variety and creativity.",
+      "relatedTerms": ["Concept Generation", "Group Creativity"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-005",
+      "term": "Concept Refinement",
+      "definition": "The process of merging strong attributes from multiple evaluated concepts into a superior hybrid concept, rather than accepting the highest-scoring concept as-is.",
+      "relatedTerms": ["Concept Scoring Matrix", "Combine and Improve"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-006",
+      "term": "Concept Scoring Matrix",
+      "definition": "A quantitative decision tool that multiplies criteria weights by concept ratings and sums the products to rank competing concepts; used after concept screening for finer concept selection.",
+      "relatedTerms": ["Concept Screening", "Weighted Score", "Criteria Weighting"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-007",
+      "term": "Concept Screening",
+      "definition": "An earlier, coarser evaluation method using a +/0/- scale to compare concepts against a reference concept and eliminate clearly inferior options before the scoring matrix is applied.",
+      "relatedTerms": ["Concept Scoring Matrix", "Reference Concept"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-008",
+      "term": "Concept Testing",
+      "definition": "Phase 3 of the NPD process in which surviving product concepts are evaluated through consumer research, technical assessment, and strategic alignment checks to determine which should move into development.",
+      "relatedTerms": ["Product Innovation Charter (PIC)", "Go/No-Go Decision Gate"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-009",
+      "term": "Criteria Weighting",
+      "definition": "The assignment of numerical importance scores to each selection criterion, derived from consumer problem surveys, that determine how much each criterion influences the total concept score.",
+      "relatedTerms": ["Concept Scoring Matrix", "Consumer Research"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-010",
+      "term": "Go/No-Go Decision Gate",
+      "definition": "A structured checkpoint between phases of the product development pipeline where management decides whether sufficient evidence exists to commit resources to the next phase.",
+      "relatedTerms": ["Product Development Process", "Stage-Gate"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-011",
+      "term": "Product Innovation Charter (PIC)",
+      "definition": "A strategic document defining the boundaries of acceptable product concepts for the firm, used during concept testing to eliminate concepts outside the firm's technology, market knowledge, innovation level, or competitive strategy.",
+      "relatedTerms": ["Concept Testing", "Strategic Alignment"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-012",
+      "term": "Prototype Testing",
+      "definition": "Iterative physical or digital design testing during system-level and detail design phases to evaluate how well a prototype meets specifications before user testing begins.",
+      "relatedTerms": ["Alpha Testing", "Specification Testing"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-013",
+      "term": "Qualitative Concept Testing",
+      "definition": "Early-stage consumer research exposing concept descriptions to target users to assess comprehension, desirability, and purchase intent before any prototype is built.",
+      "relatedTerms": ["Concept Testing", "Consumer Research"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-014",
+      "term": "Quantitative Market Testing",
+      "definition": "Statistical consumer research conducted in the Testing and Refinement phase to measure demand, preference share, and purchase probability at scale.",
+      "relatedTerms": ["Beta Testing", "Market Research"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-015",
+      "term": "Reference Concept",
+      "definition": "The baseline product against which all other concepts are rated in a concept screening matrix, typically the current market leader or current company offering.",
+      "relatedTerms": ["Concept Screening", "Benchmarking"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-016",
+      "term": "Sensitivity Analysis",
+      "definition": "The process of varying uncertain criteria weights or ratings in the scoring matrix to determine whether the concept ranking is robust or would change under plausible alternative assumptions.",
+      "relatedTerms": ["Concept Scoring Matrix", "Criteria Weighting"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-017",
+      "term": "Specification Testing",
+      "definition": "Benchmarking of a concept or prototype against established technical specifications, typically conducted in the early stages of system-level design.",
+      "relatedTerms": ["Target Specifications", "Benchmarking"],
+      "sourceLecture": "Lecture 4"
+    },
+    {
+      "id": "lecture-04-018",
+      "term": "Weighted Score",
+      "definition": "The product of a criterion's importance weight and a concept's raw rating on that criterion; the sum of all weighted scores for a concept constitutes its total score in the matrix.",
+      "relatedTerms": ["Concept Scoring Matrix", "Criteria Weighting"],
+      "sourceLecture": "Lecture 4"
+    }
+  ]
+}

@@ -1,29 +1,29 @@
-/* Midnight Blue Theme */
-/* Dark navy with soft blue accents — professional evening study */
+/* Forest Green Theme */
+/* Deep forest with soft green accents — earthy, calming for science courses */
 
 :root {
   /* Colors */
-  --bg: #1c2d4a;
-  --bg-card: #243556;
-  --bg-sub: #1a2840;
-  --bg-deep: #162238;
-  --border: rgba(106, 159, 216, 0.15);
-  --border-hi: rgba(106, 159, 216, 0.35);
-  --text: #dde6f5;
-  --text-mute: #8ba3c7;
-  --text-dim: #5a7499;
-  --accent: #6a9fd8;
-  --accent-hi: #89b8e8;
-  --white: #f0f4fa;
-  --formula-bg: #162238;
-  --formula-border: rgba(106, 159, 216, 0.2);
-  --correct: #4caf50;
-  --correct-bg: rgba(76, 175, 80, 0.1);
-  --incorrect: #ef5350;
-  --incorrect-bg: rgba(239, 83, 80, 0.1);
+  --bg: #1a2e1f;
+  --bg-card: #243a28;
+  --bg-sub: #1d3222;
+  --bg-deep: #162a1b;
+  --border: rgba(106, 184, 120, 0.15);
+  --border-hi: rgba(106, 184, 120, 0.35);
+  --text: #d8e8dc;
+  --text-mute: #8bac92;
+  --text-dim: #5a7a62;
+  --accent: #6ab878;
+  --accent-hi: #85cc93;
+  --white: #edf5ef;
+  --formula-bg: #162a1b;
+  --formula-border: rgba(106, 184, 120, 0.2);
+  --correct: #43a047;
+  --correct-bg: rgba(67, 160, 71, 0.1);
+  --incorrect: #e53935;
+  --incorrect-bg: rgba(229, 57, 53, 0.1);
 
   /* Typography */
-  --font-primary: 'Calibri', 'Trebuchet MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-primary: 'Calibri', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-mono: 'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace;
 
   /* Layout */
@@ -155,46 +155,20 @@ a:hover {
   }
 }
 
+/* ── Mobile Checker Fixes ── */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+}
+
 @media (pointer: coarse) {
   .btn,
   a,
   button,
   input,
   select,
-  summary,
   textarea {
     min-height: 44px;
-  }
-}
-
-/* ── Mobile Checker Fixes ── */
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .toc-sidebar a {
-    padding: 0.5rem 0.75rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .quick-link-card p,
-  .topic-body li,
-  .option-text {
-    font-size: 1rem;
-  }
-
-  .distinction-table,
-  .formula-sheet-table,
-  table {
-    font-size: 0.9rem;
-  }
-
-  .question-item summary {
-    min-height: 44px;
-    padding: 0.75rem;
   }
 }

@@ -1,0 +1,146 @@
+{
+  "id": "lecture-05",
+  "title": "Lecture 5: Conjoint Analysis for Product Design",
+  "cards": [
+    {
+      "id": "lecture-05-001",
+      "term": "Additive Utility Model",
+      "definition": "The assumption that a product's total utility is the sum of the part-worth utilities of its individual attribute levels, with no cross-attribute interaction effects.",
+      "relatedTerms": ["Conjoint Analysis", "Part-Worth Utility"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-002",
+      "term": "Attribute",
+      "definition": "An important product characteristic that drives consumer choice in conjoint analysis. Each attribute has two or more levels.",
+      "relatedTerms": ["Levels", "Part-Worth Utility"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-003",
+      "term": "Baseline Level",
+      "definition": "The reference level of an attribute omitted from OLS regression and against which all other levels are compared. Its utility is set to zero by convention and captured in the intercept.",
+      "relatedTerms": ["Dummy Variable", "OLS Regression (Ordinary Least Squares)"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-004",
+      "term": "Choice-Based Conjoint (CBC)",
+      "definition": "A conjoint variant in which respondents choose their most preferred option from a set of competing profiles rather than rating or ranking. More closely mirrors real purchasing behavior.",
+      "relatedTerms": ["Conjoint Analysis", "Profile"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-005",
+      "term": "Conjoint Analysis",
+      "definition": "A survey-based statistical technique that determines how consumers value different product attributes by presenting product profiles and analyzing stated preferences through regression.",
+      "relatedTerms": ["Part-Worth Utility", "Relative Importance", "OLS Regression (Ordinary Least Squares)"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-006",
+      "term": "Delayed Differentiation (Postponement)",
+      "definition": "A supply chain strategy in which a product is manufactured to a semi-finished state and held as a generic subassembly; the differentiating step is performed as late as possible in the supply network.",
+      "relatedTerms": ["Mass Customization", "Modular Architecture"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-007",
+      "term": "Determinant Attribute",
+      "definition": "An attribute that is both important to consumers and varies meaningfully across competing products, making it a key driver of actual choice behavior.",
+      "relatedTerms": ["Attribute", "Conjoint Analysis"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-008",
+      "term": "Dummy Variable",
+      "definition": "A binary (0/1) indicator variable used in OLS regression to represent whether a specific attribute level is present in a given profile. One level per attribute is omitted as the baseline.",
+      "relatedTerms": ["Baseline Level", "OLS Regression (Ordinary Least Squares)"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-009",
+      "term": "Fractional Factorial Design",
+      "definition": "A conjoint design in which only a statistically chosen subset of all attribute-level combinations is shown to respondents, reducing survey length while allowing unbiased estimation of main effects.",
+      "relatedTerms": ["Full Factorial Design", "Conjoint Analysis"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-010",
+      "term": "Full Factorial Design",
+      "definition": "A conjoint study design in which respondents evaluate every possible combination of attribute levels. The number of profiles equals the product of the number of levels across all attributes.",
+      "relatedTerms": ["Fractional Factorial Design", "Profile"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-011",
+      "term": "Levels",
+      "definition": "The specific values or categories that an attribute can take in a conjoint study.",
+      "relatedTerms": ["Attribute", "Profile"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-012",
+      "term": "Mass Customization",
+      "definition": "A production strategy combining the efficiency of mass production with individual customization, typically enabled by modular product architecture and postponement.",
+      "relatedTerms": ["Delayed Differentiation (Postponement)", "Modular Architecture"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-013",
+      "term": "Modular Architecture",
+      "definition": "A product architecture in which functional elements are grouped into self-contained modules that can be independently designed, produced, and swapped with minimal effect on other modules.",
+      "relatedTerms": ["Product Architecture", "Mass Customization"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-014",
+      "term": "OLS Regression (Ordinary Least Squares)",
+      "definition": "The statistical method used in conjoint analysis to estimate part-worth utilities by regressing preference scores on dummy-coded attribute level variables to produce coefficient estimates.",
+      "relatedTerms": ["Part-Worth Utility", "Dummy Variable"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-015",
+      "term": "Part-Worth Utility",
+      "definition": "The incremental value in preference units that a consumer places on a specific attribute level, estimated as the OLS regression coefficient on the corresponding dummy variable.",
+      "relatedTerms": ["Conjoint Analysis", "Relative Importance"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-016",
+      "term": "Poka-Yoke",
+      "definition": "A Japanese fail-proofing design philosophy that builds physical or procedural safeguards into a product or process to prevent user errors before they occur.",
+      "relatedTerms": ["Product Architecture"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-017",
+      "term": "Product Architecture",
+      "definition": "The arrangement of functional elements of a product into physical or logical chunks that serve as building blocks for a product or family of products.",
+      "relatedTerms": ["Modular Architecture", "Mass Customization"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-018",
+      "term": "Profile",
+      "definition": "A single product concept in a conjoint study, defined by one specific level from each attribute. Respondents evaluate profiles to reveal their underlying preferences.",
+      "relatedTerms": ["Full Factorial Design", "Levels"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-019",
+      "term": "Relative Importance",
+      "definition": "The percentage contribution of each attribute to total preference variation. Calculated as (attribute utility range / sum of all attribute utility ranges) × 100.",
+      "relatedTerms": ["Part-Worth Utility", "Conjoint Analysis"],
+      "sourceLecture": "Lecture 5"
+    },
+    {
+      "id": "lecture-05-020",
+      "term": "Willingness to Pay (WTP)",
+      "definition": "The maximum dollar amount a consumer would pay for an attribute upgrade, derived from conjoint results by scaling an attribute's utility gain by the price sensitivity coefficient.",
+      "relatedTerms": ["Part-Worth Utility", "Conjoint Analysis"],
+      "sourceLecture": "Lecture 5"
+    }
+  ]
+}

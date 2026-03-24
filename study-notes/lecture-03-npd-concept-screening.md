@@ -1,385 +1,295 @@
 ---
-title: "Lecture 3: New Product Development Part 2 - Concept Screening and Testing"
+title: "Lecture 3: New Product Development Part 2 — Concept Screening and Testing"
+type: lecture
 source_files:
-  - "source-materials/lec 3 New Product Development part 2 - Concept Screening and Testing.pdf"
-  - "source-materials/lect 3_Product concept selection methods.pdf"
-  - "source-materials/Random In-Class Notes (classes 1-4).docx"
+  - "source-materials/lecture slides/lec 3 New Product Development part 2 - Concept Screening and Testing.pdf"
 topics:
-  - Customer Need Analysis Process
-  - Jobs To Be Done (JTBD)
-  - Needs Statements
-  - Product Specifications
-  - Concept Generation
-  - Concept Selection Methods
-  - Concept Screening Matrix
-  - Concept Scoring Matrix
-  - Concept Testing
+  - "Concept Screening"
+  - "Concept Testing"
+  - "Concept Scoring Matrix"
+  - "Pugh Matrix"
+  - "Product Specifications"
 lecture_number: 3
 ---
 
 ## Overview
 
-This lecture continues the New Product Development (NPD) process, bridging **Phase 1 (Opportunity Identification)** with **Phase 2 (Concept Generation)** and **Phase 3 (Concept/Project Evaluation)**. It covers how to systematically translate customer voices into actionable needs statements, convert those needs into measurable product specifications, generate product concepts, and then evaluate and select the most promising concepts using structured methods. The lecture culminates with an introduction to concept testing as a stage of elimination before committing development resources.
+Lecture 3 continues the New Product Development process from where Lecture 2 left off, picking up at the critical bridge between customer needs and actionable product concepts. The session revisits the Jobs To Be Done (JTBD) framework and the challenge of translating raw customer language into properly structured needs statements — a discipline that turns qualitative field observations into inputs that engineers and designers can actually use. The lecture also formalises the conversion of customer needs into measurable product specifications, establishing the three-part formula of metric, value, and units as the standard output of this translation process.
 
-**Key question addressed:** How do we move from understanding what customers need to generating, evaluating, and selecting the best product concept to develop?
+The core of the lecture introduces the structured methods by which teams move from a broad field of candidate concepts down to a small set worth developing. Two complementary matrix tools — the Concept Screening Matrix and the Concept Scoring Matrix — are presented as the backbone of this evaluation process. The screening matrix uses a simple plus/zero/minus scale relative to a reference concept to eliminate clearly inferior options quickly, while the scoring matrix applies weighted criteria ratings (on a 1–5 scale) to produce total weighted scores that rank the surviving candidates with greater discrimination. Both tools are illustrated with a detailed reusable insulin syringe case involving seven distinct concept variants across seven selection criteria.
+
+The lecture closes with the distinction between concept selection and concept testing, emphasising that the goal is not merely to pick the best option from the current set but to combine and refine concepts iteratively until a genuinely superior design emerges. Testing is positioned as a continuous, multi-stage discipline woven throughout the entire product development pipeline — from qualitative concept testing early on, through prototype iterations, to quantitative market testing and beta validation just before launch. The recurring warning is that skipping any stage of testing is an accelerated path to product failure.
+
+---
 
 ## Key Concepts
 
-### 2.1 Customer Need Analysis: Five-Step Process
+### Customer Needs Translation
 
-A structured process for uncovering and organizing customer needs:
+#### Jobs To Be Done (JTBD)
+**Definition:** A framework that reframes the question of why customers buy products. Rather than asking what features users want, JTBD asks what "job" the customer is trying to accomplish in a given situation: "When [situation], I want to [motivation], so I can [desired outcome]."
 
-1. **Define the Scope** -- Establish a mission statement and identify all stakeholders (users, retailers, sales force, service centres, production, legal).
-2. **Gather Information** -- Use qualitative research methods to hear the customer's voice:
-   - **Interviews**: One-on-one conversations probing specific experiences.
-   - **Focus Groups**: Moderated group discussions to surface shared and divergent needs.
-   - **Observation**: Watching customers use products in natural settings to uncover unarticulated behaviours.
-   - **Ethnography**: Deep immersion into the customer's environment and culture to discover latent needs.
-3. **Interpret Customer Data** -- Write need statements, organize them into a hierarchy, and identify latent needs that customers cannot articulate directly.
-4. **Quantify Relative Importance** -- Focus on the trade-offs customers make; use surveys to assign quantitative importance ratings even for subjective characteristics.
-5. **Reflect on the Process** -- Continuous improvement of the need-gathering methodology itself.
+**Context:** JTBD contrasts with traditional product management thinking, which centres on feature requests, user personas, and stated preferences. JTBD anchors the team to the real motivational trigger — the specific situation in which a person decides to "hire" a product to make progress. The class exercise used food-delivery apps (Grab/FoodPanda) as the interview subject, with participants divided into interviewer, interviewee, and observer roles focused entirely on a specific past event rather than hypotheticals.
 
-### 2.2 Jobs To Be Done (JTBD) Framework
+**Relationships:** JTBD precedes customer needs statement writing. The insights gathered through JTBD interviews feed directly into the five-step Customer Need Analysis process (Define Scope, Gather Information, Interpret Data, Quantify Importance, Reflect). It connects to the Voice of the Customer concept, which is the raw material that gets translated into formal needs statements.
 
-A paradigm shift in how product managers think about customer motivation:
+#### Customer Needs Statements
+**Definition:** Formally structured expressions of what the customer requires from a product, written as positive attributes of the product itself rather than as descriptions of how a solution should work. A well-formed needs statement specifies "what" the product does, not "how" it does it.
 
-> **"People don't buy products -- they hire them to get a job done in their life."**
+**Context:** The lecture provides five guidelines for writing valid needs statements, illustrated with smart thermostat and handbag examples. (1) "What not How" — focus on the outcome, not the mechanism (e.g., "The thermostat can be controlled remotely" rather than "The thermostat is accompanied by a downloadable iPhone app"). (2) Specificity — be precise enough to be testable (e.g., "The thermostat can control separate heating and cooling systems" rather than "The thermostat is versatile"). (3) Positive not Negative — state what the product does do, not what it avoids doing. (4) Attribute of the Product — frame the need as a property of the product, not a user action. (5) Avoid "Must" and "Should" — these words introduce obligation that belongs in specifications, not needs statements.
 
-**JTBD Statement Format:**
+**Relationships:** Needs statements are derived from the Voice of the Customer and serve as the direct input to product specifications. They sit in the middle of the chain: Voice of the Customer → Customer Needs → Product Specifications.
 
-> "When [situation], I want to [motivation], so I can [desired outcome]."
+#### Product Specifications
+**Definition:** The quantified, measurable translation of customer needs into engineering terms. A product specification consists of three components: a metric (what is measured), a value (the target number or range), and units (the unit of measurement). Example: Total Mass | 8.5–10 | kg.
 
-| Traditional PM Thinking | JTBD Asks Instead |
-|---|---|
-| "What features should we build?" | "What progress is the user trying to make?" |
-| "What do users say they want?" | "In what situation do they hire this product?" |
-| "What does this persona need?" | "What would cause them to switch to something else?" |
+**Context:** The lecture distinguishes between target specifications (set early, expressed as marginal and ideal value ranges) and final specifications (committed point values set after design feasibility is confirmed). Target specs are deliberately dynamic — they evolve as customers change, competitors respond, technical capabilities improve, and design tradeoffs become apparent. The process for building specifications involves: (1) starting with the customer needs statement; (2) preparing a list of metrics with importance ratings and units; (3) benchmarking competitive products on both perceived customer satisfaction and objective metrics; and (4) setting marginal and ideal target values.
 
-JTBD anchors product decisions in **real motivation**, not surface-level requests or feature wish-lists. It forces the team to understand the underlying progress a customer is trying to achieve.
+**Relationships:** Specifications are downstream of customer needs statements and upstream of concept generation. The lecture notes two key decision points when freezing specifications: Early Freeze allows downstream tasks to start with firm inputs and facilitates cost and performance optimisation; Late Freeze allows better alignment with a changing market but delays downstream work.
 
-**JTBD Interview Rules** (from the class exercise):
-- Focus on a **specific past event**, not general preferences.
-- Do NOT ask about features or opinions.
-- Do NOT ask hypotheticals ("Would you use...?").
-- Probe deeply into the situation, struggle, and emotions surrounding the decision.
+### Concept Generation and Selection
 
-### 2.3 Translating Customer Quotes to Needs Statements
+#### Product Concept
+**Definition:** A verbal or prototype statement of what is going to be changed and how the customer stands to gain or lose. A concept requires at least two of three inputs — Form (the physical thing or service process), Technology (the source by which the form is attained), and Benefit/Needs (the customer value) — to be feasible. Technology permits the firm to develop a form that provides a benefit.
 
-The challenge: customers express needs in their own language, which is often imprecise, solution-oriented, or negative. Product managers must translate these raw quotes into properly formed need statements.
+**Context:** Three patterns of concept generation exist: (1) customer need drives technology development which produces a form — considered lowest risk; (2) the firm develops a technology first and then finds a matching customer need; (3) the firm envisions a form, develops the technology, and tests with customers to learn what benefits are actually delivered. The "Designer Decaf" espresso example illustrates all three inputs: the need (consumers want decaf that tastes like regular), the form (darker, thicker Turkish-style espresso), and the technology (a new chemical extraction process).
 
-**Five Guidelines for Writing Needs Statements:**
+**Relationships:** Product concepts are the outputs of the concept generation phase and the inputs to concept selection. They are evaluated through the Concept Screening Matrix and Concept Scoring Matrix.
 
-| Guideline | Wrong (Customer Quote) | Right (Needs Statement) |
-|---|---|---|
-| **"What" not "How"** | "I would like my iPhone to adjust my thermostat." | The thermostat can be controlled remotely. |
-| **Specificity** | "I have different heating and cooling systems." | The thermostat is compatible with multiple HVAC systems. |
-| **Positive not Negative** | "I get tired of standing in front of my thermostat to program it." | The thermostat can be programmed from any location. |
-| **Attribute of the Product** | "I have to manually override the program if I'm home when I shouldn't be." | The thermostat automatically detects occupancy. |
-| **Avoid "Must" and "Should"** | "I'm worried about how secure my thermostat would be if it were accessible online." | The thermostat can maintain data security over network connections. |
+#### Concept Screening Matrix (Pugh Matrix)
+**Definition:** A structured decision tool that compares multiple product concepts against a reference concept (typically the current or most familiar design) on a set of selection criteria using a simple three-point scale: + (better than reference), 0 (same as reference), – (worse than reference). The net score is Plusses minus Minuses.
 
-**Additional guidelines from in-class notes:**
-- Write in the **active voice**, not the passive voice.
-- Use **"can"** when describing features instead of "must" or "should."
-- Needs statements should be **neutral and understandable** to all stakeholders.
+**Context:** In the insulin syringe example, seven concepts (A through G) were evaluated against seven criteria (Ease of Handling, Ease of Use, Readability of Settings, Dose Metering Accuracy, Durability, Ease of Manufacture, Portability). The existing product served as the reference (all zeros). Concept A (Master Cylinder) ranked first with a net score of +3; concepts C (Ratchet) and F (Lever Set) were eliminated. Concepts that survive move to the Scoring Matrix for finer discrimination.
 
-**Example -- Bag Design:**
+**Relationships:** Screening precedes scoring. It is fast and qualitative, designed to rapidly prune a large set. Results are used to decide which concepts to "Continue" developing. Eliminated concepts may still contribute individual features to surviving concepts through combination.
 
-| Customer Statement | Translated Need Statement |
-|---|---|
-| "See how the leather on the bottom of the bag is all scratched; it's ugly." | The bag maintains its original appearance with use. |
-| "When I'm standing in line at the cashier trying to find my checkbook while balancing my bag on my knee, I feel like a stork." | Items stored in the bag can be easily found and accessed. |
-| "This bag is my life; if I lose it, I'm in big trouble." | The bag is difficult to lose. The bag is easy to find if misplaced. |
-| "There's nothing worse than a banana that's been squished by the edge of a textbook." | The bag protects delicate, soft items from damage. |
+#### Concept Scoring Matrix
+**Definition:** A weighted evaluation tool that rates surviving concepts on each selection criterion using a 1–5 numerical scale (1 = Much Worse than Reference, 3 = Same as Reference, 5 = Much Better than Reference), multiplies each rating by the criterion's importance weight (as a percentage), and sums the weighted scores to produce a total score for ranking.
 
-### 2.4 Product Specifications
+**Context:** In the syringe example, four concepts (A, DF, E, G+) were scored across seven weighted criteria. Concept DF (Lever Stop, a combination of concepts D and F) won with a total score of 3.45 and was selected for development. The weights reflected engineering and market priorities: Dose Metering Accuracy (25%), Ease of Manufacture (20%), Ease of Use and Durability (15% each), Readability (10%), Portability (10%), and Ease of Handling (5%). The boat cup-holder example showed the same tool applied to seven concepts across six major criteria groups, with Concept C winning at 594 points.
 
-Product specifications translate customer needs from qualitative language into **measurable, engineering-friendly terms**.
+**Relationships:** Scoring follows screening. It is more labour-intensive but produces a more defensible ranking. The process includes a reflection step: teams should interrogate which ratings they are least confident in and whether any criteria are missing before committing to a selection.
 
-**The Translation Pipeline:**
+#### Concept Testing
+**Definition:** The phase in which selected concepts are exposed to external validation — primarily customer feedback — to check whether the concept genuinely addresses a market need before significant development resources are committed. It is a stage of elimination guided by the Product Innovation Charter (PIC).
 
-```
-Voice of the Customer --> Customer Needs --> Product Specifications
-```
+**Context:** Following the PIC, concept testing should eliminate concepts that require technologies the firm does not possess, target customer segments the firm does not know well, offer inappropriate levels of innovativeness, or are wrong on cost, competitive proximity, or other strategic dimensions. Testing is not a single event but a continuous strand running through the entire development pipeline, including: Go/No-Go decision gates, specification testing (benchmarking), prototype testing (design iterations), qualitative concept testing, alpha performance and user interface testing, quantitative market testing, beta validation/acceptance testing, and A/B testing for release versioning.
 
-**Product Specification = Metric + Value(s) + Units**
+**Relationships:** Concept testing follows concept selection and precedes setting final specifications. The lecture emphasises that the goal is not merely selection but creation — teams must combine and refine concepts iteratively to produce something genuinely better than any individual candidate.
 
-| Metric | Value | Units |
-|---|---|---|
-| Total Mass | 8.5--10 | kg |
-| Cycles to Failure | >500k | cycles |
-| Unit Production Cost | <110 | $ |
-
-**From in-class notes:** After creating a list of metrics, add an **importance column** for each metric to identify what matters most and guide resource allocation.
-
-**Steps to Set Product Specifications:**
-
-1. Start with customer need statements.
-2. Prepare a list of metrics (how will we measure each need?).
-3. Benchmark competitive products on both perceived satisfaction of customer needs and established metrics.
-4. Set target specs with **marginal values** (minimum acceptable) and **ideal values** (aspirational targets).
-5. Set final specifications -- choosing between early freeze (allows downstream optimization) and late freeze (allows better market matching).
-
-**Dynamics of Product Specifications:**
-Target specs change over time because:
-- Customers change their preferences.
-- Competitors respond with their own products.
-- Technical capabilities improve.
-- Designs evolve as details develop.
-- Trade-offs and conflicts become apparent.
-
-**Example -- Bike Lock Metrics:**
-
-| Customer Quote | Customer Need | Possible Metric |
-|---|---|---|
-| "How do you carry something this heavy?" | The lock is lightweight. | Mass (kg or g) |
-| "Some locks are just a pain. It takes too long to lock up." | The lock installs quickly to secure the bike. | Time to lock (seconds) |
-| "I wrap cushy tape around my lock to keep it from scratching my bike." | The lock protects the bicycle's finish. | Surface hardness / scratch resistance |
-
-**Example -- Ballpoint Pen Metrics** (for the need "The pen writes smoothly"):
-
-| # | Metric | Units |
-|---|---|---|
-| 1 | Variation in line thickness | mm |
-| 2 | Variation in ink coverage | cc/mm^2 |
-| 3 | Comfort feel | subjective rating |
-| 4 | Functional range of writing velocity | mm/sec |
-| 5 | Functional range of pen angle from vertical | degrees |
-| 6 | Variation in resistance to translational motion | N (Newtons) |
-
-### 2.5 Concept Generation
-
-**Product Concept:** A verbal or prototype statement of what is going to be changed and how the customer stands to gain or lose.
-
-A product concept requires **three inputs** (you need at least **two of the three** for a feasible concept):
-
-1. **Form** -- The physical thing created or the set of processes by which a service is delivered.
-2. **Technology** -- The source by which the form is attained.
-3. **Benefit/Needs** -- The benefit to the customer for which they see a need or desire.
-
-> Technology permits the firm to develop a form that provides benefit.
-
-**Common Patterns of Concept Generation:**
-
-- **Need-first (least risky):** Customer need --> firm develops technology --> produces form.
-- **Technology-first:** Firm develops technology --> finds match to need in a customer segment --> produces form.
-- **Form-first:** Firm envisions form --> develops technology to produce form --> tests with customer to see what benefits are delivered.
-
-### 2.6 Concept Selection and Evaluation
-
-Simple rating methods help identify the most promising concepts from many candidates. Structured evaluation creates documentation and builds consensus.
-
-**Key principle:** The ultimate goal of concept evaluation is to **create and develop the best concept**, not merely to select the best one from the initial set. Teams should combine and refine concepts to develop better ones.
+---
 
 ## Frameworks & Mental Models
 
-### 3.1 The Customer Quote-to-Specification Pipeline
+### The Voice of the Customer to Specifications Pipeline
 
-A four-stage translation framework that converts raw customer language into engineering-ready specifications:
+**Visual Description:** A three-box linear flow: [Voice of the Customer] → [Customer Needs] → [Product Specifications]. Each arrow represents a translation act. The first arrow converts raw customer quotes into properly structured needs statements. The second arrow converts needs statements into metric + value + units triples.
 
-```
-Customer Quote --> Need Statement --> Metric --> Product Specification
-                                                  (Metric + Value + Units)
-```
+**How to Apply:** Begin with verbatim customer quotes gathered through interviews, focus groups, observation, or ethnography. Apply the five guidelines (What not How, Specificity, Positive not Negative, Attribute of Product, Avoid Must/Should) to write a needs statement for each quote. Then for each needs statement, identify one or more metrics that would confirm or deny satisfaction of the need, determine appropriate units, and benchmark competitive products to set marginal and ideal target values.
 
-Each stage applies specific rules:
-- **Quote to Need:** Apply the five guidelines (What not How, Specificity, Positive not Negative, Attribute of Product, Avoid Must/Should).
-- **Need to Metric:** Ask "How will we measure this need?" Identify quantitative or subjective measurement approaches.
-- **Metric to Specification:** Ask "What is the right value?" Set marginal and ideal targets.
+**When to Use:** Use this pipeline whenever raw customer research data needs to be converted into engineering or design inputs. It is the foundational translation sequence that precedes concept generation and must be complete before any meaningful concept evaluation can occur.
 
-### 3.2 JTBD Interview Framework
+---
 
-A structured interview methodology for uncovering the real "job" a customer is hiring a product to do:
+### Concept Screening Matrix (Pugh Matrix)
 
-1. **Anchor in a specific past event** -- "Tell me about the last time you [used the product/made this decision]."
-2. **Explore the situation** -- What was happening? What triggered the need?
-3. **Uncover the struggle** -- What was hard? What were you trying to achieve?
-4. **Map the emotions** -- What did you feel? What were you anxious about?
-5. **Identify the job** -- Synthesize into: "When [situation], I want to [motivation], so I can [desired outcome]."
+**Visual Description:** A grid with product concepts as columns and selection criteria as rows. One column is designated the Reference concept (usually the existing product). Each cell contains +, 0, or –. Below the criteria rows are summary rows for Plusses, Sames, Minuses, Net Score (Plusses minus Minuses), Rank, and a Continue? Yes/No decision.
 
-### 3.3 Concept Screening Matrix (Pugh Method)
+**How to Apply:**
+1. List all candidate concepts as columns; designate one as the Reference.
+2. List selection criteria as rows (derived from the customer needs hierarchy).
+3. For each concept-criterion cell, judge whether the concept is better (+), the same (0), or worse (–) than the reference.
+4. Count Plusses, Sames, and Minuses for each concept; calculate Net = Plusses – Minuses.
+5. Rank concepts by Net score.
+6. Decide which to continue (typically positive net scores) and which to eliminate.
+7. Before eliminating any concept, note whether specific features could be transplanted into surviving concepts.
 
-A rapid first-pass evaluation tool for narrowing a large set of concepts:
+**When to Use:** Use the Screening Matrix early in the selection process when there are many concepts (five or more) and the team needs a rapid, low-effort method to prune the field before investing in the more detailed Scoring Matrix. It is also useful for building team consensus around which concepts are clearly weak.
 
-- **Reference concept:** One concept (or existing product) is chosen as the baseline.
-- **Criteria:** Key customer needs or evaluation dimensions listed as rows.
-- **Rating scale:** Each concept is compared to the reference: **+** (better), **0** (same), **-** (worse).
-- **Scoring:** Sum the pluses, zeroes, and minuses. Rank concepts by net score.
-- **Action:** Eliminate weak concepts, combine promising ones, and carry forward the best for detailed scoring.
+---
 
-**Example -- Reusable Insulin Syringe:**
-Seven concepts (Master Cylinder, Rubber Brake, Ratchet, Plunge Stop, Swash Ring, Lever Set, Dial Screw) were screened against criteria to identify which concepts to advance to detailed scoring.
+### Concept Scoring Matrix
 
-### 3.4 Concept Scoring Matrix (Weighted Decision Matrix)
+**Visual Description:** A grid with concepts as columns and weighted selection criteria as rows. Each concept has two sub-columns: Rating (1–5) and Weighted Score (Rating × Weight%). The bottom row shows Total Score and Rank. A legend maps ratings to performance descriptors (1 = Much Worse, 2 = Worse, 3 = Same, 4 = Better, 5 = Much Better than reference).
 
-A more rigorous, quantitative evaluation method for the concepts that survived screening:
+**How to Apply:**
+1. Prepare the matrix with criteria weights derived from customer importance surveys.
+2. For each surviving concept, assign a rating (1–5) for each criterion relative to the reference concept.
+3. Calculate weighted scores: Rating × Criterion Weight.
+4. Sum weighted scores to get the total score for each concept.
+5. Rank concepts by total score.
+6. Investigate whether low-scoring concepts on specific criteria can be combined with high-scoring concepts to cancel weaknesses.
+7. Reflect: Which ratings are least certain? Are any criteria missing? Check sensitivity to weight changes.
 
-**Process:**
-1. **Prepare the matrix** -- List criteria with importance weights (from customer surveys or team consensus). Weights must sum to 100%.
-2. **Rate concepts** -- Score each concept against each criterion on a 1--5 scale (1 = much worse than reference, 5 = much better).
-3. **Calculate weighted scores** -- For each concept: sum of (weight x rating) across all criteria.
-4. **Rank** -- Order concepts by total weighted score.
-5. **Combine and improve** -- Can you cancel the negatives by combining strong aspects of different concepts?
-6. **Reflect and get consensus** -- Which metrics are you least confident about? Are any criteria missing?
+**When to Use:** Use after the Screening Matrix has reduced the candidate set to a manageable number (typically 3–5 concepts). Use it when the team needs a documented, defensible ranking that accounts for the differential importance of various customer requirements.
 
-**Caveats for Concept Selection:**
-- Beware of selecting the **best average product** -- a concept that scores adequately on everything but excels at nothing.
-- Note features that can be **applied to other concepts** (combine the best of multiple designs).
-- Perform concept selection **for different customer groups** and compare results.
-- Check **sensitivity** of selection to importance weightings and any uncertain ratings.
-- Use the full set of detailed requirements in the **final stages** of selection.
+---
 
-### 3.5 Specification Setting Framework: Marginal vs. Ideal Values
+### The Need–Form–Technology Venn Diagram
 
-When setting target specifications, teams define two benchmarks for each metric:
+**Visual Description:** Three overlapping circles labelled Need, Form, and Technology. The overlapping regions between any two circles are labelled "C" (Concepts). The centre intersection of all three circles is labelled "New Product." This illustrates that concepts emerge from any pairing of the three inputs, and a fully specified new product requires all three.
 
-- **Marginal Value:** The minimum acceptable performance level. If the product falls below this, it fails to meet customer expectations.
-- **Ideal Value:** The aspirational target representing best-in-class or breakthrough performance.
+**How to Apply:** When generating concepts, explicitly identify which of the three inputs are known and which are missing. A benefit without a form or technology is not yet a concept. Use the diagram to diagnose whether a proposed idea is truly a concept (at least two inputs present) or merely a single input that still needs development. Apply it to identify which development risks are open: missing technology means R&D risk; missing form means design work remains; an unclear need means market research is insufficient.
 
-The team must decide on **specification freeze timing:**
-- **Early Freeze:** Allows downstream tasks to begin with firm inputs; facilitates optimization of cost and performance.
-- **Late Freeze:** Allows better matching with changing market conditions (evolving customer needs, competitive responses).
+**When to Use:** Use this model in the concept generation brainstorming phase to evaluate whether candidate ideas are truly feasible concepts or just partial ideas. Also use it when reviewing a concept to ensure all three dimensions have been addressed before committing to development.
+
+---
 
 ## Formulas & Quantitative Tools
 
-### 4.1 Concept Screening Matrix Calculation
+### Concept Scoring Formula
 
-```
-Net Score = (Number of "+") - (Number of "-")
-```
+**Formula:**
 
-All criteria are unweighted. The net score provides a quick rank for eliminating clearly inferior concepts.
+Total Score = Σ (Weight_i × Rating_i)
 
-**Example structure:**
+where the sum is taken across all i selection criteria.
 
-| Criteria | Concept A | Concept B (ref) | Concept C | Concept D |
-|---|---|---|---|---|
-| Ease of use | + | 0 | - | + |
-| Durability | 0 | 0 | + | - |
-| Cost | - | 0 | 0 | + |
-| **Sum of +** | **1** | -- | **1** | **2** |
-| **Sum of 0** | **1** | -- | **1** | **0** |
-| **Sum of -** | **1** | -- | **1** | **1** |
-| **Net Score** | **0** | -- | **0** | **1** |
+**Variables:**
 
-### 4.2 Concept Scoring Matrix Calculation
+| Variable | Description | Range / Units |
+|---|---|---|
+| Weight_i | Importance weight of criterion i, derived from customer surveys | Expressed as a decimal (e.g., 0.25 for 25%); all weights must sum to 1.0 |
+| Rating_i | Performance rating of the concept on criterion i relative to the reference concept | Integer 1–5 (1 = Much Worse, 2 = Worse, 3 = Same, 4 = Better, 5 = Much Better) |
+| Total Score | Weighted sum of all criteria ratings for a concept | Range: 1.0 (all ratings = 1) to 5.0 (all ratings = 5); the reference concept always scores 3.0 |
 
-```
-Weighted Score (Concept j) = SUM over all criteria i of: (Weight_i x Rating_ij)
-```
+**Interpretation:** A concept with a Total Score above 3.0 outperforms the reference on a weighted basis. The concept with the highest Total Score is ranked first and is the primary candidate for development, though combination with other concepts should be considered before committing. Concepts scoring below the reference (< 3.0) are candidates for elimination, though individual high-performing features may be salvaged.
 
-Where:
-- **Weight_i** = importance weight of criterion i (decimal, all weights sum to 1.0)
-- **Rating_ij** = score assigned to concept j on criterion i (typically 1--5 scale)
+**Example (Insulin Syringe):**
 
-**Example structure:**
+Concept DF (Lever Stop), selected criteria:
 
-| Criteria | Weight | Concept A Rating | Concept A Weighted | Concept B Rating | Concept B Weighted |
-|---|---|---|---|---|---|
-| Ease of use | 0.30 | 4 | 1.20 | 3 | 0.90 |
-| Durability | 0.25 | 3 | 0.75 | 5 | 1.25 |
-| Cost | 0.20 | 5 | 1.00 | 2 | 0.40 |
-| Aesthetics | 0.15 | 3 | 0.45 | 4 | 0.60 |
-| Portability | 0.10 | 4 | 0.40 | 3 | 0.30 |
-| **Total** | **1.00** | | **3.80** | | **3.45** |
+- Ease of Use: Weight = 15%, Rating = 4 → Weighted Score = 0.60
+- Dose Metering Accuracy: Weight = 25%, Rating = 3 → Weighted Score = 0.75
+- Durability: Weight = 15%, Rating = 5 → Weighted Score = 0.75
+- Ease of Manufacture: Weight = 20%, Rating = 3 → Weighted Score = 0.60
+- Portability: Weight = 10%, Rating = 3 → Weighted Score = 0.30
+- Readability: Weight = 10%, Rating = 3 → Weighted Score = 0.30
+- Ease of Handling: Weight = 5%, Rating = 3 → Weighted Score = 0.15
 
-Concept A (3.80) outranks Concept B (3.45) on the weighted total.
+Total Score = 3.45 → Ranked 1st → Decision: Develop
 
-### 4.3 Product Specification Formula
+**Common Mistakes:**
+- Allowing criterion weights to sum to more or less than 100%; always normalise weights before scoring.
+- Using the screening matrix scale (+/0/–) in the scoring matrix instead of the 1–5 scale — these are different tools with different scales.
+- Setting the reference concept to anything other than a neutral score of 3 on all criteria; the reference is the baseline by definition.
+- Selecting the concept with the highest average score without checking whether combining two concepts could eliminate each other's weaknesses (the "best average product" trap).
+- Failing to conduct a sensitivity check — if small changes in weights would flip the ranking, the result is not robust.
 
-```
+### Product Specification Formula
+
+**Formula:**
+
 Product Specification = Metric + Value(s) + Units
-```
 
-Values can be expressed as:
-- **Point values:** Total Mass = 9.0 kg
-- **Ranges:** Total Mass = 8.5--10 kg
-- **Inequalities:** Cycles to Failure > 500,000 cycles
+**Variables:**
+
+| Component | Description | Example |
+|---|---|---|
+| Metric | The measurable property being specified | Total Mass; Cycles to Failure; Unit Production Cost |
+| Value | The target number or acceptable range | 8.5–10; >500k; <110 |
+| Units | The unit of measurement for the metric | kg; cycles; US$ |
+
+**Interpretation:** A specification is only complete when all three components are present. A needs statement without a metric is not yet a specification. A metric without a value is not actionable. A value without units is ambiguous.
+
+**Common Mistakes:**
+- Confusing needs statements with specifications — needs statements use qualitative language ("the lock is lightweight"); specifications are quantitative ("Total Mass: ≤ 1.0 kg").
+- Setting only a marginal value without an ideal value, losing the ability to differentiate between minimally acceptable and truly excellent designs.
+- Freezing specifications too early before design feasibility is understood, or too late to allow downstream development to begin.
+
+---
 
 ## Case Studies
 
-### 5.1 Nest Smart Thermostat -- Customer Need Analysis in Action
+### Nest Smart Thermostat — Building a Mission and Specifications
 
-The Nest thermostat serves as the lecture's running example for the full customer-quote-to-specification pipeline.
+**Company:** Nest Labs (Google)
 
-**Mission Statement:**
-- **Product Description:** A programmable thermostat for residential use.
-- **Benefit Proposition:** Simple to use, attractive, and saves energy.
-- **Key Business Goals:** Product introduced in Q4; 50% gross margin; 10% share of replacement thermostat market in 4 years.
-- **Primary Market:** Residential consumers.
-- **Secondary Markets:** Residential HVAC contractors.
-- **Assumptions:** Replacement for an existing thermostat; compatible with most existing systems and wiring.
-- **Stakeholders:** User, retailer, sales force, service centre, production, legal department.
+**Challenge:** Develop a programmable thermostat for residential use that replaces an existing device, is compatible with most existing wiring, appeals to residential consumers, and achieves a 50% gross margin with a 10% share of the replacement thermostat market within four years.
 
-**NPD Lessons:**
-- A well-defined mission statement scopes the customer need analysis and prevents scope creep.
-- Identifying all stakeholders (not just end users) ensures the product addresses the full ecosystem of needs.
-- The five guidelines for needs statements were demonstrated through thermostat-specific customer quotes, showing how vague complaints become actionable product attributes.
+**What Was Done:** The team constructed a formal mission statement defining product description, benefit proposition (simple to use, attractive, saves energy), key business goals, primary and secondary markets, assumptions (replacement device, compatible with existing wiring), and stakeholders (users, retailers, sales force, service centres, production, legal). Customer quotes were translated into needs statements using the five guidelines — for example, "I would like my iPhone to adjust my thermostat" became "The thermostat can be controlled remotely without requiring a special device" (not "The thermostat is accompanied by a downloadable iPhone app," which specifies a solution, not a need). Needs were then translated into measurable metrics with importance weights and benchmarked against six competing products (ST Tritrack, Maniray 2, Rox Tahx Quadra, Rox Tahx Ti 21, Tonka Pro, Gunhill Head Shox) on both perceived customer satisfaction and objective metric values.
 
-### 5.2 Reusable Insulin Syringe -- Concept Selection Methods Applied
+**Takeaway:** A complete mission statement — including stakeholders, assumptions, and explicit business goals — is a prerequisite to productive customer needs analysis. The Nest example demonstrates that the same customer complaint can be written correctly or incorrectly as a needs statement, and that only the correct form is directly usable as an input to metric development and competitive benchmarking.
 
-This case demonstrates the full two-stage concept selection process:
+---
 
-**Stage 1 -- Concept Screening Matrix:** Seven syringe concepts (Master Cylinder, Rubber Brake, Ratchet, Plunge Stop, Swash Ring, Lever Set, Dial Screw) were compared against a reference concept using simple +/0/- ratings. The screening narrowed the field to the top candidates.
+### Reusable Insulin Syringe — Two-Stage Concept Selection
 
-**Stage 2 -- Concept Scoring Matrix:** Surviving concepts were evaluated with weighted criteria and 1--5 ratings, producing quantitative scores that enabled rigorous ranking. The process also encouraged combining strong features from different concepts to create an improved design.
+**Company:** Generic medical device development team (course example)
 
-**NPD Lessons:**
-- Two-stage evaluation (screen then score) efficiently manages large concept sets.
-- The goal is not just selection but **concept improvement** through combination and refinement.
+**Challenge:** Select the best dose-metering mechanism for a reusable insulin syringe from seven candidate concepts (A through G), balancing ease of use, dose accuracy, durability, portability, and ease of manufacture.
 
-### 5.3 Mechanical Pencil -- Class Exercise in Concept Scoring
+**What Was Done:** In Stage 1 (Concept Screening), all seven concepts were rated against the existing product on seven criteria using the +/0/– scale. Concept A (Master Cylinder) ranked first (net +3); Concepts C (Ratchet) and F (Lever Set) were eliminated (net –2 and –1 respectively). In Stage 2 (Concept Scoring), four surviving concepts — A, a combination DF (Lever Stop, merging eliminated concepts D and F), E (Swash Ring), and G+ (an enhanced Dial Screw) — were scored on the 1–5 weighted scale. Concept DF won with a total weighted score of 3.45, primarily because it rated 5 on Durability (weight 15%) and 4 on Ease of Use (weight 15%), while performing adequately on the highest-weighted criterion, Dose Metering Accuracy (25%). Importantly, the winning concept DF was a combination of two concepts that had individually been eliminated in the screening stage, demonstrating the value of concept combination.
 
-Students were tasked with developing and evaluating mechanical pencil concepts for the job of "classmates' note-taking." This exercise required students to:
-1. Define evaluation criteria relevant to the target user (fellow students).
-2. Assign importance weights based on perceived needs.
-3. Rate multiple pencil design concepts on the weighted criteria.
-4. Rank and discuss -- highlighting how different weight assumptions change the outcome.
+**Takeaway:** Concept screening and concept scoring are sequential, not interchangeable. The screening stage removes clear losers quickly; the scoring stage discriminates among near-equals. The most important design insight from this case is that concepts eliminated in screening may still contribute valuable features — teams must actively look for combination opportunities rather than treating eliminated concepts as entirely worthless.
 
-**NPD Lesson:** Concept evaluation criteria should flow directly from customer needs, and the choice of weights significantly influences which concept "wins."
+---
+
+### Boat Cup Holder — Multi-Criteria Weighted Scoring at Scale
+
+**Company:** Generic marine product development (course example)
+
+**Challenge:** Select the best spill-proof cup holder design for marine vessel use from seven concepts (A, C, F, I, J, K, O) across six major criteria groups and numerous sub-criteria.
+
+**What Was Done:** A full Concept Scoring Matrix was built with six weighted criteria groups: Flexible Use (20%), Keeps Drink Container Stable (20%), Easy to Use (15%), Maintains Drink Condition (15%), Attractive in Environment (10%), and Manufacturing Ease (10%), with Requires Little Maintenance at 5% and Survives Boating Environment at 5%. Each criterion group was further decomposed into sub-criteria with their own importance weights. Concept C won with 594 total points, followed by Concept O at 587 and Concept F at 585 — a very tight race that highlights the importance of weight sensitivity analysis before finalising the decision.
+
+**Takeaway:** When total scores are close (within 1–2%), small changes in criterion weights can flip the ranking. The Concept Scoring Matrix is not a mechanical decision machine — it is a structured thinking tool. Close scores should trigger a sensitivity analysis and a deeper qualitative discussion rather than an automatic selection of the numerically highest concept.
+
+---
 
 ## Key Takeaways
 
-1. **Customer Need Analysis is a structured five-step process** -- from scoping and data gathering through interpretation, prioritization, and reflection. Skipping steps leads to products that miss the mark.
+- **Jobs To Be Done** shifts focus from feature requests to the underlying situational motivation — "What progress is the user trying to make?" — keeping product teams anchored in real customer problems rather than surface-level requests.
+- **Customer needs statements** must be written as positive product attributes using "what not how" language, at an appropriate level of specificity, and without prescribing solutions or using obligatory language ("must," "should").
+- **Product specifications** are the measurable translation of needs statements; they require a metric, a value (or range), and units — all three components must be present for a specification to be actionable.
+- **Target specifications** are dynamic and should be set with both marginal and ideal values; they evolve as technical feasibility is understood and should only be frozen (early or late) after deliberate strategic consideration.
+- The **Concept Screening Matrix (Pugh Matrix)** is a fast, qualitative tool using a +/0/– scale relative to a reference concept, designed to prune a large set of candidates efficiently before detailed scoring.
+- The **Concept Scoring Matrix** applies weighted importance criteria and a 1–5 performance scale to produce total weighted scores; the concept with the highest score is the primary development candidate, but scores alone do not end the conversation.
+- The **goal of concept evaluation is not selection but creation** — teams must combine and refine concepts to develop something genuinely better than any individual candidate, and features from eliminated concepts should be actively recycled.
+- **Concept testing** is a continuous discipline spanning the entire development pipeline, from qualitative concept testing early on through Go/No-Go gates, prototype iterations, alpha/beta testing, and A/B versioning at release — skipping any stage accelerates failure.
+- A **sensitivity check** on importance weightings is essential before committing to the top-ranked concept; if small weight changes flip the ranking, the decision is not robust and requires additional qualitative deliberation.
+- The **least risky concept generation pattern** is to start from a confirmed customer need, then identify enabling technology, then design the form — because this sequence grounds the innovation in demonstrated demand rather than technological push.
 
-2. **JTBD reframes the question from "what to build" to "what job is the customer hiring this product to do."** This prevents feature-bloat and keeps the team anchored in real customer motivation.
-
-3. **Needs statements must follow strict guidelines** -- write in "what" not "how," be specific, stay positive, describe product attributes, and avoid prescriptive language. Poorly written needs statements produce poor specifications.
-
-4. **Product Specification = Metric + Value + Units.** Every customer need must be translated into a measurable metric with target values. Without this translation, development teams cannot design or test effectively.
-
-5. **Concept generation requires at least two of three inputs: Form, Technology, and Benefit/Need.** Starting from customer need is the least risky path to innovation.
-
-6. **Ten concept selection methods exist, ranging from informal (open voting) to rigorous (concept scoring matrix).** The right method depends on the stage of development, available data, and decision stakes.
-
-7. **Concept screening (Pugh method) is for narrowing; concept scoring (weighted matrix) is for deciding.** Use screening first to eliminate weak concepts cheaply, then scoring to make rigorous final selections.
-
-8. **The goal of concept evaluation is concept improvement, not just concept selection.** Teams should combine and refine concepts rather than simply picking the highest scorer.
-
-9. **Specification freeze timing is a strategic decision.** Early freeze enables optimization; late freeze enables market responsiveness. The right choice depends on market volatility and competitive dynamics.
-
-10. **Concept testing is a stage of elimination.** Concepts that require technologies the firm lacks, target unfamiliar customers, offer wrong levels of innovativeness, or fail on cost/competitive dimensions should be excluded before development resources are committed.
+---
 
 ## Key Terms and Definitions Glossary
 
-| # | Term | Definition |
-|---|---|---|
-| 1 | **Jobs To Be Done (JTBD)** | A framework asserting that customers "hire" products to accomplish a specific job or make progress in a particular life situation, expressed as: "When [situation], I want to [motivation], so I can [desired outcome]." |
-| 2 | **Customer Need Statement** | A structured expression of a customer need written following specific guidelines (what not how, specific, positive, product attribute, avoiding must/should) to enable translation into measurable specifications. |
-| 3 | **Product Specification** | A measurable description of a product requirement consisting of three components: a metric, a value (or range), and units (e.g., Total Mass = 8.5--10 kg). |
-| 4 | **Metric** | A quantitative or qualitative measure used to assess how well a product meets a specific customer need (e.g., mass in kg, time to lock in seconds, comfort as a subjective rating). |
-| 5 | **Marginal Value** | The minimum acceptable performance level for a product specification; falling below this threshold means the product fails to meet customer expectations. |
-| 6 | **Ideal Value** | The aspirational or best-in-class target for a product specification, representing breakthrough performance on a given metric. |
-| 7 | **Product Concept** | A verbal or prototype statement describing what will be changed in a product and how the customer stands to gain or lose. Requires at least two of three inputs: form, technology, and benefit/need. |
-| 8 | **Form (Concept Input)** | The physical thing created or the set of processes by which a service is delivered; one of the three inputs required to define a product concept. |
-| 9 | **Technology (Concept Input)** | The source or means by which the product's form is attained; one of the three inputs for defining a product concept. |
-| 10 | **Benefit/Need (Concept Input)** | The advantage to the customer for which they perceive a need or desire; one of the three inputs for defining a product concept and typically the least risky starting point. |
-| 11 | **Concept Screening Matrix (Pugh Method)** | A rapid first-pass evaluation tool that compares multiple concepts against a reference concept using simple +/0/- ratings on unweighted criteria to narrow a large set of alternatives. |
-| 12 | **Concept Scoring Matrix (Weighted Decision Matrix)** | A rigorous quantitative evaluation tool that scores concepts on weighted criteria (typically 1--5 scale) to produce ranked total scores for final concept selection. |
-| 13 | **Open Multi-Voting** | A concept selection method where team members vote openly on preferred concepts; fast and energizing but prone to groupthink and dominance effects. |
-| 14 | **Secret Ballot Voting** | A concept selection method using anonymous voting to reduce social pressure and hierarchy bias; useful when opinions are sensitive or conflict is likely. |
-| 15 | **Pro/Con or Benefit/Effort List** | A qualitative concept selection method that compares concepts by listing advantages versus drawbacks or benefits versus required effort. |
-| 16 | **Market Testing** | A concept selection method where concepts are tested with real customers using experiments or pilots; offers high validity but is costly and time-consuming. |
-| 17 | **Concept Testing** | A stage of elimination in the NPD process where concepts are evaluated against the Product Innovation Charter (PIC) criteria and excluded if they require unavailable technologies, target unfamiliar customers, or fail on cost/competitive dimensions. |
-| 18 | **Ethnography** | A deep qualitative research method involving immersion into the customer's environment and culture to discover latent needs that cannot be surfaced through interviews or surveys alone. |
-| 19 | **Specification Freeze** | The point at which product specifications are locked for downstream development. Early freeze enables optimization; late freeze enables better market matching. |
-| 20 | **Benchmarking (Product Requirements)** | The practice of evaluating competitive products on both perceived satisfaction of customer needs and established metrics to set informed target specifications. |
+**Benchmarking:** The process of evaluating competitive products against both customer needs (perceived satisfaction) and established metrics (objective measurements) to set realistic target specification values. [Related: Product Specifications, Concept Scoring Matrix]
+
+**Concept Screening Matrix (Pugh Matrix):** A matrix tool for rapid, qualitative comparison of multiple product concepts against a reference concept on a set of selection criteria, using a +/0/– scale. Net score = Plusses minus Minuses. [Related: Concept Scoring Matrix, Concept Selection]
+
+**Concept Scoring Matrix:** A weighted matrix tool that rates concepts on a 1–5 numerical scale across importance-weighted criteria, producing a total weighted score for ranking and selection. [Related: Concept Screening Matrix, Pugh Matrix]
+
+**Concept Testing:** The phase in which selected product concepts are validated against customer and strategic criteria to eliminate concepts that are technically unfeasible, strategically misaligned, or lacking market fit. [Related: Go/No-Go Decision Gates, Phase 3 NPD]
+
+**Customer Needs Statement:** A formally structured, product-attribute expression of what the customer requires, written in "what not how" positive language without solution prescription or obligatory phrasing. [Related: Voice of the Customer, Product Specifications]
+
+**Early Freeze:** A specification-setting strategy in which final specifications are committed to early in the development process, enabling downstream tasks to begin with firm inputs and facilitating cost and performance optimisation. [Related: Late Freeze, Product Specifications]
+
+**Ideal Value:** The best achievable value for a product specification metric, representing the target if no constraints existed; contrasted with the Marginal Value. [Related: Marginal Value, Target Specifications]
+
+**Jobs To Be Done (JTBD):** A customer insight framework asserting that people "hire" products to accomplish a specific job in a specific situation, structured as: "When [situation], I want to [motivation], so I can [desired outcome]." [Related: Customer Needs Statement, Voice of the Customer]
+
+**Late Freeze:** A specification-setting strategy in which final specifications are committed to as late as possible in the development process, allowing better alignment with evolving customer needs and competitive dynamics. [Related: Early Freeze, Product Specifications]
+
+**Latent Needs:** Customer needs that customers may not yet be aware of or cannot articulate; addressing them produces products that surprise and delight by solving problems customers did not know they had. Surfaced through ethnographic observation rather than traditional surveys. [Related: Explicit Needs, Voice of the Customer, Customer Needs Statement]
+
+**Marginal Value:** The minimum acceptable value for a product specification metric — the threshold below which the product fails to satisfy the need. [Related: Ideal Value, Target Specifications]
+
+**Metric:** The measurable property used to operationalise a customer need in the form of a product specification; combined with a value and units to form a complete specification. [Related: Product Specifications, Customer Needs Statement]
+
+**Mission Statement (Product):** A formal document defining a product's description, benefit proposition, key business goals, primary and secondary markets, constraints and assumptions, and stakeholders; used to scope customer needs analysis. [Related: Stakeholders, Opportunity Identification]
+
+**Needs-Form-Technology Model:** A conceptual framework representing a product concept as the intersection of at least two of three inputs — customer Need/Benefit, physical Form, and enabling Technology. A new product requires all three. [Related: Product Concept, Concept Generation]
+
+**Product Concept:** A verbal or prototype statement describing what will change in a product and how the customer stands to gain or lose; requires at least two of Need, Form, and Technology to be a feasible concept. [Related: Needs-Form-Technology Model, Concept Generation]
+
+**Product Innovation Charter (PIC):** A guiding document — also called a mission statement for the NPD project — that defines the product description, benefit proposition, key business goals, primary and secondary markets, constraints, assumptions, and stakeholders before development begins; functions as the strategic scope document for the entire NPD team. [Related: Concept Testing, NPD Process, Mission Statement]
+
+**Product Specification:** The quantified, measurable translation of a customer needs statement into engineering terms; composed of Metric + Value(s) + Units. [Related: Customer Needs Statement, Metric]
+
+**Reference Concept:** The baseline concept used as the comparison standard in Concept Screening and Scoring Matrices; typically the current/existing product; assigned a score of 0 (screening) or 3 (scoring) on all criteria. [Related: Concept Screening Matrix, Concept Scoring Matrix]
+
+**Voice of the Customer (VoC):** The raw, verbatim language in which customers express their needs, frustrations, and desires, gathered through interviews, focus groups, observation, and ethnography; the starting input to the customer needs translation process. [Related: Customer Needs Statement, JTBD]
+
+**Weighted Score:** The product of a criterion's importance weight and a concept's rating on that criterion in the Concept Scoring Matrix; summed across all criteria to produce the Total Score. [Related: Concept Scoring Matrix, Total Score]

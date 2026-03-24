@@ -1,0 +1,125 @@
+{
+  "id": "lecture-13",
+  "title": "Practice Problems: Conjoint Analysis Practice Problems",
+  "cards": [
+    {
+      "id": "lecture-13-001",
+      "term": "Additive Utility Model",
+      "definition": "The assumption that a consumer's total utility for a product equals the simple sum of utilities derived from each individual attribute level, with no interaction effects between attributes.",
+      "relatedTerms": ["Part-Worth Utility", "Conjoint Analysis"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-002",
+      "term": "Attribute",
+      "definition": "A product characteristic that meaningfully differentiates alternatives in a product category, described in discrete and unambiguous terms.",
+      "relatedTerms": ["Level", "Full Factorial Design"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-003",
+      "term": "Baseline Level",
+      "definition": "The omitted reference category for a given attribute in conjoint regression. All other levels' part-worths are measured relative to the baseline, which is assigned a part-worth of zero.",
+      "relatedTerms": ["Dummy Variable", "Part-Worth Utility"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-004",
+      "term": "Conjoint Analysis",
+      "definition": "A survey-based quantitative technique that determines how consumers value different product attributes by presenting product profiles and analyzing ratings, rankings, or choices via regression.",
+      "relatedTerms": ["Part-Worth Utility", "Trade-Off Analysis"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-005",
+      "term": "Dummy Variable",
+      "definition": "A binary (0/1) indicator variable used in regression to represent whether a profile contains a specific attribute level. For an attribute with k levels, k − 1 dummy variables are required.",
+      "relatedTerms": ["Baseline Level", "Regression Analysis"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-006",
+      "term": "Fractional Factorial Design",
+      "definition": "A conjoint study design in which only a carefully selected subset of all possible attribute level combinations is presented to respondents, used when full factorial designs would create too many profiles.",
+      "relatedTerms": ["Full Factorial Design"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-007",
+      "term": "Full Factorial Design",
+      "definition": "A conjoint study design in which respondents evaluate every possible combination of attribute levels. Total profiles equals the product of the number of levels across all attributes.",
+      "relatedTerms": ["Fractional Factorial Design", "Profile"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-008",
+      "term": "Level",
+      "definition": "A specific value or category that an attribute can take.",
+      "relatedTerms": ["Attribute", "Profile"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-009",
+      "term": "Ordinal Ranking",
+      "definition": "A preference elicitation method in which respondents assign rank numbers to product profiles, producing an ordered list without equal intervals between ranks.",
+      "relatedTerms": ["Rating Scale", "Preference Elicitation"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-010",
+      "term": "Part-Worth Utility",
+      "definition": "The regression coefficient associated with a specific attribute level, representing that level's contribution to overall product preference relative to the baseline level.",
+      "relatedTerms": ["Additive Utility Model", "Regression Analysis"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-011",
+      "term": "Preference Elicitation",
+      "definition": "The method by which respondents express product preferences in a conjoint study, including rank-ordering, rating scales, choice between pairs, and hybrid adaptive methods.",
+      "relatedTerms": ["Conjoint Analysis", "Ordinal Ranking"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-012",
+      "term": "Profile",
+      "definition": "A specific product concept defined by one level for each attribute. In a full factorial design, the number of profiles equals the product of all attribute level counts.",
+      "relatedTerms": ["Full Factorial Design", "Attribute"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-013",
+      "term": "Rating Scale",
+      "definition": "A preference elicitation method in which respondents score each product profile on a numerical scale, allowing cardinal comparison of preferences.",
+      "relatedTerms": ["Ordinal Ranking", "Preference Elicitation"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-014",
+      "term": "Regression Analysis",
+      "definition": "The statistical technique used to estimate part-worth utilities in conjoint analysis. The dependent variable is the preference score or rank; independent variables are dummy-coded attribute levels.",
+      "relatedTerms": ["Part-Worth Utility", "Dummy Variable"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-015",
+      "term": "Relative Importance",
+      "definition": "The percentage of total utility variation attributable to each attribute, calculated as an attribute's part-worth range divided by the sum of all attributes' ranges.",
+      "relatedTerms": ["Part-Worth Utility", "Range"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-016",
+      "term": "Trade-Off Analysis",
+      "definition": "An alternative name for conjoint analysis, emphasizing that respondents must implicitly trade off desirable attribute levels against undesirable ones when expressing preferences for product profiles.",
+      "relatedTerms": ["Conjoint Analysis"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    },
+    {
+      "id": "lecture-13-017",
+      "term": "Willingness to Pay (WTP)",
+      "definition": "The maximum additional price a consumer would pay to obtain an attribute improvement, estimated by dividing the attribute's part-worth by the price coefficient per dollar in the conjoint regression.",
+      "relatedTerms": ["Part-Worth Utility", "Price Coefficient"],
+      "sourceLecture": "Practice Problems: Conjoint Analysis Practice Problems"
+    }
+  ]
+}

@@ -1,54 +1,70 @@
 {
-  "courseName": "MKT 3717 - New Product Development & Brand Management",
+  "courseName": "MKT 3717",
   "sourceDir": "source-materials/",
-  "startedAt": "2026-03-22T22:45:00Z",
+  "pluginDir": "C:\\Users\\Conno\\OneDrive\\Documents\\GitHub\\study-site-builder",
+  "startedAt": "2026-03-24T05:03:00Z",
   "currentPhase": "done",
   "phases": [
     {
       "name": "content-ingest",
       "status": "completed",
-      "completedAt": "2026-03-22T23:15:00Z",
+      "completedAt": "2026-03-24T05:45:00Z",
       "filesProduced": [
-        "study-notes/lecture-00-final-test-study-guide.md",
         "study-notes/lecture-01-course-introduction.md",
         "study-notes/lecture-02-npd-opportunity-identification.md",
         "study-notes/lecture-03-npd-concept-screening.md",
         "study-notes/lecture-04-concept-testing-review.md",
         "study-notes/lecture-05-conjoint-analysis.md",
-        "study-notes/lecture-06-market-experiment-project-management.md",
+        "study-notes/lecture-06-market-experiment-pm.md",
         "study-notes/lecture-07-brand-management.md",
-        "study-notes/lecture-08-brand-sustainability-personal-branding.md"
+        "study-notes/lecture-08-brand-sustainability.md",
+        "study-notes/lecture-09-course-syllabus.md",
+        "study-notes/lecture-10-final-test-study-guide.md",
+        "study-notes/lecture-11-slack-launch-strategy.md",
+        "study-notes/lecture-12-gucci-case-study.md",
+        "study-notes/lecture-13-conjoint-analysis-practice.md",
+        "study-notes/lecture-14-in-class-notes.md",
+        "study-notes/lecture-15-project-management-practice.md",
+        "study-notes/lecture-16-post-it-note-history.md",
+        "study-notes/lecture-17-product-concept-selection.md"
       ]
     },
     {
       "name": "concept-mapper",
       "status": "completed",
-      "completedAt": "2026-03-23T00:30:00Z",
+      "completedAt": "2026-03-24T06:10:00Z",
       "filesProduced": [
         "synthesis/conceptual-map.md",
         "synthesis/last-minute-review.md",
         "synthesis/flashcards.json"
       ]
     },
-    { "name": "content-auditor", "status": "completed", "completedAt": "2026-03-23T01:00:00Z", "filesProduced": ["audit/audit-report.md"] },
-    { "name": "site-designer", "status": "completed", "completedAt": "2026-03-23T01:10:00Z", "filesProduced": ["design/design-spec.md"] },
-    { "name": "site-builder", "status": "completed", "completedAt": "2026-03-23T01:30:00Z", "filesProduced": ["site/index.html", "site/study-map.html", "site/flashcards.html", "site/last-minute-review.html", "site/sample-questions.html", "site/css/theme.css", "site/js/nav.js", "site/js/flashcards.js", "site/data/flashcards.json", "site/data/nav-config.json"] },
-    { "name": "exam-generator", "status": "completed", "completedAt": "2026-03-23T01:50:00Z", "filesProduced": ["site/data/exam-1.json", "site/data/exam-2.json", "site/exams/practice-exam-1.html", "site/exams/practice-exam-2.html", "site/exams/exam-styles.css", "site/exams/exam-checker.js"] },
-    { "name": "mobile-checker", "status": "completed", "completedAt": "2026-03-23T00:05:00Z", "filesProduced": ["audit/mobile-report.md", "site/css/theme.css", "site/js/nav.js", "site/last-minute-review.html"] }
+    {
+      "name": "content-auditor",
+      "status": "completed",
+      "startedAt": "2026-03-24T06:27:00Z",
+      "completedAt": "2026-03-24T07:30:00Z",
+      "filesProduced": ["audit/audit-report.md"]
+    },
+    {"name": "site-designer", "status": "completed", "startedAt": "2026-03-24T07:31:00Z", "completedAt": "2026-03-24T07:32:00Z", "filesProduced": ["design/design-spec.md"]},
+    {"name": "site-builder", "status": "completed", "startedAt": "2026-03-24T07:33:00Z", "completedAt": "2026-03-24T07:50:00Z", "filesProduced": ["site/css/theme.css","site/js/nav.js","site/js/flashcards.js","site/data/flashcards.json","site/data/nav-config.json","site/index.html","site/flashcards.html","site/practice-exams.html","site/last-minute-review.html","site/sample-questions.html","site/study-map.html"]},
+    {"name": "exam-generator", "status": "completed", "startedAt": "2026-03-24T08:00:00Z", "completedAt": "2026-03-24T09:30:00Z", "filesProduced": ["site/data/exam-1.json","site/exams/practice-exam-1.html","site/exams/exam-styles.css","site/exams/exam-checker.js","site/data/exam-2.json","site/exams/practice-exam-2.html","site/data/exam-3.json","site/exams/practice-exam-3.html"]},
+    {"name": "mobile-checker", "status": "completed", "startedAt": "2026-03-24T09:45:00Z", "completedAt": "2026-03-24T10:00:00Z", "filesProduced": ["audit/mobile-report.md","site/last-minute-review.html","site/css/theme.css"]}
   ],
   "designChoices": {
-    "theme": "midnight-blue",
+    "theme": "forest-green",
     "examFormat": "card-style",
     "pages": ["index", "study-map", "flashcards", "last-minute-review", "sample-questions", "practice-exams"],
-    "examCount": 2,
+    "examCount": 3,
     "questionsPerExam": 30,
     "questionTypes": ["multiple-choice", "short-answer"],
+    "examMix": "80% multiple-choice, 20% short-answer",
     "learningPreferences": {
       "style": "visual",
-      "detail": "moderate",
-      "organization": "default"
+      "detail": "comprehensive",
+      "organization": "by-lecture"
     }
   },
-  "examCount": 2,
+  "examCount": 3,
   "errors": []
 }

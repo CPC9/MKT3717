@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Map — MKT 3717 — Product &amp; Brand Management</title>
+  <link rel="stylesheet" href="../site/css/theme.css">
+  <style>
+    /* ── Page Layout ───────────────────────────────────────────── */
+    .study-map-page {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: var(--padding-page);
+    }
+    .study-map-page header {
+      text-align: center;
+      padding: 40px 0 28px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    .study-map-page header h1 { font-size: 2rem; margin-bottom: 8px; }
+    .study-map-page header .subtitle { color: var(--text-mute); font-size: 1rem; margin: 0; }
+
+    /* ── Central Questions ─────────────────────────────────────── */
+    .central-questions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .cq-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      transition: border-color 0.2s;
+    }
+    .cq-card:hover { border-color: var(--border-hi); }
+    .cq-number {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .cq-question {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+    .cq-tool { font-size: 0.85rem; color: var(--text-mute); }
+    .cq-tool strong { color: var(--accent-hi); }
+
+    /* ── Section Header ────────────────────────────────────────── */
+    .section-heading {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      padding: 4px 0 10px;
+      border-bottom: 1px solid var(--border);
+      margin: 36px 0 20px;
+    }
+
+    /* ── Topic Blocks ──────────────────────────────────────────── */
+    .topic-block {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 16px;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .topic-block:hover { border-color: var(--border-hi); }
+    .topic-block.open > .topic-body { display: block; }
+    .topic-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 20px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .topic-header:hover .topic-title { color: var(--accent-hi); }
+    .topic-icon { font-size: 1.8rem; flex-shrink: 0; }
+    .topic-text { flex: 1; min-width: 0; }
+    .topic-eyebrow {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .topic-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+      transition: color 0.2s;
+    }
+    .topic-desc { font-size: 0.82rem; color: var(--text-mute); }
+    .topic-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .topic-pill {
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: rgba(106,184,120,0.12);
+      color: var(--accent);
+      border-radius: 20px;
+      padding: 3px 10px;
+      white-space: nowrap;
+    }
+    .chevron {
+      font-size: 0.7rem;
+      color: var(--text-mute);
+      transition: transform 0.25s;
+    }
+    .topic-block.open .chevron { transform: rotate(90deg); }
+    .topic-body { display: none; padding: 0 16px 20px; }
+
+    /* ── Subtopic Grid ─────────────────────────────────────────── */
+    .subtopic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .subtopic {
+      background: var(--bg-sub);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .subtopic:hover { border-color: var(--border-hi); }
+    .subtopic.open .subtopic-body { display: block; }
+    .subtopic-hdr {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 14px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+    .dot.case { background: #f5a623; }
+    .subtopic-title {
+      flex: 1;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--white);
+    }
+    .sub-chev {
+      font-size: 0.65rem;
+      color: var(--text-mute);
+      transition: transform 0.2s;
+    }
+    .subtopic.open .sub-chev { transform: rotate(90deg); }
+    .subtopic-body {
+      display: none;
+      padding: 0 16px 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Subtopic Body Content ─────────────────────────────────── */
+    .prose {
+      font-size: 0.88rem;
+      line-height: 1.7;
+      color: var(--text);
+      margin: 12px 0 8px;
+    }
+    .prose strong, .bullets strong { color: var(--white); }
+    .section-label {
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 14px 0 6px;
+    }
+    .bullets {
+      font-size: 0.87rem;
+      line-height: 1.65;
+      color: var(--text);
+      margin: 0 0 4px 0;
+      padding-left: 18px;
+    }
+    .bullets li { margin-bottom: 5px; }
+    .formula-wrap {
+      background: var(--formula-bg);
+      border: 1px solid var(--formula-border);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      margin: 10px 0;
+    }
+    .formula {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      color: var(--accent-hi);
+      margin-bottom: 10px;
+      white-space: pre-wrap;
+    }
+    .formula-explain {
+      font-size: 0.84rem;
+      line-height: 1.65;
+      color: var(--text-mute);
+    }
+    .formula-explain strong { color: var(--text); }
+    .insight-box {
+      background: rgba(106,184,120,0.07);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 12px 14px;
+      margin: 14px 0 10px;
+    }
+    .insight-box .label {
+      font-size: 0.65rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .insight-box p {
+      font-size: 0.87rem;
+      line-height: 1.65;
+      color: var(--text);
+      margin: 0;
+    }
+    .link-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .link-tag {
+      font-size: 0.72rem;
+      background: rgba(106,184,120,0.08);
+      color: var(--text-mute);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 3px 8px;
+    }
+
+    /* ── Supplementary Divider ─────────────────────────────────── */
+    .supplementary-divider {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 40px 0 20px;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .supplementary-divider hr {
+      flex: 1;
+      border: none;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Responsive ────────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .subtopic-grid { grid-template-columns: 1fr; }
+      .topic-desc { display: none; }
+      .topic-pill { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <script src="js/nav.js" data-nav-config="data/nav-config.json"></script>
+  <div class="study-map-page">
+    <header role="banner">
+      <h1>Study Map</h1>
+      <p class="subtitle">MKT 3717 — Product &amp; Brand Management · Complete course breakdown by lecture</p>
+    </header>
+    <main role="main">
+
+      <!-- Central Questions -->
+      <div class="central-questions">
+        <div class="cq-card">
+          <div class="cq-number">Core Question 1</div>
+          <div class="cq-question">What is worth building?</div>
+          <div class="cq-tool">Tool: <strong>RWW Framework</strong> + PESTEL + Porter's Five Forces — identify real opportunities with viable competitive positions before committing resources.</div>
+        </div>
+        <div class="cq-card">
+          <div class="cq-number">Core Question 2</div>
+          <div class="cq-question">What do customers actually value?</div>
+          <div class="cq-tool">Tool: <strong>Conjoint Analysis</strong> + VoC + Needs Statements — quantify preference trade-offs and uncover latent needs that customers can't directly articulate.</div>
+        </div>
+        <div class="cq-card">
+          <div class="cq-number">Core Question 3</div>
+          <div class="cq-question">How do we build and sustain brand equity?</div>
+          <div class="cq-tool">Tool: <strong>CBBE Pyramid</strong> + Brand Repositioning + Perceptual Maps — build from salience to resonance and manage brand meaning through consumer co-creation.</div>
+        </div>
+      </div>
+
+      <div class="section-heading">Lecture Progression</div>
+
+      <!-- ═══════════════════════════════════════════════════════════
+           TOPIC BLOCK 1: NPD FOUNDATIONS (Lectures 1–2)
+           ═══════════════════════════════════════════════════════════ -->
+      <div class="topic-block" id="t-npd-foundations">
+        <div class="topic-header" onclick="toggleTopic('t-npd-foundations')">
+          <div class="topic-icon">🌱</div>
+          <div class="topic-text">
+            <div class="topic-eyebrow">Lectures 1–2 · NPD Foundations</div>
+            <div class="topic-title">New Product Development &amp; Opportunity Identification</div>
+            <div class="topic-desc">NPD Process, Crawford's 6 Types, RWW Framework, PESTEL, Porter's Five Forces, TAM/SAM/SOM, Voice of Customer, Latent Needs, Guesstimation</div>
+          </div>
+          <div class="topic-right">
+            <span class="topic-pill">10 sub-topics</span>
+            <span class="chevron">▶</span>
+          </div>
+        </div>
+        <div class="topic-body">
+          <div class="subtopic-grid">
+
+            <!-- 1.1 The NPD Process -->
+            <div class="subtopic" id="s-npd-process">
+              <div class="subtopic-hdr" onclick="toggleSub('s-npd-process')">
+                <div class="dot"></div>
+                <div class="subtopic-title">The NPD Process Overview</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>New Product Development (NPD)</strong> is the complete end-to-end process of bringing a new product from initial idea to commercial market launch. It exists because the vast majority of product ideas — without systematic screening and development — would reach market with misaligned customer fit, misallocated resources, or both. NPD imposes discipline on what is otherwise a creative but chaotic process: it forces teams to ask "is this real?", "can we win?", and "is it worth doing?" before committing capital. The process is not linear in practice but is best understood as a series of gated stages, each requiring decisions about whether to continue, redirect, or kill a concept.</p>
+                <div class="section-label">THE FIVE-STAGE PROCESS</div>
+                <ul class="bullets">
+                  <li><strong>Stage 1 — Opportunity Identification:</strong> Scan the environment (PESTEL, Porter's Five Forces), conduct Voice of Customer research, and identify unmet or underserved needs. The output is a market opportunity defined in terms of target customers and their unmet jobs-to-be-done.</li>
+                  <li><strong>Stage 2 — Concept Generation:</strong> Translate identified opportunities into product concepts through brainstorming, analogical thinking, and functional analysis. Generate breadth of ideas before narrowing.</li>
+                  <li><strong>Stage 3 — Concept Screening:</strong> Evaluate concepts systematically using Pugh matrices and weighted scoring models. Kill weak concepts early before costly development resources are committed.</li>
+                  <li><strong>Stage 4 — Concept Testing &amp; Validation:</strong> Test surviving concepts with real customers through surveys, prototypes, and alpha/beta tests. Validate that the concept meets needs better than existing alternatives.</li>
+                  <li><strong>Stage 5 — Launch &amp; Commercialization:</strong> Scale production, activate go-to-market plans, and monitor post-launch metrics. Managing the launch-to-growth transition is as difficult as the development phases.</li>
+                </ul>
+                <div class="section-label">WHY MOST PRODUCTS FAIL</div>
+                <p class="prose">An estimated <strong>25–45% of new products fail after launch</strong>, and the majority of failures trace back not to poor execution but to poor concept selection — teams building solutions to problems customers don't have, or building inferior solutions to problems that already have good answers. Early-stage rigor in opportunity identification and concept testing is the highest-leverage intervention in NPD. The "fuzzy front end" (opportunity identification + concept generation) is so named because it is the least structured phase, yet decisions made here determine product-market fit.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The entire NPD process is fundamentally a risk-reduction machine. Each stage generates information that reduces uncertainty about whether the product will succeed. <strong>The cost of stopping early is always lower than the cost of launching a bad product.</strong> Teams that skip stages to move faster invariably pay a higher total cost — in wasted development spend, launch spend, and reputation damage.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: RWW Framework</span>
+                  <span class="link-tag">Related: Concept Screening</span>
+                  <span class="link-tag">Related: Voice of Customer</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.2 Crawford's 6 Types -->
+            <div class="subtopic" id="s-crawford-types">
+              <div class="subtopic-hdr" onclick="toggleSub('s-crawford-types')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Crawford's 6 Types of Innovation</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Crawford's taxonomy</strong> classifies new products not by physical characteristics but by their <em>degree of newness</em> to the firm and to the market. This distinction matters enormously for resource allocation, risk assessment, and organizational readiness: launching a new-to-world product requires fundamentally different capabilities than refreshing an existing product line. A firm that treats all NPD projects identically regardless of newness type will systematically misallocate resources — underfunding truly novel projects and over-engineering incremental improvements.</p>
+                <div class="section-label">THE SIX TYPES</div>
+                <ul class="bullets">
+                  <li><strong>Type 1 — New-to-World:</strong> Creates an entirely new market category; no prior consumer mental model exists. Highest risk, highest potential reward. Examples: iPhone (2007), Post-It Note. Requires extensive consumer education.</li>
+                  <li><strong>Type 2 — New-to-Firm:</strong> Product category already exists in the market but is new to this firm. Firm bears learning curve costs; market risk is lower because demand is proven.</li>
+                  <li><strong>Type 3 — Addition to Product Line:</strong> New item within an existing product line; leverages established distribution and brand equity. Lower development risk but cannibalization risk increases.</li>
+                  <li><strong>Type 4 — Improvement or Revision:</strong> Replaces an existing product with better performance. The most common type of NPD activity. Customer expectations are well-understood; execution risk dominates.</li>
+                  <li><strong>Type 5 — Repositioning:</strong> Existing product targeted at a new market segment or positioned for a new use case. Brand and distribution costs may be low; marketing is the primary investment.</li>
+                  <li><strong>Type 6 — Cost Reduction:</strong> New version delivers comparable performance at lower cost. Primarily a manufacturing/operations task; market risk is minimal if quality is maintained.</li>
+                </ul>
+                <div class="section-label">STRATEGIC IMPLICATION</div>
+                <p class="prose">Most firms' NPD portfolios should balance across types: <strong>incremental types (4–6) generate near-term cash flow</strong> that funds the higher-risk exploratory types (1–2). A portfolio skewed entirely toward incremental improvements produces reliable revenue but leaves the firm vulnerable to disruptive new entrants.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Type 1 (new-to-world) innovations are rare but disproportionately important for long-term competitive position. <strong>The Post-It Note is a canonical Type 1 case:</strong> it required inventing both the product category and the consumer use behavior simultaneously — consumers did not know they needed repositionable sticky notes because no such thing had existed. This is why latent needs research (VoC) is the essential companion to any Type 1 project.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: NPD Process</span>
+                  <span class="link-tag">Case: Post-It Note</span>
+                  <span class="link-tag">Related: Latent Needs</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.3 Three Innovation Challenges -->
+            <div class="subtopic" id="s-three-challenges">
+              <div class="subtopic-hdr" onclick="toggleSub('s-three-challenges')">
+                <div class="dot"></div>
+                <div class="subtopic-title">The Three Innovation Challenges</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The lecture introduces the <strong>Three Innovation Challenges</strong> as the primary obstacles firms face across the NPD lifecycle. These are not technical problems — they are informational and organizational problems that cause otherwise capable teams to build the wrong thing, or the right thing badly. Understanding which challenge applies at a given stage helps teams direct their diagnostic attention correctly.</p>
+                <div class="section-label">THE THREE CHALLENGES</div>
+                <ul class="bullets">
+                  <li><strong>Challenge 1 — The Fuzzy Front End:</strong> The problem of identifying which opportunities are genuinely worth pursuing among the infinite set of possibilities. Called "fuzzy" because there is no clear starting signal — the opportunity must be discovered, not merely developed. Tools: PESTEL, Porter's Five Forces, RWW Framework, VoC research, ethnographic observation.</li>
+                  <li><strong>Challenge 2 — Concept-to-Launch Gap:</strong> The challenge of translating a validated concept into a producible, marketable product within time and budget constraints. Technical, organizational, and resource constraints dominate this phase. Tools: Pugh matrix, scoring models, prototyping, concept testing.</li>
+                  <li><strong>Challenge 3 — Launch-to-Growth Transition:</strong> The challenge of achieving commercial adoption at scale. A product can be technically excellent and concept-validated and still fail in market because of distribution gaps, consumer education barriers, or competitive response. Tools: Market experiments, A/B testing, factorial design.</li>
+                </ul>
+                <div class="section-label">WHERE MOST FAILURES OCCUR</div>
+                <p class="prose">Research consistently shows that <strong>the majority of NPD failures originate in Challenge 1</strong> — firms pursue opportunities that were never real (insufficient market need), or that they could never win (insufficient competitive advantage), or that were not worth the investment (insufficient NPV). No amount of excellent execution in Challenges 2 and 3 can rescue a project that was misconceived at the fuzzy front end.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The Three Challenges map directly to the three questions in the RWW Framework: Is it Real? (Challenge 1), Can We Win? (Challenge 2), Is It Worth It? (all three). <strong>Treating all three challenges as equally important is the correct approach</strong> — most firms over-invest in Challenge 2 (engineering) and under-invest in Challenge 1 (market intelligence) and Challenge 3 (launch strategy).</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: RWW Framework</span>
+                  <span class="link-tag">Related: Concept Screening</span>
+                  <span class="link-tag">Related: Market Experiments</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.4 RWW Framework -->
+            <div class="subtopic" id="s-rww">
+              <div class="subtopic-hdr" onclick="toggleSub('s-rww')">
+                <div class="dot"></div>
+                <div class="subtopic-title">RWW Framework (Real, Win, Worth It?)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>RWW Framework</strong> (Real–Win–Worth It) is a structured go/no-go screening tool applied to new product opportunities before significant development resources are committed. Developed at McKinsey and widely adopted in corporate innovation practice, it translates the otherwise qualitative judgment of "is this a good idea?" into a disciplined three-part evaluation. Each question has sub-questions that force specific evidence to be gathered. A "No" or "Probably not" on any of the three dimensions is a serious signal — not necessarily fatal, but requiring clear mitigation before proceeding.</p>
+                <div class="section-label">THE THREE QUESTIONS</div>
+                <ul class="bullets">
+                  <li><strong>Is It Real?</strong> Is the market real (are there customers who need this, can they afford it, will they buy it)? Is the product real (is it technically feasible to make what customers want)? Both must be true — many firms confirm product feasibility without confirming market demand, which is precisely backwards.</li>
+                  <li><strong>Can We Win?</strong> Does the product have a sustainable competitive advantage (performance, price, brand, distribution)? Does the firm have the capabilities to develop and deliver this product better than competitors can? A real opportunity in a market where the firm cannot win is not an opportunity for that firm.</li>
+                  <li><strong>Is It Worth It?</strong> Does the expected financial return (NPV, payback period) justify the investment given the risks? Is the project strategically aligned with the firm's long-term direction? Even genuinely good products can be poor strategic investments if they divert resources from higher-return alternatives.</li>
+                </ul>
+                <div class="section-label">HOW TO APPLY IT</div>
+                <ul class="bullets">
+                  <li>Use RWW at the <strong>Stage-Gate decision point</strong> between opportunity identification and concept development — after preliminary market research but before significant engineering spend.</li>
+                  <li>Map each sub-question to specific evidence: market size data (TAM/SAM/SOM) answers "Is the market real?"; competitive analysis (Porter's Five Forces) answers "Can we win?"; financial modeling answers "Is it worth it?"</li>
+                  <li>A "Yes/Yes/Yes" outcome does not guarantee success — but a "No" on any dimension without a clear mitigation plan is a strong signal to stop or pivot.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The RWW framework's power is that it forces explicit answers to the questions most teams implicitly assume are "yes" without evidence. <strong>"We know customers need this" is not an answer to "Is the market real?" — only customer research, willingness-to-pay data, and market size analysis qualify.</strong> RWW converts hope into hypothesis and hypothesis into evidence requirement.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: PESTEL Analysis</span>
+                  <span class="link-tag">Related: Porter's Five Forces</span>
+                  <span class="link-tag">Related: TAM/SAM/SOM</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.5 PESTEL Analysis -->
+            <div class="subtopic" id="s-pestel">
+              <div class="subtopic-hdr" onclick="toggleSub('s-pestel')">
+                <div class="dot"></div>
+                <div class="subtopic-title">PESTEL Analysis</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>PESTEL</strong> is a macro-environment scanning framework that organizes external forces into six categories. It is used at the beginning of the NPD process — before Porter's Five Forces or RWW — to understand the landscape of external factors that will shape whether a market is attractive, growing, or at risk of disruption. PESTEL is not a scoring tool; it is an <em>awareness tool</em> that surfaces the forces a firm must account for in its opportunity assessment and strategy. The key output is not a checklist but a set of identified trends and their implications for the specific opportunity being evaluated.</p>
+                <div class="section-label">THE SIX FACTORS</div>
+                <ul class="bullets">
+                  <li><strong>Political:</strong> Government stability, trade policies, taxation, regulations affecting industry structure. E.g., tariffs on imported materials that raise COGS; healthcare regulations that create product certification requirements.</li>
+                  <li><strong>Economic:</strong> GDP growth, consumer income levels, inflation, interest rates, exchange rates. E.g., rising disposable income in emerging markets creates addressable demand for premiumproducts.</li>
+                  <li><strong>Social:</strong> Demographics, lifestyle shifts, cultural values, education levels, health consciousness. E.g., aging population driving demand for medical devices; Gen Z values driving sustainability expectations.</li>
+                  <li><strong>Technological:</strong> R&amp;D activity, automation, digitization, platform disruption, speed of technology adoption. E.g., smartphone ubiquity enabling new app-based product categories.</li>
+                  <li><strong>Environmental:</strong> Climate change, natural resource constraints, sustainability regulations, ESG expectations. E.g., carbon taxes raising the cost of energy-intensive manufacturing.</li>
+                  <li><strong>Legal:</strong> Employment law, consumer protection, intellectual property law, product liability, competition law. E.g., GDPR affecting data-driven product strategies in the EU.</li>
+                </ul>
+                <div class="section-label">WHEN TO USE IT</div>
+                <p class="prose">PESTEL works best when used <strong>before</strong> industry-level analysis (Porter's Five Forces) because macro trends determine which industries are growing or declining and which new regulations are creating or destroying competitive moats. A favorable Porter's Five Forces profile in a declining industry (due to adverse PESTEL factors) is a trap: structural attractiveness cannot overcome macro headwinds.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>PESTEL's value is not in filling out the grid — it is in identifying <strong>which 2–3 macro factors are genuinely decisive for this specific opportunity</strong>. A firm entering the luxury goods market in China needs deep analysis of Political (anti-extravagance campaigns, geopolitical risk) and Social (Millennial consumer values) factors far more than, say, Environmental factors. Prioritize the factors with the highest potential impact on the specific opportunity, not equal coverage of all six.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Porter's Five Forces</span>
+                  <span class="link-tag">Related: RWW Framework</span>
+                  <span class="link-tag">Case: Gucci Geographic Risk</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.6 Porter's Five Forces -->
+            <div class="subtopic" id="s-porter">
+              <div class="subtopic-hdr" onclick="toggleSub('s-porter')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Porter's Five Forces</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Porter's Five Forces</strong> is an industry-level competitive analysis framework that diagnoses the structural determinants of industry profitability. The key insight is that profitability in an industry is not random — it is determined by five structural forces that govern how value is distributed among competitors, suppliers, customers, and potential entrants. A firm entering an industry where all five forces are unfavorable will struggle to be profitable regardless of execution quality. Conversely, a firm in an industry with favorable forces (strong barriers to entry, weak buyer and supplier power, no viable substitutes) enjoys structural tailwinds that make sustained profitability far easier.</p>
+                <div class="section-label">THE FIVE FORCES</div>
+                <ul class="bullets">
+                  <li><strong>Competitive Rivalry:</strong> Intensity of competition among existing players. High when: many competitors of similar size, slow industry growth, high fixed costs, low differentiation, low switching costs. High rivalry erodes margins for everyone.</li>
+                  <li><strong>Threat of New Entrants:</strong> Ease with which new firms can enter and compete. Determined by barriers to entry: economies of scale, capital requirements, brand equity, regulatory licenses, switching costs. High threat = limited pricing power for incumbents.</li>
+                  <li><strong>Bargaining Power of Buyers:</strong> Ability of customers to negotiate lower prices or better terms. High when: buyers are concentrated, purchase large volumes, face low switching costs, or can credibly threaten backward integration.</li>
+                  <li><strong>Bargaining Power of Suppliers:</strong> Ability of input providers to raise prices or reduce quality. High when: supplier industry is concentrated, inputs are differentiated, switching costs are high, no substitutes exist for the input.</li>
+                  <li><strong>Threat of Substitutes:</strong> Availability of alternative products that fulfill the same underlying need differently. High substitution threat caps the price premium an industry can charge. Key: substitutes come from outside the industry (e.g., taxis vs. ride-sharing; DVDs vs. streaming).</li>
+                </ul>
+                <div class="section-label">HOW TO APPLY IN NPD</div>
+                <p class="prose">In the NPD context, Porter's Five Forces answers "Can We Win?" from the RWW framework. <strong>Specifically: where will our competitive advantage be sustainable given the structural forces at play?</strong> If buyers have high power (e.g., large retailers), your product must be demonstrably superior to justify premium pricing. If substitutes are plentiful, differentiation is critical. Identify which of the five forces is the most threatening and design your concept's features and go-to-market strategy to address it directly.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The key misconception about Porter's Five Forces is that it is a checklist to score current competitors. <strong>Its real power is forward-looking:</strong> which forces are strengthening or weakening, and how does that change the attractiveness of entering this market now versus later? A firm entering a market as buyer power is declining (consolidation) or as substitute threats are increasing (platform disruption) needs a fundamentally different strategy than one entering a stable, well-structured industry.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: PESTEL Analysis</span>
+                  <span class="link-tag">Related: RWW Framework</span>
+                  <span class="link-tag">Related: Competitive Advantage</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.7 TAM/SAM/SOM -->
+            <div class="subtopic" id="s-market-sizing">
+              <div class="subtopic-hdr" onclick="toggleSub('s-market-sizing')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Market Sizing: TAM / SAM / SOM</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">Market sizing translates the qualitative judgment "this is a big opportunity" into defensible quantitative estimates that inform investment decisions. The <strong>TAM/SAM/SOM hierarchy</strong> provides three nested estimates of market potential, each progressively more realistic about the firm's actual addressable opportunity. Investors, executives, and stage-gate reviewers all expect market size to be justified with numbers — and those numbers must be grounded in assumptions that can be argued, not fabricated.</p>
+                <div class="section-label">THE THREE LEVELS</div>
+                <ul class="bullets">
+                  <li><strong>TAM — Total Addressable Market:</strong> The entire global demand for the product category if there were no constraints on the firm's reach. Used to set the upper bound of opportunity. Example: "The global athletic footwear market is $XX billion annually."</li>
+                  <li><strong>SAM — Serviceable Addressable Market:</strong> The portion of TAM that the firm can realistically target given its geographic footprint, segment focus, and product scope. Example: "We target young urban athletes in Southeast Asia — a $X billion subset of global athletic footwear."</li>
+                  <li><strong>SOM — Serviceable Obtainable Market:</strong> The realistic market share the firm can capture from SAM in 3–5 years, given competitive position, sales capacity, and go-to-market strategy. Example: "We project capturing 5% of the Southeast Asian athletic footwear market = $Y billion."</li>
+                </ul>
+                <div class="section-label">GUESSTIMATION (FERMI ESTIMATION)</div>
+                <p class="prose">When market data is unavailable, <strong>Fermi estimation</strong> (guesstimation) builds a market size estimate from publicly available facts and reasonable assumptions. The approach: decompose the market into observable sub-components, estimate each, and multiply through. Example for estimating the market for coffee in Singapore: (population 5.4M) × (fraction who drink coffee: ~70%) × (cups per day: 1.5) × (price per cup: $4) × (365 days) = ~$8.3B gross coffee market. Guesstimation is not about being exactly right — it is about <strong>identifying the key assumptions</strong> and understanding which ones, if wrong, would change the decision.</p>
+                <div class="formula-wrap">
+                  <div class="formula">Market Revenue = Population × Penetration Rate × Usage Frequency × Unit Price</div>
+                  <div class="formula-explain">
+                    <strong>Variables:</strong><br>
+                    Population = target group size (e.g., total working adults in city)<br>
+                    Penetration Rate = fraction who would buy this product (0–1)<br>
+                    Usage Frequency = purchases per year per buyer<br>
+                    Unit Price = average revenue per transaction<br><br>
+                    <strong>Intuition:</strong> Each factor narrows from the broadest possible universe to a realistic revenue estimate. The most uncertain factor is usually penetration rate — use analogous products as benchmarks and stress-test with optimistic/pessimistic scenarios.
+                  </div>
+                </div>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>SOM is the only number that actually drives go/no-go decisions — <strong>TAM impresses, SOM decides</strong>. A $100B TAM is meaningless if your SOM at 0.1% share is too small to justify development costs. Always anchor the investment decision to SOM and work backwards to assess whether the TAM/SAM funnel supports a viable SOM given realistic market penetration curves.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: RWW Framework</span>
+                  <span class="link-tag">Related: Guesstimation</span>
+                  <span class="link-tag">Related: Financial Feasibility</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.8 Voice of Customer -->
+            <div class="subtopic" id="s-voc">
+              <div class="subtopic-hdr" onclick="toggleSub('s-voc')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Voice of Customer (VoC) &amp; Needs Discovery</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Voice of Customer (VoC)</strong> is the systematic process of gathering and interpreting customer needs, wants, and preferences to guide product development decisions. It is the primary tool for answering "Is it real?" from the RWW framework — specifically, "Are there customers who want this, and do we understand what they actually want deeply enough to build it?" VoC combines qualitative methods (ethnographic observation, depth interviews, focus groups) with quantitative methods (surveys, conjoint analysis) to capture both the <em>content</em> of customer needs and the <em>relative importance</em> of those needs.</p>
+                <div class="section-label">QUALITATIVE vs. QUANTITATIVE VoC</div>
+                <ul class="bullets">
+                  <li><strong>Qualitative (Discovery Phase):</strong> Ethnographic observation, in-depth interviews, contextual inquiry, focus groups. Purpose: surface unarticulated needs, understand how customers currently solve the problem, and identify emotional/social dimensions of the job-to-be-done. Cannot be scaled or statistically projected.</li>
+                  <li><strong>Quantitative (Validation Phase):</strong> Surveys, conjoint analysis, willingness-to-pay studies. Purpose: size the opportunity, rank needs by importance, measure satisfaction gaps, and validate hypotheses generated in qualitative research. Requires sufficiently large samples to be statistically meaningful.</li>
+                </ul>
+                <div class="section-label">NEEDS STATEMENTS</div>
+                <p class="prose">The output of VoC research is a set of <strong>needs statements</strong> — customer-language descriptions of desired product outcomes, not product features. A needs statement says "I need to be able to access my work files from anywhere" not "I need cloud storage." This distinction matters because needs statements preserve problem space; feature prescriptions close off solution space prematurely. Product specifications (engineering targets) are derived from needs statements in the next NPD stage.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The most common VoC mistake is asking customers what they want and then building exactly that. <strong>Customers can articulate their current dissatisfactions clearly, but they are poor at articulating solutions to problems they haven't yet experienced.</strong> The Post-It Note is the canonical counter-example: no consumer research would have generated "repositionable adhesive notepad" as a desired feature — the innovation required observation of how people actually worked and what problems that created, not a survey asking what products they wanted.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Latent vs. Stated Needs</span>
+                  <span class="link-tag">Related: Jobs To Be Done</span>
+                  <span class="link-tag">Case: Post-It Note</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.9 Latent vs. Stated Needs -->
+            <div class="subtopic" id="s-latent-needs">
+              <div class="subtopic-hdr" onclick="toggleSub('s-latent-needs')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Latent vs. Stated Needs</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">One of the most important distinctions in all of NPD: <strong>stated needs</strong> are the wants customers can articulate when asked directly; <strong>latent needs</strong> are needs that customers have but cannot yet express because they lack the vocabulary, the reference point, or the awareness that a solution could exist. Disruptive and new-to-world innovations almost always address latent needs. Incremental improvements more often address stated needs. The implication: standard survey-based VoC research is well-suited to capturing stated needs but systematically fails to reveal latent ones.</p>
+                <div class="section-label">THE POST-IT NOTE AS CANONICAL EXAMPLE</div>
+                <p class="prose">Spencer Silver at 3M invented a low-tack adhesive in 1968 that temporarily bonded surfaces without permanent attachment. For years it was a solution in search of a problem — no customer survey would have generated "I need a semi-adhesive paper product." The insight came from <strong>observational research</strong>: colleague Art Fry noticed that bookmarks kept falling out of his choir hymnal. The <em>latent need</em> — a note that stays where you put it but can be moved without damage — existed for everyone who uses notes, but no one could have named it before the product existed. 3M's commercial success was built on a latent need that conventional market research had missed for over a decade.</p>
+                <div class="section-label">HOW TO SURFACE LATENT NEEDS</div>
+                <ul class="bullets">
+                  <li><strong>Ethnographic observation:</strong> Watch customers in their natural environment performing the task. Identify workarounds, frustrations, and improvisations — these signal unmet latent needs.</li>
+                  <li><strong>Jobs-to-be-Done interviews:</strong> Ask about the job customers are trying to accomplish, not the products they want. "What are you trying to achieve? What gets in the way? What do you use when this fails?"</li>
+                  <li><strong>Lead user research:</strong> Identify customers who experience the need most acutely or earliest. Lead users often develop crude solutions to their own latent needs — these are invention seeds.</li>
+                  <li><strong>Analogical transfer:</strong> Study how the same job is done in adjacent industries or contexts. Solutions that work elsewhere often address the same latent need in your market.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The breakthrough framing is Henry Ford's alleged quote: <strong>"If I had asked customers what they wanted, they would have said faster horses."</strong> Whether apocryphal or not, it captures the essential limitation of stated-need research: customers optimize within their existing mental model of what is possible. Latent needs research forces designers out of the customer's mental model and into the customer's <em>experience</em> — which is where the real innovation space lives.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Voice of Customer</span>
+                  <span class="link-tag">Related: Jobs To Be Done</span>
+                  <span class="link-tag">Case: Post-It Note</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.10 Guesstimation -->
+            <div class="subtopic" id="s-guesstimation">
+              <div class="subtopic-hdr" onclick="toggleSub('s-guesstimation')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Guesstimation (Fermi Estimation)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Guesstimation</strong> (or Fermi estimation) is the practice of building quantitative estimates for quantities that cannot be directly measured — such as market sizes, potential revenues, or unit volumes — by decomposing the unknown into a chain of knowable or estimable components. It is a critical skill for NPD practitioners because credible market sizing is required at multiple stage-gate decisions, and waiting for complete data is never an option. The goal is not precision; the goal is <strong>order-of-magnitude accuracy and explicit assumptions</strong>.</p>
+                <div class="section-label">THE DECOMPOSITION METHOD</div>
+                <ul class="bullets">
+                  <li><strong>Step 1 — Define the quantity:</strong> Be precise about what you are estimating. "Market for premium coffee in Singapore" is better than "coffee market" because it narrows the population and price point.</li>
+                  <li><strong>Step 2 — Decompose into factors:</strong> Break the unknown into a product of more observable quantities. Use the formula: Revenue = Population × Penetration × Frequency × Unit Price.</li>
+                  <li><strong>Step 3 — Estimate each factor:</strong> Use publicly available data (census, industry reports), analogues (comparable markets), and reasoned judgment. State your assumptions explicitly.</li>
+                  <li><strong>Step 4 — Multiply through and sanity-check:</strong> Does the result pass the "smell test" relative to what you know about the market? If not, which assumption is driving the implausibility?</li>
+                  <li><strong>Step 5 — Sensitivity analysis:</strong> Vary the most uncertain assumption across a range. Does the decision change? If the conclusion holds even in pessimistic scenarios, the estimate supports a confident decision.</li>
+                </ul>
+                <div class="section-label">COMMON ANCHORS</div>
+                <p class="prose">Useful public data for guesstimations: Singapore population (~5.4M), NUS student enrollment (~40,000), average household income, smartphone penetration rates, urban/rural splits, age distribution. Build a personal library of these anchors — they allow rapid calibration of any Fermi chain.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Guesstimation is evaluated not on the accuracy of the final number but on the <strong>quality of the reasoning chain</strong>. A guesstimate that arrives at the right order of magnitude through explicit, defensible steps is more valuable than a "correct" number pulled from a database with no accompanying logic — because the explicit logic reveals which assumptions matter most and can be challenged or refined.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: TAM/SAM/SOM</span>
+                  <span class="link-tag">Related: Market Sizing</span>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /subtopic-grid -->
+        </div><!-- /topic-body -->
+      </div><!-- /topic-block t-npd-foundations -->
+
+
+      <!-- ═══════════════════════════════════════════════════════════
+           TOPIC BLOCK 2: CONCEPT SCREENING & TESTING (Lectures 3–4)
+           ═══════════════════════════════════════════════════════════ -->
+      <div class="topic-block" id="t-concept-eval">
+        <div class="topic-header" onclick="toggleTopic('t-concept-eval')">
+          <div class="topic-icon">🔬</div>
+          <div class="topic-text">
+            <div class="topic-eyebrow">Lectures 3–4 · Concept Screening &amp; Testing</div>
+            <div class="topic-title">Concept Evaluation: From Ideas to Validated Concepts</div>
+            <div class="topic-desc">Jobs To Be Done, Product Specs, Pugh Matrix, Weighted Scoring Model, Primary Ideal Customer, Alpha/Beta Testing, A/B Testing</div>
+          </div>
+          <div class="topic-right">
+            <span class="topic-pill">8 sub-topics</span>
+            <span class="chevron">▶</span>
+          </div>
+        </div>
+        <div class="topic-body">
+          <div class="subtopic-grid">
+
+            <!-- 2.1 Jobs To Be Done -->
+            <div class="subtopic" id="s-jtbd">
+              <div class="subtopic-hdr" onclick="toggleSub('s-jtbd')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Jobs To Be Done (JTBD) Framework</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>Jobs To Be Done (JTBD)</strong> framework, developed by Clayton Christensen, reframes the unit of analysis in product design from "customer segment" to "customer job." The central claim is that customers do not buy products — they <em>hire</em> products to accomplish specific jobs in specific circumstances. The job has three dimensions: functional (the practical task to be completed), emotional (how the customer wants to feel), and social (how the customer wants to be perceived). Understanding the full job — not just the functional component — is the foundation of superior product concept development.</p>
+                <div class="section-label">THE JTBD STATEMENT</div>
+                <p class="prose">A well-formed JTBD statement follows the structure: <strong>"When [situation], I want to [motivation/job], so I can [expected outcome]."</strong> Example: "When I'm in a morning rush, I want to eat something quickly without creating mess, so I can arrive at the office feeling put-together." This is the insight that revealed milkshakes were competing not with other beverages but with bananas, granola bars, and bagels — all "hired" for the same morning commute job. Defining the competitive set by job rather than product category opens entirely new design possibilities.</p>
+                <div class="section-label">FUNCTIONAL, EMOTIONAL, SOCIAL DIMENSIONS</div>
+                <ul class="bullets">
+                  <li><strong>Functional job:</strong> The practical task the product must accomplish. "Get me from A to B quickly." Most product developers over-index here and miss the other two dimensions.</li>
+                  <li><strong>Emotional job:</strong> How the customer wants to feel during or after using the product. "I want to feel safe and relaxed." Emotional jobs often drive willingness-to-pay more than functional features.</li>
+                  <li><strong>Social job:</strong> How the customer wants to be perceived by others through product ownership or use. "I want others to see me as a responsible, environmentally conscious person." Social jobs explain premium pricing for status goods and brand loyalty.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>JTBD changes the competitive analysis fundamentally: <strong>your real competitors are every product or service the customer might hire to do the same job</strong>, not just products in your defined category. A breakfast nutrition bar competes with milkshakes, bagels, apples, and skipping breakfast — not just other nutrition bars. This broader competitive frame surfaces substitution threats that a category-bound analysis would miss entirely.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: VoC</span>
+                  <span class="link-tag">Related: Latent Needs</span>
+                  <span class="link-tag">Related: Product Specifications</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.2 Product Specifications -->
+            <div class="subtopic" id="s-product-specs">
+              <div class="subtopic-hdr" onclick="toggleSub('s-product-specs')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Product Specifications &amp; Target Values</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Product specifications</strong> (also called engineering targets or product requirements) are the translation of customer needs statements into measurable, testable performance targets. They bridge the gap between the VoC (what customers want) and engineering (what the product must do). A specification must be <em>measurable</em> — not "should be fast" but "must achieve 0–60 mph in under 5 seconds." Without measurable specifications, the design team has no objective criterion for evaluating concepts or making trade-off decisions during development.</p>
+                <div class="section-label">THE TRANSLATION PROCESS</div>
+                <ul class="bullets">
+                  <li><strong>Step 1 — Customer Need:</strong> "I need a phone battery that lasts all day without charging." (VoC output — customer language)</li>
+                  <li><strong>Step 2 — Engineering Metric:</strong> "Battery capacity ≥ 4,500 mAh with screen-on time ≥ 10 hours." (Specification — engineering language)</li>
+                  <li><strong>Step 3 — Target Value:</strong> "4,800 mAh at the 75th percentile of competitive products." (Target — positions the product against competitors)</li>
+                  <li><strong>Step 4 — Importance Weight:</strong> Weight each specification by the customer importance rating from VoC surveys to prioritize trade-off decisions.</li>
+                </ul>
+                <div class="section-label">SPECS vs. SOLUTIONS</div>
+                <p class="prose">A critical discipline: specifications describe <strong>what</strong> the product must achieve, not <strong>how</strong> it achieves it. "Reduce door-closing effort by 20%" is a specification. "Add a power assist motor to the door" is a solution. Keeping specifications solution-neutral preserves design space — the team can explore multiple concepts rather than prematurely converging on one approach.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>Product specifications are the contract between the marketing/VoC function and the engineering/design function. <strong>Ambiguous or unmeasurable specifications are the single most common cause of misalignment between what customers want and what gets built.</strong> If you can't measure whether you've met the specification, you don't have a specification — you have a wish.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: VoC</span>
+                  <span class="link-tag">Related: Pugh Matrix</span>
+                  <span class="link-tag">Related: Conjoint Analysis</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.3 Pugh Matrix -->
+            <div class="subtopic" id="s-pugh">
+              <div class="subtopic-hdr" onclick="toggleSub('s-pugh')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Pugh Concept Selection Matrix</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>Pugh Matrix</strong> (also called concept selection matrix) is a qualitative screening tool for comparing multiple product concepts against a reference concept (the "datum") on a set of evaluation criteria. Developed by Stuart Pugh, it provides a structured way to converge from a large set of concepts to a shortlist of the most promising candidates for further development. It is deliberately simple and non-numeric — the goal is directional comparison, not precision scoring, and its power is in making trade-offs explicit and discussable rather than hidden.</p>
+                <div class="section-label">HOW THE PUGH MATRIX WORKS</div>
+                <ul class="bullets">
+                  <li><strong>Rows:</strong> Evaluation criteria drawn from customer needs or product specifications. Each criterion represents a dimension of customer value.</li>
+                  <li><strong>Columns:</strong> The concepts being compared, plus one "datum" concept (usually the current product, the market leader, or a baseline concept). The datum is the reference point for all comparisons.</li>
+                  <li><strong>Cells:</strong> Each cell is scored as +, 0, or − relative to the datum. + means this concept is better than the datum on this criterion; 0 means similar; − means worse.</li>
+                  <li><strong>Totals:</strong> Sum the +'s and −'s. Concepts with the most +'s and fewest −'s proceed to the shortlist. Concepts with no +'s are killed. Concepts with mixed profiles often inspire hybrid designs.</li>
+                </ul>
+                <div class="section-label">STRATEGIC USE: HYBRID CONCEPTS</div>
+                <p class="prose">The most valuable output of a Pugh Matrix is not which concept wins — it is identifying whether concepts with complementary strengths can be merged into a <strong>hybrid concept</strong> that eliminates each individual concept's weaknesses while preserving their strengths. This is why the Pugh Matrix is iterated: shortlisted concepts are combined, re-evaluated, and iterated until a dominant concept emerges.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The Pugh Matrix is a <strong>conversation tool as much as a scoring tool.</strong> The discipline of placing concepts side-by-side against specific criteria forces teams to surface disagreements and assumptions that would otherwise remain implicit. A concept that looks weak in totals may reveal an important engineering insight when team members debate why it got a "−" on a specific criterion — that insight then drives the next iteration of hybrid concept design.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Weighted Scoring Matrix</span>
+                  <span class="link-tag">Related: Product Specifications</span>
+                  <span class="link-tag">Related: Concept Testing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.4 Weighted Scoring Matrix -->
+            <div class="subtopic" id="s-scoring-matrix">
+              <div class="subtopic-hdr" onclick="toggleSub('s-scoring-matrix')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Weighted Scoring Matrix</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>Weighted Scoring Matrix</strong> is a quantitative upgrade from the Pugh Matrix. Rather than using +/0/− comparisons, it assigns numerical weights to criteria (reflecting their relative importance to customers) and numerical ratings to each concept on each criterion. This produces a single composite score for each concept, enabling rank-ordering of alternatives. It is used after initial screening (Pugh Matrix) to evaluate the 3–5 most promising concepts with greater precision before committing to full development of the winner.</p>
+                <div class="section-label">THE FORMULA</div>
+                <div class="formula-wrap">
+                  <div class="formula">Score_j = Σᵢ (wᵢ × rᵢⱼ)</div>
+                  <div class="formula-explain">
+                    <strong>Variables:</strong><br>
+                    Score_j = composite score for concept j<br>
+                    wᵢ = importance weight for criterion i (weights sum to 1.0 or 100)<br>
+                    rᵢⱼ = rating of concept j on criterion i (typically 1–5 or 1–10 scale)<br>
+                    Σᵢ = sum over all evaluation criteria<br><br>
+                    <strong>Intuition:</strong> Multiplying the rating by the weight ensures that criteria more important to customers have proportionally more influence on the final score. A concept that excels on unimportant criteria but performs poorly on critical ones will score lower than a concept that focuses its advantages on what customers actually care about — which is the correct outcome.
+                  </div>
+                </div>
+                <div class="section-label">SIX-STEP PROCESS</div>
+                <ul class="bullets">
+                  <li><strong>Step 1:</strong> Identify evaluation criteria from VoC and product specifications.</li>
+                  <li><strong>Step 2:</strong> Assign importance weights to each criterion (from customer surveys or conjoint analysis).</li>
+                  <li><strong>Step 3:</strong> Define the rating scale (e.g., 1–5) and calibration anchors for each criterion.</li>
+                  <li><strong>Step 4:</strong> Rate each surviving concept on each criterion — use cross-functional team consensus or customer evaluations.</li>
+                  <li><strong>Step 5:</strong> Compute weighted scores (Σwᵢ × rᵢⱼ) for each concept.</li>
+                  <li><strong>Step 6:</strong> Rank concepts, select the top scorer for development, and document the decision rationale.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The weights are the most consequential input in the scoring matrix — and the most often manipulated. <strong>Weights must come from customer data (VoC or conjoint), not from the product team's intuition about what customers care about.</strong> Teams that set their own weights invariably assign the highest weights to the criteria on which their favored concept performs best, which produces the "right" winner from the "wrong" analysis. Let the customer define importance, then let the math select the concept.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Pugh Matrix</span>
+                  <span class="link-tag">Related: Conjoint Analysis</span>
+                  <span class="link-tag">Related: VoC Importance Weights</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.5 Primary Ideal Customer (PIC) -->
+            <div class="subtopic" id="s-pic">
+              <div class="subtopic-hdr" onclick="toggleSub('s-pic')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Primary Ideal Customer (PIC)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose">The <strong>Primary Ideal Customer (PIC)</strong> is a precisely defined archetype of the single most important target customer for a new product concept. Unlike a broad demographic segment ("women aged 25–40") or a loose persona, the PIC is specific enough to make design decisions: if you showed two product variants to your PIC, you could predict which one they would choose. The PIC serves as a filter at every concept screening gate — concepts that do not clearly and compellingly meet the PIC's needs are eliminated regardless of other merits.</p>
+                <div class="section-label">COMPONENTS OF A PIC PROFILE</div>
+                <ul class="bullets">
+                  <li><strong>Demographic core:</strong> Age, gender, income, education, occupation — the structural facts about who this person is.</li>
+                  <li><strong>Psychographic profile:</strong> Values, lifestyle, aspirations, fears — the psychological drivers of purchase behavior. Often more predictive than demographics.</li>
+                  <li><strong>Behavioral profile:</strong> How they currently solve the problem, what products they use, how often they use them, what triggers a purchase decision.</li>
+                  <li><strong>Need hierarchy:</strong> Which functional, emotional, and social jobs are highest priority? Which criteria are must-haves vs. nice-to-haves?</li>
+                  <li><strong>Willingness to pay:</strong> At what price point does the PIC begin to hesitate? What do they currently spend on alternatives?</li>
+                </ul>
+                <div class="section-label">PIC AS DECISION FILTER</div>
+                <p class="prose">The PIC is most powerful as a <strong>negative filter</strong>: any concept feature that the PIC would not use, not pay for, or not value is removed — regardless of how technically interesting it is. This discipline prevents "feature creep" driven by engineering enthusiasm rather than customer evidence. The question is never "is this feature good?" but "does the PIC need this feature enough to pay for it?"</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The PIC is a <strong>focusing device for a team that would otherwise try to please everyone</strong> — which invariably means pleasing no one optimally. Designing for a specific, concrete customer type forces hard trade-off decisions early, when they are cheap, rather than late in development, when they are expensive. A product that deeply satisfies its PIC and has strong word-of-mouth among that segment is a far better foundation than one that mildly satisfies a broad undifferentiated audience.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Concept Screening</span>
+                  <span class="link-tag">Related: VoC</span>
+                  <span class="link-tag">Related: Brand Positioning</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.6 Concept Testing Process -->
+            <div class="subtopic" id="s-concept-testing">
+              <div class="subtopic-hdr" onclick="toggleSub('s-concept-testing')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Concept Testing Process</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Concept testing</strong> is the systematic exposure of product concepts to representative target customers before development is complete, in order to assess purchase intent, willingness to pay, and fit with identified needs. It is the bridge between concept screening (internal, team-based evaluation) and full development (engineering and production). Concept testing generates customer-side validation for decisions that have until this point been made by the internal team — it surfaces errors in assumption before they become errors in built product.</p>
+                <div class="section-label">THE SIX-STEP CONCEPT TESTING PROCESS</div>
+                <ul class="bullets">
+                  <li><strong>Step 1 — Define the purpose:</strong> Are you testing to select among competing concepts, validate a single concept, or estimate market potential? The purpose determines sample size, stimulus format, and metrics.</li>
+                  <li><strong>Step 2 — Choose stimulus format:</strong> Verbal description, sketch, prototype, or functional mock-up. More realistic stimuli generate more accurate responses but cost more. Use the minimum stimulus fidelity required to get meaningful preference data.</li>
+                  <li><strong>Step 3 — Select respondents:</strong> Must represent the PIC — not convenience sample. Respondents who are not in the target segment produce noise, not signal.</li>
+                  <li><strong>Step 4 — Administer the test:</strong> Expose respondents to the concept and collect responses on: overall appeal, purchase intent (Likert scale), key strengths, key weaknesses, price sensitivity, and demographic/behavioral profile for subsegment analysis.</li>
+                  <li><strong>Step 5 — Analyze results:</strong> Compute purchase intent scores (convert Likert to estimated trial rate). Identify must-fix issues (weaknesses cited by more than 30% of respondents). Segment analysis to identify high-interest subgroups.</li>
+                  <li><strong>Step 6 — Go/No-Go decision:</strong> Compare results against pre-set benchmarks (e.g., "top-2-box purchase intent ≥ 50%"). Do not move to development unless the concept clears all hurdles.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The hardest discipline in concept testing is <strong>not changing the benchmark after seeing the results.</strong> Teams that set a 50% purchase intent threshold and then rationalize a 38% result as "close enough" are defeating the purpose of the gate. The gate must be set before seeing results, and it must be honored. Otherwise, concept testing generates information without generating accountability, and weak concepts proceed to expensive development anyway.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Alpha/Beta Testing</span>
+                  <span class="link-tag">Related: PIC</span>
+                  <span class="link-tag">Related: Weighted Scoring Matrix</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.7 Alpha and Beta Testing -->
+            <div class="subtopic" id="s-alpha-beta">
+              <div class="subtopic-hdr" onclick="toggleSub('s-alpha-beta')">
+                <div class="dot"></div>
+                <div class="subtopic-title">Alpha &amp; Beta Testing</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>Alpha and beta testing</strong> are sequential stages of real-world product validation that occur after concept testing and development, when a working (or near-working) prototype exists. They differ primarily in who does the testing and what environment they test in. Together they form the empirical validation sequence that closes the loop between engineering specifications and actual user experience — which almost always diverge in ways that desk-based development cannot anticipate.</p>
+                <div class="section-label">ALPHA TESTING</div>
+                <p class="prose"><strong>Alpha testing</strong> is conducted internally — typically by the development team, quality assurance engineers, or internal volunteers. The goal is to find and fix basic technical failures, usability bugs, and specification gaps <em>before</em> exposing the product to external customers. Alpha testing happens in a controlled environment and does not simulate real-world use conditions. A product that fails alpha testing should not proceed to beta — releasing a broken product to external testers damages relationships and generates noise that makes beta results uninterpretable.</p>
+                <div class="section-label">BETA TESTING</div>
+                <p class="prose"><strong>Beta testing</strong> is conducted externally — by a carefully selected group of representative target customers using the product in their real environment under real conditions. The goal is to surface the gap between how the product behaves in the lab and how it actually performs in customer hands. Beta testers typically agree to provide structured feedback in exchange for early or free access. Beta results inform the final pre-launch iteration.</p>
+                <div class="section-label">KEY DIFFERENCES</div>
+                <ul class="bullets">
+                  <li><strong>Alpha:</strong> Internal, controlled environment, technical focus, team-run. Find what breaks before customers see it.</li>
+                  <li><strong>Beta:</strong> External, real-world environment, user experience focus, customer-run with structured feedback. Find what doesn't work in the wild.</li>
+                  <li><strong>Sequencing:</strong> Alpha must precede beta — never expose customers to a product that hasn't cleared basic quality gates internally.</li>
+                </ul>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>The most important insight from alpha/beta testing is almost always something the team never anticipated — a use case they didn't design for, an environment that breaks an assumption, or a workflow conflict with an adjacent tool. <strong>Beta testing is valuable precisely because it surfaces the unknown unknowns</strong> — the failures you couldn't predict because you're not the customer. Teams that skip beta and go straight to launch consistently report that their first 1,000 customers become their unofficial beta testers, at far greater cost to reputation and retention.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: A/B Testing</span>
+                  <span class="link-tag">Related: Concept Testing</span>
+                  <span class="link-tag">Related: Market Experiments</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.8 A/B Testing -->
+            <div class="subtopic" id="s-ab-testing">
+              <div class="subtopic-hdr" onclick="toggleSub('s-ab-testing')">
+                <div class="dot"></div>
+                <div class="subtopic-title">A/B Testing (Controlled Concept Comparison)</div>
+                <span class="sub-chev">▶</span>
+              </div>
+              <div class="subtopic-body">
+                <p class="prose"><strong>A/B testing</strong> is a controlled experiment that exposes two groups of respondents or customers to two versions of a concept, product, price, or communication (A and B) and measures which performs better on a defined metric. Unlike alpha/beta testing (which is sequential validation of a single product), A/B testing is a parallel comparison designed to make a binary design decision with statistical rigor. In the NPD context, A/B testing is used to choose between competing concept variants before full commitment — resolving disagreements with data rather than opinion.</p>
+                <div class="section-label">THE EXPERIMENTAL DESIGN</div>
+                <ul class="bullets">
+                  <li><strong>Control group (A):</strong> Receives the baseline or current version. Establishes the benchmark performance.</li>
+                  <li><strong>Treatment group (B):</strong> Receives the new or modified version. Results are compared against the control.</li>
+                  <li><strong>Random assignment:</strong> Participants must be randomly assigned to A or B groups to eliminate selection bias. If groups differ systematically (e.g., all heavy users in A, light users in B), the comparison is invalid.</li>
+                  <li><strong>Single variable change:</strong> Ideally, only one dimension differs between A and B so that any performance difference can be attributed to that variable. Testing multiple simultaneous changes requires factorial design.</li>
+                  <li><strong>Statistical significance:</strong> Results must achieve a pre-specified significance level (typically p &lt; 0.05) before declaring a winner. Running the test until you see a favorable result (p-hacking) is invalid.</li>
+                </ul>
+                <div class="section-label">A/B TESTING vs. ALPHA/BETA TESTING</div>
+                <p class="prose">Students commonly confuse these: <strong>Alpha/Beta testing is sequential validation of a single product's readiness.</strong> <strong>A/B testing is parallel comparison of two variants to select a winner.</strong> They serve different purposes, use different experimental designs, and occur at different NPD stages. Alpha/beta tests validate that a chosen concept works; A/B tests decide which of two competing approaches is better.</p>
+                <div class="insight-box">
+                  <div class="label">Key Insight</div>
+                  <p>A/B testing is one of the most powerful tools in marketing and NPD — but it is frequently misapplied. <strong>The most common error is testing the wrong metric:</strong> measuring click-through rate when the actual outcome that matters is purchase conversion, or measuring short-term engagement when retention is the real goal. Define the primary metric before the test runs, and do not substitute a secondary metric just because the test "almost worked" on the primary one.</p>
+                </div>
+                <div class="link-tags">
+                  <span class="link-tag">Related: Market Experiments</span>
+                  <span class="link-tag">Related: Factorial Design</span>
+                  <span class="link-tag">Related: Alpha/Beta Testing</span>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /subtopic-grid -->
+        </div><!-- /topic-body -->
+      </div><!-- /topic-block t-concept-eval -->
+
+      <!-- CONTINUED IN PART 2 -->

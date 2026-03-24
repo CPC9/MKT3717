@@ -1,0 +1,132 @@
+{
+  "id": "lecture-01",
+  "title": "Lecture 1: Course Introduction and Product Management",
+  "cards": [
+    {
+      "id": "lecture-01-001",
+      "term": "Brand",
+      "definition": "A name, symbol, or combination thereof that differentiates a product and carries dimensions built through consumer perceptions, expectations, and experiences; more than a product.",
+      "relatedTerms": ["Brand Equity", "Brand Manager (BM)", "Product"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-002",
+      "term": "Brand Equity",
+      "definition": "The intrinsic value a brand holds over a generic or unbranded equivalent, arising from consumer loyalty, perceived quality, and brand associations.",
+      "relatedTerms": ["Brand Manager (BM)", "Brand"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-003",
+      "term": "Brand Manager (BM)",
+      "definition": "The organizational advocate responsible for cultivating brand image, building brand equity, and sustaining brand worth over time.",
+      "relatedTerms": ["Product Manager (PM)", "Brand Equity"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-004",
+      "term": "Concept Evaluation",
+      "definition": "The third phase of the Crawford NPD process, in which candidate product concepts are assessed for technical, market, and financial viability before committing to full development.",
+      "relatedTerms": ["NPD Process (New Product Development Process)", "Opportunity Identification"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-005",
+      "term": "Cost Reduction",
+      "definition": "A category of new product that delivers similar performance to an existing product at lower cost, often through redesigned production processes.",
+      "relatedTerms": ["NPD Process (New Product Development Process)"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-006",
+      "term": "Cross-Functional Role",
+      "definition": "A management role requiring engagement with multiple organizational functions — marketing, engineering, design, finance — simultaneously; the defining characteristic of the Product Manager role.",
+      "relatedTerms": ["Product Manager (PM)"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-007",
+      "term": "Generic PD Process",
+      "definition": "The six-phase product development model comprising Planning, Concept Development, System-Level Design, Detail Design, Testing and Refinement, and Production Ramp-Up, separated by formal review gates.",
+      "relatedTerms": ["Rapid Iteration PD Process", "Spiral PD Process"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-008",
+      "term": "New-to-the-Firm Product",
+      "definition": "A product that takes a company into a market category new to that firm, though not necessarily new to the world.",
+      "relatedTerms": ["NPD Process (New Product Development Process)"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-009",
+      "term": "New-to-the-World Product",
+      "definition": "An invention that creates an entirely new market category; the highest-risk, highest-reward form of new product innovation.",
+      "relatedTerms": ["Three Innovation Challenge", "NPD Process (New Product Development Process)"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-010",
+      "term": "NPD Process (New Product Development Process)",
+      "definition": "The structured sequence — Opportunity Identification, Concept Generation, Concept/Project Evaluation, Development, Launch — through which an organization conceives, designs, and commercializes a new product.",
+      "relatedTerms": ["Generic PD Process"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-011",
+      "term": "Opportunity Identification",
+      "definition": "The first phase of the Crawford NPD process, in which the firm identifies and selects the market opportunities and strategic directions most worth pursuing.",
+      "relatedTerms": ["NPD Process (New Product Development Process)", "Concept Evaluation"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-012",
+      "term": "Product",
+      "definition": "Anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want, including physical goods, services, and experiences.",
+      "relatedTerms": ["Brand", "Product Manager (PM)", "NPD Process (New Product Development Process)"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-013",
+      "term": "Product Development Process",
+      "definition": "The sequence of activities an organization undertakes to conceive, design, and commercialize a product; encompasses intellectual and organizational activities, not merely physical production.",
+      "relatedTerms": ["Generic PD Process", "NPD Process (New Product Development Process)"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-014",
+      "term": "Product Manager (PM)",
+      "definition": "The cross-functional leader who drives the vision, strategy, design, and execution of a product and bears responsibility for its commercial success or failure.",
+      "relatedTerms": ["Brand Manager (BM)", "NPD Process (New Product Development Process)", "Cross-Functional Role"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-015",
+      "term": "Rapid Iteration PD Process",
+      "definition": "A product development model in which the Design-Build-Test cycle loops repeatedly before production ramp-up, enabling faster learning and adaptation.",
+      "relatedTerms": ["Generic PD Process", "Spiral PD Process"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-016",
+      "term": "Repositioning",
+      "definition": "A new product strategy in which an existing product is retargeted for a new use, user group, or market segment without necessarily changing the physical product.",
+      "relatedTerms": ["NPD Process (New Product Development Process)"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-017",
+      "term": "Spiral PD Process",
+      "definition": "A product development model depicted as concentric rings, where each revolution represents increasing fidelity and cost, enabling risk reduction through iterative validation at progressively greater investment.",
+      "relatedTerms": ["Generic PD Process", "Rapid Iteration PD Process"],
+      "sourceLecture": "Lecture 1"
+    },
+    {
+      "id": "lecture-01-018",
+      "term": "Three Innovation Challenge",
+      "definition": "A framework stating a successful innovation must satisfy three conditions simultaneously: desirability to people, technical feasibility, and business viability; depicted as a Venn diagram with the sweet spot at the center.",
+      "relatedTerms": ["NPD Process (New Product Development Process)"],
+      "sourceLecture": "Lecture 1"
+    }
+  ]
+}

@@ -1,222 +1,287 @@
 ---
-title: "Lecture 1: Course Introduction"
+title: "Lecture 1: Course Introduction and Product Management"
+type: lecture
 source_files:
-  - "source-materials/lec 1 Course Introduction.pdf"
-  - "source-materials/MKT3717 - Syllabus.pdf"
-  - "source-materials/Random In-Class Notes (classes 1-4).docx"
+  - "source-materials/lecture slides/lec 1 Course Introduction.pdf"
 topics:
-  - "Product vs. Brand"
   - "Product Management"
   - "Brand Management"
-  - "New Product Development Process"
-  - "Types of New Products"
-  - "Innovation Challenges"
-  - "Product Development Process Models"
-  - "Course Structure and Objectives"
+  - "New Product Development"
+  - "Product Manager Role"
+  - "NPD Process"
 lecture_number: 1
 ---
 
 ## Overview
 
-This lecture introduces MKT3717 Product and Brand Management, a course taught by Dr. Dayoung Kim at the National University of Singapore. The course is structured around two major pillars: product management (covering the new product development process, product launch and market testing, product portfolio management, and service design) and brand management (covering brand strategy, marketing programs and brand equity, and branding in the AI era). The course takes a manager's perspective on how to build and sustain successful products and brands, emphasizing that great products and brands rarely emerge by chance but are the result of disciplined thinking, creative insight, and consistent strategic choices.
+MKT3717 Product and Brand Management opens by establishing the fundamental distinction between products and brands, and by framing the dual management challenge that runs through the entire course. A product is anything offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want — a physical good such as a cereal, tennis racquet, or car. A brand, by contrast, is more than a product: it carries additional dimensions that differentiate it from competing products, dimensions built through consumer perceptions, expectations, and experiences. The course maxim captures this precisely: "Companies make products and consumers make brands." Product and brand are described as body and soul — inseparable in practice, yet governed by distinct managerial logics.
 
-The lecture establishes foundational distinctions between products and brands, explaining that a product is anything offered to a market for attention, acquisition, use, or consumption, while a brand is something greater that is built through consumer perceptions, expectations, and experiences. The core analogy presented is that "product and brand is like body and soul," and that "companies make products and consumers make brands." Product managers drive the vision, strategy, design, and execution of products and are responsible for their success or failure, while brand managers serve as advocates of the organization who cultivate brand image and worth. The Fyre Festival is referenced as a cautionary example of what happens when branding exists without a good underlying product.
+The lecture then introduces the two key roles students must understand. The Product Manager (PM) drives the vision, strategy, design, and execution of a product and bears ultimate responsibility for its success or failure. This is a deeply cross-functional role: roughly 40% communication, 20% design, 20% engineering interface, and 20% business acumen. The Brand Manager (BM) is the advocate of the organization, responsible for cultivating brand image and building brand equity — the intrinsic value a brand commands over generic alternatives. In the digital era, shorter product life spans and intensified global competition have made these two roles increasingly interdependent.
 
-The second half of the lecture introduces the New Product Development (NPD) process, a structured sequence of activities that organizations undertake to conceive, design, and commercialize products. The lecture covers the different categories of "new" products (from truly new-to-the-world inventions to cost reductions), highlights the difficulty of NPD (approximately 40% of new products fail), and presents the five-phase NPD process model. The "Three Innovation Challenge" framework is introduced as a lens for evaluating product ideas across three dimensions: people desirability, business viability, and technical feasibility.
+The second half of the lecture introduces the New Product Development (NPD) process as the organizing framework for the course. New products are costly, risky, and strategically essential: research evidence places the failure rate at approximately 40%, yet firms in the top quartile of NPD performance achieve an 82.2% success rate and derive nearly half their sales from new products. The lecture uses McDonald's (1,800 ideas filtered to 3–4 launches per year, each undergoing 200 pretests) and iRobot Roomba (a product that simultaneously satisfies the People/Technical/Business innovation challenges) to illustrate both the difficulty and the discipline required. Three distinct process models — the Generic PD Process (Ulrich), the Rapid Iteration Process, and the Spiral PD Process — show that organizations approach this challenge in structurally different ways depending on their context and philosophy.
+
+---
 
 ## Key Concepts
 
-### Product vs. Brand Fundamentals
+### Product vs. Brand
 
 #### Product
+**Definition:** Anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want; includes physical goods, services, experiences, and ideas.
 
-- **Definition**: Anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want. Can be a physical good (cereal, tennis racquet, car) but also includes services and other offerings.
-- **Context**: Products are the foundational offerings that companies create. Without a strong product, branding efforts will fail, as illustrated by the Fyre Festival example.
-- **Relationships**: Products are the "body" while brands are the "soul." Products are what companies make; brands are what consumers create through their perceptions. [Related: Brand, Product Life Cycle, New Product Development]
+**Context:** The definition deliberately casts a wide net. A cereal box, a tennis racquet, an autonomous vacuum, and a financial services app all qualify as products. The definition emphasizes the market transaction — the product exists because someone offers it and someone else may want it.
+
+**Relationships:** Product is the foundation on which a brand is built. Product managers govern the product lifecycle; brand managers govern the perceptual layer on top of that lifecycle. A product without strong brand management remains a commodity.
 
 #### Brand
+**Definition:** A name, term, symbol, or any combination thereof that differentiates a seller's offering from competitors, built through consumer perceptions, expectations, and experiences — not by the company alone.
 
-- **Definition**: More than a product; a brand has dimensions that differentiate it from other products, built through consumer perceptions, expectations, and experiences. Branding is the process of "de-commoditizing" a product.
-- **Context**: A brand gives a product its "soul." The quote "companies make products and consumers make brands" emphasizes that brand value is co-created with consumers and exists in their minds, not just in the product itself.
-- **Relationships**: Brands require a strong underlying product to be sustainable. Brand equity is the intrinsic value a brand has over competitors. [Related: Product, Brand Equity, Brand Manager]
+**Context:** Starbucks coffee and Babolat tennis racquets illustrate how the same physical category can carry enormous brand differentiation. The key insight is that the brand lives in the consumer's mind, not in the product itself. This is why "companies make products and consumers make brands."
 
-### Roles in Product and Brand Management
+**Relationships:** Brand extends and protects the value of the product. Brand equity (the premium value a brand commands) is what the brand manager is responsible for building. Without a credible underlying product, brand equity cannot be sustained.
 
-#### Product Manager
+#### Brand Equity
+**Definition:** The intrinsic value that a brand holds over a generic or unbranded equivalent, arising from consumer associations, loyalty, perceived quality, and brand awareness.
 
-- **Definition**: A cross-functional role responsible for the life cycle of a product or product line, driving the vision, strategy, design, and execution of a product. Product managers are responsible for the success and failure of their products.
-- **Context**: Product management is described as a very cross-functional role that engages all relevant stakeholders. The PM role involves approximately 40% communication, 20% design, 20% engineering, and 20% business acumen (discussed in class). Many successful CEOs (Stewart Butterfield of Slack, Susan Wojcicki of YouTube, Sundar Pichai of Google) rose through product management because they understand and empathize with cross-functional team problems.
-- **Relationships**: Product managers work across vision, strategy, design, and execution. They differ from brand managers in that they focus on the product's value and life cycle rather than brand equity. [Related: Brand Manager, Vision, Strategy, Design, Execution]
+**Context:** Introduced as the primary responsibility of the Brand Manager. A product with high brand equity can command premium pricing, weather crises more effectively, and support line extensions.
 
-#### Brand Manager
+**Relationships:** Built through marketing programs, consumer experiences, and consistent brand communication. Connects to brand management topics covered later in the course (Lectures 7–8).
 
-- **Definition**: An advocate of the organization responsible for building brand equity, which is the intrinsic value a brand holds over competitors. Brand managers cultivate brand image and worth.
-- **Context**: While the product manager ensures a successful product is created, the brand manager sustains that success over time. In the digital era, shorter product life spans and increased global competition make brand management increasingly important.
-- **Relationships**: Brand management is deeply connected with product management. "Behind every successful product is the hand of a Product Manager while to sustain the success of a product is the role of a Brand Manager." [Related: Product Manager, Brand Equity]
+---
 
-### Vision, Strategy, Design, and Execution
+### Product Manager and Brand Manager Roles
 
-#### Vision
+#### Product Manager Role
+**Definition:** A cross-functional leader responsible for driving the vision, strategy, design, and execution of a product or product line, and for the product's ultimate success or failure.
 
-- **Definition**: What an organization desires to achieve in the long run. It is the aspirational end-state that guides all product decisions.
-- **Context**: Vision is the starting point for product managers. The challenge is keeping the vision intact through strategy, design, and execution, as illustrated by the "Expectation and Reality" Mona Lisa meme showing how products can diverge from their original vision at every stage.
-- **Relationships**: Vision feeds into strategy, which feeds into design, which feeds into execution. [Related: Strategy, Design, Execution]
+**Context:** The lecture frames the PM role using a "mind map" breakdown — 40% communication (conducting the team, motivating, negotiating), 20% design (user advocacy, mockups), 20% engineering interface (technical translation, SCRUM management), and 20% business acumen (market testing, online marketing, early adopter acquisition). Many well-known CEOs — Sundar Pichai (Google/Alphabet), Susan Wojcicki (YouTube), Stewart Butterfield (Slack) — rose through product management, precisely because the role demands breadth from strategy to execution.
 
-#### Strategy
+**Relationships:** The PM role intersects directly with the NPD process: the PM owns every phase from opportunity identification through launch. The gap between the original vision and the final launched product (illustrated with the Mona Lisa "expectation vs. reality" slide) is a core PM challenge.
 
-- **Definition**: The plan of action to achieve the long-term goal (vision).
-- **Context**: Strategy translates the aspirational vision into actionable plans. It bridges the gap between what a firm wants to achieve and how it will get there.
-- **Relationships**: Follows from vision and precedes design. [Related: Vision, Design]
+#### Brand Manager Role
+**Definition:** The organizational advocate responsible for cultivating brand image, building brand worth, and protecting brand equity across all consumer touchpoints.
 
-#### Design
+**Context:** Described as complementary to but distinct from the PM role. While the PM focuses on creating and delivering product value, the BM focuses on sustaining and amplifying perceived value over time. The Fyre Festival example in the slides demonstrates what happens when brand promise is completely disconnected from product delivery.
 
-- **Definition**: The plan or specification for the implementation of a process.
-- **Context**: Design is where strategy becomes concrete through specifications, prototypes, and product architecture.
-- **Relationships**: Follows from strategy and precedes execution. [Related: Strategy, Execution]
+**Relationships:** Works closely with product management; in the digital era, both functions must coordinate tightly given shorter product life spans and intensified competitive pressure.
 
-#### Execution
+---
 
-- **Definition**: The carrying out of a plan.
-- **Context**: Execution is where products are actually built and brought to market. The gap between vision and execution is a central challenge in product management.
-- **Relationships**: The final step in the Vision-Strategy-Design-Execution chain. [Related: Vision, Strategy, Design]
+### Types of New Products (Crawford's Six Categories)
 
-### New Product Development
+#### New-to-the-World Products
+**Definition:** Inventions that create an entirely new market category where none previously existed.
 
-#### Types of New Products
+**Context:** The lecture uses the original iPhone and Netflix as examples — both created markets (touchscreen smartphones; on-demand streaming) rather than entering existing ones.
 
-- **Definition**: New products exist on a spectrum of novelty, categorized into six types: (1) new-to-the-world products, (2) new-to-the-firm products, (3) additions to existing product lines, (4) improvements and revisions, (5) repositioning, and (6) cost reductions (see Crawford Fig. 1.4).
-- **Context**: Most new products are "new" in limited ways through modifications and extensions rather than being truly revolutionary. Examples include: iPhone (new-to-the-world), Netflix streaming (new-to-the-world), Grab entering financial services (new-to-the-firm), Kellogg's Special K line extensions (additions to product lines), each new iPhone generation (improvements/revisions), and Arm & Hammer baking soda as a deodorizer (repositioning).
-- **Relationships**: Understanding the type of newness helps determine the appropriate development process, risk level, and resource investment. [Related: Product Development Process, Innovation]
+**Relationships:** Highest risk and highest potential reward. Typically requires satisfying all three innovation challenges (People, Technical, Business) simultaneously.
 
-#### New Product Failure Rate
+#### New-to-the-Firm Products
+**Definition:** Products that take a company into a product category new to that firm, though the category may already exist in the market.
 
-- **Definition**: Research evidence suggests that approximately 40% of new products fail, though press sometimes quotes figures as high as 90%.
-- **Context**: McDonald's illustrates both the scale of filtering required (1,800 ideas per year narrowed to 3-4 launches, with each idea going through approximately 200 pretests) and the reality that even well-tested products can fail (e.g., Arch Deluxe which cost over US$300 million, and McPizza).
-- **Relationships**: The high failure rate motivates the need for systematic NPD processes and frameworks like the Three Innovation Challenge. [Related: Three Innovation Challenge, Product Development Process]
+**Context:** GrabFinance and GrabFood are offered as examples — Grab, originally a ride-hailing firm, entered financial services and food delivery, categories new to the firm but not new to the world.
 
-### The Three Innovation Challenge
+**Relationships:** Lower market-creation risk than new-to-the-world products, but requires the firm to acquire new competencies and distribution capabilities.
 
-#### Desirability, Viability, and Feasibility
+#### Additions to Existing Product Lines
+**Definition:** Line extensions that expand a current product family in markets the firm already serves.
 
-- **Definition**: A framework stating that successful innovation must satisfy three criteria simultaneously: (1) People desirability -- customers must want it, (2) Business viability -- the business model must work, and (3) Technical feasibility -- it must be buildable. The sweet spot lies at the intersection of all three.
-- **Context**: Presented as a Venn diagram where the ideal product sits at the intersection of all three circles. Products that lack one dimension will struggle: desirable and feasible but not viable products cannot sustain a business; desirable and viable but not feasible products cannot be built; viable and feasible but not desirable products will not attract customers. The iRobot Roomba is cited as a product that successfully satisfies all three.
-- **Relationships**: This framework maps to the Real-Win-Worth It (RWW) analysis covered in later lectures. [Related: RWW Analysis, Product Development Process, New Product Failure Rate]
+**Context:** Illustrated by Kellogg's Special K variants and Tide detergent sub-lines. These products flesh out the portfolio to address different consumer segments or usage occasions.
 
-### Product Development Process (Five-Phase Model)
+**Relationships:** Lowest innovation risk; highest risk of cannibalization. Requires careful portfolio management.
 
-#### The Five Phases of NPD
+#### Improvements and Revisions to Existing Products
+**Definition:** Upgrades to current products that deliver better performance, quality, or features while maintaining the core category.
 
-- **Definition**: The structured sequence of activities for new product development, consisting of: Phase 1 -- Opportunity Identification/Selection, Phase 2 -- Concept Generation, Phase 3 -- Concept/Project Evaluation, Phase 4 -- Development, and Phase 5 -- Launch (Crawford Fig. 2.1).
-- **Context**: A well-defined PD process assures quality, promotes coordination in the development team, provides a benchmark for performance assessment, and identifies opportunities for improvement. The process is intellectual and organizational rather than just physical.
-- **Relationships**: This five-phase model corresponds to the concept maturity curve (Crawford Fig. 2.3), which shows how concepts progress from "opportunity concept" through "idea concept," "stated concept," "tested concept," and so on up to "successful concept," gaining clarity and market value along the way. [Related: Generic PD Process, Rapid Iteration PD Process, Spiral PD Process]
+**Context:** Each new iPhone generation (better camera, battery, chip) is the canonical example. The product identity is preserved; specific attributes are enhanced.
+
+**Relationships:** The most common form of "new" product; drives recurring revenue in established categories.
+
+#### Repositioning
+**Definition:** Taking an existing product and retargeting it for a new use, a new user group, or a new market segment.
+
+**Context:** Aspirin repositioned for cardiovascular prevention, and Arm & Hammer baking soda repositioned as a refrigerator deodorizer are classic examples shown in the slides.
+
+**Relationships:** Repositioning changes brand perception and target market without necessarily changing the physical product; brand management is therefore central.
+
+#### Cost Reduction
+**Definition:** New products that deliver similar or equivalent performance to existing offerings at a lower cost, often involving redesigned manufacturing or production processes.
+
+**Context:** May represent significant innovation in engineering or supply chain even if the consumer-facing product looks similar. Sometimes the "newness" is invisible to the end user.
+
+**Relationships:** Driven primarily by competitive pressure and margin improvement goals rather than consumer-facing innovation.
+
+---
+
+### Product Failure and Success Drivers
+
+#### NPD Failure Rate
+**Definition:** The proportion of new products that fail to achieve commercial success after launch; research-supported evidence places this at approximately 40%.
+
+**Context:** Popular press sometimes cites figures as high as 90%; the lecture explicitly contrasts this with the research-based estimate of 40%. The McDonald's example (1,800 ideas → 3–4 products/year, each undergoing 200 pretests) shows that even with extensive screening, failure remains common.
+
+**Relationships:** Drives the need for structured NPD processes, rigorous concept evaluation, and customer understanding.
+
+#### Why Products Fail
+**Definition:** A cluster of organizational and strategic failures that prevent new products from succeeding despite investment.
+
+**Context:** The lecture lists five primary failure causes: (1) misunderstanding customers, (2) underfunded R&D, (3) lack of senior management support, (4) insufficient attention to quality, and (5) chasing a moving target (unstable specifications). McDonald's Arch Deluxe — which targeted "sophisticated adults" and spent over US$300 million on research, production, and marketing before failing — illustrates how misreading the customer leads to expensive failure.
+
+**Relationships:** Each failure cause has a corresponding solution within the NPD process framework: customer research addresses misunderstanding, budgetary commitment addresses underfunding, and stable concept specifications address moving-target problems.
+
+---
 
 ## Frameworks & Mental Models
 
-### Three Innovation Challenge (Desirability-Viability-Feasibility)
+### Three Innovation Challenge (Desirable / Feasible / Viable)
 
-- **Visual Description**: A three-circle Venn diagram with "People / desirable" (large orange circle), "Business / viable" (medium beige circle), and "Technical / feasible" (medium blue circle). The ideal innovation sits at the intersection of all three circles, marked with a star.
-- **How to Apply**: When evaluating any new product idea, assess it against all three dimensions. Ask: (1) Do people actually want this? (2) Can we make money from it? (3) Can we actually build or deliver it? A product that scores well on all three has the highest chance of success. Products missing one dimension should be redesigned or reconsidered.
-- **When to Use**: Use during opportunity identification and concept evaluation stages of NPD. Also useful as a quick screening tool for new product ideas at any stage. This framework is revisited later in the course as the RWW (Real-Win-Worth It) analysis.
+**Visual Description:** A Venn diagram of three overlapping circles. The left circle is "People / Desirable" (orange), the right circle is "Business / Viable" (peach), and the bottom circle is "Technical / Feasible" (blue). The center intersection — where all three overlap — is marked with a star, representing the innovation sweet spot.
 
-### Five-Phase New Product Development Process
+**How to Apply:** Evaluate any product concept against all three dimensions before committing resources. A product that is desirable to people and technically feasible but not business viable (e.g., it cannot be produced profitably) should not advance. A product that is viable and feasible but not desirable to people will fail in the market. The iRobot Roomba is presented as an example that satisfies all three: consumers wanted automated vacuuming (desirable), iRobot developed celestial guidance technology enabling autonomous navigation (feasible), and the robotic vacuum category proved commercially sustainable (viable).
 
-- **Visual Description**: A vertical flowchart with five sequential boxes connected by downward arrows: Phase 1 (Opportunity Identification/Selection) flows to Phase 2 (Concept Generation), then Phase 3 (Concept/Project Evaluation), then Phase 4 (Development), and finally Phase 5 (Launch).
-- **How to Apply**: Use as a roadmap for taking a product from initial idea to market. Each phase has specific activities and gate reviews. Phase 1 identifies market opportunities and unmet needs. Phase 2 generates product concepts. Phase 3 evaluates and screens concepts. Phase 4 develops the chosen concept into a real product. Phase 5 brings the product to market.
-- **When to Use**: Use as the overarching framework for any new product initiative. This is the backbone structure of the entire course and the group project (recommending the launch of a new consumer product).
+**When to Use:** During opportunity identification and concept evaluation phases of NPD. Also useful when analyzing why a product failed — often one of the three dimensions was neglected.
 
-### Generic Product Development Process (Ulrich et al.)
+---
 
-- **Visual Description**: A horizontal flowchart with six phases separated by diamond-shaped gate reviews: Planning (with Mission Approval gate), Concept Development (with Concept Review gate), System-Level Design (with System Spec Review gate), Detail Design (with Critical Design Review gate), Testing and Refinement (with Production Approval gate), and Production Ramp-Up. Each phase has activities broken down by function: Marketing, Design, Manufacturing, and Other Functions.
-- **How to Apply**: Within each phase, different functional teams (marketing, design, manufacturing, finance, legal) perform specific activities in parallel. For example, during Planning, marketing articulates the market opportunity while design considers product platform and architecture. Gate reviews between phases ensure quality checkpoints before proceeding.
-- **When to Use**: Use when managing a structured, waterfall-style product development effort, particularly for physical/hardware products. Two variant models are also presented: (1) the Rapid Iteration PD Process, which includes many iteration cycles of Design-Build-Test between System-Level Design and Production Ramp-Up, and (2) the Spiral PD Process, which cycles through Planning, Concept Design, System-Level Design, Detailed Design, and Integration & Test in expanding spirals of increasing cost and refinement.
+### Crawford NPD Process (Five-Phase Model)
 
-### Concept Maturity Curve (Crawford Fig. 2.3)
+**Visual Description:** A vertical flowchart with five sequential boxes connected by downward arrows: (1) Opportunity Identification/Selection → (2) Concept Generation → (3) Concept/Project Evaluation → (4) Development → (5) Launch.
 
-- **Visual Description**: An S-curve graph with "Clarity" on the Y-axis (0 to 100%) and "Market Value" on the X-axis (0 to High). The curve starts flat at the bottom left with "Opportunity concept" and "Idea concept," then rises through "Stated concept," "Tested concept," "Defined concept," "Protocol concept," "Prototype concept," "Batch concept," "Process concept," "Pilot concept," "Marketed concept," and finally reaches "Successful concept" at the top right labeled "Product."
-- **How to Apply**: Track where your product concept sits on this curve. Early-stage concepts have low clarity and low market value. As the concept matures through testing, prototyping, and piloting, both clarity and market value increase. Each stage corresponds to a phase in the five-phase NPD process.
-- **When to Use**: Use to communicate the maturity stage of a product concept to stakeholders and to understand how much further development is needed before launch.
+**How to Apply:** Each phase builds on the prior one. Opportunity Identification establishes the strategic direction and market need. Concept Generation produces candidate product ideas. Concept/Project Evaluation screens those ideas for viability. Development translates the selected concept into a working product. Launch brings the product to market. Progression requires that each phase produce sufficient clarity and confidence before moving forward — as shown in Crawford's Fig. 2.3, clarity rises from "Opportunity concept" through to "Successful concept" as market value increases.
 
-### Best New Product Firms Performance Comparison
+**When to Use:** As the macro-level organizing structure for any NPD initiative. This model maps to the structure of the course itself and will be elaborated across Lectures 2–6.
 
-- **Visual Description**: A comparison table showing the top 25% of firms ("The Best") versus the bottom 75% ("The Rest") across four metrics: Percent Successes (82.2% vs. 52.9%), Percent of Sales from New Products (47.9% vs. 25.4%), Percent of Profits from New Products (48.5% vs. 25.0%), and Number of Ideas Per Successful New Product (4.5 vs. 11.4).
-- **How to Apply**: Use these benchmarks to understand what "good" looks like in NPD. Top firms need fewer ideas per success (4.5 vs. 11.4), meaning they are more efficient at screening and developing winners. They also derive nearly half their sales and profits from new products, showing that commitment to innovation pays off.
-- **When to Use**: Use when making the business case for investing in structured NPD processes and innovation programs.
+---
+
+### Generic PD Process (Ulrich/Eppinger Six-Phase Model)
+
+**Visual Description:** A horizontal pipeline of six phases separated by diamond-shaped review gates: Planning → Concept Development → System-Level Design → Detail Design → Testing and Refinement → Production Ramp-Up. Gate names include Mission Approval, Concept Review, System Spec Review, Critical Design Review, and Production Approval. Each phase involves parallel tracks for Marketing, Design, Manufacturing, and Other Functions.
+
+**How to Apply:** Use this model to understand the cross-functional responsibilities at each stage. Marketing articulates the market opportunity in Planning, collects customer needs in Concept Development, and develops the launch plan in Testing and Refinement. Design investigates feasibility and prototypes in Concept Development, refines architecture through Detail Design, and evaluates early production in Ramp-Up. Manufacturing identifies constraints in Planning and defines production processes by Detail Design.
+
+**When to Use:** For product development in established organizations with clear functional departments. This model is best suited to hardware-heavy products or contexts where sequential quality gates are critical. It contrasts with the Rapid Iteration and Spiral models suited to software or fast-moving consumer environments.
+
+---
+
+### Rapid Iteration PD Process
+
+**Visual Description:** A horizontal pipeline similar to the Generic model through System-Level Design, but the back half (Design → Build → Test) loops back repeatedly before proceeding to Production Ramp-Up. The loop is labeled "Many Iteration Cycles."
+
+**How to Apply:** Front-load strategic and architectural decisions (Planning, Concept Development, System-Level Design), then enter rapid build-test-learn cycles. Each cycle incorporates feedback and incrementally refines the product. Review gates (Mission Approval, Concept Review, Cycle Plan Review, Cycle Review) punctuate the process without freezing it.
+
+**When to Use:** Software products, digital platforms, and consumer electronics where fast learning and user feedback are more valuable than exhaustive upfront specification. Reflects the "Try it out" philosophy contrasted with Apple's "Get it right" approach.
+
+---
+
+### Spiral PD Process
+
+**Visual Description:** A concentric spiral diagram. The center represents Planning; each ring outward represents a successive phase (Concept Design, System-Level Design, Detail Design, Integration and Test). Review gates appear along a horizontal axis that also tracks cumulative cost (effort). The spiral terminates at Launch.
+
+**How to Apply:** Each revolution of the spiral revisits and refines all prior decisions at increasing fidelity and cost. Early spirals are cheap and exploratory; later spirals are expensive and committal. Reviews occur at each outward revolution, allowing course corrections before costs escalate.
+
+**When to Use:** Complex systems development where requirements evolve and risk reduction through incremental validation is essential. Common in aerospace, defense, and enterprise software contexts.
+
+---
 
 ## Formulas & Quantitative Tools
 
-This lecture is introductory and does not present specific formulas or quantitative tools. Quantitative methods such as conjoint analysis, market sizing, and demand forecasting are covered in later lectures (Weeks 2, 5, and 6). The key quantitative data point introduced is the new product failure rate of approximately 40% based on research evidence.
+No quantitative formulas are introduced in Lecture 1. The lecture does present two data benchmarks that should be remembered:
+
+- **Product failure rate:** approximately 40% of new products fail (research-supported figure; not the 90% sometimes quoted in the press).
+- **Top 25% of firms (best NPD performers):** 82.2% success rate; 47.9% of sales from new products; 48.5% of profits from new products; require only 4.5 ideas per successful product.
+- **Bottom 75% of firms:** 52.9% success rate; 25.4% of sales from new products; require 11.4 ideas per successful product.
+
+These figures (from Markham and Lee, Journal of Product Innovation Management, 2013) establish the business case for disciplined NPD and will serve as reference benchmarks throughout the course.
+
+---
 
 ## Case Studies
 
 ### McDonald's New Product Development
 
-- **Company**: McDonald's
-- **Challenge**: How to continuously innovate menu items in a massive global fast-food chain while maintaining quality and brand consistency.
-- **What Was Done**: McDonald's generates approximately 1,800 new product ideas per year but only introduces 3-4 new products annually. Each idea goes through roughly 200 pretests, including consumer taste testing ("seasoning"), internal testing, and restaurant testing by region. Despite this rigorous process, some products still fail, most notably the Arch Deluxe (a premium burger targeting adults, with over US$300 million spent on research, production, and marketing) and McPizza.
-- **Takeaway**: Even with extensive pretesting and enormous budgets, new product failure is still possible. The scale of filtering required (1,800 ideas to 3-4 launches) illustrates why a systematic NPD process is essential. The Arch Deluxe failure specifically shows the danger of misunderstanding your customer base -- McDonald's core audience did not want "sophisticated" fast food.
+**Company:** McDonald's Corporation
 
-### Fyre Festival (Illustrative)
+**Challenge:** How to consistently deliver a small number of commercially successful new menu items each year given a vast idea funnel and the operational complexity of a global quick-service restaurant chain.
 
-- **Company**: Fyre Media
-- **Challenge**: Creating a luxury music festival experience on a private island.
-- **What Was Done**: The Fyre Festival invested heavily in influencer marketing and brand building (featuring top models and social media promotion) but failed to deliver a viable product. The actual festival experience was a catastrophic failure with inadequate infrastructure, food, and accommodations.
-- **Takeaway**: Branding without a viable underlying product is unsustainable and potentially fraudulent. This case illustrates the "body and soul" analogy -- a brand (soul) cannot exist without a functioning product (body). It also demonstrates failure across the Three Innovation Challenge: while there was people desirability (customers wanted a luxury festival), neither the business viability nor the technical feasibility was adequately addressed.
+**What Was Done:** McDonald's generates approximately 1,800 new product ideas per year. Each idea passes through an average of 200 pretests — evaluating seasoning appeal with consumers, operational feasibility in internal kitchens, and then restaurant-level testing — before a final 3 or 4 products make it to national launch. Despite this rigorous process, failures still occur: the Arch Deluxe (targeted at "sophisticated adult" consumers, backed by over US$300 million in research, production, and marketing) and McPizza both failed commercially.
+
+**Takeaway:** Even the most resource-intensive and systematic screening processes cannot guarantee success. The McDonald's example illustrates both the importance of a structured NPD funnel and the limits of pretesting when the core customer insight is wrong. The Arch Deluxe failure specifically illustrates the "misunderstanding customers" failure mode — the assumption that McDonald's core customers wanted upscale sophistication was incorrect.
+
+---
+
+### iRobot Roomba
+
+**Company:** iRobot Corporation
+
+**Challenge:** Create a consumer robotic vacuum cleaner that could operate autonomously in home environments — a product category that did not previously exist at commercial scale.
+
+**What Was Done:** iRobot developed celestial guidance technology (using infrared sensors and algorithms for spatial orientation) that enabled the Roomba to navigate rooms without human input. The product was designed to be affordable and simple enough for mainstream consumers, not just technology enthusiasts.
+
+**Takeaway:** The Roomba is the lecture's canonical example of a product satisfying all three innovation challenges simultaneously: it was desirable to consumers who wanted to automate vacuuming (People), the guidance technology was achievable with then-available robotics (Technical), and the product category proved commercially viable at a consumer price point (Business). Meeting all three challenges is rare and is what distinguishes truly successful innovations from products that are merely clever or merely cheap.
+
+---
+
+### Fyre Festival (Implicit Case — Brand vs. Product Disconnect)
+
+**Company:** Fyre Media
+
+**Challenge:** The Fyre Festival was marketed as a luxury music festival experience on a private island in the Bahamas, promising celebrity appearances, gourmet food, and exclusive accommodation.
+
+**What Was Done:** Enormous brand promise was built through influencer marketing and aspirational imagery. The actual product — the festival experience — was never developed to match the brand promise. The event collapsed on launch due to inadequate infrastructure, logistics failures, and fraudulent representations to both consumers and suppliers.
+
+**Takeaway:** Brand equity built on a product that cannot deliver will collapse catastrophically. The Fyre Festival illustrates the brand manager's dependency on the underlying product: no amount of brand building can substitute for product execution. It also demonstrates the "lack of senior management support for quality" and "chasing a moving target" failure modes in an extreme form.
+
+---
 
 ## Key Takeaways
 
-- **Product vs. Brand**: A product is anything offered to a market for consumption; a brand is built through consumer perceptions and experiences and goes beyond the product itself -- "companies make products and consumers make brands."
-- **Three Innovation Challenge**: Successful new products must simultaneously be desirable to people, viable as a business, and feasible to build -- missing any one dimension leads to failure.
-- **New Product Development Process**: NPD follows a five-phase sequence (Opportunity Identification, Concept Generation, Concept Evaluation, Development, Launch) that provides structure, quality assurance, and coordination.
-- **Product Manager Role**: Product managers are cross-functional leaders who drive vision, strategy, design, and execution and are ultimately responsible for a product's success or failure.
-- **New Product Failure Rate**: Approximately 40% of new products fail according to research evidence, making systematic development processes and rigorous screening essential.
-- **Types of New Products**: "New" products range from truly new-to-the-world inventions to cost reductions, with most being incremental improvements or line extensions rather than radical innovations.
-- **Best Firms Invest in NPD**: Top-performing firms derive nearly 48% of their sales and profits from new products, need only 4.5 ideas per success (vs. 11.4 for the rest), and achieve 82% success rates.
-- **Vision-to-Execution Gap**: Maintaining the original product vision through strategy, design, and execution is one of the hardest challenges in product management.
-- **Brand Manager Role**: Brand managers sustain product success by cultivating brand image and equity; product and brand management are deeply connected disciplines.
-- **Course Structure**: The course covers product management (NPD, launch, portfolio, service design, project management) in the first half and brand management (brand strategy, brand equity, branding in AI era) in the second half, with a group project on launching a new consumer product.
+- A **product** is defined by what it offers to the market; a **brand** is defined by what consumers perceive, expect, and experience — companies make products, but consumers make brands.
+- The **Product Manager** is a cross-functional leader who owns vision, strategy, design, and execution — responsible for both success and failure of the product.
+- The **Brand Manager** is the organizational advocate responsible for building and protecting **brand equity** — the intrinsic value a brand commands over alternatives.
+- **New products are categorized** along a spectrum from new-to-the-world inventions to cost reductions; most "new" products are incremental modifications rather than radical innovations.
+- The **Three Innovation Challenge** — desirable (People), feasible (Technical), viable (Business) — is the primary filter for evaluating whether a new product concept is worth pursuing; failure in any one dimension typically causes product failure.
+- Research evidence places the **NPD failure rate at approximately 40%**; popular press figures of 80–90% are not supported by careful studies.
+- **Top-performing firms** (top 25%) achieve 82.2% success rates and derive nearly half their revenues from new products, requiring only 4.5 ideas per successful launch — versus 11.4 ideas for the bottom 75%.
+- Common **reasons products fail** include misunderstanding customers, underfunded R&D, lack of senior management support, insufficient attention to quality, and constantly shifting specifications.
+- The **NPD process** progresses through five macro-phases (Opportunity Identification → Concept Generation → Concept/Project Evaluation → Development → Launch), with clarity and market value increasing at each stage.
+- Different **PD process models** — Generic (sequential), Rapid Iteration (looped), and Spiral (concentric) — reflect different organizational philosophies; Apple ("get it right") and Google ("try it out") illustrate the strategic choice between them.
+
+---
 
 ## Key Terms and Definitions Glossary
 
-**Additions to Existing Product Lines**: Line extensions that flesh out the product line in current markets, such as new flavors or variants of an existing product (e.g., Kellogg's Special K Red Berries). [Related: Line Extension, New Product Types]
+**Brand:** A name, symbol, or combination thereof that differentiates a product and carries dimensions built through consumer perceptions, expectations, and experiences; more than a product. [Related: Brand Equity, Brand Manager, Product]
 
-**Brand**: More than a product; a brand has dimensions that differentiate it from other products, built through consumer perceptions, expectations, and experiences. Branding is the process of de-commoditizing a product. [Related: Product, Brand Equity, Brand Manager]
+**Brand Equity:** The intrinsic value a brand holds over a generic or unbranded equivalent, arising from consumer loyalty, perceived quality, and brand associations. [Related: Brand Manager, Brand]
 
-**Brand Equity**: The intrinsic value a brand holds over its competitors, cultivated by brand managers through image building and consumer relationship management. [Related: Brand, Brand Manager]
+**Brand Manager (BM):** The organizational advocate responsible for cultivating brand image, building brand equity, and sustaining brand worth over time. [Related: Product Manager, Brand Equity]
 
-**Brand Manager**: An organizational role responsible for building and sustaining brand equity by cultivating brand image and worth; serves as an advocate of the organization. [Related: Product Manager, Brand Equity]
+**Concept Evaluation:** The third phase of the Crawford NPD process, in which candidate product concepts are assessed for technical, market, and financial viability before committing to full development. [Related: NPD Process, Concept Generation]
 
-**Concept Maturity Curve**: A framework (Crawford Fig. 2.3) showing how product concepts progress from initial "opportunity concept" through increasing stages of clarity and market value until reaching "successful concept" status. [Related: Product Development Process, Concept Generation]
+**Cost Reduction:** A category of new product (per Crawford's taxonomy) that delivers similar performance to an existing product at lower cost, often through redesigned production processes. [Related: New Product Types, NPD Process]
 
-**Cost Reduction (as New Product Type)**: New products that provide the customer similar performance but at a lower cost, which may be "new" primarily in terms of design or production process. [Related: New Product Types]
+**Cross-Functional Role:** A management role that requires engagement with multiple organizational functions — marketing, engineering, design, finance — simultaneously; the defining characteristic of the Product Manager role. [Related: Product Manager]
 
-**De-commoditizing**: The process by which branding transforms a generic product category into differentiated offerings, allowing firms to compete on factors beyond price. [Related: Brand, Brand Equity]
+**Generic PD Process:** The six-phase product development model (Ulrich/Eppinger) comprising Planning, Concept Development, System-Level Design, Detail Design, Testing and Refinement, and Production Ramp-Up, separated by formal review gates. [Related: Rapid Iteration Process, Spiral PD Process]
 
-**Design (in Product Management)**: The plan or specification for the implementation of a process; the third step in the Vision-Strategy-Design-Execution chain. [Related: Vision, Strategy, Execution]
+**New-to-the-Firm Product:** A product that takes a company into a market category new to that firm, though not necessarily new to the world. [Related: New Product Types, NPD Process]
 
-**Execution**: The carrying out of a plan; the final step in the Vision-Strategy-Design-Execution chain where products are actually built and brought to market. [Related: Vision, Strategy, Design]
+**New-to-the-World Product:** An invention that creates an entirely new market category; the highest-risk, highest-reward form of new product innovation. [Related: Three Innovation Challenge, New Product Types]
 
-**Generic PD Process**: A six-phase product development framework (Ulrich et al.) consisting of Planning, Concept Development, System-Level Design, Detail Design, Testing and Refinement, and Production Ramp-Up, with gate reviews between phases. [Related: Product Development Process, Rapid Iteration PD Process, Spiral PD Process]
+**NPD Process (New Product Development Process):** The structured sequence of activities — Opportunity Identification, Concept Generation, Concept/Project Evaluation, Development, Launch — through which an organization conceives, designs, and commercializes a new product. [Related: Generic PD Process, Crawford]
 
-**New-to-the-Firm Products**: Products that take a firm into a category new to it, though the category itself may already exist (e.g., Grab entering financial services with GrabFinance). [Related: New Product Types, New-to-the-World Products]
+**Opportunity Identification:** The first phase of the Crawford NPD process, in which the firm identifies and selects the market opportunities and strategic directions most worth pursuing. [Related: NPD Process, Concept Generation]
 
-**New-to-the-World Products**: Also called "really-new" products; inventions that create a whole new market (e.g., the original iPhone, Netflix streaming). These represent the highest degree of product newness. [Related: New Product Types, Radical Innovation]
+**Product:** Anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want, including physical goods, services, and experiences. [Related: Brand, Product Manager, NPD Process]
 
-**Process**: A sequence of activities that transforms a set of inputs to outputs. [Related: Product Development Process]
+**Product Development Process:** The sequence of activities an organization undertakes to conceive, design, and commercialize a product; encompasses both intellectual and organizational activities, not merely physical production. [Related: Generic PD Process, NPD Process]
 
-**Product**: Anything that can be offered to a market for attention, acquisition, use, or consumption that might satisfy a need or want; can be a physical good, service, or other offering. [Related: Brand, Product Manager]
+**Product Manager (PM):** The cross-functional leader who drives the vision, strategy, design, and execution of a product and bears responsibility for its commercial success or failure. [Related: Brand Manager, NPD Process, Cross-Functional Role]
 
-**Product Development Process**: The sequence of activities that an organization takes to conceive, design, and commercialize a product; it is intellectual and organizational rather than just physical. A well-defined PD process assures quality, promotes coordination, provides benchmarks, and identifies improvement opportunities. [Related: Generic PD Process, Five-Phase NPD]
+**Rapid Iteration PD Process:** A product development model (Ulrich/Eppinger) in which the Design-Build-Test cycle loops repeatedly before production ramp-up, enabling faster learning and adaptation. [Related: Generic PD Process, Spiral PD Process]
 
-**Product Manager**: A cross-functional role responsible for the life cycle of a product or product line, driving vision, strategy, design, and execution. Product managers are responsible for both the success and failure of their products. [Related: Brand Manager, Vision, Strategy]
+**Repositioning:** A type of new product strategy in which an existing product is retargeted for a new use, user group, or market segment without necessarily changing the physical product. [Related: New Product Types, Brand Management]
 
-**Rapid Iteration PD Process**: A variant of the generic PD process (Ulrich et al.) that includes many iteration cycles of Design-Build-Test between System-Level Design and Production Ramp-Up, suitable for software and digital products. [Related: Generic PD Process, Spiral PD Process]
+**Spiral PD Process:** A product development model (Ulrich/Eppinger) depicted as concentric rings, where each revolution represents increasing fidelity and cost, enabling risk reduction through iterative validation at progressively greater investment. [Related: Generic PD Process, Rapid Iteration Process]
 
-**Repositioning**: A type of new product strategy where existing products are retargeted for a new use, application, or target market (e.g., Arm & Hammer baking soda repositioned as a refrigerator deodorizer). [Related: New Product Types]
-
-**Spiral PD Process**: A variant of the generic PD process (Ulrich et al.) that cycles through Planning, Concept Design, System-Level Design, Detailed Design, and Integration & Test in expanding spirals with increasing cumulative cost and refinement. [Related: Generic PD Process, Rapid Iteration PD Process]
-
-**Strategy**: The plan of action to achieve the long-term goal (vision); the second step in the Vision-Strategy-Design-Execution chain. [Related: Vision, Design, Execution]
-
-**Three Innovation Challenge**: A framework stating that successful innovation must simultaneously satisfy three criteria: people desirability (customers want it), business viability (the business model works), and technical feasibility (it can be built). [Related: RWW Analysis, New Product Failure Rate]
-
-**Vision**: What an organization desires to achieve in the long run; the aspirational end-state that guides all product decisions and the first step in the Vision-Strategy-Design-Execution chain. [Related: Strategy, Design, Execution]
+**Three Innovation Challenge:** A framework representing the three conditions a successful innovation must satisfy simultaneously: desirability to people, technical feasibility, and business viability; depicted as a Venn diagram with the innovation sweet spot at the center intersection. [Related: NPD Process, Product Failure]

@@ -1,0 +1,139 @@
+{
+  "id": "lecture-17",
+  "title": "Supplementary Reading: Product Concept Selection Methods",
+  "cards": [
+    {
+      "id": "lecture-17-001",
+      "term": "Benefit/Effort List",
+      "definition": "A qualitative comparison tool that maps expected benefits of a concept against the effort or resources required to execute it, helping teams identify high-impact, low-cost options.",
+      "relatedTerms": ["Pro/Con List", "Concept Screening Matrix"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-002",
+      "term": "Client's Decision",
+      "definition": "A concept selection method in which the external customer or client holds final authority over which concept is chosen, regardless of internal analytical recommendations.",
+      "relatedTerms": ["Leader's Decision", "Group Consensus"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-003",
+      "term": "Concept Combining",
+      "definition": "The practice of merging features or attributes from two or more concepts — including some eliminated in screening — into a new hybrid concept that captures the best elements of each.",
+      "relatedTerms": ["Concept Screening Matrix", "Pugh Matrix"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-004",
+      "term": "Concept Scoring Matrix",
+      "definition": "A weighted quantitative decision tool in which each concept is rated numerically on each criterion, ratings are multiplied by criterion weights, and weighted scores are summed to rank concepts.",
+      "relatedTerms": ["Concept Screening Matrix", "Pugh Matrix"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-005",
+      "term": "Concept Screening Matrix",
+      "definition": "A rapid elimination tool in which concepts are compared against a reference (datum) using +/0/– ratings; concepts with the worst net scores are eliminated and the rest advance.",
+      "relatedTerms": ["Concept Scoring Matrix", "Pugh Matrix", "Datum"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-006",
+      "term": "Datum",
+      "definition": "The reference concept used as the baseline in a Concept Screening Matrix; all other concepts are rated as better (+), the same (0), or worse (–) than the datum on each criterion.",
+      "relatedTerms": ["Concept Screening Matrix", "Pugh Matrix"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-007",
+      "term": "Dominance Effect",
+      "definition": "The tendency for team members in open group settings to align their stated preferences with those of the most senior, vocal, or respected person present, distorting the true distribution of individual opinion.",
+      "relatedTerms": ["Open Multi Voting", "Groupthink", "Secret Ballot Voting"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-008",
+      "term": "Group Consensus",
+      "definition": "A concept selection method in which the team deliberates until all members agree on or can accept a single choice; maximizes buy-in but is slow and can produce compromise solutions.",
+      "relatedTerms": ["Open Multi Voting", "Leader's Decision"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-009",
+      "term": "Groupthink",
+      "definition": "A psychological phenomenon in which the desire for harmony or conformity in a group results in irrational or suboptimal collective decision-making, with minority viewpoints suppressed.",
+      "relatedTerms": ["Open Multi Voting", "Secret Ballot Voting", "Dominance Effect"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-010",
+      "term": "Leader's Decision",
+      "definition": "A concept selection method in which a designated authority figure makes the final selection, typically after receiving team input; efficient but potentially exclusionary.",
+      "relatedTerms": ["Client's Decision", "Group Consensus"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-011",
+      "term": "Market Testing",
+      "definition": "An external validation method in which product concepts are exposed to real potential customers through experiments, surveys, or pilots, and customer response data informs the selection decision.",
+      "relatedTerms": ["Online Community Rating", "Concept Scoring Matrix"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-012",
+      "term": "Net Score",
+      "definition": "In the Concept Screening Matrix, the result of subtracting the count of minus (–) ratings from the count of plus (+) ratings for a given concept; used to rank concepts for advancement or elimination.",
+      "relatedTerms": ["Concept Screening Matrix", "Datum"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-013",
+      "term": "Online Community Rating",
+      "definition": "A concept evaluation approach in which concepts are posted to an online audience for feedback, ratings, or comments; scalable and fast but potentially shallow and unrepresentative of the target market.",
+      "relatedTerms": ["Market Testing", "Open Multi Voting"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-014",
+      "term": "Open Multi Voting",
+      "definition": "A concept selection technique in which team members publicly vote for their preferred concepts; fast and energizing but susceptible to groupthink and dominance effects.",
+      "relatedTerms": ["Secret Ballot Voting", "Dominance Effect", "Groupthink"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-015",
+      "term": "Pro/Con List",
+      "definition": "A qualitative evaluation tool that organizes the advantages and disadvantages of each concept side by side, enabling straightforward comparison without numerical scoring.",
+      "relatedTerms": ["Benefit/Effort List", "Group Consensus"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-016",
+      "term": "Pugh Matrix",
+      "definition": "The generic name for the two-stage concept selection system developed by Stuart Pugh, comprising a Concept Screening Matrix (stage one) and a Concept Scoring Matrix (stage two).",
+      "relatedTerms": ["Concept Screening Matrix", "Concept Scoring Matrix", "Datum"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-017",
+      "term": "Secret Ballot Voting",
+      "definition": "An anonymous voting method in which participants record preferences privately before results are tallied, removing social pressure and hierarchy bias from the selection process.",
+      "relatedTerms": ["Open Multi Voting", "Dominance Effect"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-018",
+      "term": "Sensitivity Analysis",
+      "definition": "A check performed after completing the Concept Scoring Matrix in which criterion weights or ratings are varied to determine whether plausible changes would alter which concept ranks first.",
+      "relatedTerms": ["Concept Scoring Matrix", "Weighted Score"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    },
+    {
+      "id": "lecture-17-019",
+      "term": "Weighted Score",
+      "definition": "The product of a criterion's importance weight and a concept's raw rating on that criterion; weighted scores for all criteria are summed to produce a concept's total score in the Concept Scoring Matrix.",
+      "relatedTerms": ["Concept Scoring Matrix", "Weight"],
+      "sourceLecture": "Supplementary Reading: Product Concept Selection Methods"
+    }
+  ]
+}

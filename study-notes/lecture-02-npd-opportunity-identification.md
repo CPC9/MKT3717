@@ -1,288 +1,382 @@
 ---
-title: "Lecture 2: New Product Development Part 1 - Opportunity Identification and Concept Generation"
+title: "Lecture 2: New Product Development Part 1 — Opportunity Identification and Concept Generation"
+type: lecture
 source_files:
-  - "source-materials/lec 2 New Product Development part 1 - Opportunity Identification and Concept Generation.pdf"
-  - "source-materials/lec 2 CNN article for discussion_Post It Note History.pdf"
-  - "source-materials/Random In-Class Notes (classes 1-4).docx"
+  - "source-materials/lecture slides/lec 2 New Product Development part 1 - Opportunity Identification and Concept Generation.pdf"
 topics:
-  - New Product Development Process
-  - Opportunity Identification
-  - PESTEL Analysis
-  - Porter's Five Forces
-  - Market Sizing
-  - Customer Needs Analysis
-  - Needs Statements
-  - Product Specifications
-  - AI in Product Design
+  - "Opportunity Identification"
+  - "Concept Generation"
+  - "Customer Needs"
+  - "Voice of the Customer"
+  - "Idea Generation"
 lecture_number: 2
 ---
 
 ## Overview
 
-This lecture introduces the **New Product Development (NPD) Process**, a five-phase framework that organizations use to conceive, design, and commercialize products. The lecture focuses primarily on **Phase 1: Opportunity Identification/Selection**, covering how to evaluate the marketplace (PESTEL, Porter's Five Forces), how to size markets (TAM/SAM/SOM), and how to understand and translate customer needs into actionable product specifications. The session also touches on AI's evolving role in product design and uses the Post-It Note invention as a case study in serendipitous innovation.
+This lecture introduces the New Product Development (NPD) process as a structured, multi-phase journey from raw idea to market launch. The course frames NPD within the broader challenge of product management — ensuring that new products are simultaneously desirable to people, viable for the business, and technically feasible. These three dimensions form the central innovation challenge that every product team must balance, and they recur throughout each phase of development as the primary lens for evaluating ideas and progress.
 
-**Key question addressed:** How does a firm identify and select the right opportunities to pursue before committing resources to concept generation?
+The first half of the lecture focuses on Phase 1 (Opportunity Identification/Selection) and Phase 2 (Concept Generation). Opportunity identification is strategic in nature: it asks where the firm should look for its next product idea, drawing on situation analysis, corporate planning, and a range of sourcing techniques including internal capabilities, customer observation, and competitive imitation. The lecture emphasizes that generating a large number of raw opportunities and then filtering them through successive evaluation gates — a tournament-and-filtering model — is the preferred risk mitigation strategy, because exceptional opportunities emerge from volume combined with accurate evaluation.
+
+The second half of the lecture addresses how firms understand customer needs and translate those needs into actionable product specifications. The lecture introduces the classification of needs into explicit, unfulfilled, and latent categories, stressing that latent needs — those customers cannot yet articulate — represent the highest potential for breakthrough innovation. Structured processes such as ethnographic observation, interviewing, and careful needs-statement writing are presented as the bridge between customer voice and engineering metrics. The session closes by previewing how validated needs feed into concept generation in the following lecture.
+
+---
 
 ## Key Concepts
 
-### 2.1 The Five-Phase NPD Process (Crawford Model)
+### The NPD Process and Its Phases
 
-The product development process follows five sequential phases:
+#### Five-Phase NPD Process (Crawford Model)
 
-1. **Phase 1: Opportunity Identification/Selection** -- Strategic in nature; involves situation analysis, corporate planning, and identifying promising product ideas. The key evaluation question: "Where should we look?"
-2. **Phase 2: Concept Generation** -- Creating new product ideas through external and internal search. Identify target market needs, select high-potential opportunities, and generate product concepts. Key question: "Is the idea worth screening?"
-3. **Phase 3: Concept/Project Evaluation** -- Evaluate concepts on technical, marketing, and financial criteria. Includes screening, concept testing, full screen, and project evaluation stages. Key question: "Should we try to develop it?"
-4. **Phase 4: Development** -- The product acquires a finite form. Technical tasks include prototyping, testing, and validation. Marketing tasks include strategy preparation, business plan approval, and product augmentation (branding, packaging, service). Key question: "Have we developed it?"
-5. **Phase 5: Launch** -- Commercialization; product introduction to the market at scale. Includes distribution, production scaling, market testing, and public announcement. Key question: "Should we market it?"
+**Definition:** A sequential model of new product development comprising five phases: (1) Opportunity Identification/Selection, (2) Concept Generation, (3) Concept/Project Evaluation, (4) Development, and (5) Launch.
 
-### 2.2 PD Process Variants (Ulrich et al.)
+**Context:** Referenced from Crawford Ch. 1 pp. 29–36. Each phase has a distinct purpose and corresponding evaluation question: Phase 1 asks "Where should we look?", Phase 2 triggers an initial review ("Is the idea worth screening?"), Phase 3 performs a full screen ("Should we try to develop it?"), Phase 4 reports progress ("Have we developed it?"), and Phase 5 conducts market testing ("Should we market it?"). The concept evolves in clarity and market value as it moves through each phase — from an embryonic "opportunity concept" to a "successful concept" at launch (Fig. 2.3).
 
-Beyond the generic PD process (Planning > Concept Development > System-Level Design > Detail Design > Testing and Refinement > Production Ramp-Up), two alternative models exist:
+**Relationships:** Closely related to the Generic PD Process (Ulrich et al.) and the Rapid Iteration and Spiral variants. The five evaluation questions map directly onto phase transitions and gate decisions.
 
-- **Rapid Iteration PD Process**: After system-level design, the process enters many iteration cycles of Design > Build > Test before production ramp-up. Used when fast feedback loops are essential.
-- **Spiral PD Process**: Development spirals outward through Planning, Concept Design, System-Level Design, Detailed Design, and Integration & Test, with cumulative effort increasing at each pass. Reviews occur at transition points between spirals.
+#### Generic PD Process (Ulrich et al.)
 
-### 2.3 Opportunity Identification Techniques (PUSH vs. PULL)
+**Definition:** A six-stage cross-functional process covering Planning, Concept Development, System-Level Design, Detail Design, Testing and Refinement, and Production Ramp-Up, with formal gate reviews (Mission Approval, Concept Review, System Spec Review, Critical Design Review, Production Approval) between stages.
 
-Techniques for generating opportunities fall along a PUSH-PULL spectrum:
+**Context:** Marketing, Design, and Manufacturing each carry specific responsibilities at every stage. During Planning, marketing articulates the market opportunity and defines segments. During Concept Development, marketing collects customer needs and identifies lead users and competitive products.
 
-- **Follow a personal passion** (PUSH)
-- **Pull opportunities from core competence** -- leverage existing capabilities and resources (PUSH)
-- **Study customers and list unmet needs** (PULL)
-- **Imitate, but make it different/better** (PULL) -- e.g., Krating Daeng (Thailand) adapted into Red Bull (global)
-- **Import geographically isolated innovations**
-- **Data- and AI-driven opportunities** (modern addition)
+**Relationships:** The Generic Process is the baseline from which the Rapid Iteration and Spiral variants deviate. All three share the same fundamental logic: converge on a product concept, build and test, then ramp production.
 
-Sources of innovation opportunities (Terwiesch & Ulrich survey of 524 managers): internally generated (46%), customer (23%), competitive product (11%), sales force (5%), university (4%), independent inventor (4%), distribution partner (3%), other partner company (2%), supplier (2%).
+#### Rapid Iteration PD Process
 
-### 2.4 Opportunity Tournament and Filtering Model
+**Definition:** A variant of the generic process that inserts many repeated Design-Build-Test cycles between System-Level Design and Production Ramp-Up, allowing teams to learn quickly and adjust before committing to full production.
 
-A risk mitigation strategy that passes a large mass of raw opportunities through multiple filters until only a limited number of exceptional opportunities remain. Two verified risk mitigation strategies underpin this approach: (1) diversification and (2) delay investment until more information is known.
+**Context:** Used in software and consumer electronics where markets change fast and early prototypes can be tested cheaply. Cycle Plan Reviews and Cycle Reviews replace the single Critical Design Review of the generic model.
 
-Real-world examples of this filtering pattern:
-- **Venture Capital**: 1,000+ meetings > 40 initial investments > 20 follow-on investments > 1-2 wins
-- **Pharmaceutical Drug Development**: 10,000 newly discovered compounds > 8-12 years and $500M-$1B > 1 new drug
-- **Hollywood Film Studios**: 500 pitches > 3-5 years and $50-200M > 1 new feature film
+**Relationships:** Contrasts with the linear generic process; complements agile and lean startup methodologies.
 
-Four factors drive the quality of the best opportunity: (1) mean quality of opportunities, (2) variance in quality, (3) number of opportunities generated, and (4) accuracy of evaluation.
+#### Spiral PD Process
 
-### 2.5 Real-Win-Worth It (RWW) Analysis
+**Definition:** A model visualized as concentric rings radiating outward from a center. Each revolution through the spiral — from Concept Design through System-Level Design, Detailed Design, and Integration and Test — represents one planning cycle, with cumulative cost growing with each ring.
 
-A framework (Day, 2007) for selecting exceptional opportunities that maps directly to the three innovation challenges:
+**Context:** Borrowed from software engineering. Particularly useful for high-complexity, high-uncertainty projects where risks must be identified and mitigated incrementally.
 
-- **Is it REAL?** (People/Desirable) -- Is there a real market need? Consider market size, potential pricing, and availability of technology.
-- **Can we WIN?** (Technical/Feasible) -- Is the product real? Can we deliver at required volume and cost? Can we establish sustainable competitive advantage? Can we patent or brand the idea? Are we more capable than competitors?
-- **Is it WORTH IT?** (Business/Viable) -- Will it be profitable at acceptable risk? Do we have access to necessary resources (financial, developmental, supply chain)? Will the investment yield appropriate returns?
+**Relationships:** Like Rapid Iteration, the Spiral process is an iterative alternative to the generic linear model.
 
-### 2.6 Innovation Challenges Triangle
+---
 
-Every product innovation must satisfy three challenges simultaneously:
-- **People** -- the product must be *desirable*
-- **Business** -- the product must be *viable*
-- **Technical** -- the product must be *feasible*
+### Opportunity Identification
 
-### 2.7 Customer Needs Classification
+#### What Is an Opportunity?
 
-Customer needs exist on a spectrum of expressibility:
+**Definition:** An opportunity is an idea for a new product in embryonic form — a newly sensed need, a newly discovered technology, or a rough match between a need and a possible solution. It is typically articulated in less than one page: a descriptive title, a short narrative, and sometimes a sketch or rough concept.
 
-| Type | Description | Example (Candles) |
-|------|-------------|-------------------|
-| **Explicit** | Easy for customers to express; widely known; likely already fulfilled | Comforting smell and light for sleep |
-| **Unfulfilled** | Easy for customers to express; known to be difficult to address; generally not fulfilled | No burn or maintenance hazards |
-| **Latent** | Hard for customers to express; not yet widely understood; currently unaddressed | Happy sleep, happy morning (smart scent device) |
+**Context:** Opportunities are the raw material entering Phase 1. They may describe only the need (problem side) or may also suggest a possible solution (solution side). Both forms are valid inputs to the NPD funnel.
 
-When latent needs are addressed, products can delight customers in new ways and exceed expectations. Example: P&G's Swiffer identified the latent need "it's hard to clean the broom" through ethnographic observation, leading to a product that generated $100M in its first 4 months and opened a $750M category in 2 years.
+**Relationships:** Directly precedes Concept Generation (Phase 2). An opportunity is not yet a product concept; it lacks the specificity, testing, and validation that a concept requires.
 
-### 2.8 Customer Need Analysis: 5-Step Process
+#### Sources of Opportunities (Push vs. Pull)
 
-1. **Define the Scope** -- Mission statement, stakeholders
-2. **Gather Information** -- Interviews, focus groups, observation, ethnography
-3. **Interpret Customer Data** -- Write need statements, organize in hierarchy, identify latent needs
-4. **Quantify Relative Importance** -- Focus on trade-offs
-5. **Reflect on the Process** -- Continuous improvement
+**Definition:** Opportunities can be internally generated (Push — driven by firm capability or passion) or externally sourced (Pull — driven by identified market needs). The main sourcing techniques are: (1) follow a personal passion, (2) exploit core competencies (capabilities and resources), (3) study customers and list unmet needs, and (4) imitate but differentiate, including importing geographically isolated innovations.
 
-### 2.9 Guidelines for Writing Needs Statements
+**Context:** A Terwiesch and Ulrich survey of 524 managers found that 46% of opportunities are internally generated, 23% come from customers, 11% from competitive products, 5% from the sales force, and the remainder from universities, independent inventors, distribution partners, other partner companies, and suppliers. Today, data- and AI-driven opportunity discovery is a growing additional source. The Red Bull example is presented: the Thai energy drink Krating Daeng was imported and repositioned to become a global product.
 
-| Guideline | Customer Statement | Right | Wrong |
-|-----------|-------------------|-------|-------|
-| **"What" not "How"** | "I would like my iPhone to adjust my thermostat." | The thermostat can be controlled remotely without requiring a special device. | The thermostat is accompanied by a downloadable iPhone app. |
-| **Specificity** | "I have different heating and cooling systems." | The thermostat can control separate heating and cooling systems. | The thermostat is versatile. |
-| **Positive not Negative** | "I get tired of standing in front of my thermostat to program it." | The thermostat can be programmed from a comfortable position. | The thermostat does not require me to stand in front of it for programming. |
-| **Attribute of the Product** | "I have to manually override the program if I'm home when I shouldn't be." | The thermostat automatically responds to an occupant's presence. | An occupant's presence triggers the thermostat to automatically change modes. |
-| **Avoid "Must" and "Should"** | "I'm worried about how secure my thermostat would be if it were accessible online." | The thermostat controls are secure from unauthorized access. | The thermostat must be secure from unauthorized access. |
+**Relationships:** The Push/Pull distinction maps onto technology-push versus market-pull innovation strategy. Customer-sourced opportunities connect directly to the Customer Needs Analysis process later in the lecture.
 
-### 2.10 Translating Needs to Product Specifications
+#### Opportunity Tournament and Filtering Model
 
-The pipeline: **Customer Quote > Customer Need > Metric**
+**Definition:** A risk mitigation strategy in which a large pool of raw opportunities is passed through successive filters (screening gates), with each filter narrowing the pool to the most promising candidates. The model is visualized as a funnel: many raw opportunities enter, and only a few exceptional opportunities exit.
 
-Product Specification = **Metric + Value(s) + Units**
+**Context:** Introduced with reference to Wooten and Ulrich (2017). Venture capitalists use the same logic: they review 1,000+ meetings, make 40 initial investments, follow on with 20, and end up with 1–2 wins per fund. Pharmaceutical drug development illustrates the extreme case: 10,000 newly discovered compounds over 8–12 years and $500M–$1B in investment yield one approved drug (e.g., Zocor/simvastatin). Hollywood studios evaluate 500 pitches over 3–5 years and $50–200M to produce one feature film.
 
-Two key questions for each need:
-1. How will we measure it?
-2. What is the right value?
+**Relationships:** The quality of the best opportunity produced by the process depends on four factors: (1) mean quality of the opportunities in the process, (2) variance in quality, (3) number of opportunities generated, and (4) accuracy of evaluation. Improving any of these factors improves the expected output. The model feeds directly into the RWW Analysis for selecting which opportunities to pursue.
 
-Example (Bike Lock):
-- Quote: "How do you carry something this heavy?" > Need: "The lock is lightweight." > Metric: Mass (grams or kg)
-- Quote: "It takes too long to lock up." > Need: "The lock installs quickly." > Metric: Time to secure (seconds)
-- Quote: "I wrap cushy tape around my lock to keep it from scratching my bike." > Need: "The lock protects the bicycle's finish." > Metric: Surface hardness / scratch resistance (subjective rating or Mohs scale)
+#### AI and Opportunity Discovery
 
-### 2.11 AI in Product Design
+**Definition:** Generative AI changes the economics of the opportunity creation process by expanding the option space at low cost — handling 50–70% of opportunity discovery tasks (idea generation, pattern detection, unmet-need surfacing) and 40–60% of concept development tasks (strategic framing, relevance judgment). Human judgment remains essential for the final 0–10% Vision and Go/No-Go decision.
 
-AI's role maps to the innovation challenges triangle:
+**Context:** Illustrated by the AI Film Award Dubai (January 2026): Tunisian filmmaker Zoubeir Jlassi won a $1M prize for a film produced over 70% with Google Gemini — showing how AI lowers barriers to technical creation. The lecture's key insight: "In the AI era, the scarce resource is no longer ideas — it's judgment." AI contributes speed, scale, and variation; humans contribute meaning, strategy, and commitment.
 
-| Dimension | Role | Detail |
-|-----------|------|--------|
-| **Lowering Barriers to Creation** (Technical/Feasible) | AI expands what individual creators can do without big budgets or studios | |
-| **Human Creativity Still Leads** (People/Desirable) | AI may handle visuals and effects, but story, emotional beats, and narrative vision come from human creators | |
-| **New Formats, New Platforms, New Audiences** (Business/Viable) | Changed business viability model -- creators from anywhere can reach a global audience without traditional distribution deals | |
+**Relationships:** Directly challenges the traditional "internally generated vs. externally sourced" binary. AI is now a third category of opportunity sourcing.
 
-In the AI era, the scarce resource is no longer ideas -- it is **judgment**. AI excels at speed, scale, and variation. Humans remain critical for meaning, strategy, and commitment. AI's contribution decreases as decisions move from Opportunity Discovery (50-70% AI) through Concept Development (40-60%), Testing & Refinement (20-40%), to Vision & Go/No-Go (0-10%).
+---
+
+### Market Evaluation Tools
+
+#### Real-Win-Worth It (RWW) Analysis
+
+**Definition:** A three-question framework for evaluating whether a product opportunity should be pursued: Is it Real? (Does a genuine market need exist, and is the product achievable?), Can we Win? (Can the firm establish competitive advantage and execute better than rivals?), Is it Worth It? (Will the investment generate sufficient financial returns at acceptable risk?)
+
+**Context:** Referenced from George Day, "Is it Real? Can We Win? Is it Worth Doing?" Harvard Business Review, December 2007. The three questions map onto the three innovation challenge dimensions: Real = People desirable; Win = Technically feasible; Worth It = Business viable. Applied practically as a filter at the end of Phase 1.
+
+**Relationships:** Extends the Desirability/Viability/Feasibility framework from Lecture 1 into a structured go/no-go decision tool. Complements the Porter's Five Forces and PESTEL analyses which assess the external environment.
+
+#### PESTEL / General Environment Analysis
+
+**Definition:** A framework for auditing the macro-environmental factors that affect a firm's opportunity landscape: Social (demographics, values, culture), Economic (wages, inflation, taxes, material costs, prices), Political/Legal (government attitudes, lobbying, new legislation, new policies), and Technological (new equipment, technological innovation). Sometimes extended to Environmental (E) and Legal (L) as separate categories.
+
+**Context:** Applied using a rating table where each factor is scored 1 (very unfavorable) to 5 (very favorable) for the specific market and product category under consideration. Example: a trend toward healthy lifestyles is a social factor favorable to a health food product; increased online retailing is a technological factor that affects distribution strategy.
+
+**Relationships:** PESTEL addresses the outer General Environment ring in the Certo and Certo environment model. The Operating/Industry Environment is analyzed separately using Porter's Five Forces.
+
+#### Porter's Five Forces
+
+**Definition:** A framework for evaluating the competitive attractiveness of an industry by examining five forces: (1) Threat of New Entrants — ease with which new competitors can enter; (2) Bargaining Power of Buyers — customers' ability to drive down prices; (3) Bargaining Power of Suppliers — suppliers' ability to raise input costs; (4) Threat of Substitute Products — extent to which customers can switch to products from another industry; (5) Intensity of Rivalry — the degree of competition among existing players.
+
+**Context:** Applied in class to the question: "Is the industry environment in Singapore attractive/favorable enough for Nike to launch yoga apparel?" Each force is rated Favorable (+), Moderate (0), or Unfavorable (–). The result is a holistic judgment of industry attractiveness.
+
+**Relationships:** Addresses the Operating Environment (inner ring) in the Certo model. Feeds into the RWW analysis under "Can we Win?" by revealing competitive dynamics. Works alongside PESTEL, which addresses the broader macro-environment.
+
+#### Market Sizing (TAM / SAM / SOM)
+
+**Definition:** The process of estimating the potential revenue for a product in a given market, typically structured in three layers: Total Addressable Market (TAM) — the entire theoretical demand assuming 100% market share; Serviceable Addressable Market (SAM) — the portion of TAM the firm can realistically target given its product scope, geography, and price tier; Serviceable Obtainable Market (SOM) — the realistic share of SAM the firm can actually capture given competition and execution constraints.
+
+**Context:** Market sizing is performed via "guesstimation" — a logical, step-by-step estimation process rather than a precise calculation. The four steps are: (1) Ask clarification questions (unit of measurement, timeframe, geography, product, customers, distribution); (2) Map out calculations using Market Size = Total Units Sold × Average Price per Unit (or supply/demand side approach); (3) Round numbers and calculate using reasonable assumptions; (4) Sense-check results for plausibility. Nike yoga apparel in Singapore example: TAM = SGD 300M (1M yoga consumers × SGD 300 avg spend); SAM = SGD 180M (60% buy premium branded); SOM = SGD 18M (Nike captures 10% of SAM).
+
+**Relationships:** TAM shows "how big the dream is"; SAM shows "where you can actually play"; SOM shows "what you can credibly win." This feeds directly into the RWW "Worth It?" question. The guesstimation approach is also used in consulting case interviews (McKinsey, Bain).
+
+---
+
+### Customer Needs
+
+#### Classification of Customer Needs
+
+**Definition:** Customer needs are classified into three types based on articulability and fulfillment status: (1) Explicit needs — easy to express, widely known, likely already fulfilled by existing products; (2) Unfulfilled needs — easy to express but known to be difficult to address, generally not yet satisfied; (3) Latent needs — hard for customers to express, not yet widely understood, currently unaddressed.
+
+**Context:** Illustrated with a candle/sleep product example: the explicit need is "comforting smell and light for sleep" (already served by candles); the unfulfilled need is "no burn or maintenance risk" (candles create safety and upkeep problems); the latent need is "happy sleep, happy morning" (an emotional outcome customers have not yet connected to a product). The Pium smart scent diffuser (integration with Alexa) is presented as a product addressing the latent need.
+
+**Relationships:** Latent needs are the highest-value target for breakthrough innovation. They require ethnographic and observational research to surface, because customers cannot describe them in surveys or interviews.
+
+#### Latent Needs
+
+**Definition:** Needs that customers may not be aware of and cannot express. When a product successfully addresses a latent need, it can delight customers and exceed their expectations, creating an entirely new market category.
+
+**Context:** Two canonical examples are provided: (1) P&G's Swiffer — Design Continuum researchers conducted ethnographic observation in customers' homes and noticed floors were already clean before the research team arrived (customers felt their floors were a "reflection of themselves"). The real latent insight was not about dirt removal but about identity and social shame. The observation that brooms were themselves hard to clean led to the disposable pad concept. Swiffer launched in July 1999, generated $100M in its first four months, and grew from $0 to $750M in two years, creating a new home cleaning category. (2) 3M Scotchgard — a researcher accidentally spilled an industrial compound and later noticed the splashed area on her sneakers stayed clean, leading to a serendipitous discovery of a fabric protector. 3M Post-it Notes are also cited as serendipitous lead-user innovation.
+
+**Relationships:** Latent needs are identified through observation and ethnography (Step 2 of the Customer Need Analysis process). They feed the "Identify latent needs" sub-step of data interpretation (Step 3).
+
+#### Customer Need Analysis Process
+
+**Definition:** A five-step process for identifying and structuring customer needs: (1) Define the Scope — write a mission statement and identify all stakeholders; (2) Gather Information — conduct interviews, focus groups, observation, and ethnography; (3) Interpret Customer Data — write needs statements, organize them in a hierarchy, and identify latent needs; (4) Quantify Relative Importance — focus on trade-offs between needs; (5) Reflect on the Process — pursue continuous improvement.
+
+**Context:** Applied to the Nest smart thermostat example. The mission statement for Nest specifies product description (programmable thermostat for residential use), benefit proposition (simple, attractive, saves energy), key business goals (Q4 launch, 50% gross margin, 10% replacement market share in 4 years), primary market (residential consumer), secondary markets (HVAC contractors), assumptions (replacement unit, compatible with existing wiring), and stakeholders (user, retailer, sales force, service center, production, legal).
+
+**Relationships:** Step 3 produces needs statements, which feed directly into the translation to product specifications (Step 3 of the broader concept generation process).
+
+#### Needs Statements: Guidelines
+
+**Definition:** Needs statements are structured translations of raw customer quotes into product-requirement language. Five guidelines govern correct translation: (1) "What" not "How" — express what the product should do, not the specific solution mechanism; (2) Specificity — be precise, not vague; (3) Positive not Negative — state what the product does do, not what it avoids; (4) An Attribute of the Product — frame the need as a characteristic of the product, not an action of the user; (5) Avoid "Must" and "Should" — do not pre-judge the degree of importance.
+
+**Context:** Applied to Nest thermostat quotes. Example: Customer quote "I would like my iPhone to adjust my thermostat" → Right: "The thermostat can be controlled remotely without requiring a special device" → Wrong: "The thermostat is accompanied by a downloadable iPhone app" (specifies the how). Example: "I get tired of standing in front of my thermostat to program it" → Right: "The thermostat can be programmed from a comfortable position" → Wrong: "The thermostat does not require me to stand in front of it for programming" (negative framing).
+
+**Relationships:** Needs statements are the direct input to product specification development. The translation from needs statement to metric answers two questions: How will we measure it? What is the right value?
+
+#### From Needs to Product Specifications (Metrics)
+
+**Definition:** Product specifications translate customer needs statements (written in customer language) into technical metrics (measurable engineering terms). For every need, the team must establish: (1) the metric by which it will be measured, and (2) the target value for that metric.
+
+**Context:** Practiced with bike lock examples. Customer quote "How do you carry something this heavy?" → Need: "The lock is easy to transport" → Metric: Weight in kg (or grams). Customer quote "Some locks are just a pain. It takes too long to lock up" → Need: "The lock can be engaged quickly" → Metric: Time to lock in seconds. Customer quote "I wrap cushy tape around my lock to keep it from scratching my bike" → Need: "The lock does not scratch the bike frame" → Metric: Surface hardness / presence of protective coating (rated on scale or binary).
+
+**Relationships:** This translation step bridges Phase 1 (Opportunity/Customer Needs) and Phase 2 (Concept Generation). Engineers need measurable specifications to design against; the needs-to-metrics mapping provides this. It also anticipates concept evaluation criteria in Phase 3.
+
+---
 
 ## Frameworks & Mental Models
 
-### 3.1 PESTEL Analysis (General Environment)
+### The Five-Phase NPD Funnel (Crawford)
 
-Evaluates the broad, uncontrollable **general environment** surrounding a firm:
+**Visual Description:** A vertical flowchart with five sequential boxes connected by downward arrows: Phase 1: Opportunity Identification/Selection → Phase 2: Concept Generation → Phase 3: Concept/Project Evaluation → Phase 4: Development → Phase 5: Launch. A companion diagram (Fig. 2.3) shows an S-curve of increasing clarity (y-axis, 0–100%) versus increasing market value (x-axis, 0 to High), with concept stage labels from "Opportunity concept" at the origin through "Idea concept," "Stated concept," "Tested concept," "Defined concept," "Protocol concept," "Prototype concept," "Batch concept," "Process concept," "Pilot concept," "Marketed concept," to "Successful concept / Product" at the upper right.
 
-- **P**olitical -- Government attitudes, lobbying efforts, new policies
-- **E**conomic -- Wages, inflation, taxes, cost of materials, prices
-- **S**ocial -- Demographics, social values, culture
-- **T**echnological -- New equipment, technological innovation
-- **E**nvironmental -- (Ecological considerations)
-- **L**egal -- New legislation
+**How to Apply:** Use the phase structure to sequence decisions and allocate resources. At each phase boundary, apply the corresponding evaluation question (Direction → Initial Review → Full Screen → Progress Reports → Market Testing) before proceeding. Use Fig. 2.3 to communicate to stakeholders where a concept currently sits in terms of clarity and validated market value.
 
-Each factor is rated on a scale (1 = very unfavorable to 5 = very favorable) to determine the overall favorability of the general environment for a proposed product.
+**When to Use:** Any time a team needs to organize NPD activities, assign roles, or communicate project status. Also use when deciding whether to gate a project, continue, or kill it.
 
-### 3.2 Porter's Five Forces (Industry/Operating Environment)
+---
 
-Evaluates competitive forces and attractiveness of the **industry (operating) environment**:
+### Desirability / Viability / Feasibility (Innovation Triangle)
 
-1. **Threat of New Entrants** -- Ability of new firms to enter the industry
-2. **Bargaining Power of Buyers** -- Bargaining power customers have over firms
-3. **Bargaining Power of Suppliers** -- Bargaining power suppliers have over firms
-4. **Threat of Substitute Products** -- Extent customers can use products/services from another industry
-5. **Intensity of Rivalry** -- Intensity of competition among existing competitors
+**Visual Description:** A three-circle Venn diagram. The orange circle is labeled "People / desirable," the blue circle is labeled "Technical / feasible," and the tan/cream circle is labeled "Business / viable." The star-shaped intersection at the center represents the ideal product — one that is simultaneously desirable, feasible, and viable. Mapped onto three questions: Is it REAL? (People), Can we WIN? (Technical), Is it WORTH IT? (Business).
 
-Each force is rated as Favorable (+), Moderate (0), or Unfavorable (-) to determine overall industry attractiveness.
+**How to Apply:** Evaluate any product opportunity against all three dimensions. A product that is desirable but not viable will not generate returns. A product that is viable but not technically feasible cannot be built. A product that is technically feasible but not desirable will not sell. The three questions of RWW Analysis operationalize this Venn diagram.
 
-### 3.3 Environmental Layers Model
+**When to Use:** Early in Phase 1 to filter opportunities, and again in Phase 3 as part of the full screen. Also use to diagnose failing projects — identify which dimension is the weak link.
 
-The organization sits within concentric layers:
-- **Inner core**: Controllable marketing mix (the organization)
-- **Operating Environment**: Supplier, competition, customer, labor, technology, legal, political, international components (analyzed via Porter's Five Forces)
-- **General Environment**: Social, economic, political, technological, legal components (analyzed via PESTEL)
+---
 
-### 3.4 Market Sizing Framework (TAM/SAM/SOM)
+### Opportunity Tournament and Filtering Funnel
 
-| Level | Name | Definition | Question |
-|-------|------|------------|----------|
-| **TAM** | Total Addressable Market | The entire potential revenue opportunity for a product/service | "How big is the dream?" |
-| **SAM** | Serviceable Addressable Market | The portion of TAM your business can realistically target with its current offerings | "Where can you actually play?" |
-| **SOM** | Serviceable Obtainable Market | The share of SAM your business can capture, considering competition and constraints | "What can you credibly win?" |
+**Visual Description:** A horizontal diagram showing a large cloud of raw opportunity circles on the left entering a first filter (vertical green bar), then a second filter, then a third, with progressively fewer circles emerging on the right — only "Exceptional Opportunities" survive all three filters. A companion diagram shows the Opportunity Creation Process as a fish-eye lens: opportunities are generated both externally (top arc) and internally (bottom arc); they pass through a Quality Hurdle on the right; the distribution of quality is shown as a bell curve.
 
-**Market Sizing Process:**
-1. Ask clarification questions (unit of measurement, timeframe/geography, product, customers, distribution)
-2. Map out calculations: Market Size = # units x Avg. Price/unit (supply and demand side approaches)
-3. Round numbers and calculate (make assumptions on small pieces)
-4. Sense-check results
+**How to Apply:** Maximize the quality of the best opportunity by improving: (1) mean quality (better sourcing techniques), (2) variance (seek diverse, unconventional ideas), (3) volume (generate more raw ideas), and (4) evaluation accuracy (use structured RWW, PESTEL, Five Forces analysis). Do not stop generating ideas prematurely — statistical reasoning means the best idea in a pool of 100 is better than the best idea in a pool of 10.
 
-**Example: Nike Yoga Apparel in Singapore**
-- TAM: 5M adults x 20% practicing yoga x SGD 300 avg. annual spend = SGD 300M
-- SAM: SGD 300M x 60% premium segment = SGD 180M
-- SOM: SGD 180M x 10% realistic capture = SGD 18M
+**When to Use:** During Phase 1 ideation sessions, when designing an innovation process, or when coaching teams on why quantity of ideas matters before quality filtering begins.
+
+---
+
+### Market Sizing: Four-Step Guesstimation Process
+
+**Visual Description:** A four-box horizontal process diagram: (1) Ask Clarification Questions → (2) Map Out Your Calculations (Market Size = # Units × Avg Price/Unit; supply and demand side approach) → (3) Round the Number and Calculate (make assumptions on small pieces) → (4) Sense-Check Your Results (does the final result look sensible?). TAM/SAM/SOM is a concentric circle model nested inside this process: TAM (outermost, gray) > SAM (middle, blue) > SOM (innermost, dark blue).
+
+**How to Apply:** Start by clarifying scope (geography, product definition, customer definition, time period). Choose a demand-side approach (start from population, filter down) or supply-side approach (start from supply capacity, scale up). Use the filter formula: Market Size = Total Units Sold × Average Price per Unit, where Total Units Sold = Number of Customers × Average Units Bought per Customer, and Average Units Bought = Frequency of Purchase × Quantity per Purchase. Distinguish TAM (theoretical maximum), SAM (realistic target segment), and SOM (credibly capturable share given competition).
+
+**When to Use:** In Phase 1 to evaluate the financial attractiveness of an opportunity (the "Worth It?" question of RWW). Also used in pitch decks, business plans, and consulting case interviews.
+
+---
+
+### Classification of Customer Needs Pyramid
+
+**Visual Description:** Three stacked trapezoids forming a pyramid. The smallest, top triangle is pink and labeled "Explicit." The middle trapezoid is yellow and labeled "Unfulfilled." The largest, bottom trapezoid is green and labeled "Latent." Explicit needs are narrow (small volume of unmet opportunity), unfulfilled needs are broader, and latent needs are broadest — representing the largest unaddressed space.
+
+**How to Apply:** When gathering customer data, classify each need statement into one of the three tiers. Prioritize investing innovation resources in Unfulfilled and Latent needs, since Explicit needs are likely already served. Use ethnographic methods (observation, accompanied shopping, home visits) specifically to surface Latent needs that cannot emerge from surveys or traditional focus groups.
+
+**When to Use:** During the customer research phase (Step 2 of the Customer Need Analysis process) and when interpreting raw customer data (Step 3). Also use when briefing product teams on where the highest-value opportunities lie.
+
+---
+
+### Needs Statement Translation Framework
+
+**Visual Description:** A table with four columns: Guideline | Customer Statement | Needs Statement - Right | Needs Statement - Wrong. Five rows cover: "What" not "How"; Specificity; Positive not Negative; An Attribute of the Product; Avoid "Must" and "Should." Each row contrasts a correct and incorrect translation of the same raw customer quote.
+
+**How to Apply:** For each customer quote collected in interviews or observation sessions: (1) identify the underlying need (not the solution they mentioned), (2) reframe it as a positive product attribute, (3) make it specific and measurable, and (4) avoid words like "must," "should," or solution-specific language. The resulting needs statement then maps directly to a metric and target value.
+
+**When to Use:** After gathering raw customer data, during the "Interpret Customer Data" step (Step 3) of the Customer Need Analysis process. Also use to quality-check needs statements written by team members before they are used to generate product specifications.
+
+---
 
 ## Formulas & Quantitative Tools
 
-### 4.1 Market Size Formula (Filter Formula)
+The lecture presents one primary quantitative tool for market assessment:
 
-```
-Market Size = Total Number of Units Sold x Average Price Per Unit
-```
+**Market Size Formula:**
+
+Market Size = Total Number of Units Sold × Average Price per Unit
 
 Where:
-```
-Total Number of Units Sold = Number of Customers x Average # of Units Bought Per Customer
-Number of Customers = Baseline Population x Ratio (filter %)
-Average # of Units Bought = Frequency of Purchase x Quantity Per Purchase
-```
+- Total Number of Units Sold = Number of Customers × Average Number of Units Bought per Customer
+- Average Number of Units Bought per Customer = Frequency of Purchase × Quantity per Purchase
+- Number of Customers = Baseline Population × Relevant Ratio (proportion who are potential buyers)
 
-### 4.2 PESTEL Rating Scale
+**TAM / SAM / SOM Derivation (Nike Yoga Apparel in Singapore example):**
+- TAM = 1,000,000 yoga consumers × SGD 300 avg annual spend = SGD 300 million
+- SAM = SGD 300M × 60% (premium-branded buyers) = SGD 180 million
+- SOM = SGD 180M × 10% (Nike's realistic capture rate) = SGD 18 million
 
-Each PESTEL factor rated: 1 (very unfavorable) to 5 (very favorable)
+No other formulas are introduced in this lecture. Concept evaluation quantitative tools (scoring models, conjoint analysis) are covered in later lectures.
 
-### 4.3 Porter's Five Forces Rating Scale
-
-Each force rated: Favorable (+) | Moderate (0) | Unfavorable (-)
+---
 
 ## Case Studies
 
-### 5.1 The Post-It Note: Serendipitous Innovation at 3M
+### P&G Swiffer
 
-**Source:** CNN article by Nick Glass and Tim Hume
+**Company:** Procter & Gamble (P&G), in collaboration with design firm Design Continuum.
 
-**Background:** The Post-It Note is described as "the solution to a problem nobody realized existed." 3M now produces 50 billion Post-It Notes each year.
+**Challenge:** P&G wanted to innovate in the home floor-cleaning category. Traditional mops and brooms were the incumbent solutions. The team needed to identify unmet or latent customer needs that existing products were not addressing.
 
-**Timeline and Key Events:**
-- **1968**: Spencer Silver, a chemist at 3M, was attempting to develop a stronger adhesive but instead created **microspheres** -- a compound that retained stickiness but had a "removability characteristic," allowing attached surfaces to be peeled apart easily. The adhesive was "none of" bigger, stronger, or tougher.
-- **1968-1974**: Silver struggled for years to find a practical application, earning the nickname "Mr. Persistent" as he preached the merits of his creation to unreceptive colleagues.
-- **1974**: Art Fry, a 3M colleague, had his **"eureka moment"** during church choir practice. His paper bookmarks kept falling out of his hymnbook between Wednesday practice and Sunday morning. He recalled Silver's microsphere presentation at a company seminar and realized: "What I need is a bookmark that would stick to the paper without falling off and but not damage the sheets."
-- **Key pivot**: When the team started writing messages on the notes to communicate around the office, they realized the full potential: "What we have here isn't just a bookmark. It's a whole new way to communicate." (Art Fry)
-- **1980**: After extensive market testing and continued internal lobbying (not everyone saw the value), 3M released the Post-It Note to the market -- **12 years** from initial technology development to commercialization.
+**What Was Done:** Design Continuum conducted ethnographic research — visiting customers' homes and observing them clean their floors. A key observation: floors were already clean by the time the research team arrived, revealing that floor cleaning was emotionally loaded ("our floors are a reflection of ourselves"). Further observation surfaced the latent need around brooms: "It's hard to clean the broom." The team reframed the opportunity from "how to clean floors better" to "how to eliminate the maintenance burden of cleaning tools entirely," leading to the disposable electrostatic pad concept that became Swiffer.
 
-**Post-Launch:**
-- The product "took off so rapidly that I think it left a lot of people in marketing and sales gasping" (Silver)
-- It spread "like a virus" -- a **self-advertising product** because customers would put notes on documents sent to others, arousing curiosity: "They would look at it, peel it off and play with it and then go out and buy a pad for themselves" (Fry)
-- The adhesive formula remains a closely guarded trade secret, protected by patents on microspheres. As Fry noted: "Because we didn't patent it [the formula], we didn't have to tell people how we make it."
+**Takeaway:** Latent needs cannot be found through surveys or traditional focus groups — customers could not have said "I want a disposable floor cleaning pad." Ethnographic observation in the use environment is necessary. Addressing a latent need can create an entirely new product category: Swiffer went from $0 to $750M in two years, and generated $100M in its first four months of global launch (July 1999).
 
-**NPD Lessons:**
-1. **Technology-push innovation**: The invention began with a technology (microspheres) looking for an application, not a customer need -- the riskier path of concept generation.
-2. **Latent need identification**: No customer asked for a removable sticky note. The need was latent -- customers didn't know they needed it until they experienced it. As Silver said: "Like many winning innovations, the Post-it was a product nobody thought they needed until they did."
-3. **Persistence through the NPD process**: 12 years from technology to market. Internal championing was critical.
-4. **Serendipitous lead-user innovation**: The combination of Silver's accidental invention and Fry's personal pain point (the hymnbook bookmark problem) illustrates that innovation can happen through serendipity, but it can also be produced through structured processes.
-5. **Culture of innovation**: 3M's supportive environment allowed researchers to pursue and advocate for unconventional ideas.
+---
 
-### 5.2 P&G Swiffer -- Latent Need Discovery Through Ethnography
+### 3M Scotchgard (Serendipitous Innovation)
 
-Through ethnographic research (visiting homes, watching people clean), P&G's design partner Continuum discovered that customers' floors were already clean when researchers arrived -- people felt compelled to clean before the visit. This revealed a deeper insight: floor cleaning is value-laden. The latent need "it's hard to clean the broom" led to the Swiffer, which generated $100M in its first four months (1999) and created a new $750M category in two years.
+**Company:** 3M.
 
-### 5.3 3M Scotchgard -- Accidental Discovery
+**Challenge:** No planned challenge — the discovery was accidental.
 
-A 3M researcher dropped a beaker of industrial compound and later noticed that where her sneakers had been splashed stayed clean. This accidental discovery led to Scotchgard Fabric Water Shield -- illustrating that not all new products are planned.
+**What Was Done:** A 3M researcher dropped a beaker of industrial compound and later noticed that where her sneakers had been splashed stayed clean. This serendipitous observation was recognized as a product opportunity and led to the development of Scotchgard, a fabric and upholstery protector.
+
+**Takeaway:** Not all new products are planned. Serendipitous discovery can generate breakthrough innovations — but only if the organization has a culture that encourages researchers to notice, report, and pursue unexpected observations. 3M's culture of innovation (including the 15% time policy that also produced Post-it Notes) is what converts accidents into products.
+
+---
+
+### 3M Post-it Notes (Lead-User Innovation)
+
+**Company:** 3M.
+
+**Challenge:** Spencer Silver had developed a "failed" adhesive — one that stuck lightly and could be repeatedly repositioned without leaving residue. For years, no application for this adhesive was found.
+
+**What Was Done:** Art Fry, a colleague who sang in a church choir, was frustrated that his bookmark kept falling out of his hymnal. He realized Silver's adhesive could create a bookmark that stayed in place but could be removed cleanly. This lead-user insight — a personal problem solved with an available internal technology — became the Post-it Note. The path from invention to launch took years, illustrating that serendipitous innovation still requires structured commercialization effort.
+
+**Takeaway:** Lead-user innovation (where users themselves innovate to solve their own problems) is a powerful source of opportunities. However, it must be recognized and nurtured by organizational processes — serendipity alone is not enough. 3M's culture of innovation is what transformed a "failed" adhesive into one of the best-selling office products of all time.
+
+---
+
+### Nike Yoga Apparel in Singapore (Classroom Application)
+
+**Company:** Nike (hypothetical application exercise).
+
+**Challenge:** Assess whether the Singapore market is attractive enough for Nike to launch a women's yoga apparel line, and estimate the potential market size.
+
+**What Was Done:** Students applied both Porter's Five Forces (to evaluate industry attractiveness) and the TAM/SAM/SOM framework. For Five Forces: threat of new entrants, bargaining power of buyers, bargaining power of suppliers, threat of substitutes (other activewear, casualwear), and intensity of rivalry (Lululemon, Alo Yoga) were each rated Favorable/Moderate/Unfavorable. For market sizing: TAM = SGD 300M, SAM = SGD 180M (premium segment), SOM = SGD 18M (10% capture rate given strong competitors).
+
+**Takeaway:** Structured market evaluation tools (Five Forces + TAM/SAM/SOM) translate a strategic opportunity question into concrete analytical outputs. The SOM figure of SGD 18M represents Nike's realistic revenue target — the number that feeds into the RWW "Worth It?" assessment.
+
+---
+
+### Red Bull (Imitation with Differentiation)
+
+**Company:** Red Bull GmbH (founded by Dietrich Mateschitz).
+
+**Challenge:** Identify a product opportunity outside the existing Western market by importing and repositioning an existing foreign product.
+
+**What Was Done:** Mateschitz encountered Krating Daeng ("Red Bull" in Thai), an energy drink popular among Thai truck drivers, during a business trip. He recognized the latent need for an energy/stimulant drink in Western markets, reformulated the product (carbonated, new flavor profile), and repositioned it as a premium lifestyle brand rather than a functional trucker's drink.
+
+**Takeaway:** Importing geographically isolated innovations is one of the most powerful opportunity generation techniques. The core insight is not to copy but to identify the underlying need (energy and alertness) and serve it in a new cultural context with a repositioned value proposition. This is the "imitate but make it different" technique.
+
+---
 
 ## Key Takeaways
 
-1. The NPD process is a five-phase journey from opportunity identification through launch. Each phase has corresponding evaluation tasks that serve as gates.
-2. Opportunity identification is strategic -- it uses situation analysis (PESTEL for general environment, Porter's Five Forces for industry environment) and market sizing (TAM/SAM/SOM) to determine where to focus.
-3. Risk is mitigated through the **opportunity tournament model**: start with many raw ideas and progressively filter them through increasingly rigorous screens.
-4. The **RWW Analysis** (Real-Win-Worth It) provides a structured framework for evaluating opportunities against the three innovation challenges (desirable, feasible, viable).
-5. Customer needs exist on a spectrum from explicit to latent. The greatest innovation potential lies in identifying **latent needs** that customers cannot articulate.
-6. Translating customer quotes into proper **needs statements** requires following five guidelines: write in "what" not "how," be specific, use positive framing, describe product attributes, and avoid "must"/"should."
-7. Product specifications translate needs into measurable terms: **Metric + Value + Units**. This bridges the gap between customer language and engineering requirements.
-8. AI is transforming product design by expanding the possibility space (speed, scale, variation), but human judgment remains the scarce resource for meaning, strategy, and commitment.
-9. The Post-It Note case demonstrates that breakthrough innovations can take over a decade, may begin as technology-push (not customer-pull), and require persistent internal champions.
-10. Not all innovation is planned -- serendipity plays a role (Post-It, Scotchgard) -- but structured processes increase the probability of success.
+- **Opportunity identification** is the most strategically important phase of NPD — it determines the direction of all subsequent investment and effort; choosing the wrong opportunity wastes resources even if execution is flawless.
+- The **Tournament and Filtering Model** is the dominant risk mitigation strategy: generate many raw opportunities, filter through successive gates, and invest deeply only in exceptional survivors — the same logic used by venture capitalists and pharmaceutical companies.
+- The quality of the best opportunity depends on four levers: **mean quality, variance, volume, and evaluation accuracy** — improving any one of these improves expected output from the innovation process.
+- **RWW Analysis** (Real, Win, Worth It) operationalizes the Desirability/Viability/Feasibility triangle into three practical go/no-go questions that prevent firms from pursuing ideas that sound exciting but cannot succeed commercially.
+- **PESTEL** and **Porter's Five Forces** are complementary market evaluation tools: PESTEL scans the macro-environment for trends and threats; Five Forces diagnoses the competitive dynamics of the specific industry category.
+- **TAM/SAM/SOM** provides a structured, assumption-transparent way to estimate market size; the SOM — not the TAM — is the number that matters for resource allocation and financial planning.
+- **Latent needs** represent the highest-value innovation opportunity precisely because they are unaddressed; identifying them requires ethnographic observation, not just surveys — customers cannot describe needs they have not yet consciously formed.
+- **Needs statements** must be expressed as what the product does (positive, specific, product-attribute language) rather than how it does it, to preserve creative freedom in the concept generation phase while keeping customer intent intact.
+- The translation from **needs statement to metric** (asking "How will we measure it?" and "What is the right value?") is the critical bridge between customer research and engineering specification, enabling concept evaluation in Phase 3.
+- In the **AI era**, idea generation is no longer the scarce resource — judgment is; AI expands the option space (speed, scale, variation) while humans must provide the meaning, strategic framing, and final commitment.
+
+---
 
 ## Key Terms and Definitions Glossary
 
-| Term | Definition |
-|------|-----------|
-| **New Product Development (NPD) Process** | The sequence of activities that an organization takes to conceive, design, and commercialize a product. Consists of five phases: Opportunity Identification, Concept Generation, Concept/Project Evaluation, Development, and Launch. |
-| **Opportunity** | An idea for a new product; a product description in embryonic form, a newly sensed need, a newly discovered technology, or a rough match between a need and a possible solution. Usually articulated in less than one page. |
-| **Opportunity Tournament** | A risk mitigation strategy that passes a large pool of raw opportunities through multiple filters until only a limited number of exceptional opportunities remain. |
-| **RWW Analysis (Real-Win-Worth It)** | A framework by Day (2007) for evaluating innovation opportunities by asking three questions: Is it real? Can we win? Is it worth it? Maps to the three innovation challenges. |
-| **PESTEL Analysis** | A framework for analyzing the general (uncontrollable) environment using six factors: Political, Economic, Social, Technological, Environmental, and Legal. |
-| **Porter's Five Forces** | A framework by Michael Porter for evaluating industry attractiveness through five competitive forces: threat of new entrants, bargaining power of buyers, bargaining power of suppliers, threat of substitutes, and intensity of rivalry. |
-| **TAM (Total Addressable Market)** | The entire potential revenue opportunity for a product or service in a specific market, assuming 100% market share. Shows "how big the dream is." |
-| **SAM (Serviceable Addressable Market)** | The portion of TAM that a business can realistically target with its current offerings, considering geography, product scope, and price tier. Shows "where you can actually play." |
-| **SOM (Serviceable Obtainable Market)** | The share of SAM that a business can capture considering competition and execution constraints. Shows "what you can credibly win." |
-| **Explicit Needs** | Customer needs that are easy to express, widely known and understood, and likely already fulfilled by existing products. |
-| **Unfulfilled Needs** | Customer needs that are easy for customers to express but are known to be difficult to address and are generally not yet fulfilled. |
-| **Latent Needs** | Customer needs that customers may not be aware of and are unable to express. When addressed, products may delight and exceed expectations. |
-| **Needs Statement** | A formalized expression of a customer need, written following specific guidelines (what not how, specific, positive, product attribute, avoid must/should) to enable translation into measurable product specifications. |
-| **Product Specification** | A measurable description of a product requirement, composed of a Metric + Value(s) + Units (e.g., Total Mass: 8.5-10 kg). |
-| **Innovation Challenges Triangle** | The three simultaneous requirements for successful product innovation: People (desirable), Business (viable), and Technical (feasible). |
-| **Generic PD Process** | The standard product development process model (Ulrich et al.): Planning > Concept Development > System-Level Design > Detail Design > Testing and Refinement > Production Ramp-Up. |
-| **Rapid Iteration PD Process** | A PD process variant that incorporates many iteration cycles of Design-Build-Test between system-level design and production ramp-up. |
-| **Spiral PD Process** | A PD process variant where development spirals outward through planning, concept design, system-level design, detailed design, and integration & test, with cumulative effort increasing at each spiral pass. |
-| **Market Sizing** | The process of estimating the total amount of sales of a product or service, typically over one year. Uses the filter formula: Market Size = # units x Average Price/unit. |
-| **Customer Need Analysis** | A five-step process for identifying and interpreting customer needs: Define scope, Gather information, Interpret customer data, Quantify relative importance, Reflect on the process. |
+**Concept Generation:** Phase 2 of the NPD process, in which the team creates new product ideas through external and internal search, grounded in identified customer needs; the most fruitful ideation identifies both problems and solutions simultaneously. [Related: Opportunity Identification, Needs Statements, Product Specification]
+
+**Customer Need Analysis:** A five-step process for identifying, interpreting, and prioritizing customer needs, including scope definition, data gathering (interviews, focus groups, observation, ethnography), needs-statement writing, importance quantification, and process reflection. [Related: Explicit Needs, Unfulfilled Needs, Latent Needs, Needs Statements]
+
+**Ethnography:** A qualitative research method in which researchers observe and participate in customers' natural environments (homes, workplaces, daily routines) to surface behaviors, workarounds, and frustrations that customers cannot articulate in interviews or surveys. [Related: Latent Needs, Customer Need Analysis, Observation]
+
+**Explicit Needs:** Customer needs that are easy to express, widely known and understood, and likely already fulfilled by existing products in the market. [Related: Unfulfilled Needs, Latent Needs]
+
+**Five Forces (Porter's):** A framework for evaluating industry competitive dynamics and attractiveness through five structural forces: threat of new entrants, bargaining power of buyers, bargaining power of suppliers, threat of substitute products, and intensity of rivalry among existing competitors. [Related: PESTEL, Industry Environment, RWW Analysis]
+
+**Gantt Chart:** A project planning tool that displays NPD tasks (proposals, mission and needs, concepts and targets, concept refinements, proof of concept, detail design, financial model, alpha prototype, final presentation) as horizontal bars across a timeline, indicating start dates, durations, deliverable due dates, and periods of continued refinement. [Related: NPD Process, Development Phase]
+
+**Guesstimation:** A structured four-step approach for estimating market size without complete data: (1) ask clarifying questions to define scope, (2) map out calculations using supply-side or demand-side logic, (3) make component assumptions and calculate, (4) sense-check results for plausibility. Used to derive TAM/SAM/SOM estimates. [Related: Market Sizing, TAM/SAM/SOM, RWW Analysis]
+
+**Latent Needs:** Customer needs that customers may not be aware of and cannot express; when addressed by a product, they can create entirely new market categories and exceed customer expectations. Identified primarily through ethnographic observation. [Related: Explicit Needs, Unfulfilled Needs, Customer Need Analysis, Swiffer]
+
+**Lead-User Innovation:** A source of new product ideas in which lead users — individuals who face product needs ahead of the general market and who have strong incentives to solve those needs — develop innovative solutions for their own use that subsequently reveal mainstream market demand. Example: Art Fry's invention of the Post-it Note. [Related: Latent Needs, Opportunity Identification, Sources of Opportunities]
+
+**Market Sizing:** The process of estimating total potential revenue for a product, typically structured as TAM (Total Addressable Market), SAM (Serviceable Addressable Market), and SOM (Serviceable Obtainable Market), using a four-step guesstimation approach. [Related: TAM/SAM/SOM, RWW Analysis, Opportunity Identification]
+
+**Needs Statement:** A structured translation of a raw customer quote into product-requirement language that expresses what the product should do (not how), is specific, positive, framed as a product attribute, and avoids "must" or "should." [Related: Customer Quotes, Product Specification, Metrics]
+
+**Opportunity:** An idea for a new product in embryonic form — a newly sensed need, a newly discovered technology, or a rough match between a need and a possible solution, typically described in less than one page with a title, narrative, and optional sketch. [Related: Opportunity Identification, Tournament and Filtering Model, Concept Generation]
+
+**Opportunity Tournament and Filtering Model:** A risk mitigation strategy for NPD in which a large pool of raw opportunities is passed through successive evaluation filters (gates), with only the highest-quality opportunities surviving to receive development investment. [Related: Opportunity Identification, Phase 1, RWW Analysis]
+
+**PESTEL Analysis:** A macro-environment scanning framework assessing Political, Economic, Social, Technological, Environmental, and Legal factors that affect market attractiveness and opportunity viability. Used with a 1–5 favorability rating scale for each factor. [Related: General Environment, Industry Environment, Five Forces]
+
+**Product Innovation Charter (PIC):** A guiding document — also called a mission statement in this lecture — that defines the product description, benefit proposition, key business goals, primary and secondary markets, assumptions, and stakeholders for a new product development project. [Related: Phase 1, Customer Need Analysis, Scope Definition]
+
+**Product Specification:** A technical, measurable definition of what a product must do to satisfy a customer need, expressed in engineering metrics (e.g., weight in grams, time in seconds, surface hardness rating) with a target value. Translates needs statements into design requirements. [Related: Needs Statements, Metrics, Concept Generation]
+
+**Push vs. Pull Innovation:** Two contrasting approaches to opportunity sourcing: Push innovation originates from internal capabilities, technologies, or passion (the firm pushes a solution into the market); Pull innovation is driven by identified market needs (the market pulls solutions from the firm). [Related: Sources of Opportunities, Core Competence, Customer Needs]
+
+**Real-Win-Worth It (RWW) Analysis:** A three-question framework for opportunity evaluation: Is the opportunity Real? (genuine market need exists), Can we Win? (sustainable competitive advantage is achievable), Is it Worth It? (acceptable financial return at acceptable risk). [Related: Desirability/Viability/Feasibility, Opportunity Selection, Porter's Five Forces]
+
+**Serviceable Obtainable Market (SOM):** The share of the Serviceable Addressable Market (SAM) that a firm can realistically capture given competition and execution constraints; the most practically relevant market size figure for resource allocation and financial planning. [Related: TAM, SAM, Market Sizing]
+
+**Total Addressable Market (TAM):** The entire theoretical revenue opportunity for a product or service in a specific market, assuming 100% market share; represents the maximum possible size of the opportunity. [Related: SAM, SOM, Market Sizing]
+
+**Unfulfilled Needs:** Customer needs that are easy to express and widely acknowledged, but known to be difficult to address and generally not yet satisfied by any existing product. [Related: Explicit Needs, Latent Needs, Opportunity Identification]

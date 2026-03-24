@@ -1,8 +1,8 @@
 {
-  "siteName": "MKT 3717 - New Product Development & Brand Management",
+  "siteName": "MKT 3717",
   "pages": [
     {
-      "id": "index",
+      "id": "home",
       "title": "Home",
       "path": "index.html",
       "type": "core"

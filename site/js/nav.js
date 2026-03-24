@@ -6,13 +6,14 @@
 (function () {
   'use strict';
 
-  // Compute base path from script location to support pages in subdirectories
-  const scriptEl = document.querySelector('script[src*="nav.js"]');
-  const scriptSrc = scriptEl ? scriptEl.getAttribute('src') : '';
-  const basePath = scriptSrc.replace(/js\/nav\.js$/, '');
-  const NAV_CONFIG_PATH = basePath + 'data/nav-config.json';
   const BREAKPOINT = 768;
   const EXAM_DROPDOWN_THRESHOLD = 3;
+
+  // Compute basePath from the nav.js script src so links work from subdirectories
+  const scriptEl = document.currentScript || document.querySelector('script[src*="nav.js"]');
+  const scriptSrc = scriptEl ? scriptEl.getAttribute('src') : '';
+  const basePath = scriptSrc.replace(/js\/nav\.js(\?.*)?$/, '');
+  const NAV_CONFIG_PATH = basePath + 'data/nav-config.json';
 
   // ---------------------------------------------------------------------------
   // Styles (uses CSS variables so it works with any theme)
@@ -156,8 +157,8 @@
       flex-direction: column;
       justify-content: center;
       gap: 5px;
-      width: 44px;
-      height: 44px;
+      width: 36px;
+      height: 36px;
       padding: 6px;
       border: none;
       background: none;

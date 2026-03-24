@@ -1,256 +1,356 @@
 ---
 title: "Lecture 7: Brand Management Overview"
+type: lecture
 source_files:
-  - "source-materials/lec 7 Brand Management Overview.pdf"
-  - "source-materials/Gucci Case.pdf"
+  - "source-materials/lecture slides/lec 7 Brand Management Overview.pdf"
 topics:
-  - "brand management"
-  - "brand equity"
-  - "brand awareness"
-  - "brand positioning"
-  - "brand mantra"
-  - "brand resonance pyramid"
-  - "luxury branding"
+  - "Brand Equity"
+  - "Brand Identity"
+  - "Brand Positioning"
+  - "Customer-Based Brand Equity"
+  - "Brand Elements"
 lecture_number: 7
 ---
 
 ## Overview
 
-Lecture 7 provides a comprehensive introduction to **brand management**, covering what brands are, why they matter, and how to build and manage them strategically. The lecture introduces the AMA definition of a brand, explores **customer-based brand equity (CBBE)**, and breaks down brand knowledge into its two components: brand awareness and brand image. Key frameworks include the **Associative Network Memory Model** (mental maps), **brand positioning** and **brand mantras**, and Keller's **Brand Resonance Pyramid** (the six building blocks of brand equity). The accompanying Gucci case study illustrates how a heritage luxury brand successfully repositioned itself for a new generation of consumers through creative direction, digital strategy, sustainability initiatives, and cultural relevance -- all while maintaining brand equity across existing customer segments.
+Brand management is the practice of building, measuring, and sustaining the value that a brand holds in the minds of consumers. The American Marketing Association defines a brand as a "name, term, sign, symbol, or design, or a combination of them, intended to identify the goods and services of one seller or group of sellers and to differentiate them from those of competition." This definition captures the functional role of a brand, but modern branding extends far beyond mere identification — brands today function as meta-concepts that shape mindsets, social perceptions, and even nationhood-level identities.
+
+The lecture grounds brand management in Kevin Lane Keller's Customer-Based Brand Equity (CBBE) framework, which argues that the source of all brand value is brand knowledge residing in consumer memory. Brand knowledge has two core components — brand awareness and brand image — and together they drive the differential consumer response that makes one brand more valuable than a comparable unbranded product. The strategic brand management process follows four sequential steps: identifying and developing brand plans, designing and implementing brand marketing programs, measuring and interpreting brand performance, and growing and sustaining brand equity over time.
+
+Contemporary brand management must also grapple with a changing consumer landscape in which consumers are agentic participants in shaping brand meaning rather than passive receivers of brand messages. The three macro-themes — brands as meta-concepts with influence over mindset, social perception, and nationhood; consumer agency in relationship management, culture, and control of brand narratives; and dynamic brand management that responds to contestation, leverages heritage positioning, and builds community — are drawn from Campbell and Price (2021). Keller (2025) is an additional reference reading on the evolution of modern branding, not a co-source of the three-theme framework. The Won Soju and BTS case examples show how these principles operate in a digital, K-culture-inflected marketplace.
+
+---
 
 ## Key Concepts
 
-### Brand (AMA Definition)
-- **Definition:** A name, term, sign, symbol, or design, or a combination of them, intended to identify the goods and services of one seller or group of sellers and to differentiate them from those of competitors.
-- **Context:** Brands today go beyond this traditional definition. They are "meta-concepts" that encompass consumer experiences, perceptions, emotions, and cultural meaning. Consumers have increasing agency in shaping brand meaning through social media, reviews, and user-generated content. Brand management must be dynamic, not static.
-- **Relationships:** Foundation for all brand management concepts. Brand equity, awareness, image, positioning, and resonance all build on the basic concept of what a brand is.
+### Brand Fundamentals
 
-### Brand Equity (Customer-Based)
-- **Definition:** The differential effect that brand knowledge has on consumer response to the marketing of that brand. When consumers react more favorably to a product when they know the brand than when they do not, the brand has positive equity.
-- **Context:** Brand equity is the reason consumers pay a premium for branded products over identical unbranded alternatives. It is built over time through consistent marketing, product quality, and customer experiences. Strong brand equity provides competitive advantages including higher margins, greater customer loyalty, and licensing/extension opportunities.
-- **Relationships:** Brand equity is a function of brand knowledge, which is composed of brand awareness and brand image. The Brand Resonance Pyramid provides the roadmap for building equity systematically.
+#### Brand (AMA Definition)
+**Definition**: A name, term, sign, symbol, or design, or a combination of them, intended to identify the goods and services of one seller or group of sellers and to differentiate them from those of competition.
 
-### Brand Knowledge
-- **Definition:** Brand knowledge consists of two components: brand awareness (whether and how easily consumers can identify the brand) and brand image (the perceptions and associations consumers hold about the brand in memory).
-- **Context:** Brand knowledge resides in the consumer's mind, not in the product itself. It is shaped by every interaction a consumer has with the brand -- advertising, word-of-mouth, product experience, social media, retail environment, and more.
-- **Relationships:** Brand knowledge = Brand Awareness + Brand Image. This is the foundation of customer-based brand equity.
+**Context**: Established by the American Marketing Association; this is the foundational legal-functional definition. Anything from a product name to a distinctive bottle shape can qualify as part of a brand.
 
-### Brand Awareness (Recognition and Recall)
-- **Definition:** Brand awareness refers to the strength of a brand's presence in the consumer's mind. It has two dimensions: (1) **Brand Recognition** -- the ability to confirm prior exposure to the brand when given the brand as a cue ("Have you heard of X?"), and (2) **Brand Recall** -- the ability to retrieve the brand from memory when given the product category, a usage situation, or a need as a cue ("What brands of running shoes can you name?").
-- **Context:** Recognition is a lower bar than recall. A consumer may recognize a brand logo on a shelf (recognition) without being able to name the brand unprompted (recall). Top-of-mind awareness (being the first brand recalled in a category) is the strongest form of brand awareness.
-- **Relationships:** Brand awareness is a prerequisite for brand image -- consumers cannot have associations about a brand they are not aware of. High awareness drives consideration and choice.
+**Relationships**: Related to brand elements (the specific tangible components), brand identity (the intended meaning), and brand image (the consumer's perceived meaning).
 
-### Brand Image and Associative Network Memory Model
-- **Definition:** Brand image is the set of associations linked to the brand in consumer memory. The Associative Network Memory Model describes how knowledge is stored as a network of nodes (concepts) connected by links (associations) of varying strength. A brand's "mental map" is the web of associations consumers hold about it.
-- **Context:** Associations can be attributes (product-related or non-product-related), benefits (functional, experiential, symbolic), or attitudes. Strong, favorable, and unique associations drive brand equity. For example, Volvo is strongly associated with "safety," and this association is both favorable and relatively unique among car brands.
-- **Relationships:** Brand image is shaped by brand elements, marketing programs, and secondary associations (e.g., country of origin, celebrity endorsers, co-branding). Mental maps can be researched through techniques like free association, projective techniques, and brand concept mapping.
+#### Why Brands Matter — Consumer Perspective
+**Definition**: Brands benefit consumers by enabling product identification, lowering search costs (internally and externally), setting reasonable expectations, and reducing risk in purchase decisions.
+
+**Context**: When a consumer walks into a store and reaches for a familiar brand, they are using the brand as an information shortcut. This is sometimes called the brand's role as a signal or heuristic.
+
+**Relationships**: Directly connected to brand awareness (which enables identification) and brand image (which sets expectations). Lower search costs link to brand salience; risk reduction links to brand credibility and brand quality judgments.
+
+#### Why Brands Matter — Firm Perspective
+**Definition**: Brands simplify product handling and tracing (inventory control), offer legal protection for unique product features, enhance customer loyalty, provide security of demand that creates barriers to competitive entry, and serve as a source of financial returns.
+
+**Context**: From the firm's side, a strong brand is a strategic asset. The Interbrand 2025 rankings show Apple at $470.9 billion in brand value, illustrating the massive financial stakes of brand equity.
+
+**Relationships**: Firm-side benefits are the downstream consequences of successfully building consumer-side brand knowledge (awareness + image).
+
+---
+
+### Brand Knowledge and Its Components
+
+#### Brand Equity
+**Definition**: The value of the brand as determined by consumer perception and experience. From the CBBE perspective, brand knowledge is the key to creating brand equity because it creates the differential effect that drives that value.
+
+**Context**: Brand equity explains why consumers pay a premium for Coca-Cola over a generic cola, or why Apple commands higher margins than commodity PC makers. The differential is not in the physical product alone but in the accumulated brand knowledge consumers carry.
+
+**Relationships**: Brand equity is built on brand knowledge (awareness + image). It manifests in brand judgments and feelings and ultimately in brand resonance (loyalty, attachment, community, engagement).
+
+#### Brand Awareness
+**Definition**: The strength of the brand node or trace in memory; the extent to which customers can recall or recognize a brand under different conditions. Composed of two sub-types: brand recognition and brand recall.
+
+**Context**: Brand recognition is the consumer's ability to confirm prior exposure to the brand when given the brand as a cue (e.g., seeing the Nike swoosh and knowing it). Brand recall is the consumer's ability to retrieve the brand from memory when given the product category, a need, or a purchase situation (e.g., thinking "Nike" when asked about athletic shoes).
+
+**Relationships**: Brand awareness is one of the two pillars of brand knowledge (the other is brand image). It corresponds to the Salience layer at the base of the Brand Resonance Pyramid.
+
+#### Brand Image
+**Definition**: Consumers' perceptions about a brand, as reflected by the brand associations held in consumer memory.
+
+**Context**: Brand image is visualized through the mental map or associative network. For Apple, associations include "innovative," "user-friendly," "expensive," "cool," "Steve Jobs," "iPhone," and so on. These nodes and their connecting links collectively constitute the brand's image in consumer memory.
+
+**Relationships**: Brand image is shaped by all marketing activity and consumer experience. It feeds into brand performance and imagery at the meaning level of the CBBE pyramid, and ultimately into judgments and feelings.
+
+#### Mental Map / Associative Network Memory Model
+**Definition**: A model that views consumer memory as a network of nodes (concepts, attributes, feelings) and connecting links of varying strength. Brand knowledge is the set of brand-related nodes and their associations.
+
+**Context**: The Apple mental map (slide 15) illustrates this: the central Apple node connects outward to iPhone, Innovative, User-Friendly, Expensive, Apps, iTunes, Steve Jobs, iPod, Stylish, Creative, Cool, and Apple Logo. Marketers use mental maps to audit what associations exist and which need to be strengthened or redirected.
+
+**Relationships**: The associative network is the cognitive foundation underlying brand image, brand positioning, and the CBBE framework.
+
+---
 
 ### Brand Elements
-- **Definition:** The trademarked devices that serve to identify and differentiate the brand -- including brand names, logos, symbols, characters, slogans, jingles, and packaging.
-- **Context:** Effective brand elements are (1) memorable, (2) meaningful, (3) likable, (4) transferable (across product categories and geographies), (5) adaptable (can evolve over time), and (6) protectable (legally defensible). For example, the Nike swoosh is simple, memorable, and transferable across product lines and cultures.
-- **Relationships:** Brand elements are the tangible building blocks that create brand awareness and shape brand associations. They work together as a system -- name, logo, color, packaging, and tagline should reinforce each other.
+
+#### Brand Elements
+**Definition**: The components chosen to identify and differentiate a brand — including name, logo, symbol, package design, slogan, characters, URLs, and other characteristics.
+
+**Context**: Brand elements are the tangible building blocks of brand identity. Nike's swoosh, Coca-Cola's contour bottle, Disney's Mickey ears, and McDonald's golden arches are all brand elements that carry meaning independent of any advertising message.
+
+**Relationships**: Brand elements feed directly into brand salience (recognition and recall) and brand image (associations). Choosing elements wisely is a prerequisite for building brand equity efficiently.
+
+---
 
 ### Brand Positioning
-- **Definition:** The act of designing the company's offering and image to occupy a distinctive place in the minds of the target market. It defines what the brand is, who it is for, and why consumers should choose it.
-- **Context:** Effective positioning requires identifying (1) the target consumer, (2) the competitive frame of reference (which category or set of competitors the brand competes with), (3) points of parity (associations shared with competitors that are necessary to be considered a legitimate player), and (4) points of difference (strong, favorable, unique associations that distinguish the brand from competitors).
-- **Relationships:** Positioning guides all marketing mix decisions. It is summarized concisely in the brand mantra and expressed fully through the marketing program.
 
-### Brand Mantra
-- **Definition:** A short (three- to five-word) articulation of the heart and soul of the brand. It consists of three components: (1) the **emotional modifier** (how the brand provides benefits), (2) the **descriptive modifier** (the nature of the product/experience), and (3) the **brand function** (the type of benefit or experience the brand delivers).
-- **Context:** The brand mantra is an internal document that guides all marketing decisions and ensures consistency. It is not a tagline (which is external and consumer-facing), though the two should be aligned.
-- **Relationships:** The brand mantra distills the brand positioning into its most essential form. It serves as a filter for evaluating whether marketing activities and brand extensions are consistent with the brand's core identity.
+#### Brand Positioning
+**Definition**: The act of designing the company's offer and image so that it occupies a distinct and valued place in the target customers' minds.
 
-**Examples:**
-| Brand | Emotional Modifier | Descriptive Modifier | Brand Function |
-|-------|-------------------|---------------------|----------------|
-| Nike | Authentic | Athletic | Performance |
-| Disney | Fun | Family | Entertainment |
+**Context**: Good positioning identifies the "right location" in consumer minds — defined from a consumer point of view in terms of the benefits consumers derive. Positioning answers: compared to what alternatives, for which target customers, on what benefits does this brand stand?
 
-### Brand Resonance Pyramid (Keller's CBBE Model)
-- **Definition:** A framework describing the sequential steps to building a strong brand, visualized as a pyramid with four levels (bottom to top) containing six building blocks. The left side represents the rational/functional route; the right side represents the emotional/experiential route.
-- **Context:** The pyramid must be built from the bottom up -- you cannot achieve resonance without first establishing identity, meaning, and responses.
-- **Relationships:** Integrates all brand management concepts into a single strategic framework. Each building block has specific sub-dimensions that can be measured and managed.
+**Relationships**: Positioning drives the selection of brand elements, marketing communications, and channel decisions. It is operationalized through points of parity (POPs) and points of difference (PODs) — which appear at the "Meaning" layer of the CBBE pyramid.
 
-**The Four Levels and Six Building Blocks:**
+#### Brand Mantra
+**Definition**: A short, three-to-five-word phrase that captures the irrefutable essence or spirit of the brand positioning. Structured around an emotional modifier, a descriptive modifier, and a brand function.
 
-1. **Identity -- "Who are you?"**
-   - **Brand Salience:** Depth and breadth of brand awareness. How easily and often the brand comes to mind in purchase and consumption situations. Includes category identification and needs satisfied.
+**Context**: Nike's brand mantra is "Authentic Athletic Performance." Disney's is "Fun Family Entertainment." The mantra is internally facing — it guides decisions about what products to introduce, what ad campaigns to run, and where and how to sell. It requires internal examination and is based on core brand associations.
 
-2. **Meaning -- "What are you?"**
-   - **Brand Performance:** How well the product meets functional needs. Sub-dimensions: primary characteristics and features, product reliability/durability/serviceability, service effectiveness/efficiency/empathy, style and design, price.
-   - **Brand Imagery:** How the brand meets psychological and social needs. Sub-dimensions: user profiles (demographic and psychographic), purchase and usage situations, personality and values, history/heritage/experiences.
+**Relationships**: The brand mantra distills brand positioning into its most concentrated form. It constrains the brand's strategic scope and ensures consistency across all marketing mix decisions.
 
-3. **Response -- "What about you?"**
-   - **Brand Judgments:** Consumers' personal opinions and evaluations. Sub-dimensions: quality, credibility (expertise, trustworthiness, likability), consideration (personal relevance), superiority (distinctiveness vs. competitors).
-   - **Brand Feelings:** Consumers' emotional reactions and responses. Six important types: warmth, fun, excitement, security, social approval, self-respect.
+---
 
-4. **Relationships -- "What about you and me?"**
-   - **Brand Resonance:** The ultimate relationship between consumer and brand. Sub-dimensions: behavioral loyalty (repeat purchase frequency), attitudinal attachment (love the brand, "special"), sense of community (identification with other brand users), active engagement (willingness to invest time, energy, money beyond purchase -- e.g., joining brand clubs, visiting brand websites, following on social media).
+### Keller's Customer-Based Brand Equity (CBBE) Pyramid
 
-### Strategic Brand Management Process
-- **Definition:** The systematic approach to building, measuring, and managing brand equity over time.
-- **Context:** Four key steps: (1) Identifying and developing brand plans (positioning and values), (2) Designing and implementing brand marketing programs (choosing brand elements, integrating marketing activities, leveraging secondary associations), (3) Measuring and interpreting brand performance (brand audits, brand tracking, brand equity management systems), (4) Growing and sustaining brand equity (brand architecture, brand portfolios, brand extensions, brand revitalization).
-- **Relationships:** Provides the overarching process within which all other brand management concepts operate. The Gucci case demonstrates many of these steps in practice.
+#### Brand Salience (Level 1 — Identity)
+**Definition**: How easily and often the brand is evoked under various situations or circumstances. Measures awareness depth and breadth; links brand elements to the product category, associated purchases, and consumption/usage situations.
+
+**Context**: The base of the CBBE pyramid. The branding objective at this level is deep, broad brand awareness. Achieving the right brand identity means creating brand salience with customers — they must know who you are before they can care about what you offer.
+
+**Relationships**: Salience is built by brand elements, consistent exposure, and clear category membership signals. It is the prerequisite for all higher layers of the pyramid.
+
+#### Brand Performance (Level 2 — Meaning, Left Side)
+**Definition**: How well the product or service meets customers' functional needs, as rated on objective assessments of quality. Satisfies utilitarian, aesthetic, and economic needs.
+
+**Context**: Performance attributes include: primary ingredients and supplementary features; product reliability, durability, and serviceability; service effectiveness, efficiency, and empathy; style and design; and price. Performance is the functional counterpart to Imagery.
+
+**Relationships**: Performance associations combine with Imagery associations to create the overall meaning of the brand (Level 2). They then feed into consumer Judgments (Level 3, left side).
+
+#### Brand Imagery (Level 2 — Meaning, Right Side)
+**Definition**: The extrinsic properties of a product or service — the intangible associations linked to a brand rather than the physical product. The four main intangibles are: user profiles, purchase and usage situations, personality and values, and history/heritage/experiences.
+
+**Context**: Imagery is the symbolic and social dimension of brand meaning. A brand can be high on performance but low on imagery (generic industrial products), or high on imagery but lower on functional performance claims (fashion and luxury goods).
+
+**Relationships**: Imagery associations feed into consumer Feelings (Level 3, right side). They combine with Performance to define the full brand meaning at Level 2.
+
+#### Brand Judgments (Level 3 — Response, Left Side)
+**Definition**: Customers' personal opinions about and evaluations of a brand, formed by combining all performance and imagery associations. Four key judgment types: quality, credibility, consideration, and superiority.
+
+**Context**: Brand quality is defined by specific attributes and benefits. Brand credibility encompasses perceived expertise, trustworthiness, and likability. Brand consideration measures how personally relevant customers find the brand — described as a "crucial filter for brand equity." Brand superiority is the extent to which customers view the brand as unique and better than alternatives.
+
+**Relationships**: Judgments are rational evaluations; they combine with Feelings to determine whether consumers develop Resonance (Level 4). Consideration is particularly important because no matter how positively a brand is judged on quality, if it is not considered personally relevant it cannot achieve resonance.
+
+#### Brand Feelings (Level 3 — Response, Right Side)
+**Definition**: Customers' emotional responses and reactions to a brand; relate to the social currency evoked by the brand. Six important types: warmth, fun, excitement, security, social approval, and self-respect.
+
+**Context**: Feelings can be experiential and immediate (increasing in intensity: warmth → fun → excitement) or private and enduring (increasing in gravity: security → social approval → self-respect). A brand like Disney evokes warmth and fun; a brand like Rolex evokes social approval and self-respect.
+
+**Relationships**: Feelings work alongside Judgments to determine the nature and depth of brand Resonance. Emotional resonance is often the driver of attitudinal attachment and active engagement at Level 4.
+
+#### Brand Resonance (Level 4 — Relationships)
+**Definition**: The ultimate relationship and level of identification that a customer has with a brand; characterized by the depth of the psychological bond. Four categories: behavioral loyalty, attitudinal attachment, sense of community, and active engagement.
+
+**Context**: Behavioral loyalty means repeated purchase. Attitudinal attachment means the consumer views the brand as special or loves it. Sense of community means feeling affiliation with other users or brand fans. Active engagement — the strongest form — means consumers invest time, energy, money, or other resources in the brand beyond purchase or consumption (e.g., joining fan clubs, participating in brand events, creating user content). The branding objective at this level is intense, active loyalty.
+
+**Relationships**: Resonance is the culmination of all lower pyramid layers. It is the outcome that drives sustainable competitive advantage and superior financial returns.
+
+---
+
+### Brands Today: Contemporary Perspectives
+
+#### Brands as Meta-Concepts
+**Definition**: In the contemporary marketplace, brands transcend product categories and function as organizing concepts that shape mindsets, social perceptions, and nationhood-level identities (Campbell & Price, 2021).
+
+**Context**: BTS merchandise deals with McDonald's, celebrity-backed product lines like Won Soju, and national brand campaigns all illustrate how brands now carry cultural and societal weight far beyond their product category.
+
+**Relationships**: This concept explains why brand management must navigate both continuity (maintaining core meaning) and change (adapting to cultural shifts and consumer co-creation).
+
+#### Consumer Agency
+**Definition**: The recognition that consumers are agentic — actively participating in shaping brand meaning rather than passively receiving it — through relationship management, cultural participation, and control of brand narratives.
+
+**Context**: Social media, fan communities, and user-generated content have fundamentally shifted the power dynamic. Consumers can amplify, contest, or reinterpret brand meanings. The Won Soju example shows consumers using pop-up stores and viral sharing to co-create the brand's premium positioning.
+
+**Relationships**: Consumer agency is connected to brand resonance (especially sense of community and active engagement) and to dynamic brand management challenges like contestation and heritage positioning.
+
+#### Dynamic Brand Management
+**Definition**: The practice of managing brands through response to contestation, heritage positioning, charismatic entrainment, and community positioning — navigating brand continuity and change simultaneously.
+
+**Context**: Dynamic brand management acknowledges that brand meaning is never static. Brands must respond when consumers contest their meaning, leverage heritage when it adds credibility, and build community to sustain loyalty.
+
+**Relationships**: Relates to the Growing and Sustaining Brand Equity step of the strategic brand management process.
+
+---
 
 ## Frameworks & Mental Models
 
-### Brand Knowledge Framework
-Brand knowledge is the foundation of customer-based brand equity, structured as:
+### The Brand Resonance Pyramid (CBBE Model)
+(Keller, Strategic Brand Management, Figure 3-1; Subdimensions in Figure 3-2)
 
-```
-Brand Knowledge
-  |
-  |-- Brand Awareness
-  |     |-- Brand Recognition (aided recall)
-  |     |-- Brand Recall (unaided recall)
-  |           |-- Top-of-mind awareness (first recalled)
-  |
-  |-- Brand Image
-        |-- Types of associations:
-        |     |-- Attributes (product-related and non-product-related)
-        |     |-- Benefits (functional, experiential, symbolic)
-        |     |-- Attitudes (overall evaluations)
-        |
-        |-- Association characteristics:
-              |-- Strength (how strongly linked)
-              |-- Favorability (how positively evaluated)
-              |-- Uniqueness (how distinctive vs. competitors)
-```
+**Visual Description**: A four-level pyramid divided vertically at Levels 2 and 3 into left (rational/functional) and right (emotional/experiential) tracks. From base to apex: Level 1 — Salience (who are you?); Level 2 — Performance (left) and Imagery (right) (what are you?); Level 3 — Judgments (left) and Feelings (right) (what about you?); Level 4 — Resonance (what about you and me?). Each level has a corresponding branding objective on the right side of the diagram: deep/broad awareness, points of parity and difference, positive/accessible reactions, and intense/active loyalty.
 
-**When to use:** Diagnosing brand health, planning brand research, identifying gaps in brand equity. If awareness is low, invest in reach and frequency. If image is weak or unfocused, refine associations through positioning and communication.
+Subdimensions at each level:
+- Salience: Category Identification, Needs Satisfied
+- Performance: Primary Characteristics and Secondary Features; Reliability, Durability, Serviceability; Service Effectiveness, Efficiency, Empathy; Style and Design; Price
+- Imagery: User Profiles; Purchase and Usage Situations; Personality and Values; History, Heritage, and Experiences
+- Judgments: Quality, Credibility, Consideration, Superiority
+- Feelings: Warmth, Fun, Excitement, Security, Social Approval, Self-Respect
+- Resonance: Loyalty, Attachment, Community, Engagement
 
-### Brand Resonance Pyramid (Diagnostic Tool)
-Use as a step-by-step diagnostic and planning framework:
+**How to Apply**: To diagnose a brand, assess where it currently sits on the pyramid. Ask: Do consumers know who we are (salience)? Do they understand what we stand for (performance/imagery)? Do they respond positively rationally and emotionally (judgments/feelings)? Do they have a deep relationship with us (resonance)? Marketing programs should address the weakest layer first — you cannot build resonance without first achieving salience and meaning.
 
-| Level | Block(s) | Key Question | Diagnostic Check |
-|-------|----------|-------------|------------------|
-| 1 - Identity | Salience | "Who are you?" | Do target consumers know the brand? Is it top-of-mind in the category? |
-| 2 - Meaning | Performance, Imagery | "What are you?" | Does the brand deliver functionally? Does it have the right personality and image associations? |
-| 3 - Response | Judgments, Feelings | "What about you?" | Do consumers view it as high quality and credible? Does it evoke positive emotions? |
-| 4 - Relationship | Resonance | "What about you and me?" | Are consumers loyal, attached, engaged? Do they feel community? |
+**When to Use**: Use this model when developing a new brand strategy, auditing an existing brand's health, identifying gaps between intended brand identity and actual consumer perceptions, or prioritizing marketing investments across the brand-building continuum.
 
-**When to use:** Strategic brand planning, brand audit preparation, evaluating brand extension opportunities, assessing competitive brand positioning.
+---
 
-### Points of Parity vs. Points of Difference
-- **Points of Parity (POPs):** Associations that are not unique to the brand but are shared with competitors. Necessary to be seen as a legitimate and credible offering in the category. Two types: (1) category POPs (must-have associations to be considered in the category), (2) competitive POPs (associations designed to negate a competitor's point of difference).
-- **Points of Difference (PODs):** Strong, favorable, unique associations that consumers make with the brand and could not find to the same extent with a competitive brand. Must be desirable to the consumer and deliverable by the firm.
+### Mental Map / Associative Network Model
 
-**When to use:** Developing brand positioning statements, competitive analysis, evaluating whether a brand has a defensible position in its category.
+**Visual Description**: A hub-and-spoke diagram with the brand name or logo at the center and consumer associations radiating outward as labeled spokes. The Apple example includes spokes for iPhone, Innovative, User-Friendly, Expensive, Apps, iTunes, Steve Jobs, iPod, Stylish, Creative, Cool, and Apple Logo. Associations vary in strength (thickness of link) and valence (positive/neutral/negative).
 
-### Branding as Meaning Creation (Historical Lens)
-The Parmentier potato case from the lecture illustrates how branding works as meaning creation: Antoine-Augustin Parmentier rebranded the potato (seen as animal feed in 18th-century France) by having King Louis XVI wear potato flowers, planting potato fields with royal guards (then removing the guards at night so people would "steal" the valuable crop), and serving potatoes at royal banquets. The Won Soju example similarly shows how brand elements (design, naming) can transform a commodity product.
+**How to Apply**: Conduct consumer research (free association tasks, projective techniques, brand concept mapping) to surface the associations consumers link to the brand. Map these visually. Identify which associations are strong, unique, and favorable versus weak, shared with competitors, or negative. Then design marketing programs to reinforce, create, or neutralize specific associations.
 
-**When to use:** Understanding that branding is fundamentally about shaping perceptions, not just labeling products. Applicable when entering categories with existing negative associations or commoditized markets.
+**When to Use**: Use when conducting a brand audit, when developing positioning strategy, or when planning a brand repositioning. Essential input before writing a brand mantra or designing new brand elements.
+
+---
+
+### The Parmentier Brand Reframing Model (In-Class Framework)
+
+**Visual Description**: Not a formal diagram, but a three-question strategic logic: (A) Who endorses first — an elite, aspirational, or culturally relevant figure? (B) What is the consumer's first experience — a curated, exclusive, or experiential touchpoint? (C) What is the reframing move — what new meaning or association will be attached to the product?
+
+**How to Apply**: In the late 1700s, French pharmacist Parmentier made potatoes desirable to French consumers (who considered them pig food) by having King Louis XVI wear potato blossoms and serving potatoes at royal banquets — creating aspirational association without using health claims, price promotions, or mass advertising. Apply the same logic to any "unloved" product: identify the right endorser, design the right first experience, and decide what meaning to reframe around the product.
+
+**When to Use**: Use when launching a product that faces category stigma or consumer resistance, or when conventional marketing levers (price promotions, health claims, mass advertising) are either unavailable or unlikely to work. Also applicable when entering a new market segment with an established product.
+
+---
+
+### The Three Themes for the Future of Brands Framework (Campbell & Price, 2021)
+
+**Visual Description**: A three-circle Venn diagram with overlapping domains labeled Brand(s) Influence (Mindset, Social Perception, Nationhood), Consumer Agency (Relationship Management, Culture, Control of Brand Narratives), and Dynamic Brand Management (Response to Contestation, Heritage Positioning, Charismatic Entrainment, Community Positioning).
+
+**How to Apply**: Use this framework to audit whether your brand management approach accounts for (1) the broader cultural and social impact your brand carries beyond its product category, (2) the role consumers play in actively shaping your brand's meaning, and (3) the dynamic pressures requiring the brand to respond to contestation and navigate change while maintaining continuity.
+
+**When to Use**: Use when conducting a strategic brand review in a digital or socially charged environment, when facing brand controversy or consumer backlash, or when planning long-term brand architecture in a rapidly changing cultural context.
+
+---
+
+### Strategic Brand Management Process (4-Step Framework)
+
+**Visual Description**: A sequential four-stage process: (1) Identifying and Developing Brand Plans → (2) Designing and Implementing Brand Marketing Programs → (3) Measuring and Interpreting Brand Performance → (4) Growing and Sustaining Brand Equity.
+
+**How to Apply**: Step 1 involves brand audits, competitive analysis, and writing the brand positioning and brand mantra. Step 2 involves designing the marketing mix (product, price, place, promotion) to build salience, meaning, response, and resonance. Step 3 involves brand tracking studies, customer surveys, financial brand valuation, and brand equity measurement systems. Step 4 involves managing brand extensions, refreshing brand elements, and adapting to market changes.
+
+**When to Use**: Use as an end-to-end operating framework for any brand management role. It provides the overarching process within which all other brand frameworks (CBBE pyramid, mental maps, brand elements) are applied.
+
+---
 
 ## Formulas & Quantitative Tools
 
-### Customer-Based Brand Equity (Conceptual Formula)
+No explicit mathematical formulas for brand valuation were presented in this lecture. However, the following quantitative measurement concepts were referenced:
 
-**Formula:**
+**Interbrand Best Global Brands Methodology**: Interbrand publishes an annual ranking of brand value using a proprietary methodology that incorporates financial performance of products/services attributable to the brand, the role the brand plays in purchase decisions, and the brand's competitive strength. The 2025 rankings cited in this lecture show Apple at $470.9 billion (ranked #1), Microsoft at $388.5 billion (#2), Amazon at $319.9 billion (#3), and Google at $317.1 billion (#4).
 
-$$\text{Brand Equity} = f(\text{Brand Awareness}, \text{Brand Image})$$
+**Brand Equity Measurement**: While not formulated algebraically in the slides, brand equity measurement in the CBBE framework is operationalized through consumer surveys measuring brand awareness (recognition and recall rates), brand image (association strength, favorability, and uniqueness), brand judgments (quality ratings, credibility scores, consideration rates), brand feelings (emotional response scales), and brand resonance (loyalty metrics, engagement rates, community participation). These are diagnostic tools rather than a single formula.
 
-| Variable | Meaning |
-|----------|---------|
-| Brand Equity | The differential effect of brand knowledge on consumer response |
-| Brand Awareness | The strength of the brand node in memory (recognition + recall) |
-| Brand Image | The favorability, strength, and uniqueness of brand associations |
-
-**Interpretation:** Brand equity increases as both awareness and image improve. A brand can have high awareness but poor image (resulting in negative equity) or low awareness with a strong image among a niche (limiting equity to that niche). The goal is to build both broad awareness and strong, favorable, unique associations.
-
-**Example:** Gucci had strong awareness globally but needed to refresh its brand image to resonate with Gen Y/Z consumers. Under Alessandro Michele, the brand maintained awareness while radically shifting its image associations from "traditional luxury" to "eclectic, inclusive, digital-savvy luxury," thereby rebuilding brand equity with a new generation.
-
-**Common Mistakes:**
-- Focusing on awareness alone without building meaningful associations (results in a well-known but undifferentiated brand).
-- Building strong image associations among too narrow an audience without sufficient awareness (limits market potential).
-
-### Brand Resonance Metrics
-
-**Formula:**
-
-$$\text{Resonance Score} = f(\text{Behavioral Loyalty}, \text{Attitudinal Attachment}, \text{Sense of Community}, \text{Active Engagement})$$
-
-| Variable | Meaning |
-|----------|---------|
-| Behavioral Loyalty | Frequency and volume of repeat purchases |
-| Attitudinal Attachment | Emotional connection; consumers say they "love" the brand |
-| Sense of Community | Consumers feel kinship with other users of the brand |
-| Active Engagement | Consumers invest time, energy, and resources beyond purchase |
-
-**Interpretation:** True brand resonance requires all four dimensions. A brand can have high behavioral loyalty (habitual purchase) without attitudinal attachment (consumers switch easily if a better option appears). The strongest brands achieve all four, creating "brand evangelists" who actively promote the brand.
-
-**Example:** Gucci's social media engagement (#GucciGram, #TFWGucci memes) drove active engagement. Its reinvention under Michele created attitudinal attachment among millennials. The brand's heritage and cultural cachet fostered a sense of community among luxury consumers.
-
-**Common Mistakes:**
-- Equating repeat purchase with resonance (behavioral loyalty alone is not enough -- it may be driven by convenience or habit rather than genuine brand connection).
-- Neglecting community and engagement dimensions in brand measurement.
+---
 
 ## Case Studies
 
-### Gucci: Reinventing a Heritage Luxury Brand for the Digital Age
+### Won Soju by Jay Park
 
-- **Company:** Gucci (part of Kering Group), Italian luxury fashion house founded in Florence in 1921
-- **Challenge:** By 2014, Gucci's brand had become stagnant under creative director Frida Giannini. The brand was perceived as too traditional and had failed to connect with millennial and Gen Z consumers, who were becoming the primary growth drivers of the personal luxury goods market. Revenue growth had plateaued. The broader luxury industry was undergoing a generational shift, with consumers under 35 expected to account for approximately 55% of the market by 2025 and driving virtually all market growth.
-- **What Was Done:**
-  - **Leadership change (2015):** CEO Marco Bizzarri appointed Alessandro Michele as creative director. Michele's debut collection was produced in less than a week and marked a radical aesthetic departure -- eclectic, maximalist, gender-fluid, and culturally referential, breaking from the brand's prior polished, logo-heavy style.
-  - **Shadow committee of millennials:** Bizzarri created a reverse-mentoring committee of employees under 30 who advised senior leadership on trends, digital strategy, and what resonated with younger consumers. This institutionalized youth insight into strategic decision-making.
-  - **Digital and social media strategy:** Gucci embraced social platforms with creative campaigns like #GucciGram (commissioning artists to reinterpret Gucci prints) and #TFWGucci (partnering with meme creators to produce branded memes -- "That Feeling When Gucci"). This broke luxury convention by embracing internet culture rather than maintaining traditional aspirational distance.
-  - **Cross-generational appeal:** While targeting millennials (who grew from ~0% to ~60% of revenue by 2019), Gucci carefully maintained appeal to existing luxury consumers by preserving heritage elements (the double-G monogram, the green-red-green stripe) within the new eclectic aesthetic.
-  - **Sustainability and purpose:** Launched the "Culture of Purpose" charter and Gucci Equilibrium platform. Achieved carbon neutrality across the entire supply chain. This resonated with younger consumers who increasingly factor sustainability into luxury purchase decisions.
-  - **Omni-channel and experiential retail:** Invested in 487 directly operated stores (85% of revenue from retail channel), redesigned retail environments for experience-driven shopping, and launched recommerce partnerships for pre-owned Gucci products.
-  - **Beauty line extension:** Extended into cosmetics, selling over 1 million lipsticks in the first month -- demonstrating the brand's equity could be transferred to adjacent categories.
-  - **Financial results:** Revenue grew from EUR 3.9B (2015) to EUR 9.6B (2019), a CAGR of approximately 20%. Operating income grew at a CAGR of approximately 33% over the same period.
-  - **COVID-19 impact:** H1 2020 saw sales decline by 33.8%, testing the resilience of the brand's repositioning strategy and accelerating the shift to digital channels.
-- **Takeaway:** Gucci's transformation demonstrates that heritage luxury brands can successfully reposition for younger consumers without alienating their existing base. The key levers were bold creative leadership, institutionalized youth insight (the shadow committee), digital-native marketing that embraced cultural platforms (memes, social media art), and authentic commitment to sustainability. The case shows that brand resonance with new demographics requires genuine cultural participation, not just superficial targeting, and that brand equity built on strong associations (heritage, craftsmanship) can be redirected rather than abandoned.
+**Company**: Won Soju, a premium Korean soju brand created by rapper and entrepreneur Jay Park, launched in 2022.
+
+**Challenge**: The traditional Korean soju market was commoditized — soju was perceived as a very cheap, low-status spirit (typically around 20% ABV, priced at roughly $1.99/bottle). Covid-19 had further depressed soju consumption. The challenge was to reposition soju as a premium lifestyle product in a category that had no luxury precedent, without simply raising the price on an unchanged product.
+
+**What Was Done**: Jay Park deployed a viral marketing strategy leveraging K-celebrity culture. The brand targeted millennials as a niche group, capitalizing on post-Covid shifts toward smaller, more intimate social gatherings. Activation tactics included pop-up stores with open-run queuing events, variety of branded merchandise, a tasting bar, and a luxurious DJ booth — creating an experiential and aspirational first encounter rather than mass advertising. The product was repositioned at a premium price point (S$16+/bottle) and sold through online channels. The bottle design was visually distinctive and the brand identity was closely tied to Jay Park's cultural persona.
+
+**Takeaway**: Premium repositioning in a commoditized category is achievable when the first consumer experience is curated and aspirational rather than transactional. Celebrity cultural capital (K-pop/hip-hop identity) functions as an endorser that transfers desirability associations. The Parmentier logic applies: the right endorser + the right first experience + the right reframing move (soju as a premium lifestyle spirit for the millennial set) can transform category perception without relying on health claims, sustainability messaging, or price promotions.
+
+---
+
+### BTS / K-Celebrity Brand Collaborations (McDonald's, Sweet Black)
+
+**Company**: Multiple brands including McDonald's and beverage companies (Hot Brew Sweet Black) that partnered with BTS (K-pop group).
+
+**Challenge**: Reaching younger, globally dispersed consumer segments with high purchase intent and social sharing behavior, in markets where traditional advertising has diminishing returns.
+
+**What Was Done**: Brands licensed the BTS identity (name, imagery, members' likenesses) for limited-edition product co-branding. McDonald's launched a "BTS Meal" featuring branded packaging and exclusive sauces. Sweet Black beverages featured member photos on packaging sold in convenience stores across Asia. These were not merely endorsements — they became collector's items and social sharing events within BTS fandom communities (ARMY).
+
+**Takeaway**: When consumers have strong attitudinal attachment and sense of community with a cultural brand (BTS), co-branding transfers resonance to the partner brand. Active fan engagement — buying, photographing, sharing — constitutes the "active engagement" dimension of brand resonance. Consumer agency in amplifying the campaign (fan-generated content, social media sharing) multiplies reach far beyond paid media.
+
+---
+
+### Parmentier's Potato Campaign (Late 1700s, France)
+
+**Company**: Not a commercial brand but a historical branding case — pharmacist Antoine-Augustin Parmentier's campaign to popularize the potato in France under King Louis XVI.
+
+**Challenge**: French consumers considered potatoes fit only for pigs and livestock. A nutritious, inexpensive food staple was unloved and stigmatized. Conventional arguments (nutritional value, price) were ineffective.
+
+**What Was Done**: Parmentier leveraged elite endorsement — King Louis XVI wore potato blossoms at Versailles — and created curated first experiences (royal banquets featuring potato dishes). He deliberately withheld mass promotion and instead used scarcity and aspiration. The reframing move was associating potatoes with royalty and sophistication rather than poverty.
+
+**Takeaway**: Meaning can be manufactured through strategic association rather than product claims. The Parmentier constraints (no health benefits messaging, no sustainability preaching, no price promotions, no mass advertising) force brand thinkers toward identity-level interventions — which are more durable than functional or promotional appeals. This case remains the canonical illustration of meaning-based brand strategy.
+
+---
 
 ## Key Takeaways
 
-1. **A brand is more than a logo or name -- it is the total set of perceptions in the consumer's mind.** Brand management is fundamentally about shaping and managing these perceptions over time through every touchpoint and interaction.
+- **Brand equity** derives from brand knowledge held in consumer memory; it is the differential effect of brand knowledge on consumer response to marketing activity — not the product's intrinsic properties alone.
+- **Brand awareness** has two components — recognition (prompted) and recall (unprompted) — and both determine how easily and broadly a brand comes to mind across purchase and consumption situations.
+- **Brand image** consists of the associations consumers hold in memory; strong, favorable, and unique associations are the goal of all brand-building activity.
+- The **CBBE pyramid** (Keller) provides a sequential building-block logic: salience must precede meaning (performance + imagery), which must precede response (judgments + feelings), which must precede the ultimate goal of **brand resonance** (loyalty + attachment + community + engagement).
+- **Brand positioning** is defined from the consumer's perspective — it is the distinct and valued place the brand occupies in target customers' minds, specified through points of parity and points of difference.
+- A **brand mantra** (3-5 words, structured as emotional modifier + descriptive modifier + brand function) captures the essential spirit of positioning and guides all strategic decisions about products, communications, and channels.
+- **Brand elements** — names, logos, symbols, packaging — are the tangible identity tools that build salience and image; they must be chosen to be memorable, meaningful, likable, transferable, adaptable, and protectable.
+- In the contemporary marketplace, **consumer agency** means brand meaning is co-created rather than broadcast; dynamic brand management requires navigating contestation, community positioning, and heritage while adapting to cultural change.
+- **Brand salience** at the base of the pyramid is not trivial — achieving deep, broad category-linked awareness requires explicit strategy; a brand that consumers cannot easily recall in the purchase moment cannot build equity regardless of image quality.
+- The **Parmentier logic** — endorsement by the right authority, a curated first experience, and a deliberate reframing of meaning — remains a powerful template for building brand desire without functional claims or mass advertising.
 
-2. **Brand equity flows from brand knowledge (awareness + image).** Without awareness, consumers cannot form associations. Without strong, favorable, and unique associations, awareness alone does not create competitive advantage.
-
-3. **Recognition and recall serve different purchase contexts.** Recognition matters at the point of purchase (shelf, search results); recall matters when consumers think of a need and must retrieve brands from memory. Strategies should build both.
-
-4. **Mental maps reveal how consumers truly perceive your brand.** The associative network memory model shows that brand meaning is constructed through a web of linked associations -- managing these links is the core task of brand management.
-
-5. **Brand positioning must define both points of parity and points of difference.** POPs ensure category membership and neutralize competitor advantages; PODs create the unique value proposition that drives preference and loyalty.
-
-6. **The brand mantra is your internal compass.** A three-word articulation of the brand's essence (emotional modifier + descriptive modifier + brand function) keeps all marketing activities and extension decisions aligned with the brand's core identity.
-
-7. **Build the Brand Resonance Pyramid from the bottom up.** Identity (salience) must precede meaning (performance and imagery), which must precede response (judgments and feelings), which must precede the ultimate goal of resonance (loyalty, attachment, community, engagement). Skipping steps creates fragile brand equity.
-
-8. **Heritage and innovation are not mutually exclusive.** Gucci's case demonstrates that brands with strong heritage can reinvent themselves for new generations by preserving core identity elements while radically refreshing creative expression, channel strategy, and cultural engagement.
+---
 
 ## Key Terms and Definitions Glossary
 
-**Associative Network Memory Model:** A theoretical model of memory in which knowledge is stored as a network of interconnected nodes (concepts) and links (associations), with links varying in strength. Applied to branding, it describes how consumers store and retrieve brand-related information as "mental maps."
+**Active Engagement**: The strongest form of brand resonance; consumers willingly invest time, energy, money, or other resources in the brand beyond purchase or consumption. [Related: Brand Resonance, Attitudinal Attachment, Sense of Community]
 
-**Brand Awareness:** The extent to which consumers can identify or recognize a brand under different conditions. Comprises brand recognition (aided identification) and brand recall (unaided retrieval from memory given a category or need cue).
+**Associative Network Memory Model**: A cognitive model that views memory as a network of nodes (concepts, feelings, attributes) and connecting links; brand knowledge is the set of brand-related nodes and their associations in this network. [Related: Mental Map, Brand Image, Brand Awareness]
 
-**Brand Element:** A trademarked device that identifies and differentiates a brand, including names, logos, symbols, characters, slogans, jingles, and packaging. Effective elements are memorable, meaningful, likable, transferable, adaptable, and protectable.
+**Attitudinal Attachment**: A dimension of brand resonance in which consumers view the brand as something special beyond mere functional utility; characterized by love or devotion. [Related: Brand Resonance, Brand Feelings, Behavioral Loyalty]
 
-**Brand Equity (Customer-Based):** The differential effect that brand knowledge has on consumer response to the marketing of a brand. Positive brand equity exists when consumers react more favorably to a product and its marketing when they can identify the brand compared to when they cannot.
+**Brand**: A name, term, sign, symbol, or design, or combination thereof, intended to identify the goods/services of one seller and differentiate them from competitors (AMA definition). [Related: Brand Elements, Brand Identity]
 
-**Brand Image:** The set of perceptions and associations about a brand held in consumer memory. Characterized by the strength, favorability, and uniqueness of brand associations.
+**Brand Awareness**: The strength of the brand node in consumer memory; the extent to which consumers can recognize or recall the brand under different conditions. Composed of brand recognition and brand recall. [Related: Brand Salience, Brand Knowledge, Brand Equity]
 
-**Brand Mantra:** A three- to five-word articulation of the brand's essence, consisting of an emotional modifier, a descriptive modifier, and a brand function. Used internally to guide marketing decisions and ensure brand consistency (e.g., Nike: "Authentic Athletic Performance").
+**Brand Credibility**: A dimension of brand judgment capturing perceived expertise, trustworthiness, and likability; drives the extent to which consumers believe the brand can deliver on its promises. [Related: Brand Judgment, Brand Image]
 
-**Brand Performance:** A building block of the Brand Resonance Pyramid (Meaning level, rational side) describing how well the product meets customers' functional needs, including primary characteristics, reliability, serviceability, style and design, and price.
+**Brand Elements**: The identifiable components of a brand — name, logo, symbol, packaging, slogan, characters — chosen to identify and differentiate the brand and contribute to brand knowledge building. [Related: Brand Identity, Brand Salience, Brand Image]
 
-**Brand Positioning:** The act of designing the company's offering and image to occupy a distinctive and valued place in the target consumer's mind, defined by the target market, competitive frame of reference, points of parity, and points of difference.
+**Brand Equity**: The value added to a product or service by its brand, as determined by consumer perception, experience, and differential response relative to an unbranded equivalent. [Related: Customer-Based Brand Equity (CBBE), Brand Knowledge, Brand Resonance]
 
-**Brand Recall:** The consumer's ability to retrieve a brand from memory when given a product category, usage situation, or need as a cue, without the brand being physically present. A higher bar than brand recognition.
+**Brand Feelings**: Customers' emotional responses and reactions to a brand, relating to the social currency evoked; the six types are warmth, fun, excitement, security, social approval, and self-respect. [Related: Brand Resonance, Brand Imagery, Brand Judgment]
 
-**Brand Recognition:** The consumer's ability to confirm prior exposure to a brand when given the brand as a cue (e.g., seeing a logo and confirming familiarity). A lower bar than brand recall.
+**Brand Identity**: The clear and solid meaning a marketer provides for a brand — communicating who the product is, what it does, and why consumers should care. [Related: Brand Positioning, Brand Elements, Brand Salience]
 
-**Brand Resonance:** The highest level of the Brand Resonance Pyramid, representing the ultimate relationship between consumer and brand. Characterized by behavioral loyalty, attitudinal attachment, sense of community, and active engagement.
+**Brand Image**: Consumers' perceptions about a brand as reflected by the associations held in consumer memory; the totality of all brand-related associations in the associative network. [Related: Brand Knowledge, Brand Awareness, Brand Associations]
 
-**Brand Resonance Pyramid (Keller's CBBE Model):** A four-level, six-block framework for building strong brands. From bottom to top: Identity (Salience), Meaning (Performance, Imagery), Response (Judgments, Feelings), Relationships (Resonance). The left path is rational; the right path is emotional.
+**Brand Imagery**: The extrinsic, intangible properties of a product or service linked to a brand through user profiles, purchase/usage situations, personality/values, and history/heritage/experiences. Part of the "Meaning" layer of the CBBE pyramid. [Related: Brand Performance, Brand Feelings, CBBE Pyramid]
 
-**Brand Salience:** The depth and breadth of brand awareness -- how easily, frequently, and in how many situations the brand comes to mind. The foundation of the Brand Resonance Pyramid.
+**Brand Judgment**: Customers' personal opinions and evaluations of a brand synthesized from performance and imagery associations; types include quality, credibility, consideration, and superiority. [Related: Brand Feelings, Brand Resonance, CBBE Pyramid]
 
-**Points of Difference (PODs):** Strong, favorable, and unique brand associations that consumers believe they cannot find to the same extent with a competitive brand. They form the basis of the brand's competitive advantage.
+**Brand Knowledge**: The full set of brand associations in consumer memory, comprising brand awareness and brand image; the key source of brand equity under the CBBE framework. [Related: Brand Equity, Brand Awareness, Brand Image]
 
-**Points of Parity (POPs):** Brand associations that are shared with other brands and are not necessarily unique, but are necessary for the brand to be considered a legitimate and credible competitor in the category.
+**Brand Mantra**: A short, three-to-five-word phrase capturing the essential spirit of brand positioning; structured around an emotional modifier, descriptive modifier, and brand function. Guides internal decisions about products, campaigns, and distribution. [Related: Brand Positioning, Brand Identity]
 
-**Strategic Brand Management Process:** The four-step process of (1) identifying and establishing brand positioning and values, (2) planning and implementing brand marketing programs, (3) measuring and interpreting brand performance, and (4) growing and sustaining brand equity.
+**Brand Performance**: The way in which a product or service meets customers' functional needs; includes primary/secondary features, reliability/durability/serviceability, service quality, style and design, and price. Part of the "Meaning" layer of the CBBE pyramid. [Related: Brand Imagery, Brand Judgment, CBBE Pyramid]
+
+**Brand Positioning**: The act of designing the company's offer and image so that it occupies a distinct and valued place in target customers' minds; defined from the consumer's benefit perspective. [Related: Points of Parity, Points of Difference, Brand Mantra]
+
+**Brand Recall**: Consumers' ability to retrieve a brand from memory when given the product category, needs fulfilled, or a purchase situation — an unprompted form of brand awareness. [Related: Brand Recognition, Brand Awareness, Brand Salience]
+
+**Brand Recognition**: Consumers' ability to confirm prior exposure to a brand when given the brand as a cue — a prompted form of brand awareness. [Related: Brand Recall, Brand Awareness, Brand Salience]
+
+**Brand Resonance**: The ultimate relationship and level of identification a customer has with a brand; characterized by depth of psychological bond across four dimensions: behavioral loyalty, attitudinal attachment, sense of community, and active engagement. [Related: CBBE Pyramid, Brand Feelings, Brand Judgment]
+
+**Brand Salience**: How easily and often the brand is evoked under various situations or circumstances; measures the depth and breadth of brand awareness and links the brand to its category and usage situations. Forms the base of the CBBE pyramid. [Related: Brand Awareness, CBBE Pyramid, Brand Identity]
+
+**Customer-Based Brand Equity (CBBE)**: Keller's framework defining brand equity as the differential effect of brand knowledge on consumer response to marketing, structured as a four-level pyramid (Salience → Performance/Imagery → Judgments/Feelings → Resonance). [Related: Brand Equity, Brand Knowledge, Brand Resonance]
+
+**Points of Difference (PODs)**: Attributes or benefits that consumers strongly associate with a brand and believe they could not find to the same extent with a competitive brand; the basis of differentiation in positioning. [Related: Brand Positioning, Points of Parity]
+
+**Points of Parity (POPs)**: Associations that are not necessarily unique to the brand but shared with other brands; necessary to establish category credibility before differentiation can be effective. [Related: Brand Positioning, Points of Difference]
