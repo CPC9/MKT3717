@@ -30,7 +30,11 @@
       "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/shared-js/flashcards.js\" site/js/flashcards.js)",
       "Bash(cp synthesis/flashcards.json site/data/flashcards.json)",
       "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/exam-formats/card-style/exam-styles.css\" \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/site/exams/exam-styles.css\")",
-      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/exam-formats/card-style/exam-checker.js\" \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/site/exams/exam-checker.js\")"
+      "Bash(cp \"C:/Users/Conno/OneDrive/Documents/GitHub/study-site-builder/templates/exam-formats/card-style/exam-checker.js\" \"C:/Users/Conno/OneDrive/Documents/GitHub/MKT3717/site/exams/exam-checker.js\")",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/Conno/OneDrive/Documents/GitHub/MKT3717/**)",
+      "Bash(done)"
     ]
   }
 }
